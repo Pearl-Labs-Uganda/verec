@@ -3,6 +3,21 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Model weights & large binaries
+*.onnx
+*.pt
+*.gguf
+*.bin
+*.safetensors
+checkpoints/
+models/
+
+# Reference repos
+yolo_ref/
+
+# Test images
+test_image.png
+
 # C extensions
 *.so
 
