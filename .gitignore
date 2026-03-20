@@ -9,11 +9,16 @@ __pycache__/
 *.gguf
 *.bin
 *.safetensors
+*.zip
 checkpoints/
 models/
 
-# Reference repos
+# Reference repos (kept locally, not committed)
 yolo_ref/
+
+# Build artifacts
+*.egg-info/
+*.bak
 
 # Test images
 test_image.png
