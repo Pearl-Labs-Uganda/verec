@@ -206,7 +206,6 @@ export default function Home() {
   >([]);
   const [actionSearch, setActionSearch] = useState("");
 
-
   const [autoReportInterval, setAutoReportInterval] = useState(60);
 
   /* Report */
@@ -343,7 +342,9 @@ export default function Home() {
         }
         if (data.pose) {
           const p = data.pose;
-          setPoseInfo(`${p.count} person${p.count !== 1 ? "s" : ""} | ${p.time_ms}ms`);
+          setPoseInfo(
+            `${p.count} person${p.count !== 1 ? "s" : ""} | ${p.time_ms}ms`,
+          );
         }
         if (data.action) {
           setCurrentAction(data.action.actions);
@@ -359,7 +360,16 @@ export default function Home() {
       }
     };
     wsRef.current = ws;
-  }, [source, streamUrl, conf, iou, vlmInterval, enableDet, enableVlm, enablePose]);
+  }, [
+    source,
+    streamUrl,
+    conf,
+    iou,
+    vlmInterval,
+    enableDet,
+    enableVlm,
+    enablePose,
+  ]);
 
   const stopFeed = useCallback(() => {
     try {
@@ -752,8 +762,14 @@ export default function Home() {
                   </p>
                 )}
                 <p>Detector: {sysInfo.models?.detector ?? "–"}</p>
-                <p>Pose: {(sysInfo.models as Record<string, string>)?.pose ?? "–"}</p>
-                <p>Action: {(sysInfo.models as Record<string, string>)?.action ?? "–"}</p>
+                <p>
+                  Pose:{" "}
+                  {(sysInfo.models as Record<string, string>)?.pose ?? "–"}
+                </p>
+                <p>
+                  Action:{" "}
+                  {(sysInfo.models as Record<string, string>)?.action ?? "–"}
+                </p>
                 <p>VLM: {sysInfo.models?.vlm ?? "–"}</p>
                 <p>LLM: {sysInfo.models?.llm ?? "–"}</p>
                 <p>
@@ -980,8 +996,12 @@ export default function Home() {
                 </div>
                 <div className="px-3 py-2 border-t border-gray-800/40 flex-1 overflow-y-auto flex flex-col">
                   <div className="flex items-center justify-between mb-2 shrink-0">
-                    <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">Scene Captions</h4>
-                    <span className="text-[8px] text-gray-600 font-mono">{captions.length}</span>
+                    <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">
+                      Scene Captions
+                    </h4>
+                    <span className="text-[8px] text-gray-600 font-mono">
+                      {captions.length}
+                    </span>
                   </div>
                   {captions.length > 3 && (
                     <input
@@ -1092,67 +1112,75 @@ export default function Home() {
               {/* Detections — independent scroll */}
               <div className="flex-1 p-3 md:border-r border-gray-800/30 min-w-0 flex flex-col overflow-hidden">
                 <div className="flex items-center justify-between mb-1.5 shrink-0">
-                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">Detections</h4>
-                  <span className="text-[9px] text-gray-600 font-mono">{log.length}</span>
+                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">
+                    Detections
+                  </h4>
+                  <span className="text-[9px] text-gray-600 font-mono">
+                    {log.length}
+                  </span>
                 </div>
-                    {/* Object frequency stats */}
-                    {Object.keys(objectCounts).length > 0 && (
-                      <div className="flex flex-wrap gap-1 mb-1.5 shrink-0">
-                        {Object.entries(objectCounts)
-                          .sort((a, b) => b[1] - a[1])
-                          .slice(0, 8)
-                          .map(([cls, count]) => (
-                            <span
-                              key={cls}
-                              className="px-1.5 py-0.5 rounded-full bg-gray-800/60 border border-gray-700/40 text-[9px] font-mono text-gray-400"
-                            >
-                              {cls} <span className="text-orange-400">{count}</span>
-                            </span>
-                          ))}
-                        {Object.keys(objectCounts).length > 8 && (
-                          <span className="text-[9px] text-gray-600">
-                            +{Object.keys(objectCounts).length - 8} more
-                          </span>
-                        )}
-                      </div>
+                {/* Object frequency stats */}
+                {Object.keys(objectCounts).length > 0 && (
+                  <div className="flex flex-wrap gap-1 mb-1.5 shrink-0">
+                    {Object.entries(objectCounts)
+                      .sort((a, b) => b[1] - a[1])
+                      .slice(0, 8)
+                      .map(([cls, count]) => (
+                        <span
+                          key={cls}
+                          className="px-1.5 py-0.5 rounded-full bg-gray-800/60 border border-gray-700/40 text-[9px] font-mono text-gray-400"
+                        >
+                          {cls} <span className="text-orange-400">{count}</span>
+                        </span>
+                      ))}
+                    {Object.keys(objectCounts).length > 8 && (
+                      <span className="text-[9px] text-gray-600">
+                        +{Object.keys(objectCounts).length - 8} more
+                      </span>
                     )}
-                    {log.length > 3 && (
-                      <input
-                        type="text"
-                        value={logSearch}
-                        onChange={(e) => setLogSearch(e.target.value)}
-                        placeholder="Search detections…"
-                        className="w-full mb-1.5 shrink-0 bg-gray-800/60 text-gray-300 text-[11px] rounded-lg px-2 py-1 border border-gray-700/40 focus:outline-none focus:ring-1 focus:ring-orange-500/40"
-                      />
-                    )}
-                    <div className="flex-1 overflow-y-auto">
-                      {log.length === 0 && !connected && !connecting ? (
-                        <p className="text-[11px] text-gray-600 italic">
-                          No detections yet.
-                        </p>
-                      ) : log.length === 0 && (connected || connecting) ? (
-                        <div className="flex items-center gap-2 text-[11px] text-gray-500">
-                          <Spinner className="w-3.5 h-3.5" /> Waiting for
-                          detections…
-                        </div>
-                      ) : (
-                        <pre className="text-[11px] text-gray-400 font-mono whitespace-pre-wrap leading-relaxed">
-                          {(logSearch
-                            ? log.filter((l) =>
-                                l.toLowerCase().includes(logSearch.toLowerCase()),
-                              )
-                            : log
-                          ).join("\n")}
-                        </pre>
-                      )}
+                  </div>
+                )}
+                {log.length > 3 && (
+                  <input
+                    type="text"
+                    value={logSearch}
+                    onChange={(e) => setLogSearch(e.target.value)}
+                    placeholder="Search detections…"
+                    className="w-full mb-1.5 shrink-0 bg-gray-800/60 text-gray-300 text-[11px] rounded-lg px-2 py-1 border border-gray-700/40 focus:outline-none focus:ring-1 focus:ring-orange-500/40"
+                  />
+                )}
+                <div className="flex-1 overflow-y-auto">
+                  {log.length === 0 && !connected && !connecting ? (
+                    <p className="text-[11px] text-gray-600 italic">
+                      No detections yet.
+                    </p>
+                  ) : log.length === 0 && (connected || connecting) ? (
+                    <div className="flex items-center gap-2 text-[11px] text-gray-500">
+                      <Spinner className="w-3.5 h-3.5" /> Waiting for
+                      detections…
                     </div>
+                  ) : (
+                    <pre className="text-[11px] text-gray-400 font-mono whitespace-pre-wrap leading-relaxed">
+                      {(logSearch
+                        ? log.filter((l) =>
+                            l.toLowerCase().includes(logSearch.toLowerCase()),
+                          )
+                        : log
+                      ).join("\n")}
+                    </pre>
+                  )}
+                </div>
               </div>
 
               {/* Actions — independent scroll */}
               <div className="flex-1 p-3 md:border-r border-gray-800/30 min-w-0 flex flex-col overflow-hidden">
                 <div className="flex items-center justify-between mb-1.5 shrink-0">
-                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-purple-400">Actions</h4>
-                  <span className="text-[9px] text-gray-600 font-mono">{actionLog.length}</span>
+                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-purple-400">
+                    Actions
+                  </h4>
+                  <span className="text-[9px] text-gray-600 font-mono">
+                    {actionLog.length}
+                  </span>
                 </div>
                 {/* Current action highlight */}
                 {currentAction && currentAction.length > 0 && (
@@ -1170,7 +1198,11 @@ export default function Home() {
                         }`}
                       >
                         {a.label}{" "}
-                        <span className={i === 0 ? "text-purple-400" : "text-gray-500"}>
+                        <span
+                          className={
+                            i === 0 ? "text-purple-400" : "text-gray-500"
+                          }
+                        >
                           {Math.round(a.confidence * 100)}%
                         </span>
                       </span>
