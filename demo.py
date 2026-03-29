@@ -8,8 +8,7 @@ Tabs:
   • Upload — drag-and-drop an image, then analyse
   • IP Camera — connect to YouTube Live / RTSP / MJPEG / HLS streams
   • Object Detection — YOLO11n via ONNX Runtime (live OpenCV stream)
-  • Segmentation — YOLO11n-seg via ONNX Runtime (live OpenCV stream)
-  • Live Analysis — all 3 models combined: detect + segment + VLM caption
+  • Live Analysis — detect + pose + VLM caption
   • AI Chat — OpenAI gpt-4o-mini (requires OPENAI_API_KEY in .env)
   • Reasoning (Offline) — DeepSeek-R1 via Ollama (local, no API key)
 
@@ -35,7 +34,7 @@ from openai.types.chat import ChatCompletionMessageParam
 from PIL import Image
 
 from camera import OpenCVCamera
-from detectors import COCO_CLASSES, YOLODetector, YOLOSegDetector
+from detectors import COCO_CLASSES, YOLODetector
 from llava.utils import disable_torch_init
 from llava.conversation import conv_templates
 from llava.model.builder import load_pretrained_model
@@ -55,7 +54,6 @@ _live_frame_lock = threading.Lock()
 # ── YOLO singletons ──────────────────────────────────────────────────────
 
 _yolo = None
-_yolo_seg = None
 
 
 def _ensure_yolo():
@@ -72,18 +70,6 @@ def _ensure_yolo():
     return _yolo
 
 
-def _ensure_yolo_seg():
-    global _yolo_seg
-    if _yolo_seg is None:
-        onnx_path = os.path.join(os.path.dirname(__file__), 'yolo11n-seg.onnx')
-        if not os.path.exists(onnx_path):
-            raise FileNotFoundError(
-                f'yolo11n-seg.onnx not found at {onnx_path}. '
-                'Export it with: python -c "from ultralytics import YOLO; '
-                "YOLO('yolo11n-seg.pt').export(format='onnx',imgsz=640)\"")
-        _yolo_seg = YOLOSegDetector(onnx_path)
-        print(f'YOLO-seg loaded from {onnx_path}')
-    return _yolo_seg
 
 
 # ── Local camera singleton ────────────────────────────────────────────────
@@ -208,21 +194,6 @@ def _run_yolo(frame, conf, iou_thresh):
     ) if n else "No objects detected"
     return annotated, stats, labels
 
-
-def _run_seg(frame, conf, iou_thresh):
-    """Run YOLO-seg on one RGB frame."""
-    seg = _ensure_yolo_seg()
-    t0 = time.perf_counter()
-    boxes, scores, class_ids, masks = seg.detect(frame, conf=conf, iou=iou_thresh)
-    t1 = time.perf_counter()
-    annotated = YOLOSegDetector.draw(frame, boxes, scores, class_ids, masks)
-    dt = t1 - t0
-    n = len(boxes)
-    stats = f"Time: {dt*1000:.0f}ms  |  Objects: {n}  |  FPS: {1/dt:.1f}"
-    labels = ", ".join(
-        f"{COCO_CLASSES[c]} ({s:.0%})" for c, s in zip(class_ids, scores)
-    ) if n else "No objects detected"
-    return annotated, stats, labels
 
 
 # ── IP Camera helper ──────────────────────────────────────────────────────
@@ -351,7 +322,7 @@ def build_ui():
         gr.Markdown("# VEREC", elem_classes="verec-title")
         gr.Markdown(
             "**Video Recognition & Reporting** — "
-            "real-time object detection, segmentation, VLM captioning & LLM reports",
+            "real-time object detection, pose estimation, VLM captioning & LLM reports",
             elem_classes="verec-sub",
         )
 
@@ -408,7 +379,6 @@ def build_ui():
                             gr.Markdown("**Models**")
                             with gr.Row():
                                 la_tog_det = gr.Checkbox(value=True, label="Detection")
-                                la_tog_seg = gr.Checkbox(value=True, label="Segmentation")
                                 la_tog_vlm = gr.Checkbox(value=True, label="VLM")
                             la_conf = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="Confidence")
                             la_iou = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="IoU / NMS")
@@ -469,8 +439,8 @@ def build_ui():
 
                 raw_timer.tick(fn=_poll_raw_frame, outputs=[la_raw_frame])
 
-                def live_analysis_stream(source, url, conf, iou_thresh, vlm_interval, en_det, en_seg, en_vlm):
-                    """Generator: AI overlay (detection every frame, seg every 3s, VLM every Ns)."""
+                def live_analysis_stream(source, url, conf, iou_thresh, vlm_interval, en_det, en_vlm):
+                    """Generator: AI overlay (detection every frame, VLM every Ns)."""
                     global _live_frame_buf
                     cap = None
                     use_local = source == "Local Camera"
@@ -494,11 +464,8 @@ def build_ui():
                     log_lines: list[str] = []
                     captions: list[str] = []
                     last_vlm_time = 0.0
-                    last_seg_time = 0.0
                     last_caption = ""
                     last_vlm_stats = ""
-                    seg_overlay: np.ndarray | None = None
-                    SEG_INTERVAL = 3.0  # seconds between segmentation runs
 
                     try:
                         while True:
@@ -535,31 +502,12 @@ def build_ui():
                                 for c, s in zip(class_ids, scores)
                             ]
 
-                            # -- Segmentation overlay (throttled) --
-                            if en_seg and now - last_seg_time >= SEG_INTERVAL:
-                                last_seg_time = now
-                                try:
-                                    seg = _ensure_yolo_seg()
-                                    s_boxes, s_scores, s_cids, masks = seg.detect(
-                                        frame, conf=conf, iou=iou_thresh,
-                                    )
-                                    seg_overlay = YOLOSegDetector.draw(
-                                        frame, s_boxes, s_scores, s_cids, masks,
-                                    )
-                                except Exception:
-                                    seg_overlay = None
-                            elif not en_seg:
-                                seg_overlay = None
-
                             # -- Build AI annotated frame --
-                            if seg_overlay is not None and seg_overlay.shape == frame.shape:
-                                ai_frame = seg_overlay.copy()
-                            else:
-                                ai_frame = frame.copy()
+                            ai_frame = frame.copy()
                             if en_det:
                                 ai_frame = YOLODetector.draw(ai_frame, boxes, scores, class_ids)
 
-                            active = [m for m, on in [("Det", en_det), ("Seg", en_seg), ("VLM", en_vlm)] if on]
+                            active = [m for m, on in [("Det", en_det), ("VLM", en_vlm)] if on]
                             fps = 1 / t_det if t_det > 0 else 0
                             det_stats = (f"Det: {t_det*1000:.0f}ms | Objects: {n_det} | FPS: {fps:.0f}" if en_det else "") + f"  [{'+'.join(active) or 'none'}]"
 
@@ -618,7 +566,7 @@ def build_ui():
                 la_start.click(fn=_start_feed, inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval], outputs=[raw_timer])
                 la_event = la_start.click(
                     fn=live_analysis_stream,
-                    inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval, la_tog_det, la_tog_seg, la_tog_vlm],
+                    inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval, la_tog_det, la_tog_vlm],
                     outputs=[la_ai_frame, la_det_stats, la_caption, la_vlm_stats, la_log, rpt_captions, la_status],
                 )
                 la_stop.click(fn=_stop_feed, cancels=[la_event], outputs=[raw_timer])
@@ -790,47 +738,6 @@ def build_ui():
                                 return None, "", "", f"Error: {e}"
 
                         dbg_det_up_btn.click(fn=dbg_det_up_fn, inputs=[dbg_det_upload, dbg_det_conf, dbg_det_iou], outputs=[dbg_det_output, dbg_det_stats, dbg_det_labels, dbg_det_status])
-
-                    # -- Segmentation debug --
-                    with gr.Tab("Segmentation"):
-                        gr.Markdown("**YOLO11n-seg** — live segmentation.")
-                        with gr.Row():
-                            with gr.Column(scale=1):
-                                dbg_seg_live = gr.Image(label="Camera", type="numpy", interactive=False)
-                                dbg_seg_timer = gr.Timer(value=0.1)
-                                with gr.Row():
-                                    dbg_seg_conf = gr.Slider(0.1, 1.0, value=0.5, step=0.05, label="Confidence")
-                                    dbg_seg_iou = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="IoU")
-                                dbg_seg_upload = gr.Image(sources=["upload"], type="numpy", label="Or upload")
-                                dbg_seg_up_btn = gr.Button("Segment", variant="secondary")
-                            with gr.Column(scale=1):
-                                dbg_seg_status = gr.Textbox(label="Status", lines=1, value="Idle")
-                                dbg_seg_output = gr.Image(label="Segmentation", interactive=False)
-                                dbg_seg_stats = gr.Textbox(label="Stats", lines=1)
-                                dbg_seg_labels = gr.Textbox(label="Objects", lines=5)
-
-                        def dbg_seg_tick(conf, iou_t):
-                            frame = get_live_frame()
-                            if frame is None:
-                                return None, None, "", "", "Waiting…"
-                            try:
-                                ann, stats, labels = _run_seg(frame, conf, iou_t)
-                                return frame, ann, stats, labels, "Segmenting…"
-                            except Exception as e:
-                                return frame, None, "", "", f"Error: {e}"
-
-                        dbg_seg_timer.tick(fn=dbg_seg_tick, inputs=[dbg_seg_conf, dbg_seg_iou], outputs=[dbg_seg_live, dbg_seg_output, dbg_seg_stats, dbg_seg_labels, dbg_seg_status])
-
-                        def dbg_seg_up_fn(image, conf, iou_t):
-                            if image is None:
-                                return None, "", "", "No image"
-                            try:
-                                ann, stats, labels = _run_seg(image, conf, iou_t)
-                                return ann, stats, labels, "Done"
-                            except Exception as e:
-                                return None, "", "", f"Error: {e}"
-
-                        dbg_seg_up_btn.click(fn=dbg_seg_up_fn, inputs=[dbg_seg_upload, dbg_seg_conf, dbg_seg_iou], outputs=[dbg_seg_output, dbg_seg_stats, dbg_seg_labels, dbg_seg_status])
 
                     # -- AI Chat debug --
                     with gr.Tab("AI Chat"):
