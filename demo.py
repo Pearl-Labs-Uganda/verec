@@ -27,6 +27,7 @@ import numpy as np
 import torch
 import gradio as gr
 from openai import OpenAI
+from openai.types.chat import ChatCompletionMessageParam
 from PIL import Image
 
 from camera import OpenCVCamera
@@ -141,11 +142,9 @@ def run_inference(image, prompt, temperature, max_tokens):
         conv.append_message(conv.roles[1], None)
         full_prompt = conv.get_prompt()
 
-        input_ids = (
+        input_ids = torch.as_tensor(
             tokenizer_image_token(full_prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
-            .unsqueeze(0)
-            .to(torch.device("mps"))
-        )
+        ).unsqueeze(0).to(torch.device("mps"))
 
         if not isinstance(image, Image.Image):
             image = Image.fromarray(image)
@@ -581,14 +580,15 @@ def build_ui():
 
                     try:
                         client = OpenAI(api_key=api_key)
+                        messages: list[ChatCompletionMessageParam] = [
+                            {"role": "system", "content": "You are a helpful assistant."},
+                        ] + [
+                            {"role": m["role"], "content": m["content"]}  # type: ignore[typeddict-item]
+                            for m in history
+                        ]
                         resp = client.chat.completions.create(
                             model=model_name,
-                            messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                            ] + [
-                                {"role": m["role"], "content": m["content"]}
-                                for m in history
-                            ],
+                            messages=messages,
                             max_tokens=1024,
                         )
                         reply = resp.choices[0].message.content
@@ -660,11 +660,11 @@ def build_ui():
                             api_key="ollama",
                         )
 
-                        api_messages = [
+                        api_messages: list[ChatCompletionMessageParam] = [
                             {"role": "system", "content": "You are a helpful reasoning assistant. Think step by step."},
                         ]
                         for m in history:
-                            api_messages.append({"role": m["role"], "content": m["content"]})
+                            api_messages.append({"role": m["role"], "content": m["content"]})  # type: ignore[typeddict-item]
 
                         resp = client.chat.completions.create(
                             model=model_name,
@@ -723,4 +723,4 @@ if __name__ == "__main__":
     print("Model loaded.  Starting UI…")
 
     demo = build_ui()
-    demo.launch(server_name="0.0.0.0", server_port=args.port)
+    demo.launch(server_name="127.0.0.1", server_port=args.port)
