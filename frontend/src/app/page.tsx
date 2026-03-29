@@ -206,11 +206,7 @@ export default function Home() {
   >([]);
   const [actionSearch, setActionSearch] = useState("");
 
-  /* Right sidebar tab */
-  const [rightTab, setRightTab] = useState<"captions" | "actions">("captions");
 
-  /* Bottom left tab */
-  const [bottomLeftTab, setBottomLeftTab] = useState<"detections" | "actions">("detections");
   const [autoReportInterval, setAutoReportInterval] = useState(60);
 
   /* Report */
@@ -983,31 +979,10 @@ export default function Home() {
                   )}
                 </div>
                 <div className="px-3 py-2 border-t border-gray-800/40 flex-1 overflow-y-auto flex flex-col">
-                  {/* Tabs */}
-                  <div className="flex gap-0.5 mb-2 shrink-0">
-                    {(["captions", "actions"] as const).map((t) => (
-                      <button
-                        key={t}
-                        onClick={() => setRightTab(t)}
-                        className={`flex-1 py-1 text-[10px] font-semibold uppercase tracking-wider rounded-lg transition-colors ${
-                          rightTab === t
-                            ? t === "actions"
-                              ? "bg-purple-600/30 text-purple-400"
-                              : "bg-gray-700/60 text-orange-400"
-                            : "text-gray-600 hover:text-gray-400"
-                        }`}
-                      >
-                        {t === "captions" ? "Scene Captions" : "Actions"}
-                        <span className="ml-1 text-[8px] opacity-60">
-                          {t === "captions" ? captions.length : actionLog.length}
-                        </span>
-                      </button>
-                    ))}
+                  <div className="flex items-center justify-between mb-2 shrink-0">
+                    <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">Scene Captions</h4>
+                    <span className="text-[8px] text-gray-600 font-mono">{captions.length}</span>
                   </div>
-
-                  {/* Scene Captions content */}
-                  {rightTab === "captions" && (
-                    <>
                   {captions.length > 3 && (
                     <input
                       type="text"
@@ -1052,100 +1027,6 @@ export default function Home() {
                           </ExpandableCard>
                         ))}
                     </div>
-                  )}
-                    </>
-                  )}
-
-                  {/* Actions content */}
-                  {rightTab === "actions" && (
-                    <>
-                      {actionLog.length > 3 && (
-                        <input
-                          type="text"
-                          value={actionSearch}
-                          onChange={(e) => setActionSearch(e.target.value)}
-                          placeholder="Search actions…"
-                          className="w-full mb-1.5 bg-gray-800/60 text-gray-300 text-[11px] rounded-lg px-2 py-1 border border-purple-700/40 focus:outline-none focus:ring-1 focus:ring-purple-500/40"
-                        />
-                      )}
-                      {/* Current action highlight */}
-                      {currentAction && currentAction.length > 0 && (
-                        <div className="mb-2 p-2 bg-purple-900/20 border border-purple-600/30 rounded-xl">
-                          <div className="text-[9px] text-purple-400 uppercase tracking-wider font-semibold mb-1">
-                            Current Action
-                          </div>
-                          <div className="flex flex-wrap gap-1">
-                            {currentAction.map((a, i) => (
-                              <span
-                                key={`current-${a.label}-${i}`}
-                                className={`px-1.5 py-0.5 rounded-full text-[10px] font-mono ${
-                                  i === 0
-                                    ? "bg-purple-600/40 text-purple-200 font-bold"
-                                    : "bg-gray-800/60 text-gray-400"
-                                }`}
-                              >
-                                {a.label} {Math.round(a.confidence * 100)}%
-                              </span>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                      {poseInfo && (
-                        <div className="text-[9px] text-gray-500 font-mono mb-1.5 shrink-0">
-                          🦴 {poseInfo}
-                        </div>
-                      )}
-                      {actionLog.length === 0 ? (
-                        <p className="text-[11px] text-gray-600 italic">
-                          {connected || connecting
-                            ? enablePose
-                              ? "Accumulating pose data…"
-                              : "Pose + Action disabled in settings"
-                            : "No actions yet."}
-                        </p>
-                      ) : (
-                        <div className="space-y-1.5 overflow-y-auto max-h-[50vh]">
-                          {[...actionLog]
-                            .reverse()
-                            .filter(
-                              (a) =>
-                                !actionSearch ||
-                                a.actions.some((act) =>
-                                  act.label
-                                    .toLowerCase()
-                                    .includes(actionSearch.toLowerCase()),
-                                ),
-                            )
-                            .map((a, i) => (
-                              <div
-                                key={`${a.timestamp}-${i}`}
-                                className="bg-gray-800/50 border border-gray-700/40 rounded-xl px-2.5 py-1.5"
-                              >
-                                <span className="text-[9px] text-gray-500 font-mono">
-                                  {new Date(a.timestamp).toLocaleTimeString()}
-                                </span>
-                                <div className="flex flex-wrap gap-1 mt-0.5">
-                                  {a.actions.map((act, j) => (
-                                    <span
-                                      key={`${act.label}-${j}`}
-                                      className={`px-1.5 py-0.5 rounded-full text-[9px] font-mono ${
-                                        j === 0
-                                          ? "bg-purple-900/40 border border-purple-600/50 text-purple-300"
-                                          : "bg-gray-800/60 border border-gray-700/40 text-gray-400"
-                                      }`}
-                                    >
-                                      {act.label}{" "}
-                                      <span className={j === 0 ? "text-purple-400" : "text-gray-500"}>
-                                        {Math.round(act.confidence * 100)}%
-                                      </span>
-                                    </span>
-                                  ))}
-                                </div>
-                              </div>
-                            ))}
-                        </div>
-                      )}
-                    </>
                   )}
                 </div>
               </div>
@@ -1208,35 +1089,12 @@ export default function Home() {
                 )}
               </div>
 
-              {/* Detection + Actions — tabbed, independent scroll */}
-              <div className="flex-[3] p-3 md:border-r border-gray-800/30 min-w-0 flex flex-col overflow-hidden">
-                {/* Tab bar */}
-                <div className="flex gap-0.5 mb-1.5 shrink-0">
-                  <button
-                    onClick={() => setBottomLeftTab("detections")}
-                    className={`px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider transition-colors ${
-                      bottomLeftTab === "detections"
-                        ? "bg-gray-700/60 text-orange-400"
-                        : "text-gray-600 hover:text-gray-400"
-                    }`}
-                  >
-                    Detections <span className="text-[8px] opacity-60">{log.length}</span>
-                  </button>
-                  <button
-                    onClick={() => setBottomLeftTab("actions")}
-                    className={`px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider transition-colors ${
-                      bottomLeftTab === "actions"
-                        ? "bg-purple-600/30 text-purple-400"
-                        : "text-gray-600 hover:text-gray-400"
-                    }`}
-                  >
-                    Actions <span className="text-[8px] opacity-60">{actionLog.length}</span>
-                  </button>
+              {/* Detections — independent scroll */}
+              <div className="flex-1 p-3 md:border-r border-gray-800/30 min-w-0 flex flex-col overflow-hidden">
+                <div className="flex items-center justify-between mb-1.5 shrink-0">
+                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">Detections</h4>
+                  <span className="text-[9px] text-gray-600 font-mono">{log.length}</span>
                 </div>
-
-                {/* Detections tab */}
-                {bottomLeftTab === "detections" && (
-                  <>
                     {/* Object frequency stats */}
                     {Object.keys(objectCounts).length > 0 && (
                       <div className="flex flex-wrap gap-1 mb-1.5 shrink-0">
@@ -1288,102 +1146,102 @@ export default function Home() {
                         </pre>
                       )}
                     </div>
-                  </>
-                )}
+              </div>
 
-                {/* Actions tab */}
-                {bottomLeftTab === "actions" && (
-                  <>
-                    {/* Current action highlight */}
-                    {currentAction && currentAction.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mb-1.5 shrink-0">
-                        <span className="text-[9px] text-purple-400 uppercase tracking-wider font-semibold mr-1 self-center">
-                          Now
+              {/* Actions — independent scroll */}
+              <div className="flex-1 p-3 md:border-r border-gray-800/30 min-w-0 flex flex-col overflow-hidden">
+                <div className="flex items-center justify-between mb-1.5 shrink-0">
+                  <h4 className="text-[10px] font-semibold uppercase tracking-wider text-purple-400">Actions</h4>
+                  <span className="text-[9px] text-gray-600 font-mono">{actionLog.length}</span>
+                </div>
+                {/* Current action highlight */}
+                {currentAction && currentAction.length > 0 && (
+                  <div className="flex flex-wrap gap-1 mb-1.5 shrink-0">
+                    <span className="text-[9px] text-purple-400 uppercase tracking-wider font-semibold mr-1 self-center">
+                      Now
+                    </span>
+                    {currentAction.map((a, i) => (
+                      <span
+                        key={`bottom-${a.label}-${i}`}
+                        className={`px-1.5 py-0.5 rounded-full text-[9px] font-mono border ${
+                          i === 0
+                            ? "bg-purple-900/40 border-purple-600/50 text-purple-300"
+                            : "bg-gray-800/60 border-gray-700/40 text-gray-400"
+                        }`}
+                      >
+                        {a.label}{" "}
+                        <span className={i === 0 ? "text-purple-400" : "text-gray-500"}>
+                          {Math.round(a.confidence * 100)}%
                         </span>
-                        {currentAction.map((a, i) => (
-                          <span
-                            key={`bottom-${a.label}-${i}`}
-                            className={`px-1.5 py-0.5 rounded-full text-[9px] font-mono border ${
-                              i === 0
-                                ? "bg-purple-900/40 border-purple-600/50 text-purple-300"
-                                : "bg-gray-800/60 border-gray-700/40 text-gray-400"
-                            }`}
-                          >
-                            {a.label}{" "}
-                            <span className={i === 0 ? "text-purple-400" : "text-gray-500"}>
-                              {Math.round(a.confidence * 100)}%
-                            </span>
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                    {poseInfo && (
-                      <div className="text-[9px] text-gray-500 font-mono mb-1 shrink-0">
-                        🦴 {poseInfo}
-                      </div>
-                    )}
-                    {actionLog.length > 3 && (
-                      <input
-                        type="text"
-                        value={actionSearch}
-                        onChange={(e) => setActionSearch(e.target.value)}
-                        placeholder="Search actions…"
-                        className="w-full mb-1.5 shrink-0 bg-gray-800/60 text-gray-300 text-[11px] rounded-lg px-2 py-1 border border-purple-700/40 focus:outline-none focus:ring-1 focus:ring-purple-500/40"
-                      />
-                    )}
-                    <div className="flex-1 overflow-y-auto space-y-1">
-                      {actionLog.length === 0 ? (
-                        <p className="text-[11px] text-gray-600 italic">
-                          {connected || connecting
-                            ? enablePose
-                              ? "Accumulating pose data (100 frames)…"
-                              : "Pose + Action disabled in settings"
-                            : "No actions captured yet."}
-                        </p>
-                      ) : (
-                        [...actionLog]
-                          .reverse()
-                          .filter(
-                            (a) =>
-                              !actionSearch ||
-                              a.actions.some((act) =>
-                                act.label
-                                  .toLowerCase()
-                                  .includes(actionSearch.toLowerCase()),
-                              ),
-                          )
-                          .map((a, i) => (
-                            <div
-                              key={`bl-${a.timestamp}-${i}`}
-                              className="flex items-center gap-2 text-[11px]"
-                            >
-                              <span className="text-[9px] text-gray-600 font-mono shrink-0">
-                                {new Date(a.timestamp).toLocaleTimeString()}
-                              </span>
-                              <div className="flex flex-wrap gap-1">
-                                {a.actions.map((act, j) => (
-                                  <span
-                                    key={`${act.label}-${j}`}
-                                    className={`px-1.5 py-0.5 rounded-full text-[9px] font-mono ${
-                                      j === 0
-                                        ? "bg-purple-900/30 text-purple-300"
-                                        : "text-gray-500"
-                                    }`}
-                                  >
-                                    {act.label} {Math.round(act.confidence * 100)}%
-                                  </span>
-                                ))}
-                              </div>
-                            </div>
-                          ))
-                      )}
-                    </div>
-                  </>
+                      </span>
+                    ))}
+                  </div>
                 )}
+                {poseInfo && (
+                  <div className="text-[9px] text-gray-500 font-mono mb-1 shrink-0">
+                    🦴 {poseInfo}
+                  </div>
+                )}
+                {actionLog.length > 3 && (
+                  <input
+                    type="text"
+                    value={actionSearch}
+                    onChange={(e) => setActionSearch(e.target.value)}
+                    placeholder="Search actions…"
+                    className="w-full mb-1.5 shrink-0 bg-gray-800/60 text-gray-300 text-[11px] rounded-lg px-2 py-1 border border-purple-700/40 focus:outline-none focus:ring-1 focus:ring-purple-500/40"
+                  />
+                )}
+                <div className="flex-1 overflow-y-auto space-y-1">
+                  {actionLog.length === 0 ? (
+                    <p className="text-[11px] text-gray-600 italic">
+                      {connected || connecting
+                        ? enablePose
+                          ? "Accumulating pose data (100 frames)…"
+                          : "Pose + Action disabled in settings"
+                        : "No actions captured yet."}
+                    </p>
+                  ) : (
+                    [...actionLog]
+                      .reverse()
+                      .filter(
+                        (a) =>
+                          !actionSearch ||
+                          a.actions.some((act) =>
+                            act.label
+                              .toLowerCase()
+                              .includes(actionSearch.toLowerCase()),
+                          ),
+                      )
+                      .map((a, i) => (
+                        <div
+                          key={`bl-${a.timestamp}-${i}`}
+                          className="flex items-center gap-2 text-[11px]"
+                        >
+                          <span className="text-[9px] text-gray-600 font-mono shrink-0">
+                            {new Date(a.timestamp).toLocaleTimeString()}
+                          </span>
+                          <div className="flex flex-wrap gap-1">
+                            {a.actions.map((act, j) => (
+                              <span
+                                key={`${act.label}-${j}`}
+                                className={`px-1.5 py-0.5 rounded-full text-[9px] font-mono ${
+                                  j === 0
+                                    ? "bg-purple-900/30 text-purple-300"
+                                    : "text-gray-500"
+                                }`}
+                              >
+                                {act.label} {Math.round(act.confidence * 100)}%
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      ))
+                  )}
+                </div>
               </div>
 
               {/* Report panel — independent scroll */}
-              <div className="flex-[2] p-3 min-w-0 flex flex-col overflow-hidden">
+              <div className="flex-1 p-3 min-w-0 flex flex-col overflow-hidden">
                 <div className="flex items-center justify-between shrink-0">
                   <h4 className="text-[10px] font-semibold uppercase tracking-wider text-gray-600">
                     LLM Reports
