@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "VEREC — Video Recognition & Reporting",
-  description: "Real-time object detection, segmentation, VLM captioning & LLM reports",
+  description:
+    "Real-time object detection, segmentation, VLM captioning & LLM reports",
 };
 
 export default function RootLayout({
