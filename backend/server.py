@@ -10,11 +10,13 @@ import base64
 import io
 import json
 import os
+import platform
 import sys
 import time
 import argparse
 import threading
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 import cv2
@@ -32,8 +34,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 
 from backend.models import (
-    init_yolo, init_yolo_seg, init_camera, init_vlm,
-    get_camera_frame, run_detection, run_segmentation, run_vlm,
+    init_yolo, init_camera, configure_vlm, schedule_vlm_warmup,
+    init_yolo_pose, init_action,
+    get_camera_frame, run_detection, run_vlm,
+    run_pose, run_action,
     resolve_stream_url, IP_CAMERA_PRESETS, COCO_CLASSES,
 )
 
@@ -47,13 +51,30 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Data store — rolling logs for JSON export ─────────────────────────────
+# ── Data store — rolling logs + JSON disk persistence ─────────────────────
+
+_PROJECT_ROOT = Path(os.path.dirname(os.path.dirname(__file__)))
+_LOG_DIR = _PROJECT_ROOT / "logs"
+_LOG_DIR.mkdir(exist_ok=True)
 
 _export_lock = threading.Lock()
 _detection_log: list[dict] = []
 _vlm_log: list[dict] = []
 _reports: list[dict] = []
+_object_counts: dict[str, int] = {}  # cumulative class → count
 MAX_LOG = 500
+
+# Session timestamp for file names
+_session_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+
+
+def _flush_json(filename: str, data: list[dict]):
+    """Write a log list to disk as JSON."""
+    path = _LOG_DIR / filename
+    try:
+        path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    except Exception:
+        pass
 
 
 def _append_detection(entry: dict):
@@ -61,6 +82,11 @@ def _append_detection(entry: dict):
         _detection_log.append(entry)
         if len(_detection_log) > MAX_LOG:
             del _detection_log[: len(_detection_log) - MAX_LOG]
+        # Tally object class frequencies
+        for obj in entry.get("objects", []):
+            cls = obj.get("class", "unknown")
+            _object_counts[cls] = _object_counts.get(cls, 0) + 1
+        _flush_json(f"detections_{_session_id}.json", _detection_log)
 
 
 def _append_vlm(entry: dict):
@@ -68,11 +94,13 @@ def _append_vlm(entry: dict):
         _vlm_log.append(entry)
         if len(_vlm_log) > MAX_LOG:
             del _vlm_log[: len(_vlm_log) - MAX_LOG]
+        _flush_json(f"captions_{_session_id}.json", _vlm_log)
 
 
 def _append_report(entry: dict):
     with _export_lock:
         _reports.append(entry)
+        _flush_json(f"reports_{_session_id}.json", _reports)
 
 
 def _frame_to_jpeg(frame: np.ndarray, quality: int = 80) -> bytes:
@@ -88,9 +116,57 @@ def _frame_to_b64(frame: np.ndarray, quality: int = 80) -> str:
 
 # ── REST endpoints ────────────────────────────────────────────────────────
 
+_start_time = time.time()
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok", "time": datetime.now(timezone.utc).isoformat()}
+
+
+def _get_local_ip() -> str:
+    """Best-effort local LAN IP."""
+    import socket
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except Exception:
+        return "127.0.0.1"
+
+
+@app.get("/api/system")
+def system_info():
+    """Return system details for the UI status bar."""
+    import torch
+    device = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
+    with _export_lock:
+        det_count = len(_detection_log)
+        vlm_count = len(_vlm_log)
+        report_count = len(_reports)
+    return {
+        "platform": platform.system(),
+        "machine": platform.machine(),
+        "python": platform.python_version(),
+        "device": device,
+        "local_ip": _get_local_ip(),
+        "models": {
+            "detector": "YOLOv11n (ONNX)",
+            "pose": "YOLOv11n-Pose (ONNX)",
+            "action": "ST-GCN (NTU-60)",
+            "vlm": "FastVLM 0.5B",
+            "llm": "DeepSeek-R1:1.5B (Ollama)",
+        },
+        "uptime_s": round(time.time() - _start_time),
+        "log_counts": {
+            "detections": det_count,
+            "captions": vlm_count,
+            "reports": report_count,
+        },
+        "log_dir": str(_LOG_DIR),
+    }
 
 
 @app.get("/api/presets")
@@ -136,21 +212,6 @@ def detect(conf: float = 0.45, iou: float = 0.45, source: str = "local", url: st
     return {**entry, "fps": result["fps"]}
 
 
-@app.post("/api/segment")
-def segment(conf: float = 0.45, iou: float = 0.45, source: str = "local", url: str = ""):
-    frame = _get_source_frame(source, url)
-    if frame is None:
-        return JSONResponse({"error": "No frame"}, status_code=503)
-    result = run_segmentation(frame, conf=conf, iou=iou)
-    entry = {
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        "objects": result["objects"],
-        "count": result["count"],
-        "time_ms": result["time_ms"],
-    }
-    return {**entry, "fps": result["fps"]}
-
-
 @app.post("/api/vlm")
 def vlm_caption(prompt: str = "Describe what is happening in one sentence.",
                 temperature: float = 0.0, max_tokens: int = 64,
@@ -179,9 +240,13 @@ def generate_report(
         det_summary = _detection_log[-20:]
         vlm_summary = _vlm_log[-10:]
 
-    det_text = "\n".join(
-        f"[{d['timestamp']}] {', '.join(o['class'] for o in d['objects'])}" for d in det_summary
-    ) or "(no detections)"
+    def _fmt_det(d: dict) -> str:
+        objs = ", ".join(
+            f"{o['class']} ({o.get('confidence', '?')})" for o in d["objects"]
+        )
+        return f"[{d['timestamp']}] {objs} — {d['count']} total"
+
+    det_text = "\n".join(_fmt_det(d) for d in det_summary) or "(no detections)"
     vlm_text = "\n".join(
         f"- [{v['timestamp']}] {v.get('text', '')}" for v in vlm_summary
     ) or "(no captions)"
@@ -189,7 +254,13 @@ def generate_report(
     prompt = (
         "You are VEREC, a video recognition and reporting system. "
         "Given the following detection log and scene captions from a live camera feed, "
-        "write a concise surveillance report (3-6 sentences).\n\n"
+        "write a concise surveillance report.\n\n"
+        "Your report MUST include:\n"
+        "1. **Summary** (2-3 sentences describing the scene)\n"
+        "2. **Key Observations** (bullet points of notable detections)\n"
+        "3. **Recommended Actions** (specific actionable items based on what was observed, "
+        "e.g. \"Monitor crowd density at entrance\", \"Investigate unattended object\", "
+        "\"Alert: person in restricted zone\")\n\n"
         f"## Detection Log\n```\n{det_text}\n```\n\n"
         f"## Scene Captions\n{vlm_text}\n\n"
         "## Report"
@@ -259,8 +330,8 @@ async def ws_feed(
     iou: float = 0.45,
     vlm_interval: int = 5,
     enable_det: bool = True,
-    enable_seg: bool = True,
     enable_vlm: bool = True,
+    enable_pose: bool = True,
 ):
     await websocket.accept()
     cap = None
@@ -276,10 +347,8 @@ async def ws_feed(
             return
 
     last_vlm_time = 0.0
-    last_seg_time = 0.0
-    seg_overlay = None
     last_caption = ""
-    SEG_INTERVAL = 3.0
+    last_action: dict | None = None
 
     try:
         while True:
@@ -291,8 +360,8 @@ async def ws_feed(
                     break
                 # Allow live toggle of settings
                 enable_det = ctrl.get("enable_det", enable_det)
-                enable_seg = ctrl.get("enable_seg", enable_seg)
                 enable_vlm = ctrl.get("enable_vlm", enable_vlm)
+                enable_pose = ctrl.get("enable_pose", enable_pose)
                 conf = ctrl.get("conf", conf)
                 iou = ctrl.get("iou", iou)
                 vlm_interval = ctrl.get("vlm_interval", vlm_interval)
@@ -327,45 +396,79 @@ async def ws_feed(
                 }
                 _append_detection({"timestamp": ts, "objects": det_objects,
                                    "count": det_result["count"], "time_ms": det_result["time_ms"]})
+                # Include cumulative object frequency counts
+                with _export_lock:
+                    payload["object_counts"] = dict(_object_counts)
 
-            # Segmentation (throttled)
-            if enable_seg and now - last_seg_time >= SEG_INTERVAL:
-                last_seg_time = now
-                seg_result = run_segmentation(frame, conf=conf, iou=iou)
-                seg_overlay = seg_result["annotated"]
-                payload["segmentation"] = {
-                    "objects": seg_result["objects"],
-                    "count": seg_result["count"],
-                    "time_ms": seg_result["time_ms"],
-                }
+            # Pose estimation + action recognition
+            pose_keypoints = None
+            pose_scores = None
+            if enable_pose:
+                pose_result = run_pose(frame, conf=conf, iou=iou)
+                if pose_result is not None:
+                    payload["pose"] = {
+                        "persons": pose_result["persons"],
+                        "count": pose_result["count"],
+                        "time_ms": pose_result["time_ms"],
+                        "fps": pose_result["fps"],
+                    }
+                    pose_keypoints = pose_result["keypoints"]
+                    pose_scores = pose_result["scores"]
 
-            # Build AI frame
-            if seg_overlay is not None and seg_overlay.shape == frame.shape:
-                ai_frame = seg_overlay.copy()
-            else:
-                ai_frame = frame.copy()
+                    # Feed to ST-GCN action recogniser
+                    action_result = run_action(pose_keypoints, pose_scores)
+                    if action_result is not None:
+                        last_action = action_result
+                    if last_action is not None:
+                        payload["action"] = last_action
+
+            # Build AI frame with detection overlay
+            ai_frame = frame.copy()
             if enable_det:
                 from detectors import YOLODetector
                 ai_frame = YOLODetector.draw(
                     ai_frame, det_result["boxes"], det_result["scores"], det_result["class_ids"]
                 )
 
-            # VLM (throttled)
+            # Overlay pose skeleton on AI frame
+            if enable_pose and pose_keypoints is not None and len(pose_keypoints) > 0:
+                from detectors import YOLOPoseDetector
+                pose_r = pose_result  # type: ignore[possibly-undefined]
+                ai_frame = YOLOPoseDetector.draw(
+                    ai_frame,
+                    np.array([p["box"] for p in pose_r["persons"]]),
+                    pose_scores, pose_keypoints,
+                )
+
+            # VLM (throttled) — enriched with detection context
             if enable_vlm and now - last_vlm_time >= vlm_interval:
                 last_vlm_time = now
-                obj_hint = ", ".join(o["class"] for o in det_objects) if det_objects else "nothing specific"
+                if det_objects:
+                    obj_detail = "; ".join(
+                        f"{o['class']} ({o['confidence']:.0%})" for o in det_objects
+                    )
+                    vlm_prompt = (
+                        f"Objects detected: {obj_detail}. "
+                        f"Total: {len(det_objects)} object(s). "
+                        "Describe the scene and any notable activity in one sentence."
+                    )
+                else:
+                    vlm_prompt = "Describe what is happening in this scene in one sentence."
                 vlm_result = run_vlm(
                     frame,
-                    prompt=f"Objects detected: {obj_hint}. Describe what is happening in one sentence.",
-                    max_tokens=64,
+                    prompt=vlm_prompt,
+                    max_tokens=80,
                 )
                 last_caption = vlm_result.get("text", "")
                 payload["vlm"] = vlm_result
                 _append_vlm({"timestamp": ts, **vlm_result})
 
             # Encode frames
-            payload["raw_frame"] = _frame_to_b64(frame, quality=70)
-            payload["ai_frame"] = _frame_to_b64(ai_frame, quality=70)
+            raw_b64 = _frame_to_b64(frame, quality=70)
+            ai_b64 = _frame_to_b64(ai_frame, quality=70)
+            payload["raw_frame"] = raw_b64
+            payload["ai_frame"] = ai_b64
+            payload["frame_bytes"] = len(raw_b64) + len(ai_b64)  # approx payload size
             if last_caption:
                 payload["caption"] = last_caption
 
@@ -401,12 +504,15 @@ def main():
     parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
 
-    print("Loading models…")
-    init_vlm(args.model_path, args.model_base)
+    print("Loading detector…")
     init_yolo()
-    init_yolo_seg()
-    init_camera()
-    print("Models loaded. Starting API server…")
+    # VLM, camera, pose, and action models are all lazy-loaded on first
+    # use to keep startup fast and avoid memory spikes.
+    configure_vlm(args.model_path, args.model_base)
+    # Warm up VLM in a background thread after 10s so the first
+    # caption request doesn't stall.
+    schedule_vlm_warmup(delay=900.0)  # 15 minutes — avoid freezing the PC
+    print("Ready (VLM warms up after 10s; camera/pose/action load on first use). Starting API server…")
 
     uvicorn.run(app, host=args.host, port=args.port)
 

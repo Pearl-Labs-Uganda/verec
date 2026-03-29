@@ -1,6 +1,6 @@
 """VEREC backend — shared model singletons and inference helpers.
 
-All heavy models (YOLO, YOLO-seg, FastVLM) are loaded once and reused.
+All heavy models (YOLO, FastVLM, Pose, ST-GCN) are loaded once and reused.
 """
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ import torch
 from PIL import Image
 
 from camera import OpenCVCamera
-from detectors import COCO_CLASSES, YOLODetector, YOLOSegDetector
+from detectors import COCO_CLASSES, YOLODetector, YOLOPoseDetector
 from llava.utils import disable_torch_init
 from llava.conversation import conv_templates
 from llava.model.builder import load_pretrained_model
@@ -31,13 +31,15 @@ _lock = threading.Lock()
 # ── Singletons ────────────────────────────────────────────────────────────
 
 _yolo: YOLODetector | None = None
-_yolo_seg: YOLOSegDetector | None = None
+_yolo_pose: YOLOPoseDetector | None = None
 _camera: OpenCVCamera | None = None
+_action_recognizer = None  # ActionRecognizer | None
 
 # VLM globals (set by init_vlm)
 tokenizer: Any = None
 vlm_model: Any = None
 image_processor: Any = None
+_vlm_config: dict[str, Any] | None = None  # stored for lazy init
 
 
 def init_yolo() -> YOLODetector:
@@ -48,12 +50,30 @@ def init_yolo() -> YOLODetector:
     return _yolo
 
 
-def init_yolo_seg() -> YOLOSegDetector:
-    global _yolo_seg
-    if _yolo_seg is None:
-        p = os.path.join(os.path.dirname(os.path.dirname(__file__)), "yolo11n-seg.onnx")
-        _yolo_seg = YOLOSegDetector(p)
-    return _yolo_seg
+
+
+def init_yolo_pose() -> YOLOPoseDetector | None:
+    """Initialise YOLO11n-pose. Returns None if ONNX file not found."""
+    global _yolo_pose
+    if _yolo_pose is None:
+        p = os.path.join(os.path.dirname(os.path.dirname(__file__)), "yolo11n-pose.onnx")
+        if not os.path.exists(p):
+            return None
+        _yolo_pose = YOLOPoseDetector(p)
+    return _yolo_pose
+
+
+def init_action(device: str = "cpu"):
+    """Initialise ST-GCN action recogniser. Returns None if checkpoint not found."""
+    global _action_recognizer
+    if _action_recognizer is None:
+        ckpt = os.path.join(os.path.dirname(os.path.dirname(__file__)),
+                            "checkpoints", "stgcn_ntu60_joint.pth")
+        if not os.path.exists(ckpt):
+            return None
+        from action import ActionRecognizer
+        _action_recognizer = ActionRecognizer(ckpt, device=device)
+    return _action_recognizer
 
 
 def init_camera() -> OpenCVCamera:
@@ -63,9 +83,36 @@ def init_camera() -> OpenCVCamera:
     return _camera
 
 
-def init_vlm(model_path: str, model_base: str | None = None):
+def configure_vlm(model_path: str, model_base: str | None = None):
+    """Store VLM config for lazy loading. Does NOT load the model."""
+    global _vlm_config
+    _vlm_config = {"model_path": model_path, "model_base": model_base}
+
+
+def schedule_vlm_warmup(delay: float = 10.0):
+    """Start a background thread that loads the VLM after *delay* seconds.
+
+    This keeps startup instant while ensuring the model is warm
+    by the time the user actually needs a caption.
+    """
+    def _warmup():
+        import time as _time
+        _time.sleep(delay)
+        print(f"[warmup] Loading VLM in background after {delay}s delay…")
+        init_vlm()
+    t = threading.Thread(target=_warmup, daemon=True)
+    t.start()
+
+
+def init_vlm():
+    """Lazy-load VLM on first use. Returns True if model is ready."""
     global tokenizer, vlm_model, image_processor
-    model_path = os.path.expanduser(model_path)
+    if vlm_model is not None:
+        return True
+    if _vlm_config is None:
+        return False
+    model_path = os.path.expanduser(_vlm_config["model_path"])
+    model_base = _vlm_config["model_base"]
     gen_cfg = os.path.join(model_path, "generation_config.json")
     gen_cfg_hidden = os.path.join(model_path, ".generation_config.json")
     renamed = False
@@ -73,6 +120,7 @@ def init_vlm(model_path: str, model_base: str | None = None):
         os.rename(gen_cfg, gen_cfg_hidden)
         renamed = True
 
+    print("Loading VLM (first use)…")
     disable_torch_init()
     model_name = get_model_name_from_path(model_path)
     tokenizer, vlm_model, image_processor, _ = load_pretrained_model(
@@ -82,6 +130,8 @@ def init_vlm(model_path: str, model_base: str | None = None):
 
     if renamed:
         os.rename(gen_cfg_hidden, gen_cfg)
+    print("VLM loaded.")
+    return True
 
 
 # ── Inference helpers ─────────────────────────────────────────────────────
@@ -114,30 +164,50 @@ def run_detection(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> d
     }
 
 
-def run_segmentation(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> dict:
-    seg = init_yolo_seg()
+
+
+def run_pose(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> dict | None:
+    """Run YOLO Pose detection. Returns None if model not available."""
+    pose = init_yolo_pose()
+    if pose is None:
+        return None
     t0 = time.perf_counter()
-    boxes, scores, class_ids, masks = seg.detect(frame, conf=conf, iou=iou)
+    boxes, scores, keypoints = pose.detect(frame, conf=conf, iou=iou)
     dt = time.perf_counter() - t0
-    objects = [
-        {"class": COCO_CLASSES[c], "confidence": round(float(s), 3),
-         "box": [int(x) for x in b]}
-        for b, s, c in zip(boxes, scores, class_ids)
+    annotated = YOLOPoseDetector.draw(frame, boxes, scores, keypoints)
+    persons = [
+        {"confidence": round(float(s), 3), "box": [int(x) for x in b],
+         "keypoints": kpts.tolist()}
+        for b, s, kpts in zip(boxes, scores, keypoints)
     ]
-    annotated = YOLOSegDetector.draw(frame, boxes, scores, class_ids, masks)
     return {
-        "objects": objects,
-        "count": len(objects),
+        "persons": persons,
+        "count": len(persons),
         "time_ms": round(dt * 1000, 1),
         "fps": round(1 / dt, 1) if dt > 0 else 0,
         "annotated": annotated,
+        "keypoints": keypoints,   # raw ndarray for action recogniser
+        "scores": scores,
     }
+
+
+def run_action(keypoints: np.ndarray | None,
+               scores: np.ndarray | None = None) -> dict | None:
+    """Feed one frame of keypoints to ST-GCN action recogniser.
+
+    Returns None if model not available or buffer not yet full.
+    """
+    rec = init_action()
+    if rec is None:
+        return None
+    return rec.update(keypoints, scores)
 
 
 def run_vlm(image: Image.Image | np.ndarray, prompt: str = "",
             temperature: float = 0.0, max_tokens: int = 64) -> dict:
     if vlm_model is None:
-        return {"text": "", "error": "VLM not loaded"}
+        if not init_vlm():
+            return {"text": "", "error": "VLM not configured"}
     if not prompt:
         prompt = "Briefly describe what is happening."
 
