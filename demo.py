@@ -1,16 +1,15 @@
 """
-FastVLM Speed Test — OpenCV camera + upload UI.
+FastVLM Speed Test — Browser webcam + upload UI.
 
-Uses OpenCV (cv2) for direct camera access instead of the browser's
-MediaDevices API.  This mirrors the iOS app's architecture:
+Uses Gradio's built-in webcam streaming for camera access.
 
-  iOS CameraController (AVCaptureSession)  →  OpenCVCamera (cv2.VideoCapture)
-  AsyncStream .bufferingNewest(1)          →  background thread + latest-frame
-  ContentView dual-stream distribution     →  gr.Timer live preview + inference loop
-
-Two modes, same as the iOS app:
-  • Continuous — every frame is analysed automatically
-  • Single Capture — freeze one frame (or upload), then analyse
+Tabs:
+  • Camera — capture a frame from your browser webcam, then analyse
+  • Upload — drag-and-drop an image, then analyse
+  • Object Detection — YOLO11n via ONNX Runtime (live webcam stream)
+  • Segmentation — YOLO11n-seg via ONNX Runtime (live webcam stream)
+  • AI Chat — OpenAI gpt-4o-mini (requires OPENAI_API_KEY in .env)
+  • Reasoning (Offline) — DeepSeek-R1 via Ollama (local, no API key)
 
 Usage:
     python demo.py --model-path checkpoints/llava-fastvithd_0.5b_stage3
@@ -30,7 +29,6 @@ from openai import OpenAI
 from openai.types.chat import ChatCompletionMessageParam
 from PIL import Image
 
-from camera import OpenCVCamera
 from detectors import COCO_CLASSES, YOLODetector, YOLOSegDetector
 from llava.utils import disable_torch_init
 from llava.conversation import conv_templates
@@ -40,9 +38,6 @@ from llava.constants import (
     IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN,
     DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN,
 )
-
-# macOS: skip the AVFoundation auth dialog from a background thread
-os.environ.setdefault("OPENCV_AVFOUNDATION_SKIP_AUTH", "1")
 
 _lock = threading.Lock()
 
@@ -79,25 +74,6 @@ def _ensure_yolo_seg():
         _yolo_seg = YOLOSegDetector(onnx_path)
         print(f'YOLO-seg loaded from {onnx_path}')
     return _yolo_seg
-
-
-# ── Camera singleton ─────────────────────────────────────────────────────
-
-_camera = None
-_camera_error = None
-
-
-def _ensure_camera():
-    global _camera, _camera_error
-    if _camera is None:
-        _camera = OpenCVCamera()
-        if not _camera.is_open:
-            _camera_error = (
-                "Camera not available. On macOS, grant camera access to your "
-                "terminal app in System Settings → Privacy & Security → Camera, "
-                "then restart the demo."
-            )
-    return _camera
 
 
 # ── Model helpers ─────────────────────────────────────────────────────────
@@ -177,53 +153,6 @@ def run_inference(image, prompt, temperature, max_tokens):
         return "", "", f"Error: {e}"
 
 
-# ── Camera callbacks ──────────────────────────────────────────────────────
-
-def get_live_frame():
-    """Return the latest camera frame for the live preview (called by Timer)."""
-    cam = _ensure_camera()
-    if not cam.is_open:
-        return None
-    return cam.read()
-
-
-def continuous_loop(prompt, temp, tokens):
-    """Generator: grab latest frame → run inference → yield → repeat."""
-    cam = _ensure_camera()
-    if not cam.is_open:
-        yield None, "", "", _camera_error or "Camera not available"
-        return
-    while True:
-        frame = cam.read()
-        if frame is None:
-            yield None, "", "", "Waiting for camera…"
-            time.sleep(0.1)
-            continue
-        image = Image.fromarray(frame)
-        text, stats, status = run_inference(image, prompt, temp, tokens)
-        yield frame, text, stats, status
-
-
-_captured_frame = None
-
-
-def capture_and_analyse(prompt, temp, tokens):
-    """Grab one frame from the live camera, then analyse it."""
-    global _captured_frame
-    cam = _ensure_camera()
-    if not cam.is_open:
-        yield None, "", "", _camera_error or "Camera not available"
-        return
-    _captured_frame = cam.read()
-    if _captured_frame is None:
-        yield None, "", "", "No frame from camera"
-        return
-    yield _captured_frame, "", "", "Processing…"
-    image = Image.fromarray(_captured_frame)
-    text, stats, status = run_inference(image, prompt, temp, tokens)
-    yield _captured_frame, text, stats, status
-
-
 def upload_analyse(image, prompt, temp, tokens):
     """Analyse an uploaded / webcam-captured image."""
     if image is None:
@@ -277,16 +206,19 @@ def build_ui():
 
         with gr.Tabs():
 
-            # ── Tab 1: Camera (OpenCV) ────────────────────────────────
+            # ── Tab 1: Camera (Browser Webcam) ─────────────────────────
             with gr.Tab("Camera"):
                 gr.Markdown(
-                    "**OpenCV** captures your local camera.  "
-                    "Use *Start Continuous* to analyse every frame, "
-                    "or *Capture & Analyse* for a single shot."
+                    "**Browser webcam** — your browser will ask for camera "
+                    "permission.  Click **Capture & Analyse** to run the VLM "
+                    "on the current frame."
                 )
                 with gr.Row():
                     with gr.Column(scale=1):
-                        live_img = gr.Image(label="Live Camera", interactive=False)
+                        live_img = gr.Image(
+                            sources=["webcam"], streaming=True,
+                            label="Live Camera", type="numpy",
+                        )
                         cam_prompt = gr.Textbox(
                             value="What is happening? Answer in one short sentence.",
                             label="Prompt", lines=2,
@@ -294,10 +226,7 @@ def build_ui():
                         with gr.Row():
                             cam_temp = gr.Slider(0.0, 1.0, value=0.0, step=0.1, label="Temperature")
                             cam_tokens = gr.Slider(8, 128, value=32, step=8, label="Max Tokens")
-                        with gr.Row():
-                            start_btn = gr.Button("▶ Start Continuous", variant="primary")
-                            stop_btn = gr.Button("⏹ Stop", variant="stop")
-                            snap_btn = gr.Button("📷 Capture & Analyse")
+                        snap_btn = gr.Button("📷 Capture & Analyse", variant="primary", size="lg")
 
                     with gr.Column(scale=1):
                         cam_status = gr.Textbox(label="Status", lines=1, value="Idle")
@@ -305,19 +234,18 @@ def build_ui():
                         cam_output = gr.Textbox(label="Model Output", lines=5)
                         cam_stats = gr.Textbox(label="Speed", lines=1)
 
-                preview_timer = gr.Timer(value=0.1, active=True)
-                preview_timer.tick(fn=get_live_frame, outputs=live_img)
-
-                cont_event = start_btn.click(
-                    fn=continuous_loop,
-                    inputs=[cam_prompt, cam_temp, cam_tokens],
-                    outputs=[analysed_img, cam_output, cam_stats, cam_status],
-                )
-                stop_btn.click(fn=None, cancels=[cont_event])
+                def cam_analyse(frame, prompt, temp, tokens):
+                    if frame is None:
+                        yield None, "", "", "No frame — enable webcam first"
+                        return
+                    yield frame, "", "", "Processing…"
+                    image = Image.fromarray(frame)
+                    text, stats, status = run_inference(image, prompt, temp, tokens)
+                    yield frame, text, stats, status
 
                 snap_btn.click(
-                    fn=capture_and_analyse,
-                    inputs=[cam_prompt, cam_temp, cam_tokens],
+                    fn=cam_analyse,
+                    inputs=[live_img, cam_prompt, cam_temp, cam_tokens],
                     outputs=[analysed_img, cam_output, cam_stats, cam_status],
                 )
 
@@ -355,23 +283,22 @@ def build_ui():
             with gr.Tab("Object Detection"):
                 gr.Markdown(
                     "**YOLO11n** via ONNX Runtime (CPU).  "
-                    "Use *Start Live Detection* for continuous video, "
-                    "or upload/capture a single image."
+                    "Enable your webcam for live detection, "
+                    "or upload a single image."
                 )
                 with gr.Row():
                     with gr.Column(scale=1):
-                        det_live = gr.Image(label="Live Camera", interactive=False)
+                        det_live = gr.Image(
+                            sources=["webcam"], streaming=True,
+                            label="Live Camera", type="numpy",
+                        )
                         with gr.Row():
                             det_conf = gr.Slider(0.1, 1.0, value=0.5, step=0.05, label="Confidence")
                             det_iou = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="IoU (NMS)")
-                        with gr.Row():
-                            det_start = gr.Button("▶ Start Live Detection", variant="primary")
-                            det_stop = gr.Button("⏹ Stop", variant="stop")
-                            det_snap = gr.Button("📷 Detect Single Frame")
                         gr.Markdown("---")
                         det_upload = gr.Image(
-                            sources=["upload", "webcam"], type="numpy",
-                            label="Or upload / capture an image",
+                            sources=["upload"], type="numpy",
+                            label="Or upload an image",
                         )
                         det_upload_btn = gr.Button("Detect on Image", variant="secondary")
 
@@ -381,67 +308,31 @@ def build_ui():
                         det_stats = gr.Textbox(label="Stats", lines=1)
                         det_labels = gr.Textbox(label="Detected Objects", lines=5)
 
-                det_preview_timer = gr.Timer(value=0.1, active=True)
-                det_preview_timer.tick(fn=get_live_frame, outputs=det_live)
-
-                def yolo_continuous(conf, iou_thresh):
-                    cam = _ensure_camera()
-                    if not cam.is_open:
-                        yield None, "", "", _camera_error or "Camera not available"
-                        return
-                    try:
-                        _ensure_yolo()
-                    except Exception as e:
-                        yield None, "", "", f"Error: {e}"
-                        return
-                    while True:
-                        frame = cam.read()
-                        if frame is None:
-                            yield None, "", "", "Waiting for camera…"
-                            time.sleep(0.05)
-                            continue
-                        try:
-                            annotated, stats, labels = _run_yolo(frame, conf, iou_thresh)
-                            yield annotated, stats, labels, "Detecting…"
-                        except Exception as e:
-                            yield None, "", "", f"Error: {e}"
-
-                def yolo_single_frame(conf, iou_thresh):
-                    cam = _ensure_camera()
-                    if not cam.is_open:
-                        yield None, "", "", _camera_error or "Camera not available"
-                        return
-                    frame = cam.read()
+                def yolo_stream(frame, conf, iou_thresh):
                     if frame is None:
-                        yield None, "", "", "No frame from camera"
-                        return
-                    yield None, "", "", "Detecting…"
+                        return None, "", "", "Waiting for camera…"
                     try:
                         annotated, stats, labels = _run_yolo(frame, conf, iou_thresh)
-                        yield annotated, stats, labels, "Done"
+                        return annotated, stats, labels, "Detecting…"
                     except Exception as e:
-                        yield None, "", "", f"Error: {e}"
+                        return None, "", "", f"Error: {e}"
+
+                det_live.stream(
+                    fn=yolo_stream,
+                    inputs=[det_live, det_conf, det_iou],
+                    outputs=[det_output, det_stats, det_labels, det_status],
+                    stream_every=0.1,
+                )
 
                 def yolo_on_upload(image, conf, iou_thresh):
                     if image is None:
-                        yield None, "", "", "No image provided"
-                        return
-                    yield None, "", "", "Detecting…"
+                        return None, "", "", "No image provided"
                     try:
                         annotated, stats, labels = _run_yolo(image, conf, iou_thresh)
-                        yield annotated, stats, labels, "Done"
+                        return annotated, stats, labels, "Done"
                     except Exception as e:
-                        yield None, "", "", f"Error: {e}"
+                        return None, "", "", f"Error: {e}"
 
-                det_cont_event = det_start.click(
-                    fn=yolo_continuous, inputs=[det_conf, det_iou],
-                    outputs=[det_output, det_stats, det_labels, det_status],
-                )
-                det_stop.click(fn=None, cancels=[det_cont_event])
-                det_snap.click(
-                    fn=yolo_single_frame, inputs=[det_conf, det_iou],
-                    outputs=[det_output, det_stats, det_labels, det_status],
-                )
                 det_upload_btn.click(
                     fn=yolo_on_upload, inputs=[det_upload, det_conf, det_iou],
                     outputs=[det_output, det_stats, det_labels, det_status],
@@ -452,23 +343,22 @@ def build_ui():
                 gr.Markdown(
                     "**YOLO11n-seg** via ONNX Runtime (CPU).  "
                     "Instance segmentation with per-object masks.  "
-                    "Use *Start Live Segmentation* for continuous video, "
-                    "or upload/capture a single image."
+                    "Enable your webcam for live segmentation, "
+                    "or upload a single image."
                 )
                 with gr.Row():
                     with gr.Column(scale=1):
-                        seg_live = gr.Image(label="Live Camera", interactive=False)
+                        seg_live = gr.Image(
+                            sources=["webcam"], streaming=True,
+                            label="Live Camera", type="numpy",
+                        )
                         with gr.Row():
                             seg_conf = gr.Slider(0.1, 1.0, value=0.5, step=0.05, label="Confidence")
                             seg_iou = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="IoU (NMS)")
-                        with gr.Row():
-                            seg_start = gr.Button("▶ Start Live Segmentation", variant="primary")
-                            seg_stop = gr.Button("⏹ Stop", variant="stop")
-                            seg_snap = gr.Button("📷 Segment Single Frame")
                         gr.Markdown("---")
                         seg_upload = gr.Image(
-                            sources=["upload", "webcam"], type="numpy",
-                            label="Or upload / capture an image",
+                            sources=["upload"], type="numpy",
+                            label="Or upload an image",
                         )
                         seg_upload_btn = gr.Button("Segment Image", variant="secondary")
 
@@ -478,67 +368,31 @@ def build_ui():
                         seg_stats = gr.Textbox(label="Stats", lines=1)
                         seg_labels = gr.Textbox(label="Detected Objects", lines=5)
 
-                seg_preview_timer = gr.Timer(value=0.1, active=True)
-                seg_preview_timer.tick(fn=get_live_frame, outputs=seg_live)
-
-                def seg_continuous(conf, iou_thresh):
-                    cam = _ensure_camera()
-                    if not cam.is_open:
-                        yield None, "", "", _camera_error or "Camera not available"
-                        return
-                    try:
-                        _ensure_yolo_seg()
-                    except Exception as e:
-                        yield None, "", "", f"Error: {e}"
-                        return
-                    while True:
-                        frame = cam.read()
-                        if frame is None:
-                            yield None, "", "", "Waiting for camera…"
-                            time.sleep(0.05)
-                            continue
-                        try:
-                            annotated, stats, labels = _run_seg(frame, conf, iou_thresh)
-                            yield annotated, stats, labels, "Segmenting…"
-                        except Exception as e:
-                            yield None, "", "", f"Error: {e}"
-
-                def seg_single_frame(conf, iou_thresh):
-                    cam = _ensure_camera()
-                    if not cam.is_open:
-                        yield None, "", "", _camera_error or "Camera not available"
-                        return
-                    frame = cam.read()
+                def seg_stream(frame, conf, iou_thresh):
                     if frame is None:
-                        yield None, "", "", "No frame from camera"
-                        return
-                    yield None, "", "", "Segmenting…"
+                        return None, "", "", "Waiting for camera…"
                     try:
                         annotated, stats, labels = _run_seg(frame, conf, iou_thresh)
-                        yield annotated, stats, labels, "Done"
+                        return annotated, stats, labels, "Segmenting…"
                     except Exception as e:
-                        yield None, "", "", f"Error: {e}"
+                        return None, "", "", f"Error: {e}"
+
+                seg_live.stream(
+                    fn=seg_stream,
+                    inputs=[seg_live, seg_conf, seg_iou],
+                    outputs=[seg_output, seg_stats, seg_labels, seg_status],
+                    stream_every=0.1,
+                )
 
                 def seg_on_upload(image, conf, iou_thresh):
                     if image is None:
-                        yield None, "", "", "No image provided"
-                        return
-                    yield None, "", "", "Segmenting…"
+                        return None, "", "", "No image provided"
                     try:
                         annotated, stats, labels = _run_seg(image, conf, iou_thresh)
-                        yield annotated, stats, labels, "Done"
+                        return annotated, stats, labels, "Done"
                     except Exception as e:
-                        yield None, "", "", f"Error: {e}"
+                        return None, "", "", f"Error: {e}"
 
-                seg_cont_event = seg_start.click(
-                    fn=seg_continuous, inputs=[seg_conf, seg_iou],
-                    outputs=[seg_output, seg_stats, seg_labels, seg_status],
-                )
-                seg_stop.click(fn=None, cancels=[seg_cont_event])
-                seg_snap.click(
-                    fn=seg_single_frame, inputs=[seg_conf, seg_iou],
-                    outputs=[seg_output, seg_stats, seg_labels, seg_status],
-                )
                 seg_upload_btn.click(
                     fn=seg_on_upload, inputs=[seg_upload, seg_conf, seg_iou],
                     outputs=[seg_output, seg_stats, seg_labels, seg_status],
@@ -556,7 +410,7 @@ def build_ui():
                     value="gpt-4o-mini", label="Model",
                 )
 
-                chatbot = gr.Chatbot(label="Conversation", height=480)
+                chatbot = gr.Chatbot(label="Conversation", height=520, autoscroll=True)
                 with gr.Row():
                     chat_input = gr.Textbox(
                         label="Message", placeholder="Type a message…",
@@ -628,7 +482,7 @@ def build_ui():
                         label="Ollama URL", scale=2,
                     )
 
-                r1_chatbot = gr.Chatbot(label="Conversation", height=480)
+                r1_chatbot = gr.Chatbot(label="Conversation", height=520, autoscroll=True)
                 with gr.Row():
                     r1_input = gr.Textbox(
                         label="Message", placeholder="Ask the reasoning model…",
@@ -723,4 +577,4 @@ if __name__ == "__main__":
     print("Model loaded.  Starting UI…")
 
     demo = build_ui()
-    demo.launch(server_name="127.0.0.1", server_port=args.port)
+    demo.launch(server_name="0.0.0.0", server_port=args.port)
