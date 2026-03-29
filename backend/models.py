@@ -28,6 +28,15 @@ from llava.constants import (
 
 _lock = threading.Lock()
 
+
+def _resolve_device() -> str:
+    """Pick the best available torch device: cuda > mps > cpu."""
+    if torch.cuda.is_available():
+        return "cuda"
+    if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+        return "mps"
+    return "cpu"
+
 # ── Singletons ────────────────────────────────────────────────────────────
 
 _yolo: YOLODetector | None = None
@@ -123,8 +132,9 @@ def init_vlm():
     print("Loading VLM (first use)…")
     disable_torch_init()
     model_name = get_model_name_from_path(model_path)
+    _device = _resolve_device()
     tokenizer, vlm_model, image_processor, _ = load_pretrained_model(
-        model_path, model_base, model_name, device="mps"
+        model_path, model_base, model_name, device=_device
     )
     vlm_model.generation_config.pad_token_id = tokenizer.pad_token_id
 
@@ -226,9 +236,10 @@ def run_vlm(image: Image.Image | np.ndarray, prompt: str = "",
     conv.append_message(conv.roles[1], None)
     full_prompt = conv.get_prompt()
 
+    _device = _resolve_device()
     input_ids = torch.as_tensor(
         tokenizer_image_token(full_prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
-    ).unsqueeze(0).to(torch.device("mps"))
+    ).unsqueeze(0).to(torch.device(_device))
 
     image_tensor = process_images([image], image_processor, vlm_model.config)[0]
 
