@@ -3,15 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Model weights & large binaries
-*.onnx
-*.pt
-*.gguf
-*.bin
+# Large model weights (download via get_large_models.sh)
 *.safetensors
+*.gguf
 *.zip
-checkpoints/
-models/
 
 # Reference repos (kept locally, not committed)
 yolo_ref/
