@@ -16,10 +16,7 @@ WORKDIR /app
 # Install Python deps first (cache-friendly)
 COPY pyproject.toml ./
 RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir . 2>/dev/null; \
-    # pyproject.toml may need the full source for the build —
-    # install core deps explicitly as a fallback:
-    pip install --no-cache-dir \
+    && pip install --no-cache-dir \
         "torch==2.6.0" "torchvision==0.21.0" \
         "transformers==4.48.3" "tokenizers==0.21.0" "sentencepiece==0.1.99" \
         shortuuid "accelerate==1.6.0" "peft>=0.10.0,<0.14.0" \
@@ -27,7 +24,9 @@ RUN pip install --no-cache-dir --upgrade pip \
         requests uvicorn fastapi \
         "einops==0.6.1" "einops-exts==0.0.4" "timm==1.0.15" \
         opencv-python-headless onnxruntime python-dotenv openai Pillow \
-        yt-dlp
+        yt-dlp \
+        "typing_extensions>=4.8" \
+        websockets
 
 # Copy application source
 COPY . .

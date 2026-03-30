@@ -1,7 +1,7 @@
 # ── Frontend Dockerfile (multi-stage) ─────────────────────────────────────
 FROM node:20-alpine AS deps
 WORKDIR /app
-COPY package.json ./
+COPY package.json package-lock.json ./
 RUN npm ci
 
 FROM node:20-alpine AS builder

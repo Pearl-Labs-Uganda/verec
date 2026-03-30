@@ -40,8 +40,28 @@ from backend.models import (
     run_pose, run_action,
     resolve_stream_url, IP_CAMERA_PRESETS, COCO_CLASSES,
 )
+import backend.models as _models
 
 app = FastAPI(title="VEREC API", version="1.0.0")
+
+# ── Default model path (used when running via uvicorn --reload / dev mode) ──
+_DEFAULT_MODEL_PATH = os.environ.get(
+    "VLM_MODEL_PATH",
+    os.path.join(os.path.dirname(os.path.dirname(__file__)),
+                 "checkpoints", "llava-fastvithd_0.5b_stage3"),
+)
+
+@app.on_event("startup")
+def _auto_init():
+    """Initialise models when uvicorn imports the app (e.g. --reload mode).
+
+    When run via `python -m backend.server`, main() calls these first and
+    this is a harmless no-op because init functions are idempotent.
+    """
+    init_yolo()
+    if _models._vlm_config is None:
+        configure_vlm(_DEFAULT_MODEL_PATH)
+    schedule_vlm_warmup(delay=0)
 
 _ALLOWED_ORIGINS = os.environ.get(
     "CORS_ORIGINS",
@@ -236,7 +256,7 @@ def vlm_caption(prompt: str = "Describe what is happening in one sentence.",
 @app.post("/api/report")
 def generate_report(
     model: str = "deepseek-r1:1.5b",
-    ollama_url: str = "http://localhost:11434",
+    ollama_url: str = os.environ.get("OLLAMA_URL", "http://localhost:11434"),
 ):
     """Generate an LLM report from collected detection + VLM data."""
     from openai import OpenAI
@@ -373,115 +393,130 @@ async def ws_feed(
             except (asyncio.TimeoutError, Exception):
                 pass
 
-            # Get frame
-            if use_local:
-                frame = get_camera_frame()
-            else:
-                ok, bgr = cap.read()
-                frame = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB) if ok and bgr is not None else None
-
-            if frame is None:
-                await asyncio.sleep(0.05)
-                continue
-
-            now = time.perf_counter()
-            ts = datetime.now(timezone.utc).isoformat()
-            payload: dict[str, Any] = {"timestamp": ts}
-
-            # Detection
-            det_objects = []
-            if enable_det:
-                det_result = run_detection(frame, conf=conf, iou=iou)
-                det_objects = det_result["objects"]
-                payload["detection"] = {
-                    "objects": det_objects,
-                    "count": det_result["count"],
-                    "time_ms": det_result["time_ms"],
-                    "fps": det_result["fps"],
-                }
-                _append_detection({"timestamp": ts, "objects": det_objects,
-                                   "count": det_result["count"], "time_ms": det_result["time_ms"]})
-                # Include cumulative object frequency counts
-                with _export_lock:
-                    payload["object_counts"] = dict(_object_counts)
-
-            # Pose estimation + action recognition
-            pose_keypoints = None
-            pose_scores = None
-            if enable_pose:
-                pose_result = run_pose(frame, conf=conf, iou=iou)
-                if pose_result is not None:
-                    payload["pose"] = {
-                        "persons": pose_result["persons"],
-                        "count": pose_result["count"],
-                        "time_ms": pose_result["time_ms"],
-                        "fps": pose_result["fps"],
-                    }
-                    pose_keypoints = pose_result["keypoints"]
-                    pose_scores = pose_result["scores"]
-
-                    # Feed to ST-GCN action recogniser
-                    action_result = run_action(pose_keypoints, pose_scores)
-                    if action_result is not None:
-                        last_action = action_result
-                    if last_action is not None:
-                        payload["action"] = last_action
-
-            # Build AI frame with detection overlay
-            ai_frame = frame.copy()
-            if enable_det:
-                from detectors import YOLODetector
-                ai_frame = YOLODetector.draw(
-                    ai_frame, det_result["boxes"], det_result["scores"], det_result["class_ids"]
-                )
-
-            # Overlay pose skeleton on AI frame
-            if enable_pose and pose_keypoints is not None and len(pose_keypoints) > 0:
-                from detectors import YOLOPoseDetector
-                pose_r = pose_result  # type: ignore[possibly-undefined]
-                ai_frame = YOLOPoseDetector.draw(
-                    ai_frame,
-                    np.array([p["box"] for p in pose_r["persons"]]),
-                    pose_scores, pose_keypoints,
-                )
-
-            # VLM (throttled) — enriched with detection context
-            if enable_vlm and now - last_vlm_time >= vlm_interval:
-                last_vlm_time = now
-                if det_objects:
-                    obj_detail = "; ".join(
-                        f"{o['class']} ({o['confidence']:.0%})" for o in det_objects
-                    )
-                    vlm_prompt = (
-                        f"Objects detected: {obj_detail}. "
-                        f"Total: {len(det_objects)} object(s). "
-                        "Describe the scene and any notable activity in one sentence."
-                    )
+            # --- frame processing wrapped so one bad frame won't kill the socket ---
+            try:
+                # Get frame
+                if use_local:
+                    frame = get_camera_frame()
                 else:
-                    vlm_prompt = "Describe what is happening in this scene in one sentence."
-                vlm_result = run_vlm(
-                    frame,
-                    prompt=vlm_prompt,
-                    max_tokens=80,
-                )
-                last_caption = vlm_result.get("text", "")
-                payload["vlm"] = vlm_result
-                _append_vlm({"timestamp": ts, **vlm_result})
+                    ok, bgr = cap.read()
+                    frame = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB) if ok and bgr is not None else None
 
-            # Encode frames
-            raw_b64 = _frame_to_b64(frame, quality=70)
-            ai_b64 = _frame_to_b64(ai_frame, quality=70)
-            payload["raw_frame"] = raw_b64
-            payload["ai_frame"] = ai_b64
-            payload["frame_bytes"] = len(raw_b64) + len(ai_b64)  # approx payload size
-            if last_caption:
-                payload["caption"] = last_caption
+                if frame is None:
+                    await asyncio.sleep(0.05)
+                    continue
 
-            await websocket.send_json(payload)
+                now = time.perf_counter()
+                ts = datetime.now(timezone.utc).isoformat()
+                payload: dict[str, Any] = {"timestamp": ts}
+
+                # Detection
+                det_objects = []
+                if enable_det:
+                    det_result = run_detection(frame, conf=conf, iou=iou)
+                    det_objects = det_result["objects"]
+                    payload["detection"] = {
+                        "objects": det_objects,
+                        "count": det_result["count"],
+                        "time_ms": det_result["time_ms"],
+                        "fps": det_result["fps"],
+                    }
+                    _append_detection({"timestamp": ts, "objects": det_objects,
+                                       "count": det_result["count"], "time_ms": det_result["time_ms"]})
+                    # Include cumulative object frequency counts
+                    with _export_lock:
+                        payload["object_counts"] = dict(_object_counts)
+
+                # Pose estimation + action recognition
+                pose_keypoints = None
+                pose_scores = None
+                if enable_pose:
+                    pose_result = run_pose(frame, conf=conf, iou=iou)
+                    if pose_result is not None:
+                        payload["pose"] = {
+                            "persons": pose_result["persons"],
+                            "count": pose_result["count"],
+                            "time_ms": pose_result["time_ms"],
+                            "fps": pose_result["fps"],
+                        }
+                        pose_keypoints = pose_result["keypoints"]
+                        pose_scores = pose_result["scores"]
+
+                        # Feed to ST-GCN action recogniser
+                        action_result = run_action(pose_keypoints, pose_scores)
+                        if action_result is not None:
+                            last_action = action_result
+                        if last_action is not None:
+                            payload["action"] = last_action
+
+                # Build AI frame with detection overlay
+                ai_frame = frame.copy()
+                if enable_det:
+                    from detectors import YOLODetector
+                    ai_frame = YOLODetector.draw(
+                        ai_frame, det_result["boxes"], det_result["scores"], det_result["class_ids"]
+                    )
+
+                # Overlay pose skeleton on AI frame
+                if enable_pose and pose_keypoints is not None and len(pose_keypoints) > 0:
+                    from detectors import YOLOPoseDetector
+                    pose_r = pose_result  # type: ignore[possibly-undefined]
+                    ai_frame = YOLOPoseDetector.draw(
+                        ai_frame,
+                        np.array([p["box"] for p in pose_r["persons"]]),
+                        pose_scores, pose_keypoints,
+                    )
+
+                # VLM (throttled) — enriched with detection context
+                if enable_vlm and now - last_vlm_time >= vlm_interval:
+                    last_vlm_time = now
+                    if det_objects:
+                        obj_detail = "; ".join(
+                            f"{o['class']} ({o['confidence']:.0%})" for o in det_objects
+                        )
+                        vlm_prompt = (
+                            f"Objects detected: {obj_detail}. "
+                            f"Total: {len(det_objects)} object(s). "
+                            "Describe the scene and any notable activity in one sentence."
+                        )
+                    else:
+                        vlm_prompt = "Describe what is happening in this scene in one sentence."
+                    vlm_result = run_vlm(
+                        frame,
+                        prompt=vlm_prompt,
+                        max_tokens=80,
+                    )
+                    last_caption = vlm_result.get("text", "")
+                    payload["vlm"] = vlm_result
+                    _append_vlm({"timestamp": ts, **vlm_result})
+
+                # Encode frames
+                raw_b64 = _frame_to_b64(frame, quality=70)
+                ai_b64 = _frame_to_b64(ai_frame, quality=70)
+                payload["raw_frame"] = raw_b64
+                payload["ai_frame"] = ai_b64
+                payload["frame_bytes"] = len(raw_b64) + len(ai_b64)  # approx payload size
+                if last_caption:
+                    payload["caption"] = last_caption
+
+                await websocket.send_json(payload)
+            except Exception as frame_exc:
+                # Log but don't kill the connection for a single frame failure
+                import logging
+                logging.warning("Frame processing error: %s", frame_exc)
+                await asyncio.sleep(0.1)
+                continue
             await asyncio.sleep(0.01)
 
     except WebSocketDisconnect:
         pass
+    except Exception as exc:
+        # Send a meaningful error to the client before closing
+        try:
+            await websocket.send_json({"error": str(exc)})
+            await websocket.close(code=1011)
+        except Exception:
+            pass
     finally:
         if cap is not None:
             cap.release()
@@ -516,8 +551,8 @@ def main():
     configure_vlm(args.model_path, args.model_base)
     # Warm up VLM in a background thread after 10s so the first
     # caption request doesn't stall.
-    schedule_vlm_warmup(delay=900.0)  # 15 minutes — avoid freezing the PC
-    print("Ready (VLM warms up after 10s; camera/pose/action load on first use). Starting API server…")
+    schedule_vlm_warmup(delay=0)  # load immediately
+    print("Ready (VLM loading in background; camera/pose/action load on first use). Starting API server…")
 
     uvicorn.run(app, host=args.host, port=args.port)
 

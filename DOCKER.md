@@ -57,6 +57,7 @@ docker compose down
 Model weights are **not** baked into the Docker image — they're mounted as read-only volumes from your host. This keeps images small (~3 GB for CPU, ~8 GB for GPU) and lets you swap models without rebuilding.
 
 Download models before the first run:
+
 ```bash
 bash get_models.sh          # YOLO + FastVLM checkpoints
 bash get_action_models.sh   # ST-GCN action recognition
@@ -64,11 +65,11 @@ bash get_action_models.sh   # ST-GCN action recognition
 
 ## Environment Variables
 
-| Variable | Default | Description |
-|---|---|---|
-| `NEXT_PUBLIC_API_URL` | `http://localhost:8000` | Backend URL (baked into frontend at build time) |
-| `CORS_ORIGINS` | `http://localhost:3000,...` | Comma-separated allowed origins |
-| `OPENAI_API_KEY` | — | For the AI Chat tab (optional) |
+| Variable              | Default                     | Description                                     |
+| --------------------- | --------------------------- | ----------------------------------------------- |
+| `NEXT_PUBLIC_API_URL` | `http://localhost:8000`     | Backend URL (baked into frontend at build time) |
+| `CORS_ORIGINS`        | `http://localhost:3000,...` | Comma-separated allowed origins                 |
+| `OPENAI_API_KEY`      | —                           | For the AI Chat tab (optional)                  |
 
 ### Deploying to a remote server
 
@@ -91,8 +92,8 @@ Backend logs are persisted to `./logs/` on the host via a volume mount.
 
 ## Platform Notes
 
-| Platform | Mode | Notes |
-|---|---|---|
-| **macOS** (Intel/Apple Silicon) | CPU | MPS is not available inside Docker; models run on CPU |
-| **Windows** (WSL2) | CPU or GPU | GPU requires NVIDIA Container Toolkit in WSL2 |
-| **Linux** | CPU or GPU | Native GPU support with NVIDIA Container Toolkit |
+| Platform                        | Mode       | Notes                                                 |
+| ------------------------------- | ---------- | ----------------------------------------------------- |
+| **macOS** (Intel/Apple Silicon) | CPU        | MPS is not available inside Docker; models run on CPU |
+| **Windows** (WSL2)              | CPU or GPU | GPU requires NVIDIA Container Toolkit in WSL2         |
+| **Linux**                       | CPU or GPU | Native GPU support with NVIDIA Container Toolkit      |

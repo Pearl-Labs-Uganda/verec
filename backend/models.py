@@ -98,12 +98,20 @@ def configure_vlm(model_path: str, model_base: str | None = None):
     _vlm_config = {"model_path": model_path, "model_base": model_base}
 
 
+_vlm_warmup_scheduled = False
+
 def schedule_vlm_warmup(delay: float = 10.0):
     """Start a background thread that loads the VLM after *delay* seconds.
 
     This keeps startup instant while ensuring the model is warm
     by the time the user actually needs a caption.
+    Idempotent: only the first call schedules a thread.
     """
+    global _vlm_warmup_scheduled
+    if _vlm_warmup_scheduled:
+        return
+    _vlm_warmup_scheduled = True
+
     def _warmup():
         import time as _time
         _time.sleep(delay)
@@ -126,8 +134,11 @@ def init_vlm():
     gen_cfg_hidden = os.path.join(model_path, ".generation_config.json")
     renamed = False
     if os.path.exists(gen_cfg):
-        os.rename(gen_cfg, gen_cfg_hidden)
-        renamed = True
+        try:
+            os.rename(gen_cfg, gen_cfg_hidden)
+            renamed = True
+        except OSError:
+            pass  # read-only filesystem (e.g. Docker :ro volume) — skip rename
 
     print("Loading VLM (first use)…")
     disable_torch_init()

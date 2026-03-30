@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import {
-  createFeedSocket,
+  createManagedFeedSocket,
   fetchPresets,
   fetchReport,
   fetchExportAll,
@@ -168,7 +168,8 @@ export default function Home() {
     { label: string; confidence: number }[] | null
   >(null);
   const [poseInfo, setPoseInfo] = useState("");
-  const wsRef = useRef<WebSocket | null>(null);
+  const wsRef = useRef<{ close: () => void } | null>(null);
+  const [wsError, setWsError] = useState<string | null>(null);
 
   /* Start dropdown */
   const [startOpen, setStartOpen] = useState(false);
@@ -278,88 +279,87 @@ export default function Home() {
   const startFeed = useCallback(() => {
     wsRef.current?.close();
     setConnecting(true);
-    const ws = createFeedSocket({
-      source,
-      url: streamUrl,
-      conf,
-      iou,
-      vlm_interval: vlmInterval,
-      enable_det: enableDet,
-      enable_vlm: enableVlm,
-      enable_pose: enablePose,
-    });
+    setWsError(null);
 
-    ws.onopen = () => {
-      setConnecting(false);
-      setConnected(true);
-      setElapsed(0);
-      timerRef.current = setInterval(() => setElapsed((p) => p + 1), 1000);
-    };
-    ws.onclose = () => {
-      setConnecting(false);
-      setConnected(false);
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-    ws.onerror = () => {
-      setConnecting(false);
-      setConnected(false);
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
+    const managed = createManagedFeedSocket(
+      {
+        source,
+        url: streamUrl,
+        conf,
+        iou,
+        vlm_interval: vlmInterval,
+        enable_det: enableDet,
+        enable_vlm: enableVlm,
+        enable_pose: enablePose,
+      },
+      {
+        onOpen() {
+          setConnecting(false);
+          setConnected(true);
+          setWsError(null);
+          setElapsed(0);
+          timerRef.current = setInterval(() => setElapsed((p) => p + 1), 1000);
+        },
+        onClose() {
+          setConnecting(false);
+          setConnected(false);
+          if (timerRef.current) clearInterval(timerRef.current);
+        },
+        onError(msg) {
+          setWsError(msg);
+        },
+        onMessage(data) {
+          if (data.frame_bytes) bwAccum.current += data.frame_bytes;
+          if (data.ai_frame)
+            setAiFrame(`data:image/jpeg;base64,${data.ai_frame}`);
+          if (data.raw_frame)
+            setRawFrame(`data:image/jpeg;base64,${data.raw_frame}`);
+          if (data.caption) {
+            const cap = data.caption;
+            setCaption(cap);
+            setCaptions((prev) =>
+              [...prev, { text: cap, timestamp: data.timestamp }].slice(-50),
+            );
+          }
+          if (data.detection) {
+            const d = data.detection;
+            const objs = d.objects
+              .map(
+                (o: DetectionObject) =>
+                  `${o.class} (${Math.round(o.confidence * 100)}%)`,
+              )
+              .join(", ");
+            setDetectionInfo(`${d.count} obj | ${d.time_ms}ms | ${d.fps} FPS`);
+            setLog((prev) =>
+              [
+                ...prev,
+                `[${new Date(data.timestamp).toLocaleTimeString()}] ${objs || "(clear)"}`,
+              ].slice(-50),
+            );
+          }
+          if (data.object_counts) {
+            setObjectCounts(data.object_counts);
+          }
+          if (data.pose) {
+            const p = data.pose;
+            setPoseInfo(
+              `${p.count} person${p.count !== 1 ? "s" : ""} | ${p.time_ms}ms`,
+            );
+          }
+          if (data.action) {
+            setCurrentAction(data.action.actions);
+            setActionLog((prev) =>
+              [
+                ...prev,
+                { actions: data.action!.actions, timestamp: data.timestamp },
+              ].slice(-50),
+            );
+          }
+        },
+      },
+    );
 
-    ws.onmessage = (ev) => {
-      try {
-        const data: FeedFrame = JSON.parse(ev.data);
-        if (data.frame_bytes) bwAccum.current += data.frame_bytes;
-        if (data.ai_frame)
-          setAiFrame(`data:image/jpeg;base64,${data.ai_frame}`);
-        if (data.raw_frame)
-          setRawFrame(`data:image/jpeg;base64,${data.raw_frame}`);
-        if (data.caption) {
-          const cap = data.caption;
-          setCaption(cap);
-          setCaptions((prev) =>
-            [...prev, { text: cap, timestamp: data.timestamp }].slice(-50),
-          );
-        }
-        if (data.detection) {
-          const d = data.detection;
-          const objs = d.objects
-            .map(
-              (o: DetectionObject) =>
-                `${o.class} (${Math.round(o.confidence * 100)}%)`,
-            )
-            .join(", ");
-          setDetectionInfo(`${d.count} obj | ${d.time_ms}ms | ${d.fps} FPS`);
-          setLog((prev) =>
-            [
-              ...prev,
-              `[${new Date(data.timestamp).toLocaleTimeString()}] ${objs || "(clear)"}`,
-            ].slice(-50),
-          );
-        }
-        if (data.object_counts) {
-          setObjectCounts(data.object_counts);
-        }
-        if (data.pose) {
-          const p = data.pose;
-          setPoseInfo(
-            `${p.count} person${p.count !== 1 ? "s" : ""} | ${p.time_ms}ms`,
-          );
-        }
-        if (data.action) {
-          setCurrentAction(data.action.actions);
-          setActionLog((prev) =>
-            [
-              ...prev,
-              { actions: data.action!.actions, timestamp: data.timestamp },
-            ].slice(-50),
-          );
-        }
-      } catch {
-        /* skip */
-      }
-    };
-    wsRef.current = ws;
+    wsRef.current = managed;
   }, [
     source,
     streamUrl,
@@ -372,15 +372,11 @@ export default function Home() {
   ]);
 
   const stopFeed = useCallback(() => {
-    try {
-      wsRef.current?.send(JSON.stringify({ action: "stop" }));
-    } catch {
-      /* ok */
-    }
     wsRef.current?.close();
     wsRef.current = null;
     setConnecting(false);
     setConnected(false);
+    setWsError(null);
     if (timerRef.current) clearInterval(timerRef.current);
   }, []);
 
@@ -563,6 +559,19 @@ export default function Home() {
           </button>
         ))}
       </div>
+
+      {/* ═══ WebSocket error banner ═════════════════════════════ */}
+      {wsError && (
+        <div className="shrink-0 px-4 py-2 bg-red-900/60 border-b border-red-700/40 flex items-center justify-between gap-2">
+          <span className="text-red-300 text-xs font-medium">{wsError}</span>
+          <button
+            onClick={() => setWsError(null)}
+            className="text-red-400 hover:text-red-200 text-xs font-bold"
+          >
+            &times;
+          </button>
+        </div>
+      )}
 
       {/* ═══ Settings slide-out panel ════════════════════════════ */}
       {settingsOpen && (
