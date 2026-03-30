@@ -43,6 +43,14 @@ from llava.constants import (
 # macOS: skip the AVFoundation auth dialog from a background thread
 os.environ.setdefault("OPENCV_AVFOUNDATION_SKIP_AUTH", "1")
 
+# Auto-detect device: CUDA > MPS > CPU
+if torch.cuda.is_available():
+    DEVICE = "cuda"
+elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+    DEVICE = "mps"
+else:
+    DEVICE = "cpu"
+
 _lock = threading.Lock()
 
 
@@ -113,7 +121,7 @@ def load_model(model_path, model_base=None):
     disable_torch_init()
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(
-        model_path, model_base, model_name, device="mps"
+        model_path, model_base, model_name, device=DEVICE
     )
     model.generation_config.pad_token_id = tokenizer.pad_token_id
 
@@ -144,7 +152,7 @@ def run_inference(image, prompt, temperature, max_tokens):
         input_ids = (
             tokenizer_image_token(full_prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
             .unsqueeze(0)
-            .to(torch.device("mps"))
+            .to(torch.device(DEVICE))
         )
 
         if not isinstance(image, Image.Image):
@@ -274,7 +282,7 @@ def _run_seg(frame, conf, iou_thresh):
 def build_ui():
     with gr.Blocks(title="FastVLM Speed Test") as demo:
         gr.Markdown("# FastVLM Speed Test")
-        gr.Markdown(f"**Model:** `{args.model_path}`  |  **Device:** Apple Silicon (MPS)")
+        gr.Markdown(f"**Model:** `{args.model_path}`  |  **Device:** {DEVICE.upper()}")
 
         with gr.Tabs():
 
