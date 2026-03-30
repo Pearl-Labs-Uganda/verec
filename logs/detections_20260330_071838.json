@@ -1,0 +1,684 @@
+[
+  {
+    "timestamp": "2026-03-30T07:20:44.077989+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 1168.7
+  },
+  {
+    "timestamp": "2026-03-30T07:22:22.823728+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 1549.2
+  },
+  {
+    "timestamp": "2026-03-30T07:23:02.585080+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 179.4
+  },
+  {
+    "timestamp": "2026-03-30T07:23:08.656558+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 178.9
+  },
+  {
+    "timestamp": "2026-03-30T07:23:13.149856+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 210.4
+  },
+  {
+    "timestamp": "2026-03-30T07:23:13.482221+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 257.2
+  },
+  {
+    "timestamp": "2026-03-30T07:23:14.064431+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 108.2
+  },
+  {
+    "timestamp": "2026-03-30T07:23:19.485506+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 195.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:23.957164+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 108.9
+  },
+  {
+    "timestamp": "2026-03-30T07:23:24.205445+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 86.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:24.403069+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 74.5
+  },
+  {
+    "timestamp": "2026-03-30T07:23:24.590764+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 81.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:28.449087+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 152.2
+  },
+  {
+    "timestamp": "2026-03-30T07:23:28.811744+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 97.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:29.102516+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 116.0
+  },
+  {
+    "timestamp": "2026-03-30T07:23:29.355032+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 131.5
+  },
+  {
+    "timestamp": "2026-03-30T07:23:29.637184+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 108.0
+  },
+  {
+    "timestamp": "2026-03-30T07:23:33.453212+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 119.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:33.700012+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 77.0
+  },
+  {
+    "timestamp": "2026-03-30T07:23:33.890472+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 88.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:34.101882+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 88.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:34.302242+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 83.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:34.498868+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 82.9
+  },
+  {
+    "timestamp": "2026-03-30T07:23:34.698229+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 99.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:38.898236+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.873,
+        "box": [
+          0,
+          347,
+          56,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 184.4
+  },
+  {
+    "timestamp": "2026-03-30T07:23:39.209731+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.887,
+        "box": [
+          0,
+          335,
+          81,
+          478
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 79.4
+  },
+  {
+    "timestamp": "2026-03-30T07:23:39.411770+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.915,
+        "box": [
+          0,
+          327,
+          108,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 93.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:39.663273+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.925,
+        "box": [
+          0,
+          310,
+          143,
+          476
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 103.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:39.896348+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.944,
+        "box": [
+          0,
+          298,
+          161,
+          476
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 102.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:46.288090+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 153.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:50.355557+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 199.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:50.689916+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 92.7
+  },
+  {
+    "timestamp": "2026-03-30T07:23:50.907877+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 91.1
+  },
+  {
+    "timestamp": "2026-03-30T07:23:51.120972+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 78.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:51.313001+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 89.4
+  },
+  {
+    "timestamp": "2026-03-30T07:23:54.911949+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 247.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:55.283163+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 106.6
+  },
+  {
+    "timestamp": "2026-03-30T07:23:55.535745+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 111.9
+  },
+  {
+    "timestamp": "2026-03-30T07:23:55.754602+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 80.3
+  },
+  {
+    "timestamp": "2026-03-30T07:23:55.942365+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 88.8
+  },
+  {
+    "timestamp": "2026-03-30T07:23:56.175172+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 109.5
+  },
+  {
+    "timestamp": "2026-03-30T07:23:56.427991+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 70.8
+  },
+  {
+    "timestamp": "2026-03-30T07:24:01.323409+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 177.9
+  },
+  {
+    "timestamp": "2026-03-30T07:24:01.635672+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 85.3
+  },
+  {
+    "timestamp": "2026-03-30T07:24:05.149604+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 135.9
+  },
+  {
+    "timestamp": "2026-03-30T07:24:05.466896+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 89.9
+  },
+  {
+    "timestamp": "2026-03-30T07:24:05.666411+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 79.6
+  },
+  {
+    "timestamp": "2026-03-30T07:24:05.855374+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 86.0
+  },
+  {
+    "timestamp": "2026-03-30T07:24:06.056976+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 89.3
+  },
+  {
+    "timestamp": "2026-03-30T07:24:06.267879+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 91.8
+  },
+  {
+    "timestamp": "2026-03-30T07:24:06.485760+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 97.6
+  },
+  {
+    "timestamp": "2026-03-30T07:24:06.716532+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 104.6
+  },
+  {
+    "timestamp": "2026-03-30T07:24:10.935051+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 178.5
+  },
+  {
+    "timestamp": "2026-03-30T07:24:11.240676+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 82.7
+  },
+  {
+    "timestamp": "2026-03-30T07:24:11.438303+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 87.3
+  },
+  {
+    "timestamp": "2026-03-30T07:24:11.686810+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 132.0
+  },
+  {
+    "timestamp": "2026-03-30T07:24:11.938712+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 82.0
+  },
+  {
+    "timestamp": "2026-03-30T07:24:16.098801+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 165.0
+  },
+  {
+    "timestamp": "2026-03-30T07:24:16.384186+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 78.7
+  },
+  {
+    "timestamp": "2026-03-30T07:24:16.571029+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 88.0
+  },
+  {
+    "timestamp": "2026-03-30T07:24:16.787526+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 100.2
+  },
+  {
+    "timestamp": "2026-03-30T07:24:17.013167+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 87.1
+  },
+  {
+    "timestamp": "2026-03-30T07:24:36.990417+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.885,
+        "box": [
+          88,
+          2,
+          558,
+          473
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 1181.6
+  },
+  {
+    "timestamp": "2026-03-30T07:26:21.561915+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.886,
+        "box": [
+          57,
+          0,
+          612,
+          475
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 2164.3
+  },
+  {
+    "timestamp": "2026-03-30T07:26:58.410703+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.913,
+        "box": [
+          75,
+          85,
+          530,
+          475
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 386.0
+  },
+  {
+    "timestamp": "2026-03-30T07:27:27.112183+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.906,
+        "box": [
+          89,
+          32,
+          639,
+          473
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 145.6
+  },
+  {
+    "timestamp": "2026-03-30T07:27:56.494372+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.895,
+        "box": [
+          76,
+          36,
+          635,
+          473
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 216.1
+  },
+  {
+    "timestamp": "2026-03-30T07:28:27.109223+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.914,
+        "box": [
+          229,
+          296,
+          549,
+          478
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 251.8
+  },
+  {
+    "timestamp": "2026-03-30T07:28:41.399058+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.849,
+        "box": [
+          244,
+          310,
+          414,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 157.4
+  },
+  {
+    "timestamp": "2026-03-30T07:28:56.664001+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.869,
+        "box": [
+          216,
+          319,
+          391,
+          478
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 455.8
+  },
+  {
+    "timestamp": "2026-03-30T07:29:17.145652+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.799,
+        "box": [
+          264,
+          274,
+          544,
+          476
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 134.6
+  },
+  {
+    "timestamp": "2026-03-30T07:29:33.216458+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.878,
+        "box": [
+          235,
+          320,
+          493,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 228.6
+  },
+  {
+    "timestamp": "2026-03-30T07:29:50.203463+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.846,
+        "box": [
+          250,
+          314,
+          422,
+          478
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 825.1
+  },
+  {
+    "timestamp": "2026-03-30T07:30:07.381703+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.899,
+        "box": [
+          250,
+          320,
+          474,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 553.4
+  },
+  {
+    "timestamp": "2026-03-30T07:30:26.421787+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.853,
+        "box": [
+          247,
+          290,
+          557,
+          478
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 132.8
+  },
+  {
+    "timestamp": "2026-03-30T07:30:34.150340+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.867,
+        "box": [
+          247,
+          302,
+          570,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 190.4
+  },
+  {
+    "timestamp": "2026-03-30T07:30:45.327121+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "box": [
+          251,
+          301,
+          580,
+          477
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 115.1
+  }
+]
