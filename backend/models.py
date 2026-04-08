@@ -29,6 +29,59 @@ from llava.constants import (
 _lock = threading.Lock()
 
 
+# ── VLM rolling text memory (cache) ──────────────────────────────────────
+
+class VLMMemory:
+    """Simple rolling text cache that gives the VLM short-term memory.
+
+    Stores the last *maxlen* captions with timestamps.  When the prompt is
+    built the memory is collapsed into a short "Previously observed:" block
+    so the VLM can reference what it saw before.
+    """
+
+    def __init__(self, maxlen: int = 5):
+        self._buf: list[dict[str, str]] = []  # [{timestamp, text}, ...]
+        self._maxlen = maxlen
+        self._lock = threading.Lock()
+
+    def add(self, text: str, timestamp: str = ""):
+        if not text:
+            return
+        with self._lock:
+            self._buf.append({"timestamp": timestamp, "text": text})
+            if len(self._buf) > self._maxlen:
+                del self._buf[: len(self._buf) - self._maxlen]
+
+    def get_context(self, max_entries: int | None = None) -> str:
+        """Return a formatted string of recent observations for prompt injection."""
+        with self._lock:
+            entries = list(self._buf)
+        if max_entries:
+            entries = entries[-max_entries:]
+        if not entries:
+            return ""
+        lines = []
+        for i, e in enumerate(entries, 1):
+            ts = f" ({e['timestamp']})" if e.get("timestamp") else ""
+            lines.append(f"  {i}. {e['text']}{ts}")
+        return "Previously observed:\n" + "\n".join(lines)
+
+    def clear(self):
+        with self._lock:
+            self._buf.clear()
+
+    def entries(self) -> list[dict[str, str]]:
+        with self._lock:
+            return list(self._buf)
+
+    def __len__(self):
+        with self._lock:
+            return len(self._buf)
+
+
+vlm_memory = VLMMemory(maxlen=5)
+
+
 def build_composite_image(frames: list[np.ndarray], cols: int = 3,
                           target_h: int = 480) -> Image.Image:
     """Stitch N frames into a grid image for the VLM.

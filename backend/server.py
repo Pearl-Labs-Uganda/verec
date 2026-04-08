@@ -39,7 +39,7 @@ from backend.models import (
     get_camera_frame, run_detection, run_vlm,
     run_pose, run_action,
     resolve_stream_url, IP_CAMERA_PRESETS, COCO_CLASSES,
-    build_composite_image,
+    build_composite_image, vlm_memory,
 )
 import backend.models as _models
 
@@ -406,6 +406,74 @@ def export_all():
         }
 
 
+# ── VLM Memory endpoints ─────────────────────────────────────────────────
+
+@app.get("/api/memory")
+def get_memory():
+    """Return the current VLM rolling memory cache."""
+    return {
+        "entries": vlm_memory.entries(),
+        "count": len(vlm_memory),
+        "context": vlm_memory.get_context(),
+    }
+
+
+@app.delete("/api/memory")
+def clear_memory():
+    """Clear the VLM memory cache."""
+    vlm_memory.clear()
+    return {"status": "cleared"}
+
+
+# ── Chat endpoint — ask questions about the scene ─────────────────────────
+
+@app.post("/api/chat")
+def chat_with_scene(
+    message: str = "",
+    source: str = "local",
+    url: str = "",
+):
+    """Send a question to the VLM about the current scene.
+
+    Uses the latest frame + memory context so the VLM can answer
+    questions like "how many people?" or "what color is that car?"
+    """
+    if not message:
+        return JSONResponse({"error": "No message provided"}, status_code=400)
+
+    frame = _get_source_frame(source, url)
+
+    # Build context-aware prompt
+    mem_ctx = vlm_memory.get_context()
+    prompt_parts = []
+    if mem_ctx:
+        prompt_parts.append(f"Context from recent observations:\n{mem_ctx}\n")
+    prompt_parts.append(f"User asks: {message}")
+    prompt_parts.append("Answer naturally and concisely based on what you see and your recent observations.")
+    full_prompt = "\n".join(prompt_parts)
+
+    if frame is not None:
+        result = run_vlm(frame, prompt=full_prompt, max_tokens=200)
+    else:
+        # No frame — answer from memory only
+        if not mem_ctx:
+            return {"reply": "I don't have any observations yet. Start a feed first.", "from_memory": True}
+        # Use a blank image with memory context
+        blank = np.zeros((480, 640, 3), dtype=np.uint8)
+        result = run_vlm(blank, prompt=full_prompt, max_tokens=200)
+
+    reply = result.get("text", "")
+    vlm_memory.add(f"Q: {message} A: {reply}", timestamp=datetime.now(timezone.utc).isoformat())
+
+    return {
+        "reply": reply,
+        "time_s": result.get("time_s", 0),
+        "tokens": result.get("tokens", 0),
+        "tokens_per_s": result.get("tokens_per_s", 0),
+        "memory_size": len(vlm_memory),
+    }
+
+
 # ── WebSocket — live feed with AI ─────────────────────────────────────────
 
 @app.websocket("/ws/feed")
@@ -416,9 +484,9 @@ async def ws_feed(
     conf: float = 0.45,
     iou: float = 0.45,
     vlm_interval: int = 5,
-    enable_det: bool = True,
+    enable_det: bool = False,
     enable_vlm: bool = True,
-    enable_pose: bool = True,
+    enable_pose: bool = False,
 ):
     await websocket.accept()
     cap = None
@@ -628,8 +696,18 @@ async def ws_feed(
                                 all_actions.add(act)
 
                         prompt_parts = [
-                            "Ignore the grid layout. Treat this as a continuous video clip.",
+                            "You are a natural video commentator watching a live scene. "
+                            "These 5 frames are consecutive moments from the same scene.",
                         ]
+
+                        # Inject rolling memory — what you said before
+                        mem_ctx = vlm_memory.get_context()
+                        if mem_ctx:
+                            prompt_parts.append(
+                                f"Here is what you said about the previous scenes:\n{mem_ctx}\n"
+                                "Build on your previous commentary. Don't repeat yourself."
+                            )
+
                         if all_objects:
                             prompt_parts.append(f"Objects detected: {', '.join(sorted(all_objects))}.")
                         if total_persons > 0:
@@ -638,13 +716,10 @@ async def ws_feed(
                             prompt_parts.append(f"Actions detected: {', '.join(sorted(all_actions))}.")
 
                         prompt_parts.append(
-                            "Describe ONLY the unique and important details: "
-                            "Who is doing what? Where are they? What are they wearing? "
-                            "What vehicles, signs, or objects are visible? "
-                            "What direction are people/vehicles moving? "
-                            "Any unusual behaviour, interactions between people, "
-                            "or notable changes between frames? "
-                            "Be specific and concise. Do NOT describe the image format or grid."
+                            "Comment naturally on what's happening, like you're narrating a live feed. "
+                            "What changed? What's new? What are people doing? "
+                            "Keep it conversational and concise — one or two sentences. "
+                            "Do NOT mention frames, grids, or image layout."
                         )
                         vlm_prompt = " ".join(prompt_parts)
 
@@ -654,7 +729,12 @@ async def ws_feed(
                             max_tokens=200,
                         )
                         last_caption = vlm_result.get("text", "")
+
+                        # Store caption in rolling memory cache
+                        vlm_memory.add(last_caption, timestamp=ts)
+
                         payload["vlm"] = vlm_result
+                        payload["vlm"]["memory_size"] = len(vlm_memory)
                         _append_vlm({"timestamp": ts, **vlm_result})
 
                         # Build structured scene index entry

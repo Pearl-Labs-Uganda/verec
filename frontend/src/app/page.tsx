@@ -8,11 +8,14 @@ import {
   fetchReport,
   fetchExportAll,
   fetchSystemInfo,
+  sendChat,
+  clearMemory,
   downloadJson,
   type FeedFrame,
   type DetectionObject,
   type ReportResult,
   type SystemInfo,
+  type ChatReply,
 } from "@/lib/api";
 
 /* ── helpers ─────────────────────────────────────────────────────────── */
@@ -197,9 +200,9 @@ export default function Home() {
   const [conf, setConf] = useState(0.45);
   const [iou, setIou] = useState(0.45);
   const [vlmInterval, setVlmInterval] = useState(5);
-  const [enableDet, setEnableDet] = useState(true);
+  const [enableDet, setEnableDet] = useState(false);
   const [enableVlm, setEnableVlm] = useState(true);
-  const [enablePose, setEnablePose] = useState(true);
+  const [enablePose, setEnablePose] = useState(false);
 
   /* Action log */
   const [actionLog, setActionLog] = useState<
@@ -222,6 +225,17 @@ export default function Home() {
   /* Tab */
   const [tab, setTab] = useState<"feed" | "export">("feed");
   const [exportData, setExportData] = useState<object | null>(null);
+
+  /* Mode: production (clean chat) vs debug (full panels) */
+  const [mode, setMode] = useState<"production" | "debug">("production");
+
+  /* Chat */
+  const [chatMessages, setChatMessages] = useState<
+    { role: "user" | "assistant" | "system"; text: string; timestamp: string }[]
+  >([]);
+  const [chatInput, setChatInput] = useState("");
+  const [chatLoading, setChatLoading] = useState(false);
+  const chatEndRef = useRef<HTMLDivElement | null>(null);
 
   /* ── Init ──────────────────────────────────────────────────────── */
   useEffect(() => {
@@ -406,6 +420,59 @@ export default function Home() {
     }
   };
 
+  /* ── Chat: push VLM captions as assistant messages in production mode ── */
+  const prevCaptionCount = useRef(0);
+  useEffect(() => {
+    if (mode !== "production") return;
+    if (captions.length > prevCaptionCount.current) {
+      const newCaps = captions.slice(prevCaptionCount.current);
+      setChatMessages((prev) => [
+        ...prev,
+        ...newCaps.map((c) => ({
+          role: "assistant" as const,
+          text: c.text,
+          timestamp: c.timestamp,
+        })),
+      ]);
+    }
+    prevCaptionCount.current = captions.length;
+  }, [captions, mode]);
+
+  /* Auto-scroll chat */
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [chatMessages]);
+
+  /* ── Send chat message ─────────────────────────────────────────── */
+  const handleChatSend = useCallback(async () => {
+    const msg = chatInput.trim();
+    if (!msg || chatLoading) return;
+    setChatInput("");
+    const ts = new Date().toISOString();
+    setChatMessages((prev) => [...prev, { role: "user", text: msg, timestamp: ts }]);
+    setChatLoading(true);
+    try {
+      const reply = await sendChat(msg, source, streamUrl);
+      setChatMessages((prev) => [
+        ...prev,
+        { role: "assistant", text: reply.reply, timestamp: new Date().toISOString() },
+      ]);
+    } catch (e) {
+      setChatMessages((prev) => [
+        ...prev,
+        { role: "system", text: `Error: ${e}`, timestamp: new Date().toISOString() },
+      ]);
+    } finally {
+      setChatLoading(false);
+    }
+  }, [chatInput, chatLoading, source, streamUrl]);
+
+  const handleClearChat = useCallback(async () => {
+    setChatMessages([]);
+    prevCaptionCount.current = 0;
+    try { await clearMemory(); } catch { /* ok */ }
+  }, []);
+
   /* ── bandwidth color ───────────────────────────────────────────── */
   const bwColor =
     bandwidth === 0
@@ -443,6 +510,17 @@ export default function Home() {
                 {t === "feed" ? "Live Feed" : "Export"}
               </button>
             ))}
+            <div className="ml-2 flex items-center bg-gray-800/80 rounded-full border border-gray-700/50 p-0.5">
+              {(["production", "debug"] as const).map((m) => (
+                <button
+                  key={m}
+                  onClick={() => setMode(m)}
+                  className={`px-2.5 py-1 rounded-full text-[10px] font-semibold transition-colors ${mode === m ? (m === "production" ? "bg-orange-600 text-white" : "bg-purple-600 text-white") : "text-gray-500 hover:text-gray-300"}`}
+                >
+                  {m === "production" ? "Chat" : "Debug"}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
         <div className="flex items-center gap-1.5 shrink-0 text-xs">
@@ -989,8 +1067,10 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Right sidebar: raw feed + captions */}
+              {/* Right sidebar: Chat (production) or Captions (debug) */}
               <div className="hidden lg:flex lg:w-72 xl:w-80 shrink-0 flex-col bg-gray-900/60 border-l border-gray-800/40">
+                {mode === "debug" && (
+                  <>
                 <div className="aspect-video bg-black flex items-center justify-center overflow-hidden shrink-0 rounded-2xl m-1">
                   {rawFrame ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -1058,10 +1138,86 @@ export default function Home() {
                     </div>
                   )}
                 </div>
+                  </>
+                )}
+                {mode === "production" && (
+                  <div className="flex flex-col h-full">
+                    {/* Chat header */}
+                    <div className="px-3 py-2 border-b border-gray-800/40 flex items-center justify-between shrink-0">
+                      <h4 className="text-xs font-semibold text-orange-400">Chat</h4>
+                      <button
+                        onClick={handleClearChat}
+                        className="text-[9px] text-gray-500 hover:text-gray-300 transition-colors"
+                      >
+                        Clear
+                      </button>
+                    </div>
+                    {/* Messages */}
+                    <div className="flex-1 overflow-y-auto px-3 py-2 space-y-2">
+                      {chatMessages.length === 0 && (
+                        <p className="text-[11px] text-gray-600 italic text-center mt-8">
+                          {connected ? "VLM commentary will appear here…" : "Start a feed to begin."}
+                        </p>
+                      )}
+                      {chatMessages.map((m, i) => (
+                        <div
+                          key={`chat-${i}`}
+                          className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}
+                        >
+                          <div
+                            className={`max-w-[85%] px-3 py-1.5 rounded-2xl text-[12px] leading-relaxed ${
+                              m.role === "user"
+                                ? "bg-orange-600 text-white rounded-br-sm"
+                                : m.role === "system"
+                                  ? "bg-red-900/50 text-red-300 rounded-bl-sm"
+                                  : "bg-gray-800/80 text-gray-200 rounded-bl-sm"
+                            }`}
+                          >
+                            {m.text}
+                            <div className={`text-[8px] mt-0.5 ${m.role === "user" ? "text-orange-200/60" : "text-gray-500"}`}>
+                              {new Date(m.timestamp).toLocaleTimeString()}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                      {chatLoading && (
+                        <div className="flex justify-start">
+                          <div className="bg-gray-800/80 text-gray-400 px-3 py-1.5 rounded-2xl rounded-bl-sm text-[12px] flex items-center gap-1.5">
+                            <Spinner className="w-3 h-3" /> Thinking…
+                          </div>
+                        </div>
+                      )}
+                      <div ref={chatEndRef} />
+                    </div>
+                    {/* Input */}
+                    <div className="shrink-0 px-3 py-2 border-t border-gray-800/40">
+                      <div className="flex gap-1.5">
+                        <input
+                          type="text"
+                          value={chatInput}
+                          onChange={(e) => setChatInput(e.target.value)}
+                          onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleChatSend(); } }}
+                          placeholder="Ask about the scene…"
+                          className="flex-1 bg-gray-800 text-gray-200 text-xs rounded-xl px-3 py-2 border border-gray-700/50 focus:outline-none focus:ring-1 focus:ring-orange-500/50"
+                        />
+                        <button
+                          onClick={handleChatSend}
+                          disabled={chatLoading || !chatInput.trim()}
+                          className="bg-orange-600 hover:bg-orange-500 disabled:opacity-40 text-white px-3 py-2 rounded-xl transition-colors"
+                        >
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
-            {/* ── Bottom panel — independent scroll columns ──── */}
+            {/* ── Bottom panel — only in debug mode ──── */}
+            {mode === "debug" && (
             <div
               className="shrink-0 border-t border-gray-800/40 flex flex-col md:flex-row"
               style={{ height: "40vh" }}
@@ -1363,6 +1519,66 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            )}
+
+            {/* ── Mobile chat panel for production mode ──── */}
+            {mode === "production" && (
+              <div className="lg:hidden shrink-0 border-t border-gray-800/40 flex flex-col" style={{ height: "40vh" }}>
+                <div className="px-3 py-2 border-b border-gray-800/40 flex items-center justify-between shrink-0">
+                  <h4 className="text-xs font-semibold text-orange-400">Chat</h4>
+                  <button onClick={handleClearChat} className="text-[9px] text-gray-500 hover:text-gray-300">Clear</button>
+                </div>
+                <div className="flex-1 overflow-y-auto px-3 py-2 space-y-2">
+                  {chatMessages.length === 0 && (
+                    <p className="text-[11px] text-gray-600 italic text-center mt-4">
+                      {connected ? "VLM commentary will appear here…" : "Start a feed to begin."}
+                    </p>
+                  )}
+                  {chatMessages.map((m, i) => (
+                    <div key={`mob-chat-${i}`} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+                      <div className={`max-w-[85%] px-3 py-1.5 rounded-2xl text-[12px] leading-relaxed ${
+                        m.role === "user" ? "bg-orange-600 text-white rounded-br-sm"
+                          : m.role === "system" ? "bg-red-900/50 text-red-300 rounded-bl-sm"
+                          : "bg-gray-800/80 text-gray-200 rounded-bl-sm"
+                      }`}>
+                        {m.text}
+                        <div className={`text-[8px] mt-0.5 ${m.role === "user" ? "text-orange-200/60" : "text-gray-500"}`}>
+                          {new Date(m.timestamp).toLocaleTimeString()}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  {chatLoading && (
+                    <div className="flex justify-start">
+                      <div className="bg-gray-800/80 text-gray-400 px-3 py-1.5 rounded-2xl rounded-bl-sm text-[12px] flex items-center gap-1.5">
+                        <Spinner className="w-3 h-3" /> Thinking…
+                      </div>
+                    </div>
+                  )}
+                </div>
+                <div className="shrink-0 px-3 py-2 border-t border-gray-800/40">
+                  <div className="flex gap-1.5">
+                    <input
+                      type="text"
+                      value={chatInput}
+                      onChange={(e) => setChatInput(e.target.value)}
+                      onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleChatSend(); } }}
+                      placeholder="Ask about the scene…"
+                      className="flex-1 bg-gray-800 text-gray-200 text-xs rounded-xl px-3 py-2 border border-gray-700/50 focus:outline-none focus:ring-1 focus:ring-orange-500/50"
+                    />
+                    <button
+                      onClick={handleChatSend}
+                      disabled={chatLoading || !chatInput.trim()}
+                      className="bg-orange-600 hover:bg-orange-500 disabled:opacity-40 text-white px-3 py-2 rounded-xl transition-colors"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
