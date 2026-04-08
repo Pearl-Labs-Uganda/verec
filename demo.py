@@ -34,7 +34,8 @@ from openai.types.chat import ChatCompletionMessageParam
 from PIL import Image
 
 from camera import OpenCVCamera
-from detectors import COCO_CLASSES, YOLODetector
+from detectors import COCO_CLASSES, YOLODetector, YOLOPoseDetector
+from action import ActionRecognizer, NTU60_ACTIONS
 from llava.utils import disable_torch_init
 from llava.conversation import conv_templates
 from llava.model.builder import load_pretrained_model
@@ -59,6 +60,31 @@ _live_frame_buf: np.ndarray | None = None
 _live_frame_lock = threading.Lock()
 
 
+# ── Console log buffer (captured in UI) ──────────────────────────────────
+
+_console_lines: list[str] = []
+_console_lock = threading.Lock()
+
+def _console_log(msg: str):
+    """Append a timestamped message to the in-app console."""
+    ts = time.strftime("%H:%M:%S")
+    line = f"[{ts}] {msg}"
+    print(line)  # also print to real terminal
+    with _console_lock:
+        _console_lines.append(line)
+        if len(_console_lines) > 200:
+            del _console_lines[:100]
+
+def _get_console(search: str = "") -> str:
+    """Return console lines, optionally filtered by search term."""
+    with _console_lock:
+        lines = list(_console_lines)
+    if search and search.strip():
+        term = search.strip().lower()
+        lines = [l for l in lines if term in l.lower()]
+    return "\n".join(lines[-30:])
+
+
 # ── YOLO singletons ──────────────────────────────────────────────────────
 
 _yolo = None
@@ -74,8 +100,52 @@ def _ensure_yolo():
                 'Export it with: python -c "from ultralytics import YOLO; '
                 "YOLO('yolo11n.pt').export(format='onnx',imgsz=640)\"")
         _yolo = YOLODetector(onnx_path)
-        print(f'YOLO loaded from {onnx_path}')
+        _console_log(f'YOLO detector loaded from {onnx_path}')
     return _yolo
+
+
+# ── Pose + Action singletons ─────────────────────────────────────────────
+
+_yolo_pose = None
+_action_recognizer = None
+
+
+def _ensure_pose():
+    global _yolo_pose
+    if _yolo_pose is None:
+        onnx_path = os.path.join(os.path.dirname(__file__), 'yolo11n-pose.onnx')
+        if not os.path.exists(onnx_path):
+            raise FileNotFoundError(f'yolo11n-pose.onnx not found at {onnx_path}')
+        _yolo_pose = YOLOPoseDetector(onnx_path)
+        _console_log(f'YOLO Pose loaded from {onnx_path}')
+    return _yolo_pose
+
+
+def _ensure_action():
+    global _action_recognizer
+    if _action_recognizer is None:
+        ckpt = os.path.join(os.path.dirname(__file__), 'checkpoints', 'stgcn_ntu60_joint.pth')
+        if not os.path.exists(ckpt):
+            raise FileNotFoundError(f'ST-GCN checkpoint not found at {ckpt}')
+        _action_recognizer = ActionRecognizer(ckpt, device=DEVICE)
+        _console_log(f'ST-GCN action recognizer loaded ({DEVICE})')
+    return _action_recognizer
+
+
+def _run_pose(frame, conf=0.5, iou=0.45):
+    """Run pose estimation. Returns (boxes, scores, keypoints, annotated, dt)."""
+    pose = _ensure_pose()
+    t0 = time.perf_counter()
+    boxes, scores, keypoints = pose.detect(frame, conf=conf, iou=iou)
+    dt = time.perf_counter() - t0
+    annotated = YOLOPoseDetector.draw(frame.copy(), boxes, scores, keypoints)
+    return boxes, scores, keypoints, annotated, dt
+
+
+def _run_action(keypoints, scores):
+    """Feed pose keypoints to ST-GCN. Returns action result dict or None."""
+    recognizer = _ensure_action()
+    return recognizer.update(keypoints, scores)
 
 
 
@@ -236,10 +306,10 @@ def _resolve_stream_url(url: str) -> str:
                 info = ydl.extract_info(url, download=False)
                 resolved = info.get("url", "")
                 if resolved:
-                    print(f"[yt-dlp] resolved → {info.get('title', 'unknown')}")
+                    _console_log(f"[yt-dlp] resolved → {info.get('title', 'unknown')}")
                     return resolved
         except Exception as exc:
-            print(f"[yt-dlp] failed: {exc}")
+            _console_log(f"[yt-dlp] failed: {exc}")
     return url
 
 
@@ -316,14 +386,17 @@ def _generate_report(log_text: str, captions: list[str], model_name: str, base_u
 
 # ── Gradio UI ─────────────────────────────────────────────────────────────
 
+# Gradio 6+ requires theme/css in launch(), store them here
+_THEME = gr.themes.Base(primary_hue="orange", neutral_hue="stone")
+_CSS = """
+    .verec-title { font-size: 2.2em !important; font-weight: 800 !important; margin-bottom: 0 !important; }
+    .verec-sub   { opacity: 0.7; margin-top: 0 !important; }
+"""
+
 def build_ui():
     with gr.Blocks(
         title="VEREC — Video Recognition",
-        theme=gr.themes.Base(primary_hue="orange", neutral_hue="stone"),
-        css="""
-            .verec-title { font-size: 2.2em !important; font-weight: 800 !important; margin-bottom: 0 !important; }
-            .verec-sub   { opacity: 0.7; margin-top: 0 !important; }
-        """,
+
     ) as demo:
 
         # ── Header ────────────────────────────────────────────────────
@@ -388,6 +461,7 @@ def build_ui():
                             with gr.Row():
                                 la_tog_det = gr.Checkbox(value=True, label="Detection")
                                 la_tog_vlm = gr.Checkbox(value=True, label="VLM")
+                                la_tog_pose = gr.Checkbox(value=True, label="Pose + Action")
                             la_conf = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="Confidence")
                             la_iou = gr.Slider(0.1, 1.0, value=0.45, step=0.05, label="IoU / NMS")
                             la_vlm_interval = gr.Slider(3, 15, value=5, step=1, label="VLM Interval (s)")
@@ -396,13 +470,23 @@ def build_ui():
                         la_caption = gr.Textbox(label="Scene Caption (VLM)", lines=2)
                         la_vlm_stats = gr.Textbox(label="VLM Speed", lines=1)
 
-                # ── Detection Log ─────────────────────────────────────
+                        # -- Pose + Action --
+                        la_pose_stats = gr.Textbox(label="Pose", lines=1)
+                        la_action_info = gr.Textbox(label="Action", lines=1)
+
+                # ── Detection & Action Logs ───────────────────────────
                 with gr.Row():
                     la_log = gr.Textbox(
                         label="Detection Log (rolling)",
                         lines=8, max_lines=8,
                         interactive=False,
-                        scale=3,
+                        scale=2,
+                    )
+                    la_action_log = gr.Textbox(
+                        label="Action Log (rolling)",
+                        lines=8, max_lines=8,
+                        interactive=False,
+                        scale=2,
                     )
 
                     # ── Report panel ──────────────────────────────────
@@ -418,6 +502,27 @@ def build_ui():
                             )
                             rpt_btn = gr.Button("📝 Generate Report", variant="primary")
                             rpt_output = gr.Textbox(label="Report", lines=8, interactive=False)
+
+                # ── Console + Search ──────────────────────────────────
+                with gr.Accordion("Console & Search", open=False):
+                    with gr.Row():
+                        console_search = gr.Textbox(
+                            label="Search logs", placeholder="Filter console / detection / action logs…",
+                            lines=1, scale=3,
+                        )
+                        console_refresh = gr.Button("🔄 Refresh", scale=1)
+                    console_box = gr.Textbox(
+                        label="Console Output",
+                        lines=12, max_lines=20,
+                        interactive=False,
+                    )
+                    console_timer = gr.Timer(value=2.0, active=True)
+
+                    def _refresh_console(search_term):
+                        return _get_console(search_term)
+
+                    console_timer.tick(fn=_refresh_console, inputs=[console_search], outputs=[console_box])
+                    console_refresh.click(fn=_refresh_console, inputs=[console_search], outputs=[console_box])
 
                 # ── Hidden state for report data ──────────────────────
                 rpt_captions = gr.State([])
@@ -447,33 +552,38 @@ def build_ui():
 
                 raw_timer.tick(fn=_poll_raw_frame, outputs=[la_raw_frame])
 
-                def live_analysis_stream(source, url, conf, iou_thresh, vlm_interval, en_det, en_vlm):
-                    """Generator: AI overlay (detection every frame, VLM every Ns)."""
+                def live_analysis_stream(source, url, conf, iou_thresh, vlm_interval, en_det, en_vlm, en_pose):
+                    """Generator: AI overlay (detection + pose + action every frame, VLM every Ns)."""
                     global _live_frame_buf
                     cap = None
                     use_local = source == "Local Camera"
-                    _empty = None, "", "", "", "", []
+                    _empty = None, "", "", "", "", "", "", "", [], "Idle"
 
                     if not use_local:
                         if not url or not url.strip():
-                            yield *_empty, "Enter a stream URL first"
+                            yield _empty
                             return
-                        yield *_empty, "Resolving stream…"
+                        _console_log(f"Resolving stream: {url[:60]}…")
                         resolved = _resolve_stream_url(url)
                         cap = cv2.VideoCapture(resolved, cv2.CAP_FFMPEG)
                         cap.set(cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 10000)
                         cap.set(cv2.CAP_PROP_READ_TIMEOUT_MSEC, 10000)
                         if not cap.isOpened():
-                            yield *_empty, "Failed to open stream"
+                            _console_log("Failed to open stream")
+                            yield _empty
                             return
 
-                    yield *_empty, "Running…"
+                    _console_log("Live feed started")
+                    yield _empty
 
                     log_lines: list[str] = []
+                    action_log_lines: list[str] = []
                     captions: list[str] = []
                     last_vlm_time = 0.0
                     last_caption = ""
                     last_vlm_stats = ""
+                    last_pose_stats = ""
+                    last_action_info = ""
 
                     try:
                         while True:
@@ -495,6 +605,7 @@ def build_ui():
                                 _live_frame_buf = frame
 
                             now = time.perf_counter()
+                            ts = time.strftime("%H:%M:%S")
 
                             # -- YOLO detection (every frame — fast) --
                             boxes, scores, class_ids = [], [], []
@@ -515,17 +626,42 @@ def build_ui():
                             if en_det:
                                 ai_frame = YOLODetector.draw(ai_frame, boxes, scores, class_ids)
 
-                            active = [m for m, on in [("Det", en_det), ("VLM", en_vlm)] if on]
+                            # -- Pose estimation + Action recognition --
+                            if en_pose:
+                                try:
+                                    p_boxes, p_scores, kpts, pose_vis, t_pose = _run_pose(frame, conf=conf, iou=iou_thresh)
+                                    n_persons = len(p_boxes)
+                                    last_pose_stats = f"{n_persons} person{'s' if n_persons != 1 else ''} | {t_pose*1000:.0f}ms"
+
+                                    # Overlay skeleton on AI frame
+                                    if n_persons > 0:
+                                        ai_frame = YOLOPoseDetector.draw(ai_frame, p_boxes, p_scores, kpts)
+
+                                    # Feed to action recognizer
+                                    action_result = _run_action(kpts, p_scores)
+                                    if action_result and "actions" in action_result:
+                                        top_actions = action_result["actions"]
+                                        action_strs = [f"{a['label']} ({a['confidence']:.0%})" for a in top_actions]
+                                        last_action_info = " | ".join(action_strs)
+                                        action_line = f"[{ts}] {last_action_info}"
+                                        action_log_lines.append(action_line)
+                                        if len(action_log_lines) > 60:
+                                            action_log_lines = action_log_lines[-60:]
+                                        _console_log(f"Action: {last_action_info}")
+                                except Exception as e:
+                                    last_pose_stats = f"Error: {e}"
+
+                            active = [m for m, on in [("Det", en_det), ("VLM", en_vlm), ("Pose", en_pose)] if on]
                             fps = 1 / t_det if t_det > 0 else 0
                             det_stats = (f"Det: {t_det*1000:.0f}ms | Objects: {n_det} | FPS: {fps:.0f}" if en_det else "") + f"  [{'+'.join(active) or 'none'}]"
 
-                            # -- log --
-                            ts = time.strftime("%H:%M:%S")
+                            # -- detection log --
                             line = f"[{ts}] {', '.join(det_labels)}" if det_labels else f"[{ts}] (nothing)"
                             log_lines.append(line)
                             if len(log_lines) > 60:
                                 log_lines = log_lines[-60:]
                             log_text = "\n".join(log_lines[-8:])
+                            action_log_text = "\n".join(action_log_lines[-8:])
 
                             # -- VLM captioning (throttled) --
                             if en_vlm and now - last_vlm_time >= vlm_interval:
@@ -543,10 +679,12 @@ def build_ui():
                                 last_vlm_stats = stats
                                 if text:
                                     captions.append(f"[{ts}] {text}")
+                                    _console_log(f"VLM: {text[:80]}")
 
                             yield (
                                 ai_frame, det_stats, last_caption,
-                                last_vlm_stats, log_text, captions, "Running…",
+                                last_vlm_stats, last_pose_stats, last_action_info,
+                                log_text, action_log_text, captions, "Running…",
                             )
                             time.sleep(0.01)
 
@@ -555,10 +693,14 @@ def build_ui():
                             cap.release()
                         with _live_frame_lock:
                             _live_frame_buf = None
+                        _console_log("Live feed stopped")
 
                     yield (
                         None, "", last_caption, last_vlm_stats,
-                        "\n".join(log_lines[-8:]), captions, "Stream ended",
+                        last_pose_stats, last_action_info,
+                        "\n".join(log_lines[-8:]),
+                        "\n".join(action_log_lines[-8:]),
+                        captions, "Stream ended",
                     )
 
                 def _start_feed(source, url, conf, iou_thresh, vlm_interval):
@@ -574,8 +716,8 @@ def build_ui():
                 la_start.click(fn=_start_feed, inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval], outputs=[raw_timer])
                 la_event = la_start.click(
                     fn=live_analysis_stream,
-                    inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval, la_tog_det, la_tog_vlm],
-                    outputs=[la_ai_frame, la_det_stats, la_caption, la_vlm_stats, la_log, rpt_captions, la_status],
+                    inputs=[la_source, la_url, la_conf, la_iou, la_vlm_interval, la_tog_det, la_tog_vlm, la_tog_pose],
+                    outputs=[la_ai_frame, la_det_stats, la_caption, la_vlm_stats, la_pose_stats, la_action_info, la_log, la_action_log, rpt_captions, la_status],
                 )
                 la_stop.click(fn=_stop_feed, cancels=[la_event], outputs=[raw_timer])
 
@@ -857,9 +999,9 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=7860)
     args = parser.parse_args()
 
-    print("Loading model…")
+    _console_log("Loading VLM model…")
     tokenizer, model, image_processor = load_model(args.model_path, args.model_base)
-    print("Model loaded.  Starting UI…")
+    _console_log(f"VLM model loaded on {DEVICE}.  Starting UI…")
 
     demo = build_ui()
-    demo.launch(server_name="0.0.0.0", server_port=args.port, share=True)
+    demo.launch(server_name="0.0.0.0", server_port=args.port, share=False, theme=_THEME, css=_CSS)

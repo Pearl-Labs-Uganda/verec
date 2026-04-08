@@ -29,6 +29,52 @@ from llava.constants import (
 _lock = threading.Lock()
 
 
+def build_composite_image(frames: list[np.ndarray], cols: int = 3,
+                          target_h: int = 480) -> Image.Image:
+    """Stitch N frames into a grid image for the VLM.
+
+    E.g. 5 frames → 2 rows × 3 cols (last cell black if odd).
+    Each cell is resized to keep aspect ratio within target_h per row.
+    """
+    if not frames:
+        raise ValueError("No frames to composite")
+    if len(frames) == 1:
+        return Image.fromarray(frames[0])
+
+    n = len(frames)
+    rows = (n + cols - 1) // cols
+
+    # Resize all frames to same height
+    resized: list[np.ndarray] = []
+    for f in frames:
+        h, w = f.shape[:2]
+        cell_h = target_h // rows
+        scale = cell_h / h
+        new_w = int(w * scale)
+        resized.append(cv2.resize(f, (new_w, cell_h)))
+
+    # Pad to fill grid
+    cell_h = resized[0].shape[0]
+    cell_w = max(r.shape[1] for r in resized)
+    while len(resized) < rows * cols:
+        resized.append(np.zeros((cell_h, cell_w, 3), dtype=np.uint8))
+
+    # Pad each to same width
+    padded = []
+    for r in resized:
+        if r.shape[1] < cell_w:
+            pad = np.zeros((cell_h, cell_w - r.shape[1], 3), dtype=np.uint8)
+            r = np.concatenate([r, pad], axis=1)
+        padded.append(r)
+
+    # Build grid
+    row_imgs = []
+    for r in range(rows):
+        row_imgs.append(np.concatenate(padded[r * cols:(r + 1) * cols], axis=1))
+    grid = np.concatenate(row_imgs, axis=0)
+    return Image.fromarray(grid)
+
+
 def _resolve_device() -> str:
     """Pick the best available torch device: cuda > mps > cpu."""
     if torch.cuda.is_available():

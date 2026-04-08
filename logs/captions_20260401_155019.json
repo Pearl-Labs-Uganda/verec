@@ -1,0 +1,3502 @@
+[
+  {
+    "timestamp": "2026-04-01T16:04:37.830232+00:00",
+    "text": "The image depicts a busy urban street scene with a black car driving down the road, a red double-decker bus in the background, and several pedestrians walking on the sidewalks. The scene captures a typical day in a city with various elements contributing to the bustling atmosphere.",
+    "time_s": 2.785,
+    "tokens": -23,
+    "tokens_per_s": -8.3
+  },
+  {
+    "timestamp": "2026-04-01T16:04:42.880405+00:00",
+    "text": "The image depicts a busy urban street scene with a black car driving down the road, surrounded by pedestrians and a red double-decker bus. The scene includes various elements such as buildings, trees, and street signs, contributing to a bustling city atmosphere.",
+    "time_s": 2.801,
+    "tokens": -38,
+    "tokens_per_s": -13.6
+  },
+  {
+    "timestamp": "2026-04-01T16:04:48.011679+00:00",
+    "text": "The scene depicts a busy urban street with a black taxi, a red double-decker bus, pedestrians, and various street elements, including a pedestrian crossing and a bus stop.",
+    "time_s": 2.127,
+    "tokens": -47,
+    "tokens_per_s": -22.1
+  },
+  {
+    "timestamp": "2026-04-01T16:04:53.114014+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of vehicles, pedestrians, and urban infrastructure, including a red double-decker bus and a black van, amidst a backdrop of buildings and greenery.",
+    "time_s": 2.344,
+    "tokens": -41,
+    "tokens_per_s": -17.5
+  },
+  {
+    "timestamp": "2026-04-01T16:04:58.230999+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.727,
+    "tokens": -47,
+    "tokens_per_s": -27.2
+  },
+  {
+    "timestamp": "2026-04-01T16:05:03.278411+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.615,
+    "tokens": -53,
+    "tokens_per_s": -32.8
+  },
+  {
+    "timestamp": "2026-04-01T16:05:08.347048+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalks and a person crossing the street, highlighting the daily life and activity in a city environment.",
+    "time_s": 1.97,
+    "tokens": -32,
+    "tokens_per_s": -16.2
+  },
+  {
+    "timestamp": "2026-04-01T16:05:13.479385+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, highlighting a person walking on the sidewalk and a car driving on the road.",
+    "time_s": 1.8,
+    "tokens": -36,
+    "tokens_per_s": -20.0
+  },
+  {
+    "timestamp": "2026-04-01T16:05:18.545863+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.642,
+    "tokens": -47,
+    "tokens_per_s": -28.6
+  },
+  {
+    "timestamp": "2026-04-01T16:05:23.630462+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalks and crossing the street, while a person is seen walking on the sidewalk. The scene captures the everyday activity of city life, with various individuals engaged in their daily routines.",
+    "time_s": 2.572,
+    "tokens": -16,
+    "tokens_per_s": -6.2
+  },
+  {
+    "timestamp": "2026-04-01T16:05:28.713128+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalks and crossing the street, while a person is seen walking on the sidewalk. The scene includes a mix of pedestrians, buildings, and street elements, creating a lively and dynamic city atmosphere.",
+    "time_s": 2.739,
+    "tokens": -13,
+    "tokens_per_s": -4.7
+  },
+  {
+    "timestamp": "2026-04-01T16:05:33.789416+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalks and crossing the street, while a person is seen walking on the sidewalk. The scene includes a mix of pedestrians, some carrying bags, and a few individuals standing near a building. The street is marked with pedestrian crossings and traffic signs, indicating a busy area with active foot traffic. The overall atmosphere suggests a typical day in a city",
+    "time_s": 3.743,
+    "tokens": 15,
+    "tokens_per_s": 4.0
+  },
+  {
+    "timestamp": "2026-04-01T16:05:38.834433+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalks, a crosswalk, and a variety of buildings in the background. Notably, there are four distinct individuals captured in the frame, each contributing to the lively atmosphere of the cityscape.",
+    "time_s": 2.747,
+    "tokens": -12,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:05:43.955827+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, a car, and a person walking on the sidewalk, capturing a moment of daily life in a city.",
+    "time_s": 2.148,
+    "tokens": -35,
+    "tokens_per_s": -16.3
+  },
+  {
+    "timestamp": "2026-04-01T16:05:48.963354+00:00",
+    "text": "The image depicts a busy urban street scene with a black car driving down the road, surrounded by pedestrians and various urban elements such as buildings, street lamps, and a pedestrian crossing.",
+    "time_s": 2.245,
+    "tokens": -34,
+    "tokens_per_s": -15.1
+  },
+  {
+    "timestamp": "2026-04-01T16:05:53.999201+00:00",
+    "text": "The image depicts a busy urban street scene with a black car driving down the road, surrounded by pedestrians and various urban elements such as buildings, street lamps, and a pedestrian crossing.",
+    "time_s": 2.061,
+    "tokens": -34,
+    "tokens_per_s": -16.5
+  },
+  {
+    "timestamp": "2026-04-01T16:05:59.630243+00:00",
+    "text": "The image depicts a busy urban street scene with a car driving down the road, surrounded by pedestrians and buildings.",
+    "time_s": 1.541,
+    "tokens": -42,
+    "tokens_per_s": -27.3
+  },
+  {
+    "timestamp": "2026-04-01T16:06:04.641169+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles, including a motorcycle.",
+    "time_s": 1.867,
+    "tokens": -42,
+    "tokens_per_s": -22.5
+  },
+  {
+    "timestamp": "2026-04-01T16:06:09.644479+00:00",
+    "text": "A white van is driving down a city street with pedestrians and other vehicles around.",
+    "time_s": 1.336,
+    "tokens": -54,
+    "tokens_per_s": -40.4
+  },
+  {
+    "timestamp": "2026-04-01T16:06:14.670730+00:00",
+    "text": "The scene depicts a busy urban street with a white van driving down the road, surrounded by pedestrians and other vehicles, with a notable presence of people and a motorcycle.",
+    "time_s": 1.977,
+    "tokens": -37,
+    "tokens_per_s": -18.7
+  },
+  {
+    "timestamp": "2026-04-01T16:06:26.276568+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles. The scene includes a mix of people walking on the sidewalks and others crossing the street, with a person riding a motorcycle in the background. The overall atmosphere suggests a typical day in a bustling city environment.",
+    "time_s": 3.629,
+    "tokens": -6,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:06:30.111951+00:00",
+    "text": "A red double-decker bus is driving down a city street, with pedestrians crossing the road and a man walking on the sidewalk.",
+    "time_s": 1.689,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:06:31.890726+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles, including a motorcycle and a car. The scene captures a typical day with people walking and vehicles moving, highlighting the bustling nature of city life.",
+    "time_s": 2.678,
+    "tokens": -18,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:06:40.403366+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles, including a motorcycle and a person walking on the sidewalk. The scene captures a typical day in a city with various activities taking place.",
+    "time_s": 2.917,
+    "tokens": -20,
+    "tokens_per_s": -6.9
+  },
+  {
+    "timestamp": "2026-04-01T16:06:43.503175+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a man walking on the sidewalk.",
+    "time_s": 1.688,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:06:45.292928+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.541,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:06:46.917485+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles. The scene includes a mix of people walking on the sidewalks and others crossing the street, with a person holding a sign. The overall atmosphere suggests a typical day in a city with moderate activity.",
+    "time_s": 3.864,
+    "tokens": -8,
+    "tokens_per_s": -2.1
+  },
+  {
+    "timestamp": "2026-04-01T16:06:50.955247+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a black car driving by.",
+    "time_s": 1.631,
+    "tokens": -6,
+    "tokens_per_s": -3.7
+  },
+  {
+    "timestamp": "2026-04-01T16:06:59.540969+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles. Notably, there are five people visible in the scene, engaged in various activities such as walking, standing, and riding a motorcycle. The street is lined with buildings, trees, and street lamps, contributing to the bustling atmosphere of the city.",
+    "time_s": 3.522,
+    "tokens": 3,
+    "tokens_per_s": 0.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:03.245635+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a man walking on the sidewalk.",
+    "time_s": 1.753,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:05.093001+00:00",
+    "text": "A red double-decker bus is driving down a city street, with a woman standing on the sidewalk and a man walking nearby.",
+    "time_s": 1.842,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:07:07.016511+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles, including a motorcycle and a car. The scene captures a moment of daily life in a city, with people walking, vehicles moving, and various elements of urban infrastructure.",
+    "time_s": 3.231,
+    "tokens": -13,
+    "tokens_per_s": -4.0
+  },
+  {
+    "timestamp": "2026-04-01T16:07:10.435433+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a man walking on the sidewalk.",
+    "time_s": 1.721,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:12.238350+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.55,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:07:13.872440+00:00",
+    "text": "A red double-decker bus is driving down a city street, with a woman standing on the sidewalk and a man walking nearby.",
+    "time_s": 1.721,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:15.676567+00:00",
+    "text": "The image depicts a busy urban street scene with multiple pedestrians and vehicles, including a white van and a motorcycle, indicating a bustling city environment.",
+    "time_s": 1.8,
+    "tokens": -42,
+    "tokens_per_s": -23.3
+  },
+  {
+    "timestamp": "2026-04-01T16:07:17.665982+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a man walking on the sidewalk.",
+    "time_s": 1.707,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:19.456677+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and various street elements, including a pedestrian crossing and a red and white sign.",
+    "time_s": 2.171,
+    "tokens": -3,
+    "tokens_per_s": -1.4
+  },
+  {
+    "timestamp": "2026-04-01T16:07:21.714222+00:00",
+    "text": "A red double-decker bus is driving down a street with a woman standing on the sidewalk, a man walking, and a black car parked on the side of the road.",
+    "time_s": 2.061,
+    "tokens": 4,
+    "tokens_per_s": 1.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:23.860355+00:00",
+    "text": "The image depicts a busy urban street scene with multiple pedestrians and vehicles, including a white van and a motorcycle, indicating a bustling city environment.",
+    "time_s": 1.818,
+    "tokens": -42,
+    "tokens_per_s": -23.1
+  },
+  {
+    "timestamp": "2026-04-01T16:07:25.854834+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians crossing the street and a man walking on the sidewalk.",
+    "time_s": 2.194,
+    "tokens": -5,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:07:33.457168+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and various street elements, including a pedestrian crossing and a red and white sign.",
+    "time_s": 1.943,
+    "tokens": -3,
+    "tokens_per_s": -1.5
+  },
+  {
+    "timestamp": "2026-04-01T16:07:35.482316+00:00",
+    "text": "A red double-decker bus is driving down a street with people standing on the sidewalk and cars parked on the side of the road.",
+    "time_s": 1.768,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:07:37.333453+00:00",
+    "text": "The image depicts a busy urban street scene with multiple pedestrians and vehicles, including a white van and a motorcycle, indicating a bustling city environment.",
+    "time_s": 2.036,
+    "tokens": -42,
+    "tokens_per_s": -20.6
+  },
+  {
+    "timestamp": "2026-04-01T16:07:39.580920+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.811,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:07:41.480124+00:00",
+    "text": "A red double-decker bus is driving down a city street, with pedestrians crossing the road and a man walking on the sidewalk.",
+    "time_s": 1.705,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:43.268666+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.881,
+    "tokens": -9,
+    "tokens_per_s": -4.8
+  },
+  {
+    "timestamp": "2026-04-01T16:07:45.228687+00:00",
+    "text": "A red double-decker bus is driving down a street with people standing on the sidewalk and cars parked on the side of the road.",
+    "time_s": 1.761,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:07:47.069973+00:00",
+    "text": "The image depicts a busy urban street scene with multiple pedestrians and vehicles, including a white van and a motorcycle, indicating a bustling city environment.",
+    "time_s": 1.917,
+    "tokens": -42,
+    "tokens_per_s": -21.9
+  },
+  {
+    "timestamp": "2026-04-01T16:07:49.166690+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red brick building in the background.",
+    "time_s": 1.916,
+    "tokens": -5,
+    "tokens_per_s": -2.6
+  },
+  {
+    "timestamp": "2026-04-01T16:07:51.164241+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.547,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:07:52.794254+00:00",
+    "text": "A red double-decker bus is driving down a street with people standing on the sidewalk and cars parked on the side of the road.",
+    "time_s": 1.737,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:07:54.611515+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.803,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:07:56.502767+00:00",
+    "text": "The image depicts a busy urban street scene with a mix of pedestrians, vehicles, and a bus, capturing a moment of daily life with notable activity in the form of people walking and a bus navigating the road.",
+    "time_s": 2.338,
+    "tokens": -28,
+    "tokens_per_s": -12.0
+  },
+  {
+    "timestamp": "2026-04-01T16:07:59.020163+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black car driving on the street.",
+    "time_s": 1.769,
+    "tokens": -5,
+    "tokens_per_s": -2.8
+  },
+  {
+    "timestamp": "2026-04-01T16:08:00.869295+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 1.931,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:08:02.881780+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking nearby.",
+    "time_s": 1.878,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:04.839946+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and a bus, with a mix of vehicles and people engaged in various activities.",
+    "time_s": 2.314,
+    "tokens": -34,
+    "tokens_per_s": -14.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:07.336484+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red brick building in the background.",
+    "time_s": 1.67,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:09.089575+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 1.933,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:08:11.103251+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.773,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:12.965059+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking nearby.",
+    "time_s": 1.694,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:14.740797+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a bus, capturing a moment of daily life in a city.",
+    "time_s": 1.978,
+    "tokens": -34,
+    "tokens_per_s": -17.2
+  },
+  {
+    "timestamp": "2026-04-01T16:08:16.902220+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black car nearby.",
+    "time_s": 1.737,
+    "tokens": -8,
+    "tokens_per_s": -4.6
+  },
+  {
+    "timestamp": "2026-04-01T16:08:18.720183+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side of the road.",
+    "time_s": 1.601,
+    "tokens": -7,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:08:20.402632+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.751,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:22.234846+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and a bus, capturing a moment of daily life in a city.",
+    "time_s": 1.632,
+    "tokens": -40,
+    "tokens_per_s": -24.5
+  },
+  {
+    "timestamp": "2026-04-01T16:08:24.048028+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black car nearby.",
+    "time_s": 1.586,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:25.715105+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.775,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:27.577712+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 2.226,
+    "tokens": 1,
+    "tokens_per_s": 0.4
+  },
+  {
+    "timestamp": "2026-04-01T16:08:29.884618+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.777,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:31.743494+00:00",
+    "text": "The image depicts a rainy urban street scene with a bus, several pedestrians, and a person walking across the crosswalk.",
+    "time_s": 1.63,
+    "tokens": -46,
+    "tokens_per_s": -28.2
+  },
+  {
+    "timestamp": "2026-04-01T16:08:33.598089+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black car nearby.",
+    "time_s": 1.593,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:35.272210+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.533,
+    "tokens": -9,
+    "tokens_per_s": -5.9
+  },
+  {
+    "timestamp": "2026-04-01T16:08:36.887433+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.751,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:38.720435+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians, a bus, and a motorcycle, capturing a moment of daily life in a city.",
+    "time_s": 1.776,
+    "tokens": -42,
+    "tokens_per_s": -23.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:40.674162+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 2.454,
+    "tokens": -3,
+    "tokens_per_s": -1.2
+  },
+  {
+    "timestamp": "2026-04-01T16:08:43.207630+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car driving on the street.",
+    "time_s": 1.717,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:08:45.005939+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and a pedestrian crossing, under a cloudy sky.",
+    "time_s": 1.563,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:08:46.655949+00:00",
+    "text": "A red double-decker bus is driving down a city street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.8,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:08:48.552424+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.667,
+    "tokens": -41,
+    "tokens_per_s": -24.6
+  },
+  {
+    "timestamp": "2026-04-01T16:08:50.424087+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 2.073,
+    "tokens": -2,
+    "tokens_per_s": -1.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:52.579694+00:00",
+    "text": "A car is driving down a street with a pedestrian crossing and a pedestrian on the sidewalk.",
+    "time_s": 1.439,
+    "tokens": -13,
+    "tokens_per_s": -9.0
+  },
+  {
+    "timestamp": "2026-04-01T16:08:54.103608+00:00",
+    "text": "A red double-decker bus is driving down a wet city street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.803,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:09:01.783337+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.763,
+    "tokens": -41,
+    "tokens_per_s": -23.3
+  },
+  {
+    "timestamp": "2026-04-01T16:09:03.726194+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 1.828,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:09:05.638169+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.502,
+    "tokens": -12,
+    "tokens_per_s": -8.0
+  },
+  {
+    "timestamp": "2026-04-01T16:09:07.237779+00:00",
+    "text": "The image depicts a busy urban street scene with multiple pedestrians and vehicles, including a person walking on the sidewalk and a car driving on the road.",
+    "time_s": 1.868,
+    "tokens": -41,
+    "tokens_per_s": -21.9
+  },
+  {
+    "timestamp": "2026-04-01T16:09:09.292241+00:00",
+    "text": "A red double-decker bus is driving down a city street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.785,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:11.160343+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, including a person crossing the street, a person walking on the sidewalk, and a truck parked on the side of the road.",
+    "time_s": 2.161,
+    "tokens": -32,
+    "tokens_per_s": -14.8
+  },
+  {
+    "timestamp": "2026-04-01T16:09:13.505629+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.75,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:15.336573+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 2.121,
+    "tokens": -2,
+    "tokens_per_s": -0.9
+  },
+  {
+    "timestamp": "2026-04-01T16:09:17.537828+00:00",
+    "text": "A car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.493,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:19.110948+00:00",
+    "text": "A red double-decker bus is driving down a street with a woman standing on the sidewalk, a silver car, and a black van.",
+    "time_s": 1.784,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:20.975135+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.587,
+    "tokens": -41,
+    "tokens_per_s": -25.8
+  },
+  {
+    "timestamp": "2026-04-01T16:09:22.748086+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.755,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:24.584708+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 1.848,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:09:26.513767+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a blue truck, capturing a moment of daily city life.",
+    "time_s": 1.852,
+    "tokens": -41,
+    "tokens_per_s": -22.1
+  },
+  {
+    "timestamp": "2026-04-01T16:09:28.598170+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side of the road.",
+    "time_s": 1.632,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:09:30.311672+00:00",
+    "text": "A red double-decker bus is driving down a street with a woman standing on the sidewalk, a black van, and a silver car.",
+    "time_s": 1.795,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:32.187896+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.58,
+    "tokens": -41,
+    "tokens_per_s": -26.0
+  },
+  {
+    "timestamp": "2026-04-01T16:09:33.952137+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.768,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:35.803187+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 1.847,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:09:37.732886+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side of the road.",
+    "time_s": 1.746,
+    "tokens": -7,
+    "tokens_per_s": -4.0
+  },
+  {
+    "timestamp": "2026-04-01T16:09:39.561433+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking on the street.",
+    "time_s": 1.78,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:41.422568+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.63,
+    "tokens": -47,
+    "tokens_per_s": -28.8
+  },
+  {
+    "timestamp": "2026-04-01T16:09:43.294359+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.787,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:45.164376+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a person walking on the sidewalk, capturing a moment of daily city life.",
+    "time_s": 2.306,
+    "tokens": -38,
+    "tokens_per_s": -16.5
+  },
+  {
+    "timestamp": "2026-04-01T16:09:47.655380+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked nearby.",
+    "time_s": 1.6,
+    "tokens": -7,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:09:49.336452+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side.",
+    "time_s": 1.809,
+    "tokens": -10,
+    "tokens_per_s": -5.5
+  },
+  {
+    "timestamp": "2026-04-01T16:09:51.227879+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking on the street.",
+    "time_s": 1.776,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:53.084365+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.619,
+    "tokens": -47,
+    "tokens_per_s": -29.0
+  },
+  {
+    "timestamp": "2026-04-01T16:09:54.881978+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.798,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:09:56.760376+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked nearby.",
+    "time_s": 1.63,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:10:00.317764+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side.",
+    "time_s": 1.513,
+    "tokens": -10,
+    "tokens_per_s": -6.6
+  },
+  {
+    "timestamp": "2026-04-01T16:10:04.129252+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking across the street.",
+    "time_s": 1.78,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:06.018819+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.575,
+    "tokens": -41,
+    "tokens_per_s": -26.0
+  },
+  {
+    "timestamp": "2026-04-01T16:10:07.789709+00:00",
+    "text": "The image depicts a busy urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life in a city.",
+    "time_s": 1.862,
+    "tokens": -52,
+    "tokens_per_s": -27.9
+  },
+  {
+    "timestamp": "2026-04-01T16:10:09.838216+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.752,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:11.672861+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked nearby.",
+    "time_s": 1.613,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:10:13.368596+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a white car parked on the side.",
+    "time_s": 1.535,
+    "tokens": -10,
+    "tokens_per_s": -6.5
+  },
+  {
+    "timestamp": "2026-04-01T16:10:14.992897+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking on the street.",
+    "time_s": 1.776,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:16.856977+00:00",
+    "text": "The image depicts a bustling urban street scene with multiple pedestrians and a motorcycle, capturing a moment of daily life in a city.",
+    "time_s": 1.669,
+    "tokens": -45,
+    "tokens_per_s": -27.0
+  },
+  {
+    "timestamp": "2026-04-01T16:10:18.704692+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.751,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:20.536137+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked nearby.",
+    "time_s": 1.609,
+    "tokens": -7,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:10:22.225987+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.401,
+    "tokens": -12,
+    "tokens_per_s": -8.6
+  },
+  {
+    "timestamp": "2026-04-01T16:10:23.707372+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking on the street.",
+    "time_s": 1.739,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:25.528174+00:00",
+    "text": "The image depicts a busy urban street scene with a white car driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.633,
+    "tokens": -52,
+    "tokens_per_s": -31.9
+  },
+  {
+    "timestamp": "2026-04-01T16:10:27.342157+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.579,
+    "tokens": -41,
+    "tokens_per_s": -26.0
+  },
+  {
+    "timestamp": "2026-04-01T16:10:29.097645+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.771,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:30.949430+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car parked on the side of the road.",
+    "time_s": 1.786,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:10:32.815902+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.523,
+    "tokens": -9,
+    "tokens_per_s": -5.9
+  },
+  {
+    "timestamp": "2026-04-01T16:10:34.418645+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with a woman standing on the sidewalk and a man walking on the street.",
+    "time_s": 1.742,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:36.239694+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.585,
+    "tokens": -41,
+    "tokens_per_s": -25.9
+  },
+  {
+    "timestamp": "2026-04-01T16:10:37.999996+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.779,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:39.858615+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a red car nearby.",
+    "time_s": 1.589,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:10:41.541459+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.568,
+    "tokens": -9,
+    "tokens_per_s": -5.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:43.211446+00:00",
+    "text": "The image depicts a busy urban street scene with a white car driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.708,
+    "tokens": -52,
+    "tokens_per_s": -30.4
+  },
+  {
+    "timestamp": "2026-04-01T16:10:45.107310+00:00",
+    "text": "A red double-decker bus is driving down a wet street with cars and pedestrians.",
+    "time_s": 1.375,
+    "tokens": -14,
+    "tokens_per_s": -10.2
+  },
+  {
+    "timestamp": "2026-04-01T16:10:46.564187+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.655,
+    "tokens": -41,
+    "tokens_per_s": -24.8
+  },
+  {
+    "timestamp": "2026-04-01T16:10:48.405839+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.791,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:50.284206+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black car nearby.",
+    "time_s": 1.645,
+    "tokens": -8,
+    "tokens_per_s": -4.9
+  },
+  {
+    "timestamp": "2026-04-01T16:10:52.012166+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.599,
+    "tokens": -9,
+    "tokens_per_s": -5.6
+  },
+  {
+    "timestamp": "2026-04-01T16:10:53.698778+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with cars and pedestrians around.",
+    "time_s": 1.432,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:10:55.215012+00:00",
+    "text": "The image depicts a bustling urban street scene with multiple pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.637,
+    "tokens": -40,
+    "tokens_per_s": -24.4
+  },
+  {
+    "timestamp": "2026-04-01T16:10:57.038246+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.803,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:10:58.923634+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black van nearby.",
+    "time_s": 1.583,
+    "tokens": -8,
+    "tokens_per_s": -5.1
+  },
+  {
+    "timestamp": "2026-04-01T16:11:00.588481+00:00",
+    "text": "The image depicts a busy urban street scene with a white car driving down the road, surrounded by pedestrians and other vehicles. The scene includes a mix of people walking on the sidewalks and others crossing the street, indicating a typical day in a city environment. The presence of the white car, along with the various individuals and vehicles, suggests a bustling atmosphere.",
+    "time_s": 3.743,
+    "tokens": -6,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:11:04.521590+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.592,
+    "tokens": -9,
+    "tokens_per_s": -5.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:06.195425+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with cars and pedestrians around.",
+    "time_s": 1.581,
+    "tokens": -12,
+    "tokens_per_s": -7.6
+  },
+  {
+    "timestamp": "2026-04-01T16:11:07.860128+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.589,
+    "tokens": -41,
+    "tokens_per_s": -25.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:09.633848+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 2.062,
+    "tokens": -3,
+    "tokens_per_s": -1.5
+  },
+  {
+    "timestamp": "2026-04-01T16:11:11.782116+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a black van nearby.",
+    "time_s": 1.62,
+    "tokens": -8,
+    "tokens_per_s": -4.9
+  },
+  {
+    "timestamp": "2026-04-01T16:11:13.496527+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.553,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:15.131585+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with cars and pedestrians around.",
+    "time_s": 1.449,
+    "tokens": -12,
+    "tokens_per_s": -8.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:16.661890+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.589,
+    "tokens": -41,
+    "tokens_per_s": -25.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:18.443301+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.816,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:20.342069+00:00",
+    "text": "The image depicts a busy urban street scene with a white car driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.942,
+    "tokens": -52,
+    "tokens_per_s": -26.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:22.483040+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a parked black car nearby.",
+    "time_s": 1.829,
+    "tokens": -7,
+    "tokens_per_s": -3.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:24.398519+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a group of people standing on the sidewalk.",
+    "time_s": 1.593,
+    "tokens": -9,
+    "tokens_per_s": -5.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:26.075812+00:00",
+    "text": "A red double-decker bus is driving down a wet street with cars and pedestrians.",
+    "time_s": 1.359,
+    "tokens": -14,
+    "tokens_per_s": -10.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:27.524103+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.579,
+    "tokens": -41,
+    "tokens_per_s": -26.0
+  },
+  {
+    "timestamp": "2026-04-01T16:11:29.290738+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.851,
+    "tokens": -3,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:11:31.224695+00:00",
+    "text": "A red double-decker bus is stopped at a crosswalk, with pedestrians walking by and a parked black car nearby.",
+    "time_s": 1.593,
+    "tokens": -7,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:32.899437+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.422,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:34.402502+00:00",
+    "text": "A red double-decker bus is driving down a wet street, with cars and pedestrians around.",
+    "time_s": 1.43,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:35.914453+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.596,
+    "tokens": -41,
+    "tokens_per_s": -25.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:37.690294+00:00",
+    "text": "A person is walking on the sidewalk near a white truck with a blue tarp.",
+    "time_s": 1.478,
+    "tokens": -53,
+    "tokens_per_s": -35.9
+  },
+  {
+    "timestamp": "2026-04-01T16:11:39.360642+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.789,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:41.231407+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black van, and pedestrians, all under a cloudy sky.",
+    "time_s": 1.725,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:43.039482+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.429,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:44.551024+00:00",
+    "text": "A red double-decker bus is driving down a street with cars and pedestrians, while a woman stands on the sidewalk.",
+    "time_s": 1.622,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:46.255532+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians and vehicles, capturing a moment of daily life in a city.",
+    "time_s": 1.615,
+    "tokens": -41,
+    "tokens_per_s": -25.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:48.062284+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.776,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:11:49.935442+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black van, and pedestrians, all under a cloudy sky.",
+    "time_s": 1.739,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:52.810374+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.404,
+    "tokens": -12,
+    "tokens_per_s": -8.5
+  },
+  {
+    "timestamp": "2026-04-01T16:11:54.710865+00:00",
+    "text": "A red double-decker bus is driving down a street with cars and pedestrians.",
+    "time_s": 1.318,
+    "tokens": -15,
+    "tokens_per_s": -11.4
+  },
+  {
+    "timestamp": "2026-04-01T16:11:56.115457+00:00",
+    "text": "A busy street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.504,
+    "tokens": -50,
+    "tokens_per_s": -33.3
+  },
+  {
+    "timestamp": "2026-04-01T16:11:57.841601+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.132,
+    "tokens": -53,
+    "tokens_per_s": -46.8
+  },
+  {
+    "timestamp": "2026-04-01T16:11:59.159356+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.77,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:12:01.009948+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black van, and pedestrians, all under a cloudy sky.",
+    "time_s": 1.762,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:02.854293+00:00",
+    "text": "A silver car is driving down a street with a pedestrian crossing and a red and white sign.",
+    "time_s": 1.416,
+    "tokens": -12,
+    "tokens_per_s": -8.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:04.353768+00:00",
+    "text": "A red double-decker bus is driving down a street with cars and pedestrians.",
+    "time_s": 1.314,
+    "tokens": -15,
+    "tokens_per_s": -11.4
+  },
+  {
+    "timestamp": "2026-04-01T16:12:05.750243+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.174,
+    "tokens": -59,
+    "tokens_per_s": -50.2
+  },
+  {
+    "timestamp": "2026-04-01T16:12:07.109819+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 1.977,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:09.188222+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.768,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:11.038482+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and various street elements, including a pedestrian crossing and a yellow sign, indicating a busy urban environment.",
+    "time_s": 1.942,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:12:13.063916+00:00",
+    "text": "The image depicts a street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including a car and a taxi. The scene captures a typical urban environment with people walking and vehicles in motion.",
+    "time_s": 2.711,
+    "tokens": -32,
+    "tokens_per_s": -11.8
+  },
+  {
+    "timestamp": "2026-04-01T16:12:15.965626+00:00",
+    "text": "A red car is driving down a street with people crossing and a red sign on the sidewalk.",
+    "time_s": 1.427,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:12:17.477113+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.248,
+    "tokens": -53,
+    "tokens_per_s": -42.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:18.906676+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 1.923,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:20.912909+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.774,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:22.770745+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and various street elements, including a pedestrian crossing and a yellow sign, indicating a busy urban environment.",
+    "time_s": 1.997,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:12:24.850240+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red sign on the street.",
+    "time_s": 1.541,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:12:26.473465+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.13,
+    "tokens": -53,
+    "tokens_per_s": -46.9
+  },
+  {
+    "timestamp": "2026-04-01T16:12:27.787175+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 2.364,
+    "tokens": -3,
+    "tokens_per_s": -1.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:30.253112+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.75,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:32.085720+00:00",
+    "text": "A busy street scene with a white van driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.506,
+    "tokens": -50,
+    "tokens_per_s": -33.2
+  },
+  {
+    "timestamp": "2026-04-01T16:12:33.783058+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 2.209,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:36.074847+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red sign on the street.",
+    "time_s": 1.599,
+    "tokens": -9,
+    "tokens_per_s": -5.6
+  },
+  {
+    "timestamp": "2026-04-01T16:12:37.758597+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.158,
+    "tokens": -59,
+    "tokens_per_s": -51.0
+  },
+  {
+    "timestamp": "2026-04-01T16:12:39.103434+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.809,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:12:40.997170+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.723,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:42.806899+00:00",
+    "text": "A black car is driving down a street with a pedestrian crossing and a yellow sign on the sidewalk.",
+    "time_s": 1.477,
+    "tokens": -11,
+    "tokens_per_s": -7.4
+  },
+  {
+    "timestamp": "2026-04-01T16:12:44.417918+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red sign on the street.",
+    "time_s": 1.672,
+    "tokens": -9,
+    "tokens_per_s": -5.4
+  },
+  {
+    "timestamp": "2026-04-01T16:12:46.172081+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.142,
+    "tokens": -59,
+    "tokens_per_s": -51.7
+  },
+  {
+    "timestamp": "2026-04-01T16:12:47.515145+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.984,
+    "tokens": -3,
+    "tokens_per_s": -1.5
+  },
+  {
+    "timestamp": "2026-04-01T16:12:49.583121+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.903,
+    "tokens": -4,
+    "tokens_per_s": -2.1
+  },
+  {
+    "timestamp": "2026-04-01T16:12:51.569938+00:00",
+    "text": "A black car is driving down a street with a pedestrian crossing and a yellow sign.",
+    "time_s": 1.399,
+    "tokens": -14,
+    "tokens_per_s": -10.0
+  },
+  {
+    "timestamp": "2026-04-01T16:12:53.053402+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red sign on the street.",
+    "time_s": 1.546,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:12:54.687937+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.248,
+    "tokens": -65,
+    "tokens_per_s": -52.1
+  },
+  {
+    "timestamp": "2026-04-01T16:12:56.117761+00:00",
+    "text": "The image depicts a street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including a car and a van. The scene captures a typical urban environment with people walking and vehicles in motion.",
+    "time_s": 2.414,
+    "tokens": -32,
+    "tokens_per_s": -13.3
+  },
+  {
+    "timestamp": "2026-04-01T16:12:58.774735+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.793,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:00.655261+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.781,
+    "tokens": -4,
+    "tokens_per_s": -2.2
+  },
+  {
+    "timestamp": "2026-04-01T16:13:02.526573+00:00",
+    "text": "A black car is driving down a street with pedestrians and a pedestrian crossing.",
+    "time_s": 1.514,
+    "tokens": -16,
+    "tokens_per_s": -10.6
+  },
+  {
+    "timestamp": "2026-04-01T16:13:04.123876+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red sign on the street.",
+    "time_s": 1.713,
+    "tokens": -9,
+    "tokens_per_s": -5.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:05.920708+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.149,
+    "tokens": -59,
+    "tokens_per_s": -51.4
+  },
+  {
+    "timestamp": "2026-04-01T16:13:07.274913+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by pedestrians and other vehicles. The scene includes a mix of people walking on the sidewalks and others standing or sitting near the vehicles. The overall atmosphere suggests a typical day in a city with moderate traffic and pedestrian activity.",
+    "time_s": 3.386,
+    "tokens": -15,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:13:10.857558+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.759,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:12.704807+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.705,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:14.502507+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and various street elements, including a pedestrian crossing and a red and white sign.",
+    "time_s": 1.783,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:16.370232+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red and white sign on the street.",
+    "time_s": 1.699,
+    "tokens": -7,
+    "tokens_per_s": -4.1
+  },
+  {
+    "timestamp": "2026-04-01T16:13:18.156300+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.203,
+    "tokens": -59,
+    "tokens_per_s": -49.0
+  },
+  {
+    "timestamp": "2026-04-01T16:13:19.545622+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including cars and a van. The scene captures a typical day with people walking and vehicles moving, highlighting the bustling nature of city life.",
+    "time_s": 2.713,
+    "tokens": -25,
+    "tokens_per_s": -9.2
+  },
+  {
+    "timestamp": "2026-04-01T16:13:22.437416+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.773,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:24.291593+00:00",
+    "text": "The scene depicts a busy street with pedestrians crossing, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.78,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:28.598205+00:00",
+    "text": "A black car is driving down a street with a pedestrian crossing and a crosswalk sign.",
+    "time_s": 1.386,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:13:30.801581+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red and white sign on the street.",
+    "time_s": 1.607,
+    "tokens": -7,
+    "tokens_per_s": -4.4
+  },
+  {
+    "timestamp": "2026-04-01T16:13:32.517524+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.156,
+    "tokens": -59,
+    "tokens_per_s": -51.1
+  },
+  {
+    "timestamp": "2026-04-01T16:13:33.910365+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including a blue truck and a white car.",
+    "time_s": 1.995,
+    "tokens": -43,
+    "tokens_per_s": -21.6
+  },
+  {
+    "timestamp": "2026-04-01T16:13:36.091169+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.775,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:37.948278+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.719,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:39.747969+00:00",
+    "text": "A black car is driving down a street with people walking on the sidewalk and a red and white sign on the corner.",
+    "time_s": 1.629,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:41.459904+00:00",
+    "text": "A red car is driving down a street with people walking on the sidewalk and a red and white sign on the street.",
+    "time_s": 1.614,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:43.155605+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.154,
+    "tokens": -59,
+    "tokens_per_s": -51.1
+  },
+  {
+    "timestamp": "2026-04-01T16:13:44.490236+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians, cars, and a bicycle, with a notable presence of people and vehicles.",
+    "time_s": 2.194,
+    "tokens": -52,
+    "tokens_per_s": -23.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:46.866072+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.784,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:13:48.733471+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black van, all under a cloudy sky.",
+    "time_s": 1.731,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:50.548305+00:00",
+    "text": "The scene depicts a busy city street with a black car driving down the road, pedestrians walking on the sidewalk, and various street signs and traffic signals.",
+    "time_s": 1.879,
+    "tokens": -1,
+    "tokens_per_s": -0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:13:52.518491+00:00",
+    "text": "A red car is driving down a street with pedestrians and a red sign on the sidewalk.",
+    "time_s": 1.404,
+    "tokens": -13,
+    "tokens_per_s": -9.3
+  },
+  {
+    "timestamp": "2026-04-01T16:13:54.006280+00:00",
+    "text": "The image depicts a bustling urban street scene with a person walking on the sidewalk, a motorcycle in motion, and several other individuals engaged in various activities. The scene captures a moment of daily life in a city, with the presence of pedestrians and a motorcycle adding to the dynamic atmosphere.",
+    "time_s": 2.927,
+    "tokens": -20,
+    "tokens_per_s": -6.8
+  },
+  {
+    "timestamp": "2026-04-01T16:13:57.141328+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including a blue truck and a white car.",
+    "time_s": 2.767,
+    "tokens": -43,
+    "tokens_per_s": -15.5
+  },
+  {
+    "timestamp": "2026-04-01T16:14:00.111515+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 1.838,
+    "tokens": -3,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:14:02.032732+00:00",
+    "text": "The scene depicts a busy street with pedestrians crossing, a red double-decker bus, and a black van, all under an overcast sky.",
+    "time_s": 1.935,
+    "tokens": -2,
+    "tokens_per_s": -1.0
+  },
+  {
+    "timestamp": "2026-04-01T16:14:04.059948+00:00",
+    "text": "The scene depicts a busy city street with cars, pedestrians, and various street elements, including a pedestrian crossing and a red and white sign.",
+    "time_s": 1.77,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:05.915041+00:00",
+    "text": "A red car is driving down a street with pedestrians and a red sign on the sidewalk.",
+    "time_s": 1.429,
+    "tokens": -13,
+    "tokens_per_s": -9.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:07.426593+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.124,
+    "tokens": -53,
+    "tokens_per_s": -47.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:08.757711+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians, cars, and a bicycle.",
+    "time_s": 1.741,
+    "tokens": -49,
+    "tokens_per_s": -28.2
+  },
+  {
+    "timestamp": "2026-04-01T16:14:10.689865+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.936,
+    "tokens": -2,
+    "tokens_per_s": -1.0
+  },
+  {
+    "timestamp": "2026-04-01T16:14:12.709055+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.724,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:14:14.525507+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.296,
+    "tokens": -15,
+    "tokens_per_s": -11.6
+  },
+  {
+    "timestamp": "2026-04-01T16:14:15.905148+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.601,
+    "tokens": -15,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:14:17.590379+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.124,
+    "tokens": -53,
+    "tokens_per_s": -47.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:18.905099+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles, including a blue truck and a white car.",
+    "time_s": 1.98,
+    "tokens": -43,
+    "tokens_per_s": -21.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:21.074537+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.805,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:22.963471+00:00",
+    "text": "The scene depicts a busy street with pedestrians crossing, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.828,
+    "tokens": -3,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:14:24.876203+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.308,
+    "tokens": -15,
+    "tokens_per_s": -11.5
+  },
+  {
+    "timestamp": "2026-04-01T16:14:26.265895+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.317,
+    "tokens": -15,
+    "tokens_per_s": -11.4
+  },
+  {
+    "timestamp": "2026-04-01T16:14:27.667661+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.127,
+    "tokens": -53,
+    "tokens_per_s": -47.0
+  },
+  {
+    "timestamp": "2026-04-01T16:14:28.998567+00:00",
+    "text": "A white truck with a blue cover is driving down a city street, with pedestrians and other vehicles visible in the background.",
+    "time_s": 1.609,
+    "tokens": -40,
+    "tokens_per_s": -24.9
+  },
+  {
+    "timestamp": "2026-04-01T16:14:30.787898+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.805,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:32.690768+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.709,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:14:34.481577+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.365,
+    "tokens": -15,
+    "tokens_per_s": -11.0
+  },
+  {
+    "timestamp": "2026-04-01T16:14:35.927522+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.285,
+    "tokens": -15,
+    "tokens_per_s": -11.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:37.295481+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.328,
+    "tokens": -59,
+    "tokens_per_s": -44.4
+  },
+  {
+    "timestamp": "2026-04-01T16:14:38.822594+00:00",
+    "text": "A busy street scene with a white truck driving down the road, a car parked on the side, and a person walking on the sidewalk.",
+    "time_s": 1.759,
+    "tokens": -42,
+    "tokens_per_s": -23.9
+  },
+  {
+    "timestamp": "2026-04-01T16:14:40.769912+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 2.403,
+    "tokens": -2,
+    "tokens_per_s": -0.8
+  },
+  {
+    "timestamp": "2026-04-01T16:14:43.254135+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a van, all under an overcast sky.",
+    "time_s": 1.725,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:14:45.065858+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a monument in the background.",
+    "time_s": 1.492,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:46.642717+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a monument in the background.",
+    "time_s": 1.494,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:48.222102+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.123,
+    "tokens": -53,
+    "tokens_per_s": -47.2
+  },
+  {
+    "timestamp": "2026-04-01T16:14:49.550694+00:00",
+    "text": "A busy city street with a white truck driving down the road, surrounded by pedestrians and cars, with a bicycle parked on the sidewalk.",
+    "time_s": 1.743,
+    "tokens": -49,
+    "tokens_per_s": -28.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:51.479491+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.781,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:53.343498+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a van, all under a cloudy sky.",
+    "time_s": 1.557,
+    "tokens": -8,
+    "tokens_per_s": -5.1
+  },
+  {
+    "timestamp": "2026-04-01T16:14:54.988346+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a monument in the background.",
+    "time_s": 1.499,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:56.569630+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a monument in the background.",
+    "time_s": 1.492,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:14:58.143843+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.133,
+    "tokens": -53,
+    "tokens_per_s": -46.8
+  },
+  {
+    "timestamp": "2026-04-01T16:14:59.460657+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians and other vehicles.",
+    "time_s": 1.69,
+    "tokens": -40,
+    "tokens_per_s": -23.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:01.341476+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.811,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:15:03.240925+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a van, all under a cloudy sky.",
+    "time_s": 1.585,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:04.928714+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.288,
+    "tokens": -15,
+    "tokens_per_s": -11.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:06.297625+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.309,
+    "tokens": -15,
+    "tokens_per_s": -11.5
+  },
+  {
+    "timestamp": "2026-04-01T16:15:07.706270+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.171,
+    "tokens": -59,
+    "tokens_per_s": -50.4
+  },
+  {
+    "timestamp": "2026-04-01T16:15:09.064113+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by various vehicles, pedestrians, and buildings.",
+    "time_s": 1.753,
+    "tokens": -43,
+    "tokens_per_s": -24.5
+  },
+  {
+    "timestamp": "2026-04-01T16:15:11.012458+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.684,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:12.781440+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a van, all under an overcast sky.",
+    "time_s": 1.655,
+    "tokens": -7,
+    "tokens_per_s": -4.2
+  },
+  {
+    "timestamp": "2026-04-01T16:15:14.534695+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.293,
+    "tokens": -15,
+    "tokens_per_s": -11.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:15.909789+00:00",
+    "text": "A white van is driving down a street with people crossing at a crosswalk.",
+    "time_s": 1.289,
+    "tokens": -15,
+    "tokens_per_s": -11.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:17.279603+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.115,
+    "tokens": -53,
+    "tokens_per_s": -47.5
+  },
+  {
+    "timestamp": "2026-04-01T16:15:18.576546+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by various vehicles, including cars and a bicycle, and pedestrians on the sidewalk.",
+    "time_s": 2.034,
+    "tokens": -42,
+    "tokens_per_s": -20.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:20.810208+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.877,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:22.771591+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a van, all under an overcast sky.",
+    "time_s": 1.644,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:15:24.501297+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a large white monument in the background.",
+    "time_s": 1.587,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:26.174655+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a large white monument in the background.",
+    "time_s": 1.581,
+    "tokens": -8,
+    "tokens_per_s": -5.1
+  },
+  {
+    "timestamp": "2026-04-01T16:15:27.853239+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.111,
+    "tokens": -53,
+    "tokens_per_s": -47.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:29.163331+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by various vehicles, including cars and a bicycle, and pedestrians on the sidewalk.",
+    "time_s": 2.032,
+    "tokens": -42,
+    "tokens_per_s": -20.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:31.420280+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.699,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:15:33.203723+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a black car, all under a cloudy sky.",
+    "time_s": 1.644,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:15:34.930485+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a large white monument in the background.",
+    "time_s": 1.586,
+    "tokens": -8,
+    "tokens_per_s": -5.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:36.600305+00:00",
+    "text": "A white van is driving down a street with people walking on the sidewalk and a large white monument in the background.",
+    "time_s": 1.796,
+    "tokens": -8,
+    "tokens_per_s": -4.5
+  },
+  {
+    "timestamp": "2026-04-01T16:15:38.479894+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.137,
+    "tokens": -53,
+    "tokens_per_s": -46.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:39.801852+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by various vehicles, pedestrians, and urban infrastructure.",
+    "time_s": 2.119,
+    "tokens": -36,
+    "tokens_per_s": -17.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:42.217045+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.685,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:43.983711+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red bus, and a black car, all under a cloudy sky.",
+    "time_s": 1.619,
+    "tokens": -7,
+    "tokens_per_s": -4.3
+  },
+  {
+    "timestamp": "2026-04-01T16:15:45.684021+00:00",
+    "text": "A white van is driving down a street with people gathered on the sidewalk, and a red double-decker bus is parked on the side of the road.",
+    "time_s": 1.875,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:47.640760+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.398,
+    "tokens": -12,
+    "tokens_per_s": -8.6
+  },
+  {
+    "timestamp": "2026-04-01T16:15:49.136623+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.128,
+    "tokens": -53,
+    "tokens_per_s": -47.0
+  },
+  {
+    "timestamp": "2026-04-01T16:15:50.444966+00:00",
+    "text": "A busy street scene with a white truck driving down the road, surrounded by pedestrians and cars.",
+    "time_s": 1.843,
+    "tokens": -45,
+    "tokens_per_s": -24.4
+  },
+  {
+    "timestamp": "2026-04-01T16:15:52.481381+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign and a statue in the background.",
+    "time_s": 1.766,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:15:54.342492+00:00",
+    "text": "The scene depicts a busy street with pedestrians crossing, a red double-decker bus, and a black car, all under a cloudy sky.",
+    "time_s": 1.779,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:56.203736+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.375,
+    "tokens": -13,
+    "tokens_per_s": -9.5
+  },
+  {
+    "timestamp": "2026-04-01T16:15:57.661116+00:00",
+    "text": "A protest is taking place on a city street, with people gathered on the sidewalk and a crowd of protesters crossing the street.",
+    "time_s": 1.642,
+    "tokens": -6,
+    "tokens_per_s": -3.7
+  },
+  {
+    "timestamp": "2026-04-01T16:15:59.386340+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.15,
+    "tokens": -53,
+    "tokens_per_s": -46.1
+  },
+  {
+    "timestamp": "2026-04-01T16:16:00.721297+00:00",
+    "text": "A busy street scene with a white truck driving down the road, a person walking on the sidewalk, and several cars parked along the street.",
+    "time_s": 1.763,
+    "tokens": -42,
+    "tokens_per_s": -23.8
+  },
+  {
+    "timestamp": "2026-04-01T16:16:02.667791+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.655,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:04.405827+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 2.314,
+    "tokens": -3,
+    "tokens_per_s": -1.3
+  },
+  {
+    "timestamp": "2026-04-01T16:16:06.802689+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.38,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:16:08.265508+00:00",
+    "text": "A protest is taking place on a city street, with people standing on the sidewalk and crossing the street.",
+    "time_s": 1.495,
+    "tokens": -10,
+    "tokens_per_s": -6.7
+  },
+  {
+    "timestamp": "2026-04-01T16:16:09.844031+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.119,
+    "tokens": -53,
+    "tokens_per_s": -47.3
+  },
+  {
+    "timestamp": "2026-04-01T16:16:11.138955+00:00",
+    "text": "A busy street scene with a white van driving down the road, a person walking on the sidewalk, and several cars parked along the street.",
+    "time_s": 1.811,
+    "tokens": -42,
+    "tokens_per_s": -23.2
+  },
+  {
+    "timestamp": "2026-04-01T16:16:13.157072+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.659,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:14.895757+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.809,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:16:16.787235+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk, and a red double-decker bus is parked on the side of the road.",
+    "time_s": 1.981,
+    "tokens": 3,
+    "tokens_per_s": 1.5
+  },
+  {
+    "timestamp": "2026-04-01T16:16:18.849565+00:00",
+    "text": "A protest is taking place on a city street, with people gathered on the sidewalk and a crowd of protesters crossing the street.",
+    "time_s": 1.66,
+    "tokens": -6,
+    "tokens_per_s": -3.6
+  },
+  {
+    "timestamp": "2026-04-01T16:16:20.592702+00:00",
+    "text": "A person is riding a motorcycle down a city street, with pedestrians walking on the sidewalk and a police officer standing on the corner.",
+    "time_s": 1.684,
+    "tokens": -38,
+    "tokens_per_s": -22.6
+  },
+  {
+    "timestamp": "2026-04-01T16:16:22.469645+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by various vehicles, including cars and a bicycle, and pedestrians.",
+    "time_s": 1.904,
+    "tokens": -39,
+    "tokens_per_s": -20.5
+  },
+  {
+    "timestamp": "2026-04-01T16:16:24.557488+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.715,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:16:26.355618+00:00",
+    "text": "The scene depicts a busy street with pedestrians, a red double-decker bus, and a black car, all under a gloomy sky.",
+    "time_s": 2.174,
+    "tokens": -3,
+    "tokens_per_s": -1.4
+  },
+  {
+    "timestamp": "2026-04-01T16:16:28.614025+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk, and a red double-decker bus is visible in the background.",
+    "time_s": 1.857,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:30.554753+00:00",
+    "text": "A protest is taking place on a city street, with people holding signs and a crowd gathered on the sidewalk.",
+    "time_s": 1.611,
+    "tokens": -9,
+    "tokens_per_s": -5.6
+  },
+  {
+    "timestamp": "2026-04-01T16:16:32.249007+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.127,
+    "tokens": -53,
+    "tokens_per_s": -47.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:33.557348+00:00",
+    "text": "The image depicts a busy urban street scene with a white van driving down the road, surrounded by various vehicles, including cars and a bicycle, and pedestrians. The scene is characterized by a mix of vehicles and people, indicating a typical day in a city environment.",
+    "time_s": 2.715,
+    "tokens": -18,
+    "tokens_per_s": -6.6
+  },
+  {
+    "timestamp": "2026-04-01T16:16:36.452836+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.655,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:38.203227+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.762,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:16:40.047997+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.46,
+    "tokens": -13,
+    "tokens_per_s": -8.9
+  },
+  {
+    "timestamp": "2026-04-01T16:16:41.589836+00:00",
+    "text": "A protest is taking place on a city street, with people holding signs and a crowd gathered on the sidewalk.",
+    "time_s": 1.51,
+    "tokens": -9,
+    "tokens_per_s": -6.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:43.181563+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.199,
+    "tokens": -53,
+    "tokens_per_s": -44.2
+  },
+  {
+    "timestamp": "2026-04-01T16:16:44.559672+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by various other vehicles, including cars and a bicycle, and pedestrians. The truck is the most prominent object, taking up a significant portion of the frame.",
+    "time_s": 2.629,
+    "tokens": -21,
+    "tokens_per_s": -8.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:47.375137+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.68,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:49.138199+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy, rainy sky.",
+    "time_s": 1.836,
+    "tokens": -1,
+    "tokens_per_s": -0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:16:51.057136+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.385,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:16:52.523370+00:00",
+    "text": "A group of people are gathered on a street corner, with some holding signs, while cars and pedestrians are present on the road.",
+    "time_s": 1.682,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:54.286809+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.122,
+    "tokens": -53,
+    "tokens_per_s": -47.2
+  },
+  {
+    "timestamp": "2026-04-01T16:16:55.641239+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by pedestrians, cars, and a bicycle.",
+    "time_s": 1.811,
+    "tokens": -43,
+    "tokens_per_s": -23.7
+  },
+  {
+    "timestamp": "2026-04-01T16:16:57.644835+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.662,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:16:59.388996+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.777,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:01.253027+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.401,
+    "tokens": -13,
+    "tokens_per_s": -9.3
+  },
+  {
+    "timestamp": "2026-04-01T16:17:02.737188+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.422,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:04.244382+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.127,
+    "tokens": -53,
+    "tokens_per_s": -47.0
+  },
+  {
+    "timestamp": "2026-04-01T16:17:05.549826+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck in the foreground, a blue truck in the middle, and several cars and pedestrians in the background. The scene includes a mix of vehicles, including a bicycle, and various individuals walking or standing on the sidewalks. The overall atmosphere suggests a typical day in a city with moderate traffic and pedestrian activity.",
+    "time_s": 3.435,
+    "tokens": -11,
+    "tokens_per_s": -3.2
+  },
+  {
+    "timestamp": "2026-04-01T16:17:09.161799+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a yellow sign on a pole.",
+    "time_s": 1.757,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:11.001598+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.779,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:12.864588+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.424,
+    "tokens": -13,
+    "tokens_per_s": -9.1
+  },
+  {
+    "timestamp": "2026-04-01T16:17:14.371717+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.423,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:15.878179+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.114,
+    "tokens": -53,
+    "tokens_per_s": -47.6
+  },
+  {
+    "timestamp": "2026-04-01T16:17:17.178669+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck driving down the road, surrounded by various pedestrians, cars, and a bicycle. The scene captures a moment of daily life in a city, with people walking, vehicles in motion, and a mix of architectural styles in the background.",
+    "time_s": 2.928,
+    "tokens": -24,
+    "tokens_per_s": -8.2
+  },
+  {
+    "timestamp": "2026-04-01T16:17:20.289488+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.731,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:17:22.103116+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.771,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:23.957968+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.359,
+    "tokens": -13,
+    "tokens_per_s": -9.6
+  },
+  {
+    "timestamp": "2026-04-01T16:17:25.412229+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.406,
+    "tokens": -12,
+    "tokens_per_s": -8.5
+  },
+  {
+    "timestamp": "2026-04-01T16:17:26.900787+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.145,
+    "tokens": -53,
+    "tokens_per_s": -46.3
+  },
+  {
+    "timestamp": "2026-04-01T16:17:28.258390+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck in motion, a cyclist, and several pedestrians, capturing a moment of daily city life.",
+    "time_s": 1.837,
+    "tokens": -46,
+    "tokens_per_s": -25.0
+  },
+  {
+    "timestamp": "2026-04-01T16:17:30.294535+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.772,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:17:32.148509+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, pedestrians, and various vehicles, including a black car and a van, all under a cloudy sky.",
+    "time_s": 2.03,
+    "tokens": 3,
+    "tokens_per_s": 1.5
+  },
+  {
+    "timestamp": "2026-04-01T16:17:34.259618+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.388,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:35.730581+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.405,
+    "tokens": -12,
+    "tokens_per_s": -8.5
+  },
+  {
+    "timestamp": "2026-04-01T16:17:37.217178+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.153,
+    "tokens": -53,
+    "tokens_per_s": -46.0
+  },
+  {
+    "timestamp": "2026-04-01T16:17:38.557551+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck in the foreground, a blue truck with a blue cover, a person walking on the sidewalk, and several cars and bicycles in the background. The scene suggests a typical day with moderate traffic and pedestrian activity.",
+    "time_s": 2.75,
+    "tokens": -29,
+    "tokens_per_s": -10.5
+  },
+  {
+    "timestamp": "2026-04-01T16:17:41.560541+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.813,
+    "tokens": -4,
+    "tokens_per_s": -2.2
+  },
+  {
+    "timestamp": "2026-04-01T16:17:43.454131+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.732,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:45.271612+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.383,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:46.737743+00:00",
+    "text": "A group of people are gathered on a city street, some holding signs, while others are crossing the road.",
+    "time_s": 1.504,
+    "tokens": -9,
+    "tokens_per_s": -6.0
+  },
+  {
+    "timestamp": "2026-04-01T16:17:48.321780+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.179,
+    "tokens": -53,
+    "tokens_per_s": -44.9
+  },
+  {
+    "timestamp": "2026-04-01T16:17:49.705157+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck in the foreground, a blue truck with a blue canopy, and several pedestrians and cars in the background. The scene suggests a typical day with moderate traffic and activity.",
+    "time_s": 2.437,
+    "tokens": -31,
+    "tokens_per_s": -12.7
+  },
+  {
+    "timestamp": "2026-04-01T16:17:52.320911+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.762,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:17:54.163808+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a red and white construction sign and a yellow sign on the sidewalk.",
+    "time_s": 2.252,
+    "tokens": 8,
+    "tokens_per_s": 3.6
+  },
+  {
+    "timestamp": "2026-04-01T16:17:56.510666+00:00",
+    "text": "A white van is driving down a street with a crowd of people gathered on the sidewalk.",
+    "time_s": 1.39,
+    "tokens": -13,
+    "tokens_per_s": -9.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:57.984063+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.428,
+    "tokens": -12,
+    "tokens_per_s": -8.4
+  },
+  {
+    "timestamp": "2026-04-01T16:17:59.492975+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.118,
+    "tokens": -53,
+    "tokens_per_s": -47.4
+  },
+  {
+    "timestamp": "2026-04-01T16:18:00.790937+00:00",
+    "text": "The image depicts a busy urban street scene with a white truck in motion, surrounded by pedestrians and other vehicles, including cars and a bicycle. The scene captures a moment of daily life in a city, with various elements contributing to the overall atmosphere.",
+    "time_s": 2.575,
+    "tokens": -33,
+    "tokens_per_s": -12.8
+  },
+  {
+    "timestamp": "2026-04-01T16:18:03.551250+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.727,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:18:05.360489+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a construction sign and a red and yellow sign on the sidewalk.",
+    "time_s": 2.163,
+    "tokens": 7,
+    "tokens_per_s": 3.2
+  },
+  {
+    "timestamp": "2026-04-01T16:18:07.605861+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.559,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:18:09.246459+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.402,
+    "tokens": -12,
+    "tokens_per_s": -8.6
+  },
+  {
+    "timestamp": "2026-04-01T16:18:10.736404+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.126,
+    "tokens": -53,
+    "tokens_per_s": -47.1
+  },
+  {
+    "timestamp": "2026-04-01T16:18:12.077679+00:00",
+    "text": "The image depicts a busy urban street scene with a blue truck in the foreground, a white van, and several pedestrians, indicating a typical day with moderate traffic and activity.",
+    "time_s": 2.011,
+    "tokens": -36,
+    "tokens_per_s": -17.9
+  },
+  {
+    "timestamp": "2026-04-01T16:18:14.273652+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.698,
+    "tokens": -4,
+    "tokens_per_s": -2.4
+  },
+  {
+    "timestamp": "2026-04-01T16:18:16.057136+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a red and white construction sign and a yellow sign on a pole.",
+    "time_s": 2.403,
+    "tokens": 8,
+    "tokens_per_s": 3.3
+  },
+  {
+    "timestamp": "2026-04-01T16:18:18.542891+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.566,
+    "tokens": -9,
+    "tokens_per_s": -5.7
+  },
+  {
+    "timestamp": "2026-04-01T16:18:20.209867+00:00",
+    "text": "A protest is taking place on a city street, with people crossing the road and holding signs.",
+    "time_s": 1.439,
+    "tokens": -12,
+    "tokens_per_s": -8.3
+  },
+  {
+    "timestamp": "2026-04-01T16:18:21.735143+00:00",
+    "text": "A person is riding a motorcycle down a wet street, with pedestrians crossing the road and a bus in the background.",
+    "time_s": 1.71,
+    "tokens": -41,
+    "tokens_per_s": -24.0
+  },
+  {
+    "timestamp": "2026-04-01T16:18:23.642370+00:00",
+    "text": "The image depicts a busy urban street scene with a blue truck in the foreground, a white van in the background, and several pedestrians walking on the sidewalk. The scene suggests a typical day with vehicles and people going about their daily activities.",
+    "time_s": 2.558,
+    "tokens": -17,
+    "tokens_per_s": -6.6
+  },
+  {
+    "timestamp": "2026-04-01T16:18:26.449988+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 2.019,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:18:28.558888+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a construction sign and a red and yellow sign on the sidewalk.",
+    "time_s": 2.342,
+    "tokens": 7,
+    "tokens_per_s": 3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:18:30.992108+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.645,
+    "tokens": -9,
+    "tokens_per_s": -5.5
+  },
+  {
+    "timestamp": "2026-04-01T16:18:32.726148+00:00",
+    "text": "A group of people are gathered on a city street, with some holding signs, while cars and a pedestrian crosswalk are visible.",
+    "time_s": 1.751,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:18:34.573716+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.149,
+    "tokens": -53,
+    "tokens_per_s": -46.1
+  },
+  {
+    "timestamp": "2026-04-01T16:18:35.925398+00:00",
+    "text": "The image depicts a busy urban street scene with a mix of vehicles, including a truck and several cars, and a group of people walking on the sidewalk. The scene includes a blue truck with a blue cover, a white van, and a few pedestrians. The overall atmosphere suggests a typical day in a city with moderate traffic and pedestrian activity.",
+    "time_s": 3.547,
+    "tokens": -8,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:18:39.673717+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.754,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:18:41.513550+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, pedestrians, and various vehicles, including a black car and a van, all navigating through an intersection.",
+    "time_s": 2.124,
+    "tokens": 3,
+    "tokens_per_s": 1.4
+  },
+  {
+    "timestamp": "2026-04-01T16:18:43.725417+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.763,
+    "tokens": -9,
+    "tokens_per_s": -5.1
+  },
+  {
+    "timestamp": "2026-04-01T16:18:45.586674+00:00",
+    "text": "A group of people are gathered on a city street, with some holding signs, while cars and a pedestrian crosswalk are visible.",
+    "time_s": 1.903,
+    "tokens": -5,
+    "tokens_per_s": -2.6
+  },
+  {
+    "timestamp": "2026-04-01T16:18:47.575949+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.14,
+    "tokens": -53,
+    "tokens_per_s": -46.5
+  },
+  {
+    "timestamp": "2026-04-01T16:18:55.080614+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life in a city.",
+    "time_s": 2.367,
+    "tokens": -40,
+    "tokens_per_s": -16.9
+  },
+  {
+    "timestamp": "2026-04-01T16:18:57.647489+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red brick building and a statue in the background.",
+    "time_s": 2.197,
+    "tokens": -3,
+    "tokens_per_s": -1.4
+  },
+  {
+    "timestamp": "2026-04-01T16:18:59.954270+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a red and yellow construction sign and a red bus in the background.",
+    "time_s": 2.646,
+    "tokens": 8,
+    "tokens_per_s": 3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:19:02.688206+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.645,
+    "tokens": -9,
+    "tokens_per_s": -5.5
+  },
+  {
+    "timestamp": "2026-04-01T16:19:04.432212+00:00",
+    "text": "A group of people are gathered on a city street, some holding signs, while others are walking across the crosswalk.",
+    "time_s": 1.649,
+    "tokens": -7,
+    "tokens_per_s": -4.2
+  },
+  {
+    "timestamp": "2026-04-01T16:19:06.185972+00:00",
+    "text": "The image depicts a bustling urban street scene with a car driving down the road, surrounded by pedestrians and various urban elements.",
+    "time_s": 1.707,
+    "tokens": -58,
+    "tokens_per_s": -34.0
+  },
+  {
+    "timestamp": "2026-04-01T16:19:10.149074+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.153,
+    "tokens": -59,
+    "tokens_per_s": -51.2
+  },
+  {
+    "timestamp": "2026-04-01T16:19:11.490119+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life with notable activity in the form of people walking and vehicles navigating the road.",
+    "time_s": 2.496,
+    "tokens": -41,
+    "tokens_per_s": -16.4
+  },
+  {
+    "timestamp": "2026-04-01T16:19:14.218496+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a crosswalk, with a red and white sign on a pole.",
+    "time_s": 1.754,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:19:16.057400+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 2.438,
+    "tokens": 9,
+    "tokens_per_s": 3.7
+  },
+  {
+    "timestamp": "2026-04-01T16:19:21.761751+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.648,
+    "tokens": -9,
+    "tokens_per_s": -5.5
+  },
+  {
+    "timestamp": "2026-04-01T16:19:25.108386+00:00",
+    "text": "A group of people are gathered on a city street, some holding signs, while others are crossing the road.",
+    "time_s": 1.703,
+    "tokens": -9,
+    "tokens_per_s": -5.3
+  },
+  {
+    "timestamp": "2026-04-01T16:19:26.923768+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.226,
+    "tokens": -59,
+    "tokens_per_s": -48.1
+  },
+  {
+    "timestamp": "2026-04-01T16:19:28.409419+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life with notable activity in the form of people walking and vehicles navigating the road.",
+    "time_s": 2.64,
+    "tokens": -29,
+    "tokens_per_s": -11.0
+  },
+  {
+    "timestamp": "2026-04-01T16:19:31.245970+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a crosswalk, with a red sign and a statue in the background.",
+    "time_s": 1.921,
+    "tokens": -4,
+    "tokens_per_s": -2.1
+  },
+  {
+    "timestamp": "2026-04-01T16:19:33.268464+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.808,
+    "tokens": -3,
+    "tokens_per_s": -1.7
+  },
+  {
+    "timestamp": "2026-04-01T16:19:35.162860+00:00",
+    "text": "A white van is driving down a street with a group of people gathered on the sidewalk, some holding signs.",
+    "time_s": 1.554,
+    "tokens": -9,
+    "tokens_per_s": -5.8
+  },
+  {
+    "timestamp": "2026-04-01T16:19:36.803464+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians and vehicles, including a car, and a notable activity is the presence of people walking and interacting on the sidewalks.",
+    "time_s": 2.177,
+    "tokens": -52,
+    "tokens_per_s": -23.9
+  },
+  {
+    "timestamp": "2026-04-01T16:19:39.176353+00:00",
+    "text": "A group of people are protesting on a city street, with a banner and signs visible among them.",
+    "time_s": 1.531,
+    "tokens": -11,
+    "tokens_per_s": -7.2
+  },
+  {
+    "timestamp": "2026-04-01T16:19:40.791373+00:00",
+    "text": "A busy city street with a motorcycle and pedestrians.",
+    "time_s": 1.122,
+    "tokens": -60,
+    "tokens_per_s": -53.5
+  },
+  {
+    "timestamp": "2026-04-01T16:19:42.113736+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life in a city.",
+    "time_s": 2.172,
+    "tokens": -40,
+    "tokens_per_s": -18.4
+  },
+  {
+    "timestamp": "2026-04-01T16:19:44.484033+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a crosswalk, with a red sign and a statue in the background.",
+    "time_s": 1.758,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:19:46.325905+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.928,
+    "tokens": -3,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:19:48.336720+00:00",
+    "text": "A white van is driving down a street with a group of people crossing the street.",
+    "time_s": 1.448,
+    "tokens": -14,
+    "tokens_per_s": -9.7
+  },
+  {
+    "timestamp": "2026-04-01T16:19:49.870394+00:00",
+    "text": "A group of people are gathered on a city street, some holding signs, while others are walking across the crosswalk.",
+    "time_s": 1.649,
+    "tokens": -7,
+    "tokens_per_s": -4.2
+  },
+  {
+    "timestamp": "2026-04-01T16:19:51.604989+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.201,
+    "tokens": -59,
+    "tokens_per_s": -49.1
+  },
+  {
+    "timestamp": "2026-04-01T16:19:52.994486+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, vehicles, and a truck, capturing a moment of daily life in a city.",
+    "time_s": 1.943,
+    "tokens": -40,
+    "tokens_per_s": -20.6
+  },
+  {
+    "timestamp": "2026-04-01T16:19:55.123005+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a statue in the background.",
+    "time_s": 1.788,
+    "tokens": -4,
+    "tokens_per_s": -2.2
+  },
+  {
+    "timestamp": "2026-04-01T16:19:56.994513+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians, all under a gloomy sky.",
+    "time_s": 1.883,
+    "tokens": -3,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-01T16:19:58.977265+00:00",
+    "text": "A white van is driving down a street with people crossing the road and a red double-decker bus in the background.",
+    "time_s": 1.73,
+    "tokens": -7,
+    "tokens_per_s": -4.0
+  },
+  {
+    "timestamp": "2026-04-01T16:20:00.792853+00:00",
+    "text": "A group of people are gathered on a city street, with some holding signs, while cars and a pedestrian crosswalk are visible.",
+    "time_s": 1.701,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:20:02.578304+00:00",
+    "text": "A person is riding a motorcycle down a city street.",
+    "time_s": 1.15,
+    "tokens": -53,
+    "tokens_per_s": -46.1
+  },
+  {
+    "timestamp": "2026-04-01T16:20:03.916850+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of vehicles, pedestrians, and buildings, capturing a moment of daily life in a city.",
+    "time_s": 1.824,
+    "tokens": -35,
+    "tokens_per_s": -19.2
+  },
+  {
+    "timestamp": "2026-04-01T16:20:05.929248+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.851,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:20:07.862289+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a construction sign and a red bus stop sign visible.",
+    "time_s": 2.167,
+    "tokens": 5,
+    "tokens_per_s": 2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:20:10.111641+00:00",
+    "text": "The image depicts a busy urban street scene with a car driving down the road, surrounded by pedestrians and other vehicles. The scene includes various elements such as buildings, trees, and street furniture, contributing to a lively city atmosphere.",
+    "time_s": 2.653,
+    "tokens": -43,
+    "tokens_per_s": -16.2
+  },
+  {
+    "timestamp": "2026-04-01T16:20:12.956745+00:00",
+    "text": "A white van is driving down a street with a group of people crossing the street.",
+    "time_s": 1.359,
+    "tokens": -14,
+    "tokens_per_s": -10.3
+  },
+  {
+    "timestamp": "2026-04-01T16:20:14.400134+00:00",
+    "text": "A group of people are gathered on a city street, with some holding signs, while cars and a pedestrian crosswalk are visible.",
+    "time_s": 1.738,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:20:16.223518+00:00",
+    "text": "A busy city street with a motorcycle and pedestrians.",
+    "time_s": 1.172,
+    "tokens": -60,
+    "tokens_per_s": -51.2
+  },
+  {
+    "timestamp": "2026-04-01T16:20:17.611714+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a truck, capturing a moment of daily life with notable activity in the form of people walking and vehicles navigating the road.",
+    "time_s": 2.389,
+    "tokens": -23,
+    "tokens_per_s": -9.6
+  },
+  {
+    "timestamp": "2026-04-01T16:20:20.189569+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a crosswalk, with a red and white sign on a pole.",
+    "time_s": 1.721,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:20:22.008687+00:00",
+    "text": "The scene depicts a busy street with a red double-decker bus, a black car, and pedestrians crossing the street, with a red brick building and a tree with pink blossoms in the background.",
+    "time_s": 2.284,
+    "tokens": 9,
+    "tokens_per_s": 3.9
+  },
+  {
+    "timestamp": "2026-04-01T16:20:24.380613+00:00",
+    "text": "A white van is driving down a street with people crossing the road and a red bus in the background.",
+    "time_s": 1.566,
+    "tokens": -10,
+    "tokens_per_s": -6.4
+  },
+  {
+    "timestamp": "2026-04-01T16:20:26.028916+00:00",
+    "text": "A group of people are crossing a street, with a person holding a sign, amidst a backdrop of buildings and a crosswalk.",
+    "time_s": 1.906,
+    "tokens": -5,
+    "tokens_per_s": -2.6
+  },
+  {
+    "timestamp": "2026-04-01T16:20:28.020153+00:00",
+    "text": "A busy city street with a motorcycle and pedestrians.",
+    "time_s": 1.116,
+    "tokens": -60,
+    "tokens_per_s": -53.8
+  },
+  {
+    "timestamp": "2026-04-01T16:20:29.327050+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a person walking on the sidewalk. Notably, there are multiple cars visible, including a white van and a silver car, indicating a busy traffic flow. The presence of pedestrians suggests a lively and active environment. The scene captures the essence of daily city life, with various elements contributing to the overall dynamic atmosphere.",
+    "time_s": 3.937,
+    "tokens": 15,
+    "tokens_per_s": 3.8
+  },
+  {
+    "timestamp": "2026-04-01T16:20:33.448915+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.717,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:20:35.259467+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians and vehicles, including a car and a person walking. The scene is characterized by a variety of individuals engaged in different activities, contributing to the dynamic atmosphere of the city.",
+    "time_s": 2.551,
+    "tokens": -41,
+    "tokens_per_s": -16.1
+  },
+  {
+    "timestamp": "2026-04-01T16:20:38.014909+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians crossing the street, and a red double-decker bus in the background.",
+    "time_s": 1.903,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:20:40.002311+00:00",
+    "text": "A white van is driving down a street with people crossing the road and a red double-decker bus in the background.",
+    "time_s": 1.695,
+    "tokens": -7,
+    "tokens_per_s": -4.1
+  },
+  {
+    "timestamp": "2026-04-01T16:20:41.780094+00:00",
+    "text": "A group of people are crossing a street, with a person holding a sign, amidst a backdrop of buildings and a crosswalk.",
+    "time_s": 1.865,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:20:43.738418+00:00",
+    "text": "A busy city street with a person riding a motorcycle and several pedestrians crossing the street.",
+    "time_s": 1.352,
+    "tokens": -47,
+    "tokens_per_s": -34.8
+  },
+  {
+    "timestamp": "2026-04-01T16:20:45.278529+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a person walking on the sidewalk, capturing a moment of daily life in a city.",
+    "time_s": 2.222,
+    "tokens": -30,
+    "tokens_per_s": -13.5
+  },
+  {
+    "timestamp": "2026-04-01T16:20:47.684046+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign and a white crosswalk visible.",
+    "time_s": 1.73,
+    "tokens": -4,
+    "tokens_per_s": -2.3
+  },
+  {
+    "timestamp": "2026-04-01T16:20:49.496381+00:00",
+    "text": "A busy street scene with a black car, pedestrians, a red bus, and a red double-decker bus in the background.",
+    "time_s": 2.085,
+    "tokens": -5,
+    "tokens_per_s": -2.4
+  },
+  {
+    "timestamp": "2026-04-01T16:20:51.665821+00:00",
+    "text": "A white van is driving down a street with people crossing the road and a red bus in the background.",
+    "time_s": 1.65,
+    "tokens": -10,
+    "tokens_per_s": -6.1
+  },
+  {
+    "timestamp": "2026-04-01T16:20:53.399541+00:00",
+    "text": "A group of people are crossing a street, with a person holding a sign, amidst a backdrop of buildings and a crosswalk.",
+    "time_s": 1.831,
+    "tokens": -5,
+    "tokens_per_s": -2.7
+  },
+  {
+    "timestamp": "2026-04-01T16:20:55.318258+00:00",
+    "text": "A busy city street with a motorcycle and pedestrians.",
+    "time_s": 1.139,
+    "tokens": -60,
+    "tokens_per_s": -52.7
+  },
+  {
+    "timestamp": "2026-04-01T16:20:56.667649+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a person walking on the sidewalk, capturing a moment of daily life in a city.",
+    "time_s": 2.141,
+    "tokens": -36,
+    "tokens_per_s": -16.8
+  },
+  {
+    "timestamp": "2026-04-01T16:20:58.995682+00:00",
+    "text": "The image depicts a busy urban street scene with a car driving down the road, surrounded by pedestrians and various urban elements.",
+    "time_s": 1.678,
+    "tokens": -64,
+    "tokens_per_s": -38.1
+  },
+  {
+    "timestamp": "2026-04-01T16:21:00.875882+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign on a pole and a red brick building in the background.",
+    "time_s": 2.359,
+    "tokens": 1,
+    "tokens_per_s": 0.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:03.318905+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians crossing the street, and a red double-decker bus in the background.",
+    "time_s": 2.178,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:05.583246+00:00",
+    "text": "A white van is driving down a street with a group of people crossing the street.",
+    "time_s": 1.361,
+    "tokens": -14,
+    "tokens_per_s": -10.3
+  },
+  {
+    "timestamp": "2026-04-01T16:21:07.038915+00:00",
+    "text": "People are crossing a street with a sign that says \"Stop\" in the middle.",
+    "time_s": 1.345,
+    "tokens": -14,
+    "tokens_per_s": -10.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:08.469309+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, a motorcycle, and a red double-decker bus, capturing a moment of daily city life.",
+    "time_s": 2.145,
+    "tokens": -37,
+    "tokens_per_s": -17.2
+  },
+  {
+    "timestamp": "2026-04-01T16:21:10.807105+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a truck, capturing a moment of daily life with notable activity in the form of people walking and vehicles navigating the road.",
+    "time_s": 2.298,
+    "tokens": -35,
+    "tokens_per_s": -15.2
+  },
+  {
+    "timestamp": "2026-04-01T16:21:13.294103+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 2.11,
+    "tokens": -5,
+    "tokens_per_s": -2.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:15.491038+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians crossing the street, and a red double-decker bus in the background.",
+    "time_s": 2.091,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:17.665961+00:00",
+    "text": "A white van is driving down a street with people crossing the road and a red double-decker bus in the background.",
+    "time_s": 1.709,
+    "tokens": -7,
+    "tokens_per_s": -4.1
+  },
+  {
+    "timestamp": "2026-04-01T16:21:19.461537+00:00",
+    "text": "People are crossing a street with a sign that says \"Stop\" in the middle.",
+    "time_s": 1.447,
+    "tokens": -14,
+    "tokens_per_s": -9.7
+  },
+  {
+    "timestamp": "2026-04-01T16:21:20.999735+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, a motorcycle, and a red double-decker bus, capturing a moment of daily city life.",
+    "time_s": 2.05,
+    "tokens": -37,
+    "tokens_per_s": -18.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:23.351415+00:00",
+    "text": "The image depicts a busy urban street scene with a car driving down the road, surrounded by pedestrians and other vehicles. The scene includes a mix of people walking on the sidewalks and others standing or sitting near the street. The car is a prominent feature, taking up a significant portion of the road. The overall atmosphere suggests a typical day in a bustling city environment.",
+    "time_s": 3.527,
+    "tokens": -16,
+    "tokens_per_s": -4.5
+  },
+  {
+    "timestamp": "2026-04-01T16:21:27.068148+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a truck, capturing a moment of daily life with notable activity in the form of people walking and vehicles navigating the road.",
+    "time_s": 2.296,
+    "tokens": -35,
+    "tokens_per_s": -15.2
+  },
+  {
+    "timestamp": "2026-04-01T16:21:29.555227+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.743,
+    "tokens": -5,
+    "tokens_per_s": -2.9
+  },
+  {
+    "timestamp": "2026-04-01T16:21:31.380995+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians crossing the street, and a red double-decker bus in the background.",
+    "time_s": 1.888,
+    "tokens": 0,
+    "tokens_per_s": 0.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:33.352193+00:00",
+    "text": "A white van is driving down a street with a group of people crossing the street, while a red double-decker bus is parked on the side of the road.",
+    "time_s": 2.105,
+    "tokens": 2,
+    "tokens_per_s": 0.9
+  },
+  {
+    "timestamp": "2026-04-01T16:21:35.539676+00:00",
+    "text": "People are crossing a street with a sign that says \"Stop\" in the middle.",
+    "time_s": 1.351,
+    "tokens": -14,
+    "tokens_per_s": -10.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:36.975281+00:00",
+    "text": "The image depicts a bustling urban street scene with pedestrians, a motorcycle, and a red double-decker bus, capturing a moment of daily life in a city.",
+    "time_s": 1.96,
+    "tokens": -38,
+    "tokens_per_s": -19.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:39.184523+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and buildings, capturing a moment of daily life with notable activity in the form of people walking and cars navigating the road.",
+    "time_s": 2.311,
+    "tokens": -24,
+    "tokens_per_s": -10.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:41.676705+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.688,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:43.446259+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians walking on the sidewalk, and a red double-decker bus in the background.",
+    "time_s": 2.408,
+    "tokens": 1,
+    "tokens_per_s": 0.4
+  },
+  {
+    "timestamp": "2026-04-01T16:21:45.937855+00:00",
+    "text": "A white van is driving down a street with a group of people crossing the street.",
+    "time_s": 1.458,
+    "tokens": -14,
+    "tokens_per_s": -9.6
+  },
+  {
+    "timestamp": "2026-04-01T16:21:49.462008+00:00",
+    "text": "A group of people are crossing a street, with one person holding a sign.",
+    "time_s": 1.54,
+    "tokens": -15,
+    "tokens_per_s": -9.7
+  },
+  {
+    "timestamp": "2026-04-01T16:21:51.105989+00:00",
+    "text": "The image depicts a busy urban street scene with a car driving down the road, surrounded by pedestrians and other vehicles. The scene includes various elements such as buildings, trees, and street furniture, contributing to a lively city atmosphere.",
+    "time_s": 2.397,
+    "tokens": -43,
+    "tokens_per_s": -17.9
+  },
+  {
+    "timestamp": "2026-04-01T16:21:53.769171+00:00",
+    "text": "The image depicts a busy urban street scene with several pedestrians and cars, including a person walking on the sidewalk and a car driving on the road.",
+    "time_s": 1.816,
+    "tokens": -53,
+    "tokens_per_s": -29.2
+  },
+  {
+    "timestamp": "2026-04-01T16:21:55.756477+00:00",
+    "text": "The image depicts a bustling urban street scene with a mix of pedestrians, cars, and a person walking on the sidewalk, capturing a moment of daily city life.",
+    "time_s": 1.915,
+    "tokens": -32,
+    "tokens_per_s": -16.7
+  },
+  {
+    "timestamp": "2026-04-01T16:21:57.875928+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red and white sign on a pole.",
+    "time_s": 1.671,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:21:59.628588+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians walking on the sidewalk, and a red double-decker bus in the background.",
+    "time_s": 2.103,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:22:01.812548+00:00",
+    "text": "A grey SUV is driving down a city street with pedestrians and a white car in the background.",
+    "time_s": 1.401,
+    "tokens": -12,
+    "tokens_per_s": -8.6
+  },
+  {
+    "timestamp": "2026-04-01T16:22:03.296752+00:00",
+    "text": "A group of people are crossing a street, with a person holding a sign, amidst a backdrop of buildings and a crosswalk.",
+    "time_s": 1.659,
+    "tokens": -5,
+    "tokens_per_s": -3.0
+  },
+  {
+    "timestamp": "2026-04-01T16:22:05.037657+00:00",
+    "text": "The image depicts a busy urban street scene with various elements such as pedestrians, cars, and street signs, indicating a typical day with moderate activity.",
+    "time_s": 2.055,
+    "tokens": -59,
+    "tokens_per_s": -28.7
+  },
+  {
+    "timestamp": "2026-04-01T16:22:07.265515+00:00",
+    "text": "The image depicts a busy urban street scene with multiple cars, pedestrians, and a person walking on the sidewalk, indicating a bustling city environment.",
+    "time_s": 2.03,
+    "tokens": -42,
+    "tokens_per_s": -20.7
+  },
+  {
+    "timestamp": "2026-04-01T16:22:09.471750+00:00",
+    "text": "The scene depicts a busy street with cars, pedestrians, and a pedestrian crossing, with a red sign on a pole and a white crosswalk.",
+    "time_s": 1.799,
+    "tokens": -2,
+    "tokens_per_s": -1.1
+  },
+  {
+    "timestamp": "2026-04-01T16:22:11.352939+00:00",
+    "text": "The scene depicts a busy street with a black car driving down the road, pedestrians walking on the sidewalk, and a red double-decker bus in the background.",
+    "time_s": 1.932,
+    "tokens": 1,
+    "tokens_per_s": 0.5
+  },
+  {
+    "timestamp": "2026-04-01T16:22:13.369773+00:00",
+    "text": "A grey SUV is driving down a city street with pedestrians and a white car in the background.",
+    "time_s": 1.606,
+    "tokens": -12,
+    "tokens_per_s": -7.5
+  },
+  {
+    "timestamp": "2026-04-01T16:22:15.071043+00:00",
+    "text": "A grey SUV is driving down a city street with pedestrians and a white car in the background.",
+    "time_s": 1.539,
+    "tokens": -12,
+    "tokens_per_s": -7.8
+  },
+  {
+    "timestamp": "2026-04-01T16:22:16.694126+00:00",
+    "text": "The image depicts a busy urban street scene with various elements such as pedestrians, cars, and street signs, indicating a typical day with moderate activity.",
+    "time_s": 2.09,
+    "tokens": -59,
+    "tokens_per_s": -28.2
+  }
+]

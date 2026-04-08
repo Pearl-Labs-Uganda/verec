@@ -1,0 +1,912 @@
+[
+  {
+    "timestamp": "2026-04-01T16:26:23.881946+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-04-01T16:27:24.826665+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:28:24.590583+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:29:29.948175+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:30:29.270828+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:31:26.765129+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:32:21.714660+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:34:34.650456+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:35:46.580190+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:36:40.842808+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:37:47.482327+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:38:43.382753+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:39:40.757843+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:40:42.339958+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:41:52.284948+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:42:43.897577+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:43:53.177065+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:44:44.914646+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:45:41.868697+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:46:44.141325+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:47:57.039507+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:48:50.243991+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:49:53.585477+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:50:50.342875+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:51:46.819712+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:52:51.773794+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:53:45.885512+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:54:58.638713+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:55:45.384431+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:56:51.628901+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:57:47.574705+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:58:54.969660+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T16:59:47.634915+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:01:06.661296+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:01:53.131322+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:02:47.101575+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:03:49.668812+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:04:44.801306+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:05:53.932671+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:07:03.776088+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:07:48.148297+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:08:45.107806+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:09:49.129125+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:10:49.926670+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:11:51.711966+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:13:01.560726+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:13:46.891138+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:14:57.039197+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:15:46.652174+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:16:48.890354+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:17:47.044376+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:18:52.211025+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:19:55.228058+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:20:46.512298+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:21:48.961173+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:23:05.392166+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:23:45.588042+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:24:53.836889+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:25:44.990661+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:26:54.425376+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:27:47.014730+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:28:53.993113+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:29:56.305101+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:30:49.012147+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:31:46.430499+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:32:50.715764+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:33:42.020558+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:34:48.055441+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:35:52.986664+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:36:44.068326+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-01T17:37:42.912965+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T04:23:02.661244+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T15:56:25.758556+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T15:57:33.088629+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T15:58:29.222255+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T15:59:24.455008+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:00:26.098842+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:01:23.921461+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:02:34.106559+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:03:29.824846+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:04:27.936926+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:05:27.335342+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:06:50.663953+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:07:44.440166+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:08:45.698518+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:09:45.150962+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:10:48.306548+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:11:45.627856+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:12:48.368113+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:13:44.117333+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:14:49.945624+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:15:44.607106+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:16:47.432030+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:17:45.043176+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:18:47.078878+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:19:45.545607+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:20:46.122878+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:21:50.510834+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:22:48.128364+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:23:44.234864+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:24:46.674616+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:25:44.141459+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:26:55.535040+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:27:52.544247+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:28:53.767414+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:29:48.385540+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:30:47.228960+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:31:45.043939+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:32:46.240818+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:33:44.642429+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:34:52.555033+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:35:51.362842+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:36:49.241081+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:37:44.935169+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:38:47.234947+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:39:44.107359+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:40:47.566906+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:41:43.919871+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:42:45.656259+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:43:45.239318+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:44:46.015763+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:45:44.889903+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:46:46.728157+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:47:44.952073+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:48:46.917551+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:49:44.660192+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:50:48.168839+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:51:52.177108+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:52:45.328194+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-04-02T16:53:46.547939+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Connection error.",
+    "detection_count": 20,
+    "caption_count": 10
+  }
+]

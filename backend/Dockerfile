@@ -17,7 +17,8 @@ WORKDIR /app
 COPY pyproject.toml ./
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir \
-        "torch==2.6.0" "torchvision==0.21.0" \
+        "torch==2.6.0+cpu" "torchvision==0.21.0+cpu" --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir \
         "transformers==4.48.3" "tokenizers==0.21.0" "sentencepiece==0.1.99" \
         shortuuid "accelerate==1.6.0" "peft>=0.10.0,<0.14.0" \
         pydantic "markdown2[all]" "numpy==1.26.4" "scikit-learn==1.2.2" \

@@ -39,6 +39,7 @@ from backend.models import (
     get_camera_frame, run_detection, run_vlm,
     run_pose, run_action,
     resolve_stream_url, IP_CAMERA_PRESETS, COCO_CLASSES,
+    build_composite_image,
 )
 import backend.models as _models
 
@@ -86,8 +87,12 @@ _export_lock = threading.Lock()
 _detection_log: list[dict] = []
 _vlm_log: list[dict] = []
 _reports: list[dict] = []
+_scene_index: list[dict] = []  # structured scene index for search
+_pose_log: list[dict] = []     # per-frame pose keypoints log
+_action_log: list[dict] = []   # action recognition log
+_frame_log: list[dict] = []    # every frame's combined data
 _object_counts: dict[str, int] = {}  # cumulative class → count
-MAX_LOG = 500
+MAX_LOG = 5000  # keep more in memory for accuracy testing
 
 # Session timestamp for file names
 _session_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
@@ -102,16 +107,57 @@ def _flush_json(filename: str, data: list[dict]):
         pass
 
 
+def _append_jsonl(filename: str, entry: dict):
+    """Append a single JSON line to a .jsonl file (efficient for large logs)."""
+    path = _LOG_DIR / filename
+    try:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry) + "\n")
+    except Exception:
+        pass
+
+
+_frame_counter = 0
+
+
 def _append_detection(entry: dict):
     with _export_lock:
         _detection_log.append(entry)
         if len(_detection_log) > MAX_LOG:
             del _detection_log[: len(_detection_log) - MAX_LOG]
+        _flush_json(f"detections_{_session_id}.json", _detection_log[-500:])
         # Tally object class frequencies
         for obj in entry.get("objects", []):
             cls = obj.get("class", "unknown")
             _object_counts[cls] = _object_counts.get(cls, 0) + 1
-        _flush_json(f"detections_{_session_id}.json", _detection_log)
+
+
+def _append_pose(entry: dict):
+    with _export_lock:
+        _pose_log.append(entry)
+        if len(_pose_log) > MAX_LOG:
+            del _pose_log[: len(_pose_log) - MAX_LOG]
+        _append_jsonl(f"poses_{_session_id}.jsonl", entry)
+
+
+def _append_action(entry: dict):
+    with _export_lock:
+        _action_log.append(entry)
+        if len(_action_log) > MAX_LOG:
+            del _action_log[: len(_action_log) - MAX_LOG]
+        _append_jsonl(f"actions_{_session_id}.jsonl", entry)
+
+
+def _append_frame(entry: dict):
+    """Log every frame's combined data to JSONL for accuracy testing."""
+    global _frame_counter
+    with _export_lock:
+        _frame_counter += 1
+        entry["frame_id"] = _frame_counter
+        _frame_log.append(entry)
+        if len(_frame_log) > MAX_LOG:
+            del _frame_log[: len(_frame_log) - MAX_LOG]
+        _append_jsonl(f"frames_{_session_id}.jsonl", entry)
 
 
 def _append_vlm(entry: dict):
@@ -126,6 +172,15 @@ def _append_report(entry: dict):
     with _export_lock:
         _reports.append(entry)
         _flush_json(f"reports_{_session_id}.json", _reports)
+
+
+def _append_scene_index(entry: dict):
+    """Append a structured scene snapshot to the index log."""
+    with _export_lock:
+        _scene_index.append(entry)
+        if len(_scene_index) > MAX_LOG:
+            del _scene_index[: len(_scene_index) - MAX_LOG]
+        _flush_json(f"scene_index_{_session_id}.json", _scene_index)
 
 
 def _frame_to_jpeg(frame: np.ndarray, quality: int = 80) -> bytes:
@@ -333,6 +388,13 @@ def export_reports():
     return {"count": len(data), "reports": data}
 
 
+@app.get("/api/export/scene_index")
+def export_scene_index():
+    with _export_lock:
+        data = list(_scene_index)
+    return {"count": len(data), "scenes": data}
+
+
 @app.get("/api/export/all")
 def export_all():
     with _export_lock:
@@ -341,6 +403,7 @@ def export_all():
             "detections": list(_detection_log),
             "vlm_captions": list(_vlm_log),
             "reports": list(_reports),
+            "scene_index": list(_scene_index),
         }
 
 
@@ -374,6 +437,10 @@ async def ws_feed(
     last_vlm_time = 0.0
     last_caption = ""
     last_action: dict | None = None
+    # Frame buffer for multi-frame VLM captioning
+    _vlm_frame_buf: list[np.ndarray] = []
+    _vlm_context_buf: list[dict] = []  # per-frame detection/pose/action context
+    VLM_FRAME_COUNT = 5  # collect N frames before running VLM
 
     try:
         while True:
@@ -412,6 +479,7 @@ async def ws_feed(
 
                 # Detection
                 det_objects = []
+                det_entry = {}
                 if enable_det:
                     det_result = run_detection(frame, conf=conf, iou=iou)
                     det_objects = det_result["objects"]
@@ -421,8 +489,15 @@ async def ws_feed(
                         "time_ms": det_result["time_ms"],
                         "fps": det_result["fps"],
                     }
-                    _append_detection({"timestamp": ts, "objects": det_objects,
-                                       "count": det_result["count"], "time_ms": det_result["time_ms"]})
+                    det_entry = {
+                        "timestamp": ts,
+                        "objects": det_objects,
+                        "count": det_result["count"],
+                        "time_ms": det_result["time_ms"],
+                        "conf_threshold": conf,
+                        "iou_threshold": iou,
+                    }
+                    _append_detection(det_entry)
                     # Include cumulative object frequency counts
                     with _export_lock:
                         payload["object_counts"] = dict(_object_counts)
@@ -430,6 +505,8 @@ async def ws_feed(
                 # Pose estimation + action recognition
                 pose_keypoints = None
                 pose_scores = None
+                pose_entry = {}
+                action_entry = {}
                 if enable_pose:
                     pose_result = run_pose(frame, conf=conf, iou=iou)
                     if pose_result is not None:
@@ -442,12 +519,48 @@ async def ws_feed(
                         pose_keypoints = pose_result["keypoints"]
                         pose_scores = pose_result["scores"]
 
+                        # Log full pose data with keypoints for accuracy testing
+                        pose_entry = {
+                            "timestamp": ts,
+                            "person_count": pose_result["count"],
+                            "time_ms": pose_result["time_ms"],
+                            "persons": [
+                                {
+                                    "id": i + 1,
+                                    "confidence": p["confidence"],
+                                    "box": p["box"],
+                                    "keypoints": p["keypoints"],
+                                }
+                                for i, p in enumerate(pose_result["persons"])
+                            ],
+                        }
+                        _append_pose(pose_entry)
+
                         # Feed to ST-GCN action recogniser
                         action_result = run_action(pose_keypoints, pose_scores)
                         if action_result is not None:
                             last_action = action_result
+                            action_entry = {
+                                "timestamp": ts,
+                                "actions": last_action.get("actions", []),
+                                "inference_time_ms": last_action.get("time_ms", 0),
+                                "buffer_frames": last_action.get("buffer_size", 0),
+                            }
+                            _append_action(action_entry)
                         if last_action is not None:
                             payload["action"] = last_action
+
+                # --- Log combined frame data for accuracy testing ---
+                frame_entry: dict[str, Any] = {"timestamp": ts}
+                if det_entry:
+                    frame_entry["detection"] = det_entry
+                if pose_entry:
+                    frame_entry["pose"] = pose_entry
+                if action_entry:
+                    frame_entry["action"] = action_entry
+                if last_caption:
+                    frame_entry["caption"] = last_caption
+                _append_frame(frame_entry)
 
                 # Build AI frame with detection overlay
                 ai_frame = frame.copy()
@@ -467,28 +580,99 @@ async def ws_feed(
                         pose_scores, pose_keypoints,
                     )
 
-                # VLM (throttled) — enriched with detection context
+                # VLM (throttled) — multi-frame composite with enriched context
                 if enable_vlm and now - last_vlm_time >= vlm_interval:
-                    last_vlm_time = now
+                    # Build per-frame context snapshot
+                    frame_ctx: dict[str, Any] = {}
                     if det_objects:
-                        obj_detail = "; ".join(
-                            f"{o['class']} ({o['confidence']:.0%})" for o in det_objects
+                        # Label each person: Person 1, Person 2, etc.
+                        person_count = 0
+                        labeled_objects = []
+                        for o in det_objects:
+                            if o["class"] == "person":
+                                person_count += 1
+                                labeled_objects.append(
+                                    f"Person {person_count} ({o['confidence']:.0%}, box {o.get('box', '?')})"
+                                )
+                            else:
+                                labeled_objects.append(f"{o['class']} ({o['confidence']:.0%})")
+                        frame_ctx["objects"] = labeled_objects
+                        frame_ctx["person_count"] = person_count
+                        frame_ctx["total_objects"] = len(det_objects)
+
+                    if enable_pose and pose_keypoints is not None and len(pose_keypoints) > 0:
+                        frame_ctx["pose_count"] = len(pose_keypoints)
+
+                    if last_action and "actions" in last_action:
+                        frame_ctx["actions"] = [
+                            f"{a['label']} ({a['confidence']:.0%})"
+                            for a in last_action["actions"]
+                        ]
+
+                    _vlm_frame_buf.append(frame.copy())
+                    _vlm_context_buf.append(frame_ctx)
+
+                    # Once we have enough frames, run VLM on composite
+                    if len(_vlm_frame_buf) >= VLM_FRAME_COUNT:
+                        last_vlm_time = now
+                        composite = build_composite_image(_vlm_frame_buf, cols=3)
+
+                        # Build enriched prompt from accumulated context
+                        all_objects: set[str] = set()
+                        total_persons = 0
+                        all_actions: set[str] = set()
+                        for ctx in _vlm_context_buf:
+                            for obj_str in ctx.get("objects", []):
+                                all_objects.add(obj_str)
+                            total_persons = max(total_persons, ctx.get("person_count", 0))
+                            for act in ctx.get("actions", []):
+                                all_actions.add(act)
+
+                        prompt_parts = [
+                            "Ignore the grid layout. Treat this as a continuous video clip.",
+                        ]
+                        if all_objects:
+                            prompt_parts.append(f"Objects detected: {', '.join(sorted(all_objects))}.")
+                        if total_persons > 0:
+                            prompt_parts.append(f"People tracked: {total_persons}.")
+                        if all_actions:
+                            prompt_parts.append(f"Actions detected: {', '.join(sorted(all_actions))}.")
+
+                        prompt_parts.append(
+                            "Describe ONLY the unique and important details: "
+                            "Who is doing what? Where are they? What are they wearing? "
+                            "What vehicles, signs, or objects are visible? "
+                            "What direction are people/vehicles moving? "
+                            "Any unusual behaviour, interactions between people, "
+                            "or notable changes between frames? "
+                            "Be specific and concise. Do NOT describe the image format or grid."
                         )
-                        vlm_prompt = (
-                            f"Objects detected: {obj_detail}. "
-                            f"Total: {len(det_objects)} object(s). "
-                            "Describe the scene and any notable activity in one sentence."
+                        vlm_prompt = " ".join(prompt_parts)
+
+                        vlm_result = run_vlm(
+                            composite,
+                            prompt=vlm_prompt,
+                            max_tokens=200,
                         )
-                    else:
-                        vlm_prompt = "Describe what is happening in this scene in one sentence."
-                    vlm_result = run_vlm(
-                        frame,
-                        prompt=vlm_prompt,
-                        max_tokens=80,
-                    )
-                    last_caption = vlm_result.get("text", "")
-                    payload["vlm"] = vlm_result
-                    _append_vlm({"timestamp": ts, **vlm_result})
+                        last_caption = vlm_result.get("text", "")
+                        payload["vlm"] = vlm_result
+                        _append_vlm({"timestamp": ts, **vlm_result})
+
+                        # Build structured scene index entry
+                        scene_entry = {
+                            "timestamp": ts,
+                            "frame_count": len(_vlm_frame_buf),
+                            "caption": last_caption,
+                            "objects": sorted(all_objects),
+                            "person_count": total_persons,
+                            "actions": sorted(all_actions),
+                            "object_counts": dict(_object_counts) if _object_counts else {},
+                        }
+                        _append_scene_index(scene_entry)
+
+                        # Reset buffers
+                        _vlm_frame_buf.clear()
+                        _vlm_context_buf.clear()
 
                 # Encode frames
                 raw_b64 = _frame_to_b64(frame, quality=70)
