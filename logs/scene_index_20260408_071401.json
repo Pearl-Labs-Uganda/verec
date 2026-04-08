@@ -1,0 +1,3158 @@
+[
+  {
+    "timestamp": "2026-04-08T07:14:23.927670+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of six frames showing a street scene with a white car in each frame. The car is moving from left to right across the frame. In each frame, the car is positioned at different points along the street, indicating motion. The background includes buildings, trees, and a clear sky, suggesting an urban environment. The car's position and orientation change slightly in each frame, indicating the car's movement. There are no people or other vehicles visible in the image. The image does not show any unusual behavior or notable changes between frames.",
+    "objects": [
+      "car (69%)",
+      "car (70%)",
+      "car (72%)",
+      "car (75%)",
+      "car (76%)",
+      "car (78%)",
+      "car (80%)",
+      "car (90%)",
+      "car (91%)",
+      "car (92%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 15
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:14:31.484212+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of six frames showing a street scene with a white car in each frame. The car is positioned at various points along the street, with some cars moving and others stationary. The scene includes buildings, trees, and street elements such as sidewalks and crosswalks. The cars appear to be in motion, and the overall setting suggests a typical urban environment. There are no unusual behaviors or notable changes between frames, and the people or vehicles are not wearing any distinctive clothing. The direction of the vehicles' movement is consistent across all frames, indicating a steady flow of traffic.",
+    "objects": [
+      "car (64%)",
+      "car (66%)",
+      "car (67%)",
+      "car (69%)",
+      "car (79%)",
+      "car (80%)",
+      "car (83%)",
+      "car (85%)",
+      "car (89%)",
+      "car (90%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 30
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:14:37.600298+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of six frames showing a street scene with a white car and a truck. The car is driving on the road, while the truck is parked on the side of the road. The scene includes various elements such as buildings, trees, and street signs. The car is positioned in the center of the road, and the truck is on the right side of the road. The vehicles are moving in the same direction, and there are no unusual behaviors or notable changes between frames. The image is a continuous video clip, and the objects are clearly visible.",
+    "objects": [
+      "car (62%)",
+      "car (63%)",
+      "car (64%)",
+      "car (79%)",
+      "car (81%)",
+      "car (82%)",
+      "car (84%)",
+      "car (90%)",
+      "car (91%)",
+      "car (92%)",
+      "truck (61%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 44,
+      "truck": 1
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:14:43.682577+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of six frames showing a street scene with a white car in each frame. The car is positioned at various points along the street, with some cars moving and others parked. The scene includes buildings, trees, and street elements such as traffic lights and street signs. The car in each frame appears to be stationary, with no visible movement. The direction of the car's movement is consistent across all frames, indicating a steady flow of traffic. There are no unusual behaviors or notable changes between frames, and the people or vehicles are not wearing any distinctive clothing. The image is a continuous video clip, capturing the same scene at different times.",
+    "objects": [
+      "car (64%)",
+      "car (65%)",
+      "car (66%)",
+      "car (67%)",
+      "car (75%)",
+      "car (76%)",
+      "car (79%)",
+      "car (81%)",
+      "car (82%)",
+      "car (91%)",
+      "car (92%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 59,
+      "truck": 1
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:14:50.176829+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of five identical scenes of a street intersection with a white car driving through. The car is positioned at the intersection, waiting at the red light. The scene is set in a residential area with houses, trees, and a sidewalk. The car is the only vehicle in the frame, and there are no people or other vehicles visible. The direction of the car's movement is towards the right side of the image. The image captures the car in motion, with the sun casting shadows on the road and the surrounding environment. The overall scene is static, with no apparent movement or interaction between the car and its surroundings.",
+    "objects": [
+      "car (51%)",
+      "car (55%)",
+      "car (57%)",
+      "car (61%)",
+      "car (63%)",
+      "car (64%)",
+      "car (76%)",
+      "car (77%)",
+      "car (78%)",
+      "car (89%)",
+      "car (90%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 74,
+      "truck": 1
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:14:56.573510+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a white car driving on the road. The car is positioned in the center of the frame, moving towards the right side of the image. The background includes a crosswalk, trees, and buildings. The sun is shining, casting shadows on the road. There are no people or vehicles wearing specific clothing visible in the image. The vehicles, including the white car, are moving in the same direction, and there are no unusual behaviors or notable changes between frames. The scene appears to be a typical urban street with a pedestrian crossing.",
+    "objects": [
+      "car (53%)",
+      "car (61%)",
+      "car (70%)",
+      "car (86%)",
+      "car (87%)",
+      "car (88%)",
+      "car (90%)",
+      "truck (46%)",
+      "truck (51%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 82,
+      "truck": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:02.503677+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a white car driving on a street. The car is positioned in the center of each frame, moving from left to right. The background includes a crosswalk, trees, and buildings, indicating an urban environment. The sun is shining, casting shadows on the ground. The car's headlights are on, and it appears to be in motion. There are no people or other vehicles visible in the image. The car is wearing a white top, and the scene is set during the daytime. The image captures the car's movement and the surrounding environment in a continuous sequence.",
+    "objects": [
+      "car (60%)",
+      "car (63%)",
+      "car (64%)",
+      "car (67%)",
+      "car (71%)",
+      "car (84%)",
+      "car (85%)",
+      "car (88%)",
+      "car (89%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 92,
+      "truck": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:09.296986+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a white car driving on a road. The car is positioned in the center of the frame, moving towards the right side of the image. The background includes a crosswalk, trees, and buildings, indicating an urban environment. The sun is shining, casting shadows on the road and the car. There are no people or vehicles wearing specific clothing visible in the image. The direction of the car's movement is towards the right, and there are no unusual behaviors or notable changes between frames. The image is a continuous video clip, capturing the motion of the car over time.",
+    "objects": [
+      "car (66%)",
+      "car (71%)",
+      "car (72%)",
+      "car (73%)",
+      "car (76%)",
+      "car (82%)",
+      "car (85%)",
+      "car (87%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 102,
+      "truck": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:15.890472+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a white car driving on the road. The car is positioned in the center of the frame, moving towards the right side of the image. The background includes a crosswalk, trees, and buildings, indicating an urban environment. The sun is shining, casting shadows on the road and sidewalk. The car appears to be in motion, with its headlights on, suggesting it is either early morning or late afternoon. There are no people or other vehicles visible in the image. The only notable detail is the presence of the white car, which is the only vehicle in the scene. The image captures a typical street scene with a focus on the car's movement and the surrounding urban landscape.",
+    "objects": [
+      "car (68%)",
+      "car (69%)",
+      "car (70%)",
+      "car (74%)",
+      "car (82%)",
+      "car (83%)",
+      "car (85%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 112,
+      "truck": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:23.342245+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a white car driving on the road. The car is positioned in the center of the frame, moving towards the right side of the image. The background includes a crosswalk, trees, and buildings, indicating an urban environment. The sun is shining, casting shadows on the road and sidewalk. The car appears to be in motion, with its headlights on, suggesting it is either early morning or late afternoon. There are no people or other vehicles visible in the image. The only notable detail is the presence of the white car, which is the only vehicle in the scene. The image captures a typical street scene with a focus on the car's movement and the surrounding urban landscape.",
+    "objects": [
+      "car (66%)",
+      "car (68%)",
+      "car (72%)",
+      "car (74%)",
+      "car (82%)",
+      "car (84%)",
+      "car (85%)",
+      "car (86%)",
+      "car (88%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 122,
+      "truck": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:31.009119+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in four different frames, each showing the same scene with slight variations in lighting and shadows. The car is white and appears to be driving on the road. The road is lined with buildings, trees, and streetlights. The traffic lights are visible in the background. The car is moving from left to right in each frame. There are no people or vehicles wearing specific clothing visible in the image. The direction of the car's movement is from left to right. There are no unusual behaviors or notable changes between frames. The image is a continuous video clip, and the objects present include a car, a truck, and various street elements.",
+    "objects": [
+      "car (72%)",
+      "car (74%)",
+      "car (78%)",
+      "car (79%)",
+      "car (84%)",
+      "car (85%)",
+      "car (86%)",
+      "car (88%)",
+      "truck (50%)",
+      "truck (52%)",
+      "truck (56%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 132,
+      "truck": 6
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:38.222021+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in four different frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, buildings, and trees. The car in each frame appears to be moving in the same direction, and the pedestrians are visible on the sidewalk. The vehicles, including the car and truck, are stationary. The scene is set in an urban environment with a clear sky and bright sunlight. There are no unusual behaviors or notable changes between frames. The image is a continuous video clip, and the objects present include a car, a truck, pedestrians, and various urban elements.",
+    "objects": [
+      "car (75%)",
+      "car (77%)",
+      "car (83%)",
+      "car (84%)",
+      "car (86%)",
+      "car (87%)",
+      "car (88%)",
+      "car (89%)",
+      "truck (50%)",
+      "truck (56%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 142,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:45.496375+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, traffic lights, and buildings in the background. The car appears to be moving from left to right, as indicated by the direction of the shadows and the positioning of the car relative to the crosswalk and other objects. The image does not show any unusual behavior or notable changes between frames, and there are no people or vehicles wearing unusual clothing. The scene is consistent across all four frames, suggesting a controlled environment, possibly for the purpose of testing or demonstrating the video recording process.",
+    "objects": [
+      "car (64%)",
+      "car (70%)",
+      "car (71%)",
+      "car (72%)",
+      "car (83%)",
+      "car (84%)",
+      "car (87%)",
+      "car (88%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 152,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:15:52.527508+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, buildings, and trees. The car appears to be moving from left to right, and the driver is visible in the image. The scene is set during the daytime, with sunlight casting shadows on the ground. The car is wearing a white top, and the driver is wearing a dark top. The image captures the dynamic movement of the car, with the driver appearing to be focused on the road ahead. The background includes a mix of urban and natural elements, such as buildings, trees, and a clear sky. The overall scene is a typical urban street setting with a car in motion.",
+    "objects": [
+      "car (59%)",
+      "car (60%)",
+      "car (61%)",
+      "car (63%)",
+      "car (80%)",
+      "car (82%)",
+      "car (83%)",
+      "car (86%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 162,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:00.438726+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, buildings, and trees. The car appears to be moving from left to right, and the driver is visible in the image. The scene is set during the daytime, with sunlight casting shadows on the road. The car is wearing a white top, and the driver is wearing a dark top. The image captures the dynamic movement of the car, with the driver appearing to be focused on the road ahead. The background includes a mix of urban and natural elements, such as buildings, trees, and a clear sky. The overall scene is a typical urban street setting with a car in motion.",
+    "objects": [
+      "car (58%)",
+      "car (60%)",
+      "car (66%)",
+      "car (67%)",
+      "car (83%)",
+      "car (84%)",
+      "car (85%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 172,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:08.376706+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, buildings, and trees. The car appears to be moving from left to right, and the driver is visible in the image. The scene is set during the daytime, with sunlight casting shadows on the road. The car is wearing a white top, and the driver is wearing a dark top. The image captures the dynamic movement of the car, with the driver appearing to be focused on the road ahead. The background includes a mix of urban and natural elements, such as buildings, trees, and a clear sky. The overall scene is a typical urban street setting with a car in motion.",
+    "objects": [
+      "car (64%)",
+      "car (65%)",
+      "car (66%)",
+      "car (78%)",
+      "car (81%)",
+      "car (86%)",
+      "car (87%)",
+      "car (88%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 182,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:16.241502+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various frames, each showing the same scene with slight variations in lighting and shadows. The car is positioned on the road, and the scene includes a crosswalk, buildings, and trees. The car appears to be moving from left to right, and the driver is visible in the image. The scene is set during the daytime, with sunlight casting shadows on the road. The car is wearing a white top, and the driver is wearing a dark top. The image captures the dynamic movement of the car, with the driver appearing to be focused on the road ahead. The background includes a mix of urban and natural elements, with buildings, trees, and a clear sky. The image is a continuous video clip, showing the same scene at different times of day and with varying lighting conditions.",
+    "objects": [
+      "car (70%)",
+      "car (72%)",
+      "car (73%)",
+      "car (77%)",
+      "car (80%)",
+      "car (88%)",
+      "car (89%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 192,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:24.582297+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a car in motion. The car is captured in various positions across four frames, each showing the same car in different stages of movement. The car is a white sedan, and the scene includes a crosswalk, a sidewalk, and a building in the background. The image is a continuous video clip, and the car is the primary subject. The car is moving from left to right in each frame, with the driver visible through the windshield. The environment appears to be a typical urban street with trees and buildings. There are no unusual behaviors or notable changes between frames. The car is wearing a white top, and the driver is wearing a dark top. The direction of the car's movement is from left to right.",
+    "objects": [
+      "car (60%)",
+      "car (61%)",
+      "car (65%)",
+      "car (66%)",
+      "car (70%)",
+      "car (88%)",
+      "car (89%)",
+      "car (90%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 202,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:32.258886+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with four identical frames arranged in a 2x2 grid. Each frame shows a street intersection with a car visible in the center. The car is positioned at the intersection, waiting to turn left. The scene includes a sidewalk, a crosswalk, and a few buildings in the background. The lighting suggests it is daytime with clear skies. No people or vehicles are visible in the frames, and there are no unusual behaviors or notable changes between frames. The objects present include the car, crosswalk, sidewalk, buildings, and trees.",
+    "objects": [
+      "car (47%)",
+      "car (52%)",
+      "car (56%)",
+      "car (62%)",
+      "car (86%)",
+      "car (88%)",
+      "car (89%)",
+      "car (90%)"
+    ],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 211,
+      "truck": 8
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:16:53.076272+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames capturing a street scene. The sequence shows a person walking on the sidewalk, a person crossing the street, and a person riding a bicycle. The person walking is wearing a dark jacket and light-colored pants. The person crossing the street is wearing a dark jacket and dark pants. The person riding the bicycle is wearing a dark jacket and dark pants. The vehicles in the scene include a white car, a dark-colored car, and a truck. The signs and objects visible in the scene include a crosswalk, traffic lights, and street signs. The direction of movement for the people and vehicles is from left to right. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (88%, box [1077, 470, 1212, 719])",
+      "Person 2 (56%, box [275, 230, 322, 344])",
+      "car (52%)",
+      "car (55%)",
+      "car (57%)",
+      "car (59%)",
+      "car (83%)",
+      "car (84%)",
+      "car (85%)",
+      "truck (47%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 329,
+      "truck": 9,
+      "person": 2
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:00.542318+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark jacket and light-colored pants. In each frame, the person is captured in a different position, indicating movement. The background includes a crosswalk, a traffic light, and a few vehicles, including a car and a truck. The person is also wearing a hat. The sequence captures the person's actions in various stages, from walking to crossing the street. The direction of the person's movement is towards the right side of the image. The vehicles and objects in the background are stationary, indicating that the person is the primary focus of the sequence.",
+    "objects": [
+      "Person 1 (83%, box [1093, 475, 1220, 718])",
+      "Person 1 (85%, box [1087, 473, 1217, 719])",
+      "Person 1 (85%, box [1089, 474, 1218, 719])",
+      "Person 1 (86%, box [1084, 471, 1215, 720])",
+      "Person 1 (88%, box [1080, 470, 1213, 720])",
+      "Person 2 (47%, box [337, 228, 369, 343])",
+      "Person 2 (51%, box [339, 227, 372, 348])",
+      "Person 2 (53%, box [332, 229, 374, 342])",
+      "Person 2 (53%, box [335, 229, 370, 341])",
+      "Person 2 (54%, box [275, 232, 321, 344])",
+      "car (83%)",
+      "car (84%)",
+      "car (85%)",
+      "truck (48%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 334,
+      "truck": 10,
+      "person": 12
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:07.322383+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark jacket and light-colored pants. In each frame, the person is captured in a different position, indicating movement. The background includes a crosswalk, a traffic light, and a few vehicles, including a car and a truck. The person is also wearing a backpack. The scene appears to be set in an urban environment with buildings and trees in the background. The person's actions include walking, crossing the street, and possibly interacting with the environment. The vehicles and objects in the scene are stationary, with no notable unusual behavior or notable changes between frames.",
+    "objects": [
+      "Person 1 (84%, box [1096, 476, 1222, 719])",
+      "Person 1 (84%, box [1108, 479, 1238, 718])",
+      "Person 1 (85%, box [1100, 477, 1228, 721])",
+      "Person 1 (85%, box [1104, 479, 1233, 720])",
+      "Person 1 (86%, box [1111, 478, 1243, 716])",
+      "Person 2 (47%, box [300, 225, 341, 342])",
+      "Person 2 (50%, box [299, 225, 338, 338])",
+      "car (69%)",
+      "car (79%)",
+      "car (80%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 339,
+      "truck": 10,
+      "person": 19
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:14.360915+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark jacket and light-colored pants. In each frame, the person is captured in a different position, suggesting movement. The background includes a crosswalk, a traffic light, and a few vehicles, including a car and a truck. The person is also wearing a backpack. The sequence captures the person's progression across the street, with the person's body and clothing changing position in each frame. The vehicles and other elements in the background remain consistent throughout the sequence.",
+    "objects": [
+      "Person 1 (80%, box [1119, 481, 1256, 720])",
+      "Person 1 (83%, box [1124, 484, 1252, 720])",
+      "Person 1 (83%, box [1127, 484, 1254, 720])",
+      "Person 1 (84%, box [1114, 481, 1248, 716])",
+      "Person 1 (85%, box [1114, 478, 1252, 720])",
+      "Person 2 (46%, box [306, 225, 343, 341])",
+      "Person 2 (49%, box [347, 226, 404, 341])",
+      "Person 2 (55%, box [308, 225, 345, 340])",
+      "Person 2 (56%, box [310, 225, 347, 339])",
+      "car (71%)",
+      "car (72%)",
+      "car (75%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 344,
+      "truck": 10,
+      "person": 28
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:21.714578+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark jacket and light-colored pants. In each frame, the person is captured at different stages of walking, with the first frame showing the person walking towards the camera, the second frame showing the person walking away from the camera, the third frame showing the person walking towards the crosswalk, and the fourth frame showing the person walking away from the crosswalk. The person is also wearing a backpack. In the background, there are several cars on the road, and the scene includes a crosswalk, trees, and buildings. The person is walking on the sidewalk, and there are other pedestrians visible in the background. The direction of the person's movement is from left to right in each frame.",
+    "objects": [
+      "Person 1 (52%, box [1137, 496, 1256, 719])",
+      "Person 1 (52%, box [1139, 495, 1260, 718])",
+      "Person 1 (81%, box [1136, 492, 1254, 720])",
+      "Person 1 (83%, box [1132, 489, 1252, 720])",
+      "car (68%)",
+      "car (71%)",
+      "car (72%)",
+      "car (74%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 349,
+      "truck": 10,
+      "person": 32
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:29.837407+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing dark clothing and appears to be in motion. The street is lined with buildings and trees, and there are vehicles visible in the background. The person is walking on the sidewalk, and there are other pedestrians and vehicles in the scene. The image captures the person's movement from left to right across the frame.",
+    "objects": [
+      "Person 1 (52%, box [372, 220, 412, 333])",
+      "Person 1 (53%, box [374, 221, 413, 334])",
+      "Person 1 (55%, box [369, 223, 420, 334])",
+      "Person 1 (56%, box [370, 222, 415, 333])",
+      "car (73%)",
+      "car (75%)",
+      "car (76%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "drop (7%)",
+      "kicking something (16%)",
+      "staggering (26%)"
+    ],
+    "object_counts": {
+      "car": 354,
+      "truck": 10,
+      "person": 36
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:35.565945+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving on a road. The person is positioned on the left side of the frame, wearing the vest and facing towards the right side of the frame. The truck is moving towards the right side of the frame, with its front end visible. The background includes trees, buildings, and other vehicles, indicating an urban setting. The person appears to be performing a task, possibly related to traffic control or road maintenance, as they are standing near the truck and interacting with it. The vehicles and objects in the scene are consistent with typical road traffic, with the person and truck being the main focus.",
+    "objects": [
+      "Person 1 (84%, box [989, 528, 1097, 719])",
+      "Person 1 (85%, box [986, 530, 1097, 719])",
+      "Person 1 (86%, box [984, 534, 1097, 720])",
+      "Person 1 (86%, box [988, 527, 1096, 718])",
+      "Person 1 (87%, box [986, 524, 1096, 717])",
+      "Person 2 (55%, box [1204, 217, 1234, 294])",
+      "Person 2 (59%, box [1206, 215, 1235, 293])",
+      "Person 2 (59%, box [1207, 216, 1235, 293])",
+      "Person 2 (59%, box [1210, 216, 1236, 292])",
+      "Person 2 (61%, box [1210, 216, 1236, 292])",
+      "car (75%)",
+      "car (77%)",
+      "car (78%)",
+      "car (80%)",
+      "truck (46%)",
+      "truck (75%)",
+      "truck (76%)",
+      "truck (78%)",
+      "truck (79%)",
+      "truck (80%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "staggering (18%)",
+      "touch back (6%)"
+    ],
+    "object_counts": {
+      "car": 369,
+      "truck": 22,
+      "person": 46
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:42.993716+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving on a road. The person is positioned on the left side of the road, wearing a vest and a hard hat, and appears to be directing traffic or working on the road. The truck is moving towards the right side of the road, and the person is standing near the center of the road, possibly signaling or giving directions. The background shows a residential area with houses, trees, and parked cars. The person is wearing a high-visibility vest, a hard hat, and a reflective vest, indicating they are likely a traffic controller or construction worker. The truck is a white commercial vehicle, and there are several cars visible in the background, some of which are stopped or moving slowly. The person is standing near the center of the road, and the truck is moving towards the right side of the road. The direction of the person's movement is towards the right side of the road, and",
+    "objects": [
+      "Person 1 (87%, box [988, 523, 1097, 718])",
+      "Person 1 (87%, box [990, 523, 1099, 718])",
+      "Person 1 (87%, box [991, 521, 1103, 719])",
+      "Person 1 (87%, box [993, 520, 1105, 719])",
+      "Person 1 (88%, box [992, 523, 1101, 718])",
+      "Person 2 (48%, box [1200, 219, 1229, 294])",
+      "Person 2 (49%, box [1201, 217, 1234, 294])",
+      "Person 2 (53%, box [1199, 219, 1229, 294])",
+      "Person 2 (56%, box [1198, 217, 1228, 294])",
+      "car (76%)",
+      "car (78%)",
+      "car (79%)",
+      "car (80%)",
+      "car (81%)",
+      "car (84%)",
+      "car (87%)",
+      "truck (49%)",
+      "truck (50%)",
+      "truck (51%)",
+      "truck (52%)",
+      "truck (77%)",
+      "truck (78%)",
+      "truck (80%)",
+      "truck (82%)",
+      "truck (83%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "staggering (18%)",
+      "touch back (6%)"
+    ],
+    "object_counts": {
+      "car": 379,
+      "truck": 37,
+      "person": 55
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:52.610408+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving through a street intersection. The person is positioned on the left side of the frame, wearing the vest and facing towards the right side of the frame. The truck is visible in the center of the frame, moving from left to right. The person appears to be interacting with the truck, possibly directing it or assisting with a task. The background shows a street with multiple lanes, a crosswalk, and several vehicles, including cars and a truck. The scene suggests a traffic control or construction-related activity.",
+    "objects": [
+      "Person 1 (82%, box [993, 519, 1114, 719])",
+      "Person 1 (83%, box [994, 519, 1111, 719])",
+      "Person 1 (85%, box [995, 519, 1108, 718])",
+      "Person 1 (86%, box [992, 520, 1107, 718])",
+      "Person 1 (86%, box [995, 519, 1108, 719])",
+      "Person 2 (48%, box [1196, 217, 1224, 295])",
+      "Person 2 (49%, box [1197, 218, 1227, 294])",
+      "Person 2 (52%, box [1196, 216, 1222, 295])",
+      "Person 2 (58%, box [1195, 216, 1221, 295])",
+      "Person 2 (58%, box [1197, 217, 1226, 295])",
+      "car (72%)",
+      "car (75%)",
+      "car (76%)",
+      "car (81%)",
+      "car (82%)",
+      "car (84%)",
+      "car (87%)",
+      "truck (47%)",
+      "truck (49%)",
+      "truck (77%)",
+      "truck (78%)",
+      "truck (79%)",
+      "truck (80%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "staggering (18%)",
+      "touch back (6%)"
+    ],
+    "object_counts": {
+      "car": 389,
+      "truck": 51,
+      "person": 65
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:17:59.205541+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving on a road. The person is positioned on the left side of the frame, facing towards the right side of the frame. The truck is moving towards the right side of the frame, and the person appears to be interacting with the truck, possibly loading or unloading cargo. The background shows a street with buildings, trees, and other vehicles. The person is wearing a high-visibility vest, which is typically used for safety in construction or road work environments. The truck has a white cab and a yellow trailer. The scene suggests a busy urban area with ongoing construction or maintenance work.",
+    "objects": [
+      "Person 1 (79%, box [1002, 519, 1125, 719])",
+      "Person 1 (82%, box [995, 519, 1119, 719])",
+      "Person 1 (82%, box [999, 519, 1122, 718])",
+      "Person 1 (84%, box [1010, 520, 1130, 717])",
+      "Person 1 (85%, box [992, 518, 1117, 719])",
+      "Person 2 (47%, box [1181, 217, 1215, 294])",
+      "Person 2 (52%, box [1190, 217, 1220, 294])",
+      "Person 2 (56%, box [1194, 215, 1221, 295])",
+      "car (63%)",
+      "car (79%)",
+      "car (80%)",
+      "car (81%)",
+      "truck (47%)",
+      "truck (54%)",
+      "truck (56%)",
+      "truck (68%)",
+      "truck (72%)",
+      "truck (76%)",
+      "truck (77%)",
+      "truck (79%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "staggering (18%)",
+      "touch back (6%)"
+    ],
+    "object_counts": {
+      "car": 396,
+      "truck": 61,
+      "person": 73
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:06.282940+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck involved in a traffic incident. The person is seen approaching a car that appears to be in the process of being involved in an accident. The truck is positioned in such a way that it seems to be blocking the car's path, causing it to collide with the truck. The person is standing on the sidewalk, observing the situation. The traffic light is visible in the background, indicating that the incident is occurring at an intersection. The person is wearing a high-visibility vest, which is typically used for safety in construction or roadside work environments. The truck is a large vehicle, and the car involved in the accident is a smaller vehicle. The scene suggests a traffic accident where the truck has collided with the car, and the person is assessing the situation.",
+    "objects": [
+      "Person 1 (79%, box [1030, 525, 1151, 719])",
+      "Person 1 (83%, box [1005, 521, 1134, 717])",
+      "Person 1 (83%, box [1026, 523, 1144, 718])",
+      "Person 1 (85%, box [1035, 524, 1157, 717])",
+      "Person 1 (86%, box [1021, 522, 1138, 717])",
+      "Person 2 (45%, box [1181, 216, 1207, 291])",
+      "Person 2 (48%, box [1161, 217, 1211, 295])",
+      "car (55%)",
+      "car (59%)",
+      "car (60%)",
+      "car (62%)",
+      "car (78%)",
+      "car (80%)",
+      "truck (66%)",
+      "truck (68%)",
+      "truck (73%)",
+      "truck (75%)",
+      "truck (76%)",
+      "truck (77%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "staggering (18%)",
+      "touch back (6%)"
+    ],
+    "object_counts": {
+      "car": 406,
+      "truck": 71,
+      "person": 80
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:14.774355+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving on a road. The person appears to be interacting with a car, possibly performing a task such as loading or unloading. The truck is moving from left to right, and the person is positioned near the front of the truck. The scene includes other vehicles and a pedestrian crossing the street. The person is wearing a high-visibility vest, which is typically used for safety in construction or traffic work environments. The truck has its hazard lights on, indicating that it may be in the process of loading or unloading cargo. The pedestrian is crossing the street, and the person is standing near the truck. The image captures a moment of activity on a road, with the person and truck being the central focus.",
+    "objects": [
+      "Person 1 (84%, box [1051, 527, 1182, 720])",
+      "Person 1 (85%, box [1040, 525, 1168, 717])",
+      "Person 1 (85%, box [1044, 525, 1174, 717])",
+      "Person 1 (85%, box [1061, 525, 1195, 719])",
+      "Person 1 (86%, box [1056, 526, 1186, 720])",
+      "Person 2 (47%, box [1155, 220, 1200, 297])",
+      "Person 2 (49%, box [1152, 218, 1202, 297])",
+      "Person 2 (52%, box [1153, 220, 1199, 297])",
+      "Person 2 (64%, box [1160, 217, 1198, 298])",
+      "Person 2 (70%, box [1150, 218, 1198, 298])",
+      "car (68%)",
+      "car (79%)",
+      "car (80%)",
+      "car (81%)",
+      "car (82%)",
+      "truck (61%)",
+      "truck (62%)",
+      "truck (63%)",
+      "truck (66%)",
+      "truck (67%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (76%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (8%)",
+      "falling (9%)",
+      "staggering (18%)",
+      "staggering (22%)",
+      "touch back (6%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 416,
+      "truck": 81,
+      "person": 90
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:22.892997+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving down a street. The person is positioned on the left side of the frame, wearing the vest and facing towards the right side of the frame. The truck is moving towards the right side of the frame, with its front end visible. The background includes a street with buildings, trees, and other vehicles. The person appears to be performing a task, possibly related to traffic control or road maintenance, given their high-visibility vest and the presence of the truck. The vehicles and objects in the scene are consistent with typical urban traffic scenarios.",
+    "objects": [
+      "Person 1 (78%, box [1090, 523, 1219, 718])",
+      "Person 1 (81%, box [1082, 524, 1214, 720])",
+      "Person 1 (82%, box [1078, 525, 1207, 720])",
+      "Person 1 (86%, box [1068, 524, 1204, 718])",
+      "Person 1 (86%, box [1073, 524, 1207, 719])",
+      "Person 2 (49%, box [1146, 220, 1197, 298])",
+      "Person 2 (57%, box [1147, 219, 1198, 298])",
+      "Person 2 (57%, box [1150, 217, 1198, 298])",
+      "Person 2 (61%, box [1149, 217, 1198, 298])",
+      "Person 2 (61%, box [1151, 219, 1198, 298])",
+      "car (80%)",
+      "car (81%)",
+      "car (84%)",
+      "car (85%)",
+      "truck (67%)",
+      "truck (70%)",
+      "truck (71%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (76%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (9%)",
+      "staggering (22%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 426,
+      "truck": 91,
+      "person": 100
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:29.677432+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person wearing a high-visibility vest and a truck driving down a street. The person is positioned on the left side of the frame, and the truck is on the right side. The sequence captures the person and the truck in motion, with the person appearing to be in the process of falling or stalling, as indicated by the text \"falling (9%)\". The truck is moving forward, and the person is standing still. The background shows a street with buildings, trees, and other vehicles. The person is wearing a high-visibility vest, which is typically used for safety in construction or road work environments. The truck is a large vehicle, likely used for transporting goods or materials. The scene suggests a busy urban environment with multiple vehicles and pedestrians.",
+    "objects": [
+      "Person 1 (76%, box [1094, 522, 1225, 718])",
+      "Person 1 (78%, box [1098, 522, 1235, 717])",
+      "Person 1 (84%, box [1103, 524, 1238, 718])",
+      "Person 1 (84%, box [1113, 527, 1257, 719])",
+      "Person 1 (87%, box [1108, 525, 1247, 719])",
+      "car (71%)",
+      "car (80%)",
+      "car (81%)",
+      "car (82%)",
+      "car (85%)",
+      "truck (68%)",
+      "truck (69%)",
+      "truck (70%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (74%)",
+      "truck (75%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "falling (9%)",
+      "staggering (22%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 436,
+      "truck": 101,
+      "person": 105
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:37.636725+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames capturing a scene where a person is interacting with a vehicle. The person is wearing a high-visibility vest and appears to be either falling or staggering, as indicated by the motion blur and the positioning of their body. The vehicle in the scene is a black car, and it is positioned in the center of the frame, with the person standing close to it. The background shows a street with other vehicles, buildings, and pedestrians. The person's actions are dynamic, suggesting a moment of unexpected movement or a reaction to an event. The vehicles and people are clearly visible, and the scene is set in an urban environment.",
+    "objects": [
+      "Person 1 (82%, box [1116, 527, 1259, 718])",
+      "Person 1 (82%, box [1121, 527, 1260, 719])",
+      "car (75%)",
+      "car (78%)",
+      "car (80%)",
+      "car (81%)",
+      "car (84%)",
+      "truck (68%)",
+      "truck (70%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (74%)",
+      "truck (75%)",
+      "truck (76%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "falling (9%)",
+      "staggering (22%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 446,
+      "truck": 111,
+      "person": 107
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:44.366248+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames showing a street scene with a truck and a car. The truck is in the foreground, and the car is in the background. The truck is turning left, and the car is turning right. The truck is moving towards the left side of the frame, while the car is moving towards the right side of the frame. The people in the image are standing on the sidewalk, and the vehicles are moving in the same direction. The truck is turning left, and the car is turning right. The people are standing on the sidewalk, and the vehicles are moving in the same direction. The truck is turning left, and the car is turning right. The people are standing on the sidewalk, and the vehicles are moving in the same direction. The truck is turning left, and the car is turning right. The people are standing on the sidewalk, and the vehicles are moving in the same direction. The truck is turning left, and the car is turning right. The",
+    "objects": [
+      "car (79%)",
+      "car (80%)",
+      "car (81%)",
+      "car (82%)",
+      "car (83%)",
+      "car (85%)",
+      "truck (61%)",
+      "truck (66%)",
+      "truck (67%)",
+      "truck (68%)",
+      "truck (69%)",
+      "truck (70%)",
+      "truck (71%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "falling (9%)",
+      "staggering (22%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 456,
+      "truck": 121,
+      "person": 107
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:18:53.877152+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames from a video, capturing a street scene with a truck and several cars. The sequence shows a person walking across the street, a person standing near the truck, and a person walking near the cars. The person walking across the street is wearing a dark-colored top and pants. The person standing near the truck is wearing a dark-colored top and pants. The person walking near the cars is wearing a dark-colored top and pants. The direction of the people's movements is from left to right across the frame. The vehicles, signs, and objects are visible, including the truck, cars, and pedestrians. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (47%, box [1115, 224, 1141, 301])",
+      "Person 1 (63%, box [1112, 223, 1139, 300])",
+      "Person 1 (64%, box [1110, 223, 1137, 301])",
+      "car (57%)",
+      "car (69%)",
+      "car (74%)",
+      "car (77%)",
+      "car (78%)",
+      "car (79%)",
+      "car (80%)",
+      "car (83%)",
+      "truck (49%)",
+      "truck (51%)",
+      "truck (52%)",
+      "truck (53%)",
+      "truck (56%)",
+      "truck (59%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "falling (9%)",
+      "staggering (22%)",
+      "touch neck (4%)"
+    ],
+    "object_counts": {
+      "car": 466,
+      "truck": 130,
+      "person": 110
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:01.381472+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames capturing a street scene. In the first frame, a person is walking towards a car. In the second frame, the person is standing near the car, and in the third frame, the person is walking away from the car. In the fourth frame, the person is standing near the truck, and in the fifth frame, the person is walking towards the truck. In the sixth frame, the person is standing near the truck, and in the seventh frame, the person is walking away from the truck. In the eighth frame, the person is standing near the truck, and in the ninth frame, the person is walking towards the truck. In the tenth frame, the person is standing near the truck, and in the eleventh frame, the person is walking away from the truck. In the twelfth frame, the person is standing near the truck, and in the thirteenth frame, the person is walking towards the truck. In the fourteenth frame",
+    "objects": [
+      "Person 1 (49%, box [1099, 224, 1133, 302])",
+      "Person 1 (59%, box [1107, 223, 1134, 300])",
+      "Person 1 (63%, box [1094, 223, 1131, 301])",
+      "Person 1 (64%, box [1092, 223, 1134, 301])",
+      "Person 1 (65%, box [1094, 224, 1133, 302])",
+      "Person 2 (60%, box [889, 585, 1001, 719])",
+      "car (51%)",
+      "car (61%)",
+      "car (68%)",
+      "car (69%)",
+      "car (79%)",
+      "car (80%)",
+      "truck (52%)",
+      "truck (56%)",
+      "truck (57%)",
+      "truck (60%)",
+      "truck (61%)",
+      "truck (62%)",
+      "truck (63%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "falling (9%)",
+      "staggering (11%)",
+      "staggering (22%)",
+      "take off jacket (3%)",
+      "touch neck (4%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 476,
+      "truck": 140,
+      "person": 116
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:11.261937+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a person and a truck. The person is wearing a jacket and is walking towards the camera. The truck is visible in the background, and there are other vehicles and pedestrians in the scene. The person is wearing a jacket, and the truck is white with a yellow stripe. The scene appears to be a typical urban street with buildings, trees, and a crosswalk. The person is walking towards the camera, and the truck is parked or moving slowly in the background. The other pedestrians are also walking towards the camera. The image captures a moment of everyday life on a city street.",
+    "objects": [
+      "Person 1 (60%, box [907, 573, 1029, 719])",
+      "Person 1 (64%, box [1093, 224, 1129, 296])",
+      "Person 1 (65%, box [905, 577, 1023, 720])",
+      "Person 1 (71%, box [896, 581, 1012, 720])",
+      "Person 1 (80%, box [893, 584, 1012, 719])",
+      "Person 2 (52%, box [900, 578, 1018, 720])",
+      "Person 2 (58%, box [1094, 223, 1131, 296])",
+      "Person 2 (59%, box [1093, 224, 1128, 297])",
+      "Person 2 (61%, box [1093, 223, 1130, 296])",
+      "Person 2 (61%, box [1094, 224, 1129, 296])",
+      "car (66%)",
+      "car (67%)",
+      "car (74%)",
+      "car (76%)",
+      "car (79%)",
+      "car (80%)",
+      "truck (53%)",
+      "truck (55%)",
+      "truck (58%)",
+      "truck (61%)",
+      "truck (62%)",
+      "truck (65%)",
+      "truck (66%)",
+      "truck (68%)",
+      "truck (69%)",
+      "truck (71%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "take off jacket (3%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 486,
+      "truck": 150,
+      "person": 126
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:18.545861+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and a car. The frames are arranged in a 2x2 grid, with the top-left frame showing a person standing near the truck, and the bottom-right frame showing a person walking towards the truck. The person in the top-left frame is wearing a white jacket and dark pants, while the person in the bottom-right frame is wearing a white jacket and dark pants as well. The truck is white with a yellow stripe, and the car is black. The scene includes other vehicles and pedestrians, as well as buildings and trees in the background. The people in the frames are walking towards the truck, and the person in the top-left frame is standing near the truck. The person in the bottom-right frame is walking towards the truck. The vehicles and people are moving in the same direction, and there are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (62%, box [1094, 224, 1128, 297])",
+      "Person 1 (62%, box [1096, 224, 1128, 297])",
+      "Person 1 (65%, box [1095, 224, 1128, 296])",
+      "Person 1 (68%, box [1095, 223, 1128, 297])",
+      "Person 1 (69%, box [1095, 223, 1129, 298])",
+      "Person 2 (52%, box [927, 549, 1022, 720])",
+      "Person 2 (56%, box [923, 553, 1043, 720])",
+      "Person 2 (60%, box [919, 558, 1039, 719])",
+      "Person 2 (61%, box [915, 562, 1034, 720])",
+      "car (67%)",
+      "car (68%)",
+      "car (73%)",
+      "car (75%)",
+      "car (81%)",
+      "car (82%)",
+      "truck (52%)",
+      "truck (53%)",
+      "truck (54%)",
+      "truck (57%)",
+      "truck (64%)",
+      "truck (66%)",
+      "truck (67%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "take off jacket (3%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 496,
+      "truck": 160,
+      "person": 135
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:28.067220+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames depicting a street scene with a truck and two pedestrians. The truck is positioned on the left side of the frame, with its door open, and the pedestrians are walking towards the right side of the frame. The scene includes a crosswalk, traffic lights, and other vehicles in the background. The people are wearing casual clothing, and the vehicles appear to be moving in the same direction. The image captures a moment of interaction between the pedestrians and the truck, with the truck's door open, suggesting that it may be loading or unloading cargo. The pedestrians are walking towards the truck, indicating that they are likely waiting to board or have just disembarked. The overall scene suggests a typical urban setting with a focus on the interaction between the truck and the pedestrians.",
+    "objects": [
+      "Person 1 (67%, box [1094, 224, 1132, 301])",
+      "Person 1 (67%, box [1095, 223, 1130, 300])",
+      "Person 1 (68%, box [1094, 224, 1132, 301])",
+      "Person 1 (68%, box [1095, 224, 1133, 301])",
+      "Person 1 (70%, box [1094, 223, 1132, 301])",
+      "Person 2 (48%, box [932, 541, 1031, 720])",
+      "Person 2 (60%, box [937, 533, 1057, 719])",
+      "car (50%)",
+      "car (52%)",
+      "car (60%)",
+      "car (67%)",
+      "car (81%)",
+      "car (82%)",
+      "truck (46%)",
+      "truck (51%)",
+      "truck (55%)",
+      "truck (56%)",
+      "truck (68%)",
+      "truck (70%)",
+      "truck (71%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "take off jacket (3%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 506,
+      "truck": 170,
+      "person": 142
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:36.337768+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people walking towards a car. The frames are arranged in a 2x2 grid, with the top-left frame showing a person walking towards a car, and the bottom-right frame showing the same person walking away from the car. The car is a white truck with a yellow stripe, and there are other vehicles and pedestrians in the background. The people are wearing casual clothing, and the scene appears to be a typical urban street setting. The actions detected in the image include staggering (11%), take-off jacket (3%), walking towards (26%), and other movements. The direction of the people's movements is towards the car. The vehicles and objects in the scene include a white truck with a yellow stripe, a black car, and other cars and pedestrians. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (69%, box [1097, 223, 1133, 299])",
+      "Person 1 (75%, box [1100, 223, 1134, 298])",
+      "Person 1 (76%, box [829, 548, 962, 720])",
+      "Person 1 (82%, box [948, 531, 1066, 717])",
+      "Person 1 (82%, box [951, 527, 1067, 718])",
+      "Person 2 (61%, box [943, 532, 1062, 719])",
+      "Person 2 (69%, box [1105, 224, 1135, 300])",
+      "Person 2 (71%, box [1107, 224, 1136, 298])",
+      "Person 2 (72%, box [1104, 223, 1134, 300])",
+      "Person 2 (73%, box [827, 550, 961, 720])",
+      "car (49%)",
+      "car (58%)",
+      "car (60%)",
+      "car (82%)",
+      "car (83%)",
+      "truck (53%)",
+      "truck (56%)",
+      "truck (58%)",
+      "truck (60%)",
+      "truck (70%)",
+      "truck (71%)",
+      "truck (72%)",
+      "truck (75%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "take off jacket (3%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 516,
+      "truck": 180,
+      "person": 152
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:44.941012+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people walking towards a truck. The frames are arranged in a 2x2 grid, with the top left frame showing the first person, the top right frame showing the second person, and the bottom left frame showing the third person. The bottom right frame shows the fourth person. The people are wearing jackets, and the truck is visible in the bottom right frame. The scene includes various vehicles, including cars and trucks, and there are pedestrians crossing the street. The direction of the people's movement is towards the truck. The image captures a moment of interaction between the people and the vehicles, with the truck being the central focus.",
+    "objects": [
+      "Person 1 (70%, box [1111, 224, 1139, 296])",
+      "Person 1 (71%, box [1111, 224, 1139, 298])",
+      "Person 1 (72%, box [961, 514, 1073, 720])",
+      "Person 1 (80%, box [836, 536, 960, 719])",
+      "Person 1 (81%, box [952, 524, 1065, 718])",
+      "Person 2 (69%, box [962, 509, 1064, 720])",
+      "Person 2 (69%, box [964, 507, 1076, 720])",
+      "Person 2 (71%, box [1110, 224, 1139, 295])",
+      "Person 2 (72%, box [1107, 224, 1136, 299])",
+      "Person 2 (74%, box [1109, 224, 1137, 297])",
+      "car (49%)",
+      "car (52%)",
+      "car (53%)",
+      "car (61%)",
+      "car (68%)",
+      "car (76%)",
+      "car (79%)",
+      "car (80%)",
+      "car (83%)",
+      "car (84%)",
+      "truck (53%)",
+      "truck (56%)",
+      "truck (57%)",
+      "truck (61%)",
+      "truck (68%)",
+      "truck (69%)",
+      "truck (70%)",
+      "truck (71%)",
+      "truck (72%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "take off jacket (3%)",
+      "walking towards (26%)"
+    ],
+    "object_counts": {
+      "car": 526,
+      "truck": 190,
+      "person": 162
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:19:52.336336+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people walking towards a truck. The frames are arranged in a 2x2 grid, with the top-left frame showing a person walking towards the truck, and the bottom-right frame showing the same person walking away from the truck. The person in the top-left frame is wearing a white jacket and carrying a bag, while the person in the bottom-right frame is wearing a white jacket and carrying a bag as well. The truck in the top-right frame is white with a yellow stripe, and the truck in the bottom-left frame is white with a yellow stripe. The background shows a street with trees, buildings, and other vehicles. The people are walking on the sidewalk, and the truck is parked on the side of the road. The sequence of frames captures the movement of the people and the truck over time.",
+    "objects": [
+      "Person 1 (69%, box [1111, 224, 1139, 294])",
+      "Person 1 (76%, box [853, 516, 966, 718])",
+      "Person 1 (84%, box [854, 513, 966, 717])",
+      "Person 1 (84%, box [857, 512, 967, 717])",
+      "Person 1 (84%, box [977, 491, 1088, 717])",
+      "Person 2 (69%, box [1112, 224, 1139, 294])",
+      "Person 2 (69%, box [853, 520, 965, 717])",
+      "Person 2 (73%, box [1113, 224, 1139, 296])",
+      "Person 2 (73%, box [1113, 224, 1142, 300])",
+      "Person 2 (73%, box [1114, 224, 1140, 299])",
+      "car (72%)",
+      "car (74%)",
+      "car (75%)",
+      "truck (51%)",
+      "truck (53%)",
+      "truck (55%)",
+      "truck (60%)",
+      "truck (63%)",
+      "truck (64%)",
+      "truck (66%)",
+      "truck (70%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (11%)",
+      "staggering (4%)",
+      "take off jacket (3%)",
+      "walking towards (26%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 531,
+      "truck": 200,
+      "person": 172
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:01.418696+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people walking towards the camera. The frames are arranged in a 2x2 grid, with the top left frame showing a person walking towards the camera, and the top right frame showing the same person walking away from the camera. The bottom left frame shows a person walking towards the truck, and the bottom right frame shows the same person walking away from the truck. The people are wearing casual clothing, and the vehicles in the scene include a car, a truck, and a bus. The scene appears to be a typical urban street with buildings and trees in the background. The people are walking on the sidewalk, and the vehicles are parked along the street. The direction of the people's movement is towards the camera, and the vehicles are moving in the same direction as the people. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (77%, box [991, 485, 1097, 718])",
+      "Person 1 (82%, box [984, 488, 1095, 720])",
+      "Person 1 (83%, box [981, 489, 1095, 717])",
+      "Person 1 (84%, box [866, 510, 970, 717])",
+      "Person 1 (86%, box [979, 491, 1091, 717])",
+      "Person 2 (73%, box [1116, 224, 1141, 297])",
+      "Person 2 (74%, box [1114, 224, 1141, 299])",
+      "Person 2 (74%, box [1115, 224, 1141, 299])",
+      "Person 2 (74%, box [1116, 224, 1141, 297])",
+      "Person 2 (75%, box [1117, 224, 1141, 297])",
+      "car (64%)",
+      "car (65%)",
+      "car (67%)",
+      "car (69%)",
+      "car (73%)",
+      "truck (50%)",
+      "truck (57%)",
+      "truck (63%)",
+      "truck (64%)",
+      "truck (65%)",
+      "truck (66%)",
+      "truck (68%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (4%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 536,
+      "truck": 210,
+      "person": 182
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:10.759266+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people walking towards the camera. The frames are arranged in a 2x2 grid, with the top left frame showing a person walking towards the camera, and the top right frame showing the same person walking away from the camera. The bottom left frame shows a person walking towards the camera again, and the bottom right frame shows the same person walking away from the camera. The people are wearing casual clothing and carrying bags. The vehicles in the scene include a white truck and a white car. The signs and objects visible in the scene include a crosswalk, traffic lights, and street signs. The people are walking on the sidewalk, and the vehicles are parked along the street. The direction of the people's movement is towards the camera, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (77%, box [996, 482, 1101, 717])",
+      "Person 1 (81%, box [999, 481, 1103, 720])",
+      "Person 1 (83%, box [1005, 472, 1109, 719])",
+      "Person 1 (83%, box [1006, 469, 1112, 719])",
+      "Person 1 (84%, box [1004, 478, 1107, 720])",
+      "Person 2 (74%, box [1117, 224, 1141, 297])",
+      "Person 2 (74%, box [1118, 224, 1145, 297])",
+      "Person 2 (75%, box [1117, 224, 1143, 297])",
+      "Person 2 (77%, box [1119, 224, 1145, 298])",
+      "Person 2 (77%, box [1119, 224, 1147, 299])",
+      "car (70%)",
+      "car (75%)",
+      "car (76%)",
+      "truck (47%)",
+      "truck (48%)",
+      "truck (51%)",
+      "truck (52%)",
+      "truck (56%)",
+      "truck (67%)",
+      "truck (70%)",
+      "truck (72%)",
+      "truck (73%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (4%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 541,
+      "truck": 220,
+      "person": 192
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:20.139245+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and pedestrians. The truck is positioned on the left side of the frame, and the pedestrians are walking towards the right side of the frame. The people are wearing casual clothing, and the scene appears to be a typical urban environment with buildings, trees, and vehicles in the background. The truck is a white box truck with a yellow stripe on its side. The pedestrians are walking on the sidewalk, and there are cars visible on the road. The image captures the movement of the people and vehicles, with the truck moving towards the right and the pedestrians walking towards the left. The scene is dynamic, with the people and vehicles appearing to be in motion.",
+    "objects": [
+      "Person 1 (79%, box [1010, 466, 1114, 716])",
+      "Person 1 (81%, box [1013, 464, 1116, 717])",
+      "Person 1 (82%, box [884, 476, 1001, 717])",
+      "Person 1 (83%, box [881, 475, 1004, 717])",
+      "Person 1 (83%, box [883, 476, 1000, 719])",
+      "Person 2 (72%, box [1120, 224, 1147, 299])",
+      "Person 2 (72%, box [1120, 224, 1147, 300])",
+      "Person 2 (74%, box [1120, 224, 1147, 300])",
+      "Person 2 (75%, box [1119, 224, 1147, 299])",
+      "car (64%)",
+      "car (65%)",
+      "car (67%)",
+      "car (73%)",
+      "truck (52%)",
+      "truck (55%)",
+      "truck (57%)",
+      "truck (61%)",
+      "truck (63%)",
+      "truck (73%)",
+      "truck (74%)",
+      "truck (75%)",
+      "truck (76%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (4%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 546,
+      "truck": 230,
+      "person": 202
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:27.670726+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and pedestrians. The truck is positioned on the right side of the frame, and the pedestrians are walking towards the left side of the frame. The people are wearing casual clothing, and the scene appears to be during the daytime with clear skies. The truck has a yellow and white color scheme, and the pedestrians are dressed in various outfits, including jackets and long pants. The background includes buildings, trees, and other vehicles, indicating an urban environment. The sequence captures the movement of the truck and pedestrians over time, with slight variations in their positions and orientations.",
+    "objects": [
+      "Person 1 (84%, box [1024, 459, 1130, 717])",
+      "Person 1 (84%, box [1026, 459, 1130, 717])",
+      "Person 1 (85%, box [1023, 461, 1128, 719])",
+      "Person 1 (87%, box [1020, 462, 1126, 719])",
+      "Person 1 (87%, box [1022, 462, 1127, 719])",
+      "Person 2 (74%, box [1119, 224, 1147, 299])",
+      "Person 2 (75%, box [1119, 224, 1147, 298])",
+      "Person 2 (76%, box [1119, 224, 1147, 298])",
+      "car (64%)",
+      "car (66%)",
+      "car (68%)",
+      "car (74%)",
+      "car (77%)",
+      "truck (59%)",
+      "truck (60%)",
+      "truck (62%)",
+      "truck (76%)",
+      "truck (77%)",
+      "truck (78%)",
+      "truck (79%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (4%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 551,
+      "truck": 239,
+      "person": 212
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:34.174512+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and several pedestrians. The frames are arranged in a 2x2 grid, capturing the same moment over time. \n\nIn the first frame, a person is walking towards the camera, wearing a yellow shirt and dark pants. In the second frame, the same person is seen walking away from the camera, wearing a green shirt and dark pants. The third frame shows the person walking towards the truck, which is parked on the side of the street. The fourth frame captures the person walking away from the truck, wearing a dark shirt and dark pants.\n\nThe pedestrians are walking on the sidewalk, and there are several cars visible in the background, including a white truck and a black car. The scene appears to be a typical urban street with buildings and trees lining the road. The people are dressed in casual clothing, and the overall atmosphere suggests a normal day with people going about their daily activities.",
+    "objects": [
+      "Person 1 (82%, box [1030, 456, 1132, 701])",
+      "Person 1 (84%, box [893, 462, 1020, 705])",
+      "Person 1 (85%, box [1028, 457, 1131, 717])",
+      "Person 1 (86%, box [900, 460, 1021, 705])",
+      "Person 1 (87%, box [906, 457, 1023, 702])",
+      "Person 2 (76%, box [1118, 224, 1147, 297])",
+      "Person 2 (76%, box [1118, 224, 1148, 297])",
+      "car (78%)",
+      "car (81%)",
+      "car (82%)",
+      "car (84%)",
+      "truck (46%)",
+      "truck (77%)",
+      "truck (78%)",
+      "truck (79%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (4%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 556,
+      "truck": 245,
+      "person": 222
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:43.394590+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames from a video, capturing a street scene with various objects and people. The sequence shows a person walking towards the camera, followed by a person standing still, and then another person walking towards the camera. The sequence continues with a person standing still, followed by a person walking towards the camera, and then another person standing still. The sequence ends with a person standing still, followed by a person walking towards the camera. The objects in the scene include a truck, a car, and a pedestrian. The people are wearing various types of clothing, including jackets and shirts. The vehicles are parked along the street, and there are trees and buildings in the background. The direction of the people's movements is towards the camera, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (85%, box [931, 450, 1029, 711])",
+      "Person 1 (85%, box [933, 448, 1029, 709])",
+      "Person 1 (86%, box [920, 454, 1024, 704])",
+      "Person 1 (87%, box [930, 452, 1029, 712])",
+      "Person 1 (88%, box [927, 453, 1027, 711])",
+      "Person 2 (74%, box [1118, 224, 1147, 297])",
+      "Person 2 (75%, box [1118, 224, 1147, 297])",
+      "car (79%)",
+      "car (81%)",
+      "car (82%)",
+      "car (83%)",
+      "truck (50%)",
+      "truck (52%)",
+      "truck (53%)",
+      "truck (56%)",
+      "truck (76%)",
+      "truck (78%)",
+      "truck (79%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "eat meal/snack (6%)",
+      "staggering (4%)",
+      "standing up (6%)",
+      "walking towards (14%)",
+      "walking towards (41%)",
+      "wipe face (3%)"
+    ],
+    "object_counts": {
+      "car": 561,
+      "truck": 255,
+      "person": 232
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:20:52.138197+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and several pedestrians. The frames are arranged in a 2x2 grid, capturing different moments of the scene. \n\nIn the first frame, a person wearing a yellow vest is standing on the sidewalk, facing the street. The second frame shows the same person walking towards the truck. In the third frame, the person is crossing the street, and the fourth frame shows the person walking away from the truck.\n\nThe pedestrians are wearing various types of clothing, including jackets and vests. The truck is white and has a yellow stripe on its side. The street is lined with trees and buildings, and there are cars visible in the background.\n\nThe direction of the people's movements is from left to right in each frame. The truck is moving towards the left side of the frame, while the pedestrians are moving towards the right side. The person in the yellow vest is walking towards the truck.\n\nThere are no unusual behaviors or notable changes",
+    "objects": [
+      "Person 1 (85%, box [945, 447, 1040, 700])",
+      "Person 1 (85%, box [949, 446, 1041, 700])",
+      "Person 1 (86%, box [942, 449, 1037, 704])",
+      "Person 1 (87%, box [937, 448, 1032, 707])",
+      "Person 1 (87%, box [940, 449, 1034, 706])",
+      "Person 2 (66%, box [1120, 223, 1148, 298])",
+      "Person 2 (68%, box [1120, 224, 1147, 298])",
+      "Person 2 (70%, box [1120, 224, 1146, 297])",
+      "Person 2 (73%, box [1119, 224, 1146, 297])",
+      "Person 2 (74%, box [1118, 224, 1146, 297])",
+      "car (55%)",
+      "car (59%)",
+      "car (60%)",
+      "car (64%)",
+      "car (67%)",
+      "truck (45%)",
+      "truck (50%)",
+      "truck (70%)",
+      "truck (71%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (74%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "eat meal/snack (6%)",
+      "standing up (6%)",
+      "walking towards (14%)"
+    ],
+    "object_counts": {
+      "car": 566,
+      "truck": 263,
+      "person": 242
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:07.043551+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a group of people is walking on the sidewalk, engaged in conversation. The individuals are dressed in casual attire, with some wearing hats and others carrying bags. The scene is set in a sunny day, with shadows cast by the sun and surrounding structures. Vehicles, including cars and bicycles, are visible on the road, with some moving in the same direction as the pedestrians. The street is lined with trees and buildings, creating a vibrant urban environment. The people are walking in various directions, some facing the camera and others looking away. The overall atmosphere is lively and bustling, with a sense of community and interaction.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 568,
+      "truck": 266,
+      "person": 246
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:14.076954+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a group of people is walking on the sidewalk, with some individuals carrying backpacks. The people are dressed in casual attire, and their movements suggest they are walking in a relaxed manner. The street is lined with parked cars, and there are pedestrians crossing the street. The direction of the people's movement is towards the right side of the image. The vehicles, including cars and a motorcycle, are visible on the road, and there are signs and streetlights present. The overall scene depicts a typical urban environment with people going about their daily activities.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 570,
+      "truck": 269,
+      "person": 250
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:19.634260+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a truck and several people. The frames are arranged in a 2x2 grid, capturing different moments of the scene. \n\nIn the first frame, a person wearing a high-visibility vest is standing near the truck, seemingly engaged in a conversation with another person. The truck is parked on the side of the road, and there are other vehicles visible in the background, including a car and a truck.\n\nIn the second frame, the same person in the high-visibility vest is seen walking towards the truck, while another person in a high-visibility vest is standing nearby. The truck is still parked, and the scene includes more vehicles and pedestrians.\n\nIn the third frame, the person in the high-visibility vest is walking towards the truck, and another person is standing nearby. The truck is still parked, and the scene includes more vehicles and pedestrians.\n\nIn the fourth frame, the person in the high-visibility vest is standing",
+    "objects": [
+      "Person 1 (84%, box [1064, 585, 1205, 719])",
+      "Person 1 (85%, box [954, 444, 1044, 692])",
+      "Person 1 (85%, box [958, 442, 1049, 687])",
+      "Person 1 (86%, box [1075, 582, 1210, 720])",
+      "Person 1 (87%, box [963, 439, 1053, 684])",
+      "Person 2 (58%, box [1121, 223, 1149, 298])",
+      "Person 2 (62%, box [1121, 223, 1149, 299])",
+      "Person 2 (64%, box [1121, 223, 1151, 298])",
+      "Person 2 (65%, box [1121, 223, 1150, 298])",
+      "Person 2 (66%, box [1120, 223, 1150, 298])",
+      "car (56%)",
+      "car (59%)",
+      "car (60%)",
+      "car (62%)",
+      "car (63%)",
+      "truck (46%)",
+      "truck (51%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (74%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "eat meal/snack (6%)",
+      "standing up (6%)",
+      "walking towards (14%)"
+    ],
+    "object_counts": {
+      "car": 571,
+      "truck": 270,
+      "person": 252
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:28.658523+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a group of people is walking on the sidewalk, with some individuals carrying bags. The people are dressed in casual attire, and their movements suggest they are walking in a relaxed manner. The street is lined with parked cars, and there are pedestrians crossing the street. The direction of the people's movement is towards the right side of the image. The vehicles, including cars and a motorcycle, are visible on the road, and there are signs and street furniture present. The overall scene depicts a typical urban environment with people going about their daily activities.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 572,
+      "truck": 271,
+      "person": 255
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:34.560017+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a group of people is walking on the sidewalk, with some individuals carrying bags. The people are dressed in casual attire, and their movements suggest they are walking in a single file line. The street is lined with parked cars, and there are pedestrians crossing the street. The direction of the people's movement is from left to right, and they appear to be moving towards the right side of the frame. The vehicles, including cars and a bicycle, are visible on the road, and there are signs and street furniture present. The overall scene suggests a typical day in an urban environment with people going about their daily activities.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 574,
+      "truck": 273,
+      "person": 261
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:40.778537+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with three individuals and a truck. The individuals are wearing high-visibility vests, suggesting they are workers or involved in some form of manual labor. The truck is positioned at the intersection, and the individuals appear to be interacting with it or the environment around them. The scene includes various vehicles, including cars and a truck, and the setting appears to be an urban area with buildings and trees in the background. The people are engaged in different activities, such as standing, walking, and possibly eating or snacking. The direction of movement is not explicitly clear, but the positioning of the individuals and vehicles suggests a typical street scene with people going about their daily activities.",
+    "objects": [
+      "Person 1 (83%, box [1102, 583, 1226, 721])",
+      "Person 1 (84%, box [974, 429, 1062, 666])",
+      "Person 1 (85%, box [1108, 583, 1232, 719])",
+      "Person 1 (85%, box [1117, 584, 1240, 720])",
+      "Person 1 (86%, box [970, 432, 1061, 663])",
+      "Person 2 (81%, box [1094, 580, 1219, 719])",
+      "Person 2 (82%, box [972, 426, 1069, 668])",
+      "Person 2 (83%, box [972, 425, 1069, 673])",
+      "Person 2 (83%, box [972, 428, 1063, 667])",
+      "Person 2 (85%, box [1086, 580, 1215, 720])",
+      "Person 3 (57%, box [1120, 224, 1153, 298])",
+      "Person 3 (59%, box [1120, 223, 1153, 299])",
+      "Person 3 (60%, box [1120, 223, 1152, 298])",
+      "Person 3 (60%, box [1120, 223, 1153, 298])",
+      "car (59%)",
+      "car (61%)",
+      "car (62%)",
+      "truck (47%)",
+      "truck (72%)",
+      "truck (73%)",
+      "truck (76%)"
+    ],
+    "person_count": 3,
+    "actions": [
+      "eat meal/snack (6%)",
+      "standing up (6%)",
+      "walking towards (14%)"
+    ],
+    "object_counts": {
+      "car": 576,
+      "truck": 276,
+      "person": 267
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:47.674896+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a person is walking on the sidewalk, wearing a dark-colored jacket and dark pants. The person is moving towards the left side of the frame. The street is lined with parked cars, and there are pedestrians crossing the street. The sun is shining, casting shadows on the ground. The scene includes a mix of vehicles, including cars and a bicycle, and various signs and street furniture. The direction of movement is from left to right, and the people are interacting with each other and the environment. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 576,
+      "truck": 276,
+      "person": 267
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:21:53.805180+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four individuals riding bicycles. They are positioned at the intersection, with one person on the left, two in the center, and one on the right. The cyclists are wearing casual attire, and the scene is set on a sunny day with clear skies. Vehicles, including cars and a motorcycle, are visible on the road, and there are pedestrians walking on the sidewalks. The direction of movement is from left to right, and the cyclists appear to be in motion, with one cyclist turning slightly. No unusual behavior or notable changes between frames are observed.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 578,
+      "truck": 278,
+      "person": 273
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:01.826311+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four individuals riding bicycles. The cyclists are wearing dark clothing, and their movements suggest they are navigating through the urban environment. The scene includes a mix of vehicles, including cars and a white van, which are parked or moving along the street. The direction of the cyclists' movement is towards the right side of the image, while the vehicles are positioned in various directions. The pedestrians are walking on the sidewalks, and the overall atmosphere appears to be calm and orderly.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 580,
+      "truck": 280,
+      "person": 278
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:06.394874+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with three people and a truck. The people are wearing high-visibility vests, suggesting they might be construction workers or involved in some form of roadside work. The truck is white and appears to be a utility vehicle, possibly used for maintenance or construction purposes. The scene includes a crosswalk, traffic lights, and a few cars, indicating an urban environment. The people are walking towards the camera, and the truck is positioned on the right side of the frame. The direction of movement is from left to right, and the people seem to be engaged in conversation or waiting to cross the street. The overall atmosphere suggests a typical day with some activity related to road maintenance or construction.",
+    "objects": [
+      "Person 1 (82%, box [1063, 417, 1150, 659])",
+      "Person 1 (82%, box [974, 426, 1068, 670])",
+      "Person 1 (83%, box [1063, 414, 1150, 655])",
+      "Person 1 (83%, box [1142, 585, 1261, 719])",
+      "Person 1 (85%, box [1134, 587, 1258, 719])",
+      "Person 2 (62%, box [1119, 223, 1153, 298])",
+      "Person 2 (78%, box [970, 426, 1067, 669])",
+      "Person 2 (80%, box [1124, 585, 1252, 720])",
+      "Person 2 (81%, box [973, 425, 1067, 671])",
+      "Person 3 (58%, box [1162, 585, 1261, 718])",
+      "Person 3 (61%, box [1119, 223, 1153, 298])",
+      "Person 3 (62%, box [1119, 223, 1153, 298])",
+      "car (54%)",
+      "car (55%)",
+      "car (56%)",
+      "car (61%)",
+      "truck (77%)",
+      "truck (78%)"
+    ],
+    "person_count": 3,
+    "actions": [
+      "eat meal/snack (6%)",
+      "standing up (6%)",
+      "walking towards (14%)"
+    ],
+    "object_counts": {
+      "car": 581,
+      "truck": 281,
+      "person": 281
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:14.243032+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four individuals riding bicycles. The cyclists are wearing casual attire, and their bicycles are equipped with baskets. The street is lined with parked cars, and there are pedestrians walking on the sidewalk. The scene is set in a sunny day, with shadows cast by the trees and buildings. The cyclists are moving in a single file, with the first cyclist leading the group. The vehicles, including cars and a van, are parked along the side of the street. The signs and objects in the scene include traffic lights, street signs, and a few pedestrians. The direction of the people's movement is from left to right, and they appear to be moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 582,
+      "truck": 283,
+      "person": 283
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:22.076518+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is riding a bicycle, and the scene includes a white van, a black car, and a person standing on the sidewalk. The person on the sidewalk is wearing a dark-colored top and dark pants. The bicycle rider is wearing a dark-colored top and dark pants. The white van is parked on the side of the street, and the black car is driving on the road. The direction of the people's movement is from left to right. There are no unusual behaviors or notable changes between frames. The scene appears to be a typical urban street with pedestrians and vehicles.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 584,
+      "truck": 287,
+      "person": 287
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:28.578687+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a scene with two people walking towards a white truck on a street. The people are wearing yellow vests, suggesting they might be workers or involved in some form of manual labor. The truck is parked on the side of the road, and there are other vehicles visible in the background, including a car and a truck. The scene appears to be a typical urban street setting with pedestrians and vehicles. The people are walking on the sidewalk, and the truck is positioned near the crosswalk. The image captures a moment of interaction between the people and the environment, highlighting the daily activities of city life.",
+    "objects": [
+      "Person 1 (84%, box [966, 423, 1073, 654])",
+      "Person 1 (84%, box [979, 417, 1079, 648])",
+      "Person 1 (85%, box [971, 421, 1076, 640])",
+      "Person 1 (87%, box [1068, 402, 1152, 637])",
+      "Person 1 (87%, box [1071, 399, 1153, 631])",
+      "Person 2 (51%, box [1118, 223, 1153, 299])",
+      "Person 2 (58%, box [1119, 223, 1153, 298])",
+      "Person 2 (59%, box [1119, 223, 1153, 298])",
+      "Person 2 (61%, box [1119, 223, 1153, 298])",
+      "Person 2 (62%, box [1119, 223, 1153, 298])",
+      "car (52%)",
+      "car (54%)",
+      "car (55%)",
+      "car (59%)",
+      "car (60%)",
+      "truck (48%)",
+      "truck (49%)",
+      "truck (52%)",
+      "truck (76%)",
+      "truck (77%)",
+      "truck (78%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "eat meal/snack (6%)",
+      "standing up (6%)",
+      "walking towards (14%)"
+    ],
+    "object_counts": {
+      "car": 586,
+      "truck": 290,
+      "person": 291
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:35.141921+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is riding a bicycle, and the scene includes a white van, a black car, and a person standing on the sidewalk. The person on the sidewalk is wearing a dark-colored top and dark pants. The bicycle rider is wearing a dark-colored top and dark pants. The van is parked on the side of the street, and the car is driving on the road. The direction of the people's movement is from left to right. There are no unusual behaviors or notable changes between frames. The scene is consistent, with the same objects and people present in each frame.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 586,
+      "truck": 290,
+      "person": 291
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:41.410103+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four individuals riding bicycles. The cyclists are wearing casual attire, and their bicycles are equipped with baskets. The street is lined with parked cars, and there are pedestrians walking on the sidewalk. The scene is set in a sunny day, with shadows cast by the cyclists and surrounding objects. The cyclists are moving in a single file, with the first cyclist leading the group. The bicycles are positioned in a way that suggests they are in motion, with the front cyclist slightly ahead of the others. The pedestrians are walking on the sidewalk, and there are no visible signs or notable changes between frames. The overall atmosphere is lively and bustling, with the cyclists and pedestrians interacting in a typical urban setting.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 588,
+      "truck": 292,
+      "person": 295
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:48.108437+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with a person riding a bicycle, wearing a helmet, and dressed in casual attire. The cyclist is positioned on the left side of the frame, moving towards the right. In the background, a white van is parked on the left side of the street, and a car is driving on the right side. The scene includes pedestrians walking on the sidewalk, and there are trees and buildings in the background. The image shows a clear, sunny day with shadows indicating the direction of the sun.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 589,
+      "truck": 295,
+      "person": 299
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:22:52.850085+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with two people and a truck. The people are standing on the sidewalk, and the truck is parked on the street. The sequence captures the same moment in each frame, with the people and truck moving in the same direction. The people are wearing casual clothing, and the truck is a white delivery truck. The background includes trees, buildings, and other vehicles. The image is a continuous video clip, and the objects detected include people, a truck, cars, and various signs and objects. The actions detected include eating, staggering, standing up, taking off a jacket, walking towards, walking towards, and taking off a jacket. The direction of people and vehicles is moving towards the right side of the image. There are no unusual behaviors or notable changes between frames.",
+    "objects": [
+      "Person 1 (82%, box [1004, 407, 1087, 622])",
+      "Person 1 (83%, box [1005, 407, 1088, 621])",
+      "Person 1 (84%, box [1001, 408, 1086, 625])",
+      "Person 1 (86%, box [1072, 398, 1155, 629])",
+      "Person 1 (86%, box [1073, 395, 1155, 625])",
+      "Person 2 (52%, box [1119, 223, 1153, 299])",
+      "Person 2 (56%, box [1119, 223, 1153, 299])",
+      "Person 2 (59%, box [1120, 223, 1152, 299])",
+      "Person 2 (60%, box [1120, 223, 1152, 298])",
+      "Person 2 (62%, box [1120, 223, 1152, 298])",
+      "car (52%)",
+      "car (53%)",
+      "car (55%)",
+      "truck (45%)",
+      "truck (48%)",
+      "truck (79%)",
+      "truck (80%)",
+      "truck (81%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "eat meal/snack (6%)",
+      "staggering (4%)",
+      "standing up (6%)",
+      "take off jacket (4%)",
+      "walking towards (14%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 589,
+      "truck": 297,
+      "person": 301
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:00.341434+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a person is riding a bicycle, wearing a helmet and casual attire. The bicycles are positioned on the road, with the riders seemingly in motion. The scene includes a white van, a black car, and a person walking on the sidewalk. The vehicles and pedestrians are moving in various directions, with the van and car positioned on the road and the pedestrians on the sidewalk. The direction of movement is from left to right, with the van and car moving towards the right side of the image. The pedestrians are walking on the sidewalk, with the person walking on the left side of the image. There are no unusual behaviors or notable changes between frames, and the scene appears to be a typical urban street scene.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 590,
+      "truck": 297,
+      "person": 302,
+      "bus": 1
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:07.410660+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a white van is driving on the road, with a cyclist wearing a helmet and a black jacket riding alongside it. The cyclist is positioned in the center of the frame, with the van following closely behind. The background features a mix of pedestrians, trees, and buildings, with a clear blue sky overhead. The vehicles and people are moving in the same direction, with the van heading towards the right side of the frame. The cyclist is wearing a helmet, indicating a focus on safety. The scene is lively, with people and vehicles interacting in a typical urban setting.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 592,
+      "truck": 297,
+      "person": 304,
+      "bus": 3
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:13.698154+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards a red double-decker bus on a street. The person is wearing a dark jacket and dark pants. The bus is moving towards the camera, and there are other vehicles and pedestrians visible in the background. The scene appears to be a typical urban setting with buildings and trees lining the street. The person is walking on the sidewalk, and there are cars parked along the side of the road. The bus has a sign on the front indicating it is a double-decker bus. The image captures a moment of everyday life in a city, with people and vehicles moving in different directions.",
+    "objects": [
+      "Person 1 (76%, box [1196, 261, 1252, 392])",
+      "Person 1 (77%, box [1194, 261, 1252, 395])",
+      "Person 1 (79%, box [1195, 259, 1254, 394])",
+      "Person 1 (79%, box [1195, 261, 1253, 396])",
+      "Person 1 (80%, box [1195, 260, 1253, 396])",
+      "bus (91%)",
+      "bus (92%)",
+      "bus (93%)",
+      "bus (94%)",
+      "car (47%)",
+      "car (49%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 594,
+      "truck": 297,
+      "person": 306,
+      "bus": 5
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:19.442900+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames. In each frame, a person is riding a bicycle, wearing a helmet and casual attire. The bicycles are positioned on the road, with the riders seemingly in motion. The vehicles in the scene include a white van, a black car, and a white truck. The van is parked on the side of the road, while the black car and white truck are driving on the road. The traffic light is visible in the background, indicating a controlled intersection. The pedestrians are walking on the sidewalk, and the trees are visible in the background, adding a touch of nature to the urban setting. The direction of the people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 594,
+      "truck": 297,
+      "person": 306,
+      "bus": 5
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:27.493139+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is riding a bicycle, and a car is parked or moving along the street. The person is wearing a helmet and casual clothing, while the car is a white van. The scene includes a sidewalk, a crosswalk, and a building in the background. The direction of the people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 596,
+      "truck": 297,
+      "person": 308,
+      "bus": 7
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:32.709870+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards a red double-decker bus on a street. The person is wearing a dark jacket and dark pants. The bus is moving towards the camera, and there are other vehicles and pedestrians visible in the background. The scene appears to be a typical urban setting with buildings and trees lining the street. The person is walking on the sidewalk, and the bus is on the road. The image captures a moment of everyday life, with the person and bus being the main subjects.",
+    "objects": [
+      "Person 1 (78%, box [1197, 262, 1252, 392])",
+      "Person 1 (80%, box [1198, 264, 1253, 392])",
+      "Person 1 (80%, box [1199, 265, 1254, 398])",
+      "Person 1 (81%, box [1201, 264, 1255, 397])",
+      "Person 1 (81%, box [1201, 265, 1258, 398])",
+      "bus (80%)",
+      "bus (86%)",
+      "bus (88%)",
+      "car (47%)",
+      "car (48%)",
+      "car (50%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 598,
+      "truck": 297,
+      "person": 311,
+      "bus": 10
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:37.793155+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a person riding a bicycle on a street. The individual is wearing a helmet and is positioned on the left side of the frame, riding towards the right. The bicycle is in motion, and the rider appears to be in a relaxed posture. The background shows a street with a white van parked on the side, a pedestrian crossing, and a cyclist waiting to cross. The scene is set in an urban environment with buildings and trees visible in the distance. The person is wearing a dark-colored jacket and dark pants. The direction of the cyclist's movement is towards the right side of the frame. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 598,
+      "truck": 297,
+      "person": 311,
+      "bus": 10
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:44.193274+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is seen walking on the sidewalk, wearing dark clothing and carrying a bag. The person appears to be moving towards the left side of the frame. The street is lined with buildings, trees, and a crosswalk. Vehicles, including a black car and a white van, are visible on the road. The scene is set during the daytime, with clear skies and bright sunlight. The person's actions and attire suggest they might be commuting or running errands. The overall atmosphere is calm and routine.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 599,
+      "truck": 297,
+      "person": 313,
+      "bus": 12
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:49.876356+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes, each depicting a black car driving on a street with a white van and a white truck. The car is positioned in the center of the frame, moving from left to right. The van is in the background, slightly to the left, while the truck is further back, to the right. The street is lined with trees and buildings, and there are pedestrians visible in the background. The vehicles appear to be in motion, and the scene suggests a typical urban environment. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 601,
+      "truck": 297,
+      "person": 315,
+      "bus": 14
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:23:55.617681+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards a double-decker bus on a street. The person is wearing a dark jacket and dark pants. The bus is red and white, and it is positioned on the right side of the street. There are other vehicles and pedestrians in the background, including a car and a bus. The scene appears to be a typical urban setting with buildings and trees lining the street. The person is walking on the sidewalk, and the bus is stopped at a bus stop. The image captures a moment of everyday life in a city.",
+    "objects": [
+      "Person 1 (80%, box [1203, 266, 1262, 405])",
+      "Person 1 (81%, box [1202, 266, 1261, 403])",
+      "Person 1 (82%, box [1202, 266, 1260, 400])",
+      "Person 1 (82%, box [1204, 264, 1263, 407])",
+      "Person 1 (83%, box [1203, 264, 1263, 406])",
+      "bus (75%)",
+      "bus (80%)",
+      "bus (83%)",
+      "bus (85%)",
+      "car (46%)",
+      "car (49%)",
+      "car (51%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 602,
+      "truck": 297,
+      "person": 316,
+      "bus": 15
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:00.993228+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes, each depicting a black car driving on a street with a white van. The vehicles are moving in the same direction, and the scene is set in a residential area with trees and buildings in the background. The people in the image are not visible, as the frames are identical. The only notable detail is the uniformity of the vehicles and the lack of any unusual behavior or interactions between people. The direction of the vehicles' movement is consistent across all frames, and there are no notable changes in the environment or the people's actions.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 603,
+      "truck": 297,
+      "person": 317,
+      "bus": 16
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:06.859790+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of a street scene with a white van and a black car. The van is driving on the left side of the road, while the black car is driving on the right side. The van's driver is wearing a white shirt, and the black car's driver is wearing a dark-colored shirt. The scene includes a pedestrian crossing, a sidewalk, and a building in the background. The vehicles are moving in the same direction, and there are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 605,
+      "truck": 297,
+      "person": 319,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:11.647068+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a continuous video clip of a double-decker bus driving on a street. The bus is the central object in each frame, with people and vehicles visible around it. The people are wearing various clothing items, including jackets and shirts, and are seen walking or standing near the bus. The vehicles include cars and a truck, which are also visible in the scene. The direction of movement is indicated by the positioning of the people and vehicles, suggesting that the bus is moving forward. The image captures a typical urban street scene with a focus on the bus and its surroundings.",
+    "objects": [
+      "Person 1 (81%, box [1204, 265, 1264, 407])",
+      "Person 1 (82%, box [1182, 362, 1274, 595])",
+      "Person 1 (83%, box [1180, 364, 1272, 594])",
+      "Person 1 (83%, box [1204, 266, 1264, 409])",
+      "Person 1 (84%, box [1205, 267, 1264, 409])",
+      "bus (60%)",
+      "bus (64%)",
+      "bus (72%)",
+      "car (57%)",
+      "car (58%)",
+      "car (64%)",
+      "truck (49%)",
+      "truck (78%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 607,
+      "truck": 299,
+      "person": 321,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:17.296238+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of a person walking across a street, wearing a white top and dark pants, with a white van in the background. The person appears to be moving towards the van. The scene includes a black car, a white van, and a pedestrian crossing the street. The image shows a clear, sunny day with shadows indicating the direction of the sun.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 608,
+      "truck": 300,
+      "person": 322,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:21.649694+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking towards a truck on a street. The person is wearing a white jacket and dark pants. The truck is a large, dark-colored vehicle with a boxy shape, and it appears to be a delivery or service truck. The street is lined with trees and buildings, and there are other vehicles visible in the background. The person is walking on the sidewalk, and there is a car parked on the side of the street. The person is also wearing a white jacket and dark pants. The truck is driving on the road, and there are other vehicles visible in the background. The person is walking towards the truck, and there is a car parked on the side of the street. The person is also wearing a white jacket and dark pants. The truck is driving on the road, and there are other vehicles visible in the background. The person is walking towards the truck, and there is a car parked on the side of the street. The person",
+    "objects": [
+      "Person 1 (82%, box [1180, 367, 1271, 601])",
+      "Person 1 (82%, box [1180, 374, 1274, 607])",
+      "Person 1 (83%, box [1178, 373, 1274, 600])",
+      "Person 1 (83%, box [1179, 375, 1272, 609])",
+      "Person 1 (84%, box [1178, 371, 1271, 596])",
+      "car (54%)",
+      "car (55%)",
+      "car (60%)",
+      "car (63%)",
+      "car (65%)",
+      "car (68%)",
+      "truck (76%)",
+      "truck (77%)",
+      "truck (79%)",
+      "truck (82%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 613,
+      "truck": 304,
+      "person": 326,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:30.380681+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes of a street intersection, each with a white van and a person walking. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings, and the sky is clear. The person is walking towards the van, which is parked on the side of the road. The van is facing the intersection, and the person is walking towards it. The scene is peaceful and ordinary, with no unusual behavior or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 615,
+      "truck": 305,
+      "person": 327,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:38.087416+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes, each depicting a street intersection with a white van and a person walking. The person is wearing a dark-colored jacket and dark pants. The van is positioned at the intersection, with the person walking towards it. The scene is set in a residential area with trees and buildings in the background. The sun is shining, casting shadows on the ground. The person is wearing dark clothing, and the van is white. The scene is static, with no apparent movement or unusual behavior.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 621,
+      "truck": 308,
+      "person": 330,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:42.988710+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking towards a truck on a street. The person is wearing a white jacket and dark pants. The truck is a large, white vehicle with a boxy shape, and it is parked on the side of the street. The scene includes other vehicles, trees, and buildings in the background. The person appears to be in motion, with their arms slightly raised and their body leaning forward. The truck is stationary, and the person is approaching it from the right side of the frame. The image captures a moment of interaction between the person and the truck, with the person seemingly trying to get closer to the vehicle. The overall scene suggests a typical urban setting with vehicles and pedestrians.",
+    "objects": [
+      "Person 1 (80%, box [1178, 376, 1271, 609])",
+      "Person 1 (84%, box [1177, 376, 1269, 610])",
+      "Person 1 (85%, box [1176, 375, 1268, 613])",
+      "Person 1 (85%, box [1179, 376, 1272, 610])",
+      "Person 1 (85%, box [1179, 376, 1272, 611])",
+      "car (72%)",
+      "car (75%)",
+      "car (77%)",
+      "car (78%)",
+      "car (80%)",
+      "car (81%)",
+      "car (82%)",
+      "truck (57%)",
+      "truck (72%)",
+      "truck (75%)",
+      "truck (82%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "staggering (4%)",
+      "take off jacket (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)",
+      "walking towards (54%)"
+    ],
+    "object_counts": {
+      "car": 623,
+      "truck": 309,
+      "person": 331,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:49.912122+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes, each depicting a street intersection with a white van and a person standing in the middle. The person is wearing a dark-colored jacket and dark pants. The scene is set in a residential area with trees and a brick building in the background. The sun is shining, casting shadows on the ground. The vehicles are stationary, and there are no visible signs or other notable objects. The person appears to be waiting or standing still, possibly waiting to cross the street. The direction of movement is not explicitly clear, but it seems that the person is moving towards the van. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 625,
+      "truck": 310,
+      "person": 332,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:24:56.059093+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes, each depicting a street intersection with pedestrians and vehicles. The unique detail is the absence of a grid layout, suggesting a continuous video clip. In each frame, a person is seen crossing the street, wearing a white top and dark pants. The vehicles visible include a white van and a white truck. The direction of movement is from left to right, with people and vehicles moving in the same direction. There are no unusual behaviors or notable changes between frames. The scene is set in an urban environment with buildings, trees, and a clear sky.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 629,
+      "truck": 312,
+      "person": 334,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:01.495351+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking towards a truck on a city street. The person is wearing a white jacket and dark pants. The truck is a large, white commercial vehicle with a boxy design, and it is parked on the side of the street. The scene includes other vehicles, trees, and buildings, indicating an urban environment. The person appears to be approaching the truck, possibly to load or unload goods. The image captures a moment of interaction between the person and the truck, highlighting the movement and activity in the scene.",
+    "objects": [
+      "Person 1 (84%, box [1174, 375, 1266, 610])",
+      "Person 1 (86%, box [1175, 375, 1268, 612])",
+      "Person 1 (87%, box [1168, 382, 1264, 627])",
+      "Person 1 (87%, box [1170, 376, 1266, 614])",
+      "Person 1 (87%, box [1170, 377, 1266, 622])",
+      "car (64%)",
+      "car (67%)",
+      "car (75%)",
+      "car (77%)",
+      "car (78%)",
+      "car (85%)",
+      "car (88%)",
+      "car (89%)",
+      "car (90%)",
+      "car (91%)",
+      "truck (64%)",
+      "truck (72%)",
+      "truck (74%)",
+      "truck (80%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)"
+    ],
+    "object_counts": {
+      "car": 633,
+      "truck": 314,
+      "person": 336,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:06.700054+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is walking across the street, wearing a white top and dark pants. The person is moving towards the right side of the frame. Vehicles, including a white van and a white car, are visible on the road, with the van positioned near the center of the frame and the car on the right side. The street is lined with trees and buildings, and there is a pedestrian crossing in the foreground. The sun is shining, casting shadows on the ground. No unusual behavior or notable changes between frames are observed.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 633,
+      "truck": 314,
+      "person": 336,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:14.584624+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a person is walking across the street, wearing a white top and dark pants. The person is moving towards the right side of the frame. Vehicles, including a white car and a white van, are visible on the road, with the white van driving towards the right side of the frame. The scene includes a pedestrian crossing, a sidewalk, and a building with a red brick facade. The sun is shining, casting shadows on the ground. No unusual behavior or notable changes between frames are observed.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 637,
+      "truck": 315,
+      "person": 338,
+      "bus": 18
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:20.142172+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a street scene with a person walking across the crosswalk. The individual is wearing a dark-colored top and light-colored pants. The scene includes a crosswalk, a pedestrian signal, and a few vehicles, including a white car and a blue car. The person is moving towards the right side of the image. The street is lined with trees and buildings, and there are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 641,
+      "truck": 316,
+      "person": 340,
+      "bus": 19
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:24.236121+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a person walking towards a bus on a city street. The person is wearing a white shirt and dark pants. The bus is black and white, and it appears to be a large truck. The scene includes other vehicles, such as cars, and pedestrians. The person is walking on the sidewalk, and there are buildings and trees in the background. The image captures the person's movement from left to right, with the bus positioned in the center of the frame. The person's actions include hugging and taking off a jacket. The vehicles and objects in the scene are consistent with a typical urban setting.",
+    "objects": [
+      "Person 1 (85%, box [1164, 391, 1255, 645])",
+      "Person 1 (85%, box [1167, 385, 1259, 627])",
+      "Person 1 (86%, box [1166, 383, 1262, 631])",
+      "Person 1 (86%, box [1167, 390, 1258, 644])",
+      "Person 1 (86%, box [1168, 388, 1259, 633])",
+      "bus (58%)",
+      "car (74%)",
+      "car (79%)",
+      "car (81%)",
+      "car (82%)",
+      "car (83%)",
+      "car (87%)",
+      "car (88%)",
+      "truck (46%)",
+      "truck (62%)",
+      "truck (67%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)"
+    ],
+    "object_counts": {
+      "car": 643,
+      "truck": 317,
+      "person": 341,
+      "bus": 19
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:30.985075+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a street scene with a person walking on the sidewalk. The person is wearing a white top and dark pants. The scene includes a crosswalk, a traffic light, and a few vehicles, including a white car and a blue car. The person is walking towards the crosswalk, and the traffic light is red. The vehicles are moving in the same direction as the person. There are no unusual behavior or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 646,
+      "truck": 317,
+      "person": 343,
+      "bus": 20
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:35.844413+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of a person walking towards a bus on a city street. The person is wearing a black jacket and carrying a bag. The bus is white with black and red accents and has the word \"DOWNTOWN\" written on its side. The scene includes other pedestrians, cars, and buildings, indicating an urban environment. The person is moving towards the bus, and the bus is stationary. The image captures a moment of daily life in a city, with the person and the bus being the central focus.",
+    "objects": [
+      "Person 1 (80%, box [1158, 393, 1254, 650])",
+      "Person 1 (81%, box [1155, 393, 1254, 649])",
+      "Person 1 (81%, box [1160, 393, 1254, 649])",
+      "Person 1 (85%, box [1162, 392, 1255, 648])",
+      "Person 1 (85%, box [1162, 392, 1256, 647])",
+      "bus (55%)",
+      "bus (65%)",
+      "car (71%)",
+      "car (75%)",
+      "car (76%)",
+      "car (78%)",
+      "car (80%)",
+      "car (83%)",
+      "truck (64%)",
+      "truck (71%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)"
+    ],
+    "object_counts": {
+      "car": 649,
+      "truck": 319,
+      "person": 346,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:41.901586+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The frames are arranged in a 2x2 grid, with each frame showing a different angle of the same street intersection. \n\nIn the first frame, a person is walking across the street, wearing a dark-colored jacket and carrying a bag. The individual is moving towards the right side of the frame. \n\nIn the second frame, the same person is seen walking across the street, but this time, they are wearing a light-colored jacket and carrying a backpack. The individual is moving towards the left side of the frame.\n\nIn the third frame, the person is walking across the street, but this time, they are wearing a dark-colored jacket and carrying a bag. The individual is moving towards the right side of the frame.\n\nIn the fourth frame, the person is walking across the street, but this time, they are wearing a light-colored jacket and carrying a backpack. The individual is moving towards",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 650,
+      "truck": 320,
+      "person": 347,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:51.257627+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, heading towards the left side of the image. They are dressed in casual attire, with a backpack slung over their shoulder. The person appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time they are moving towards the right side of the image. They are still wearing their backpack, but their posture suggests a sense of purpose or determination.\n\nIn the third frame, the person is walking towards the right side of the image, with their backpack still slung over their shoulder. The person appears to be in motion, suggesting a sense of purpose or determination.\n\nIn the fourth frame, the person is walking towards the left side of the image",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 350,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:25:59.839587+00:00",
+    "frame_count": 5,
+    "caption": "The image is a sequence of four frames capturing a person walking towards a truck on a city street. The person is wearing a black jacket and carrying a bag. The truck is a large, white dump truck with the word \"DONICHER\" written on its side. The scene includes other vehicles, pedestrians, and urban elements such as buildings, trees, and street signs. The person is walking on the sidewalk, and the truck is parked on the side of the street. The image captures a moment of movement and interaction between the person and the truck.",
+    "objects": [
+      "Person 1 (69%, box [1247, 210, 1279, 308])",
+      "Person 1 (77%, box [1153, 397, 1256, 649])",
+      "Person 1 (78%, box [1156, 393, 1254, 648])",
+      "Person 1 (80%, box [1153, 395, 1256, 649])",
+      "Person 1 (81%, box [1152, 399, 1256, 654])",
+      "car (79%)",
+      "car (80%)",
+      "car (81%)",
+      "car (82%)",
+      "truck (53%)",
+      "truck (73%)",
+      "truck (74%)"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 351,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:05.835334+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The frames are arranged in a 2x2 grid, with each frame showing a different angle of the same street intersection. \n\nIn the first frame, a person is walking across the street, heading towards the crosswalk. The individual is dressed in casual attire, and the scene is bathed in natural light, suggesting it is daytime. The crosswalk is clearly marked, and the person appears to be in mid-stride, indicating movement.\n\nIn the second frame, the same person is seen crossing the street, but this time they are heading towards the right side of the frame. The individual is still wearing casual clothing, and the scene is slightly different in lighting, indicating a possible change in time or weather conditions.\n\nIn the third frame, the person is walking away from the crosswalk, heading towards the left side of the frame. The individual is still dressed in casual attire, and the scene",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 353,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:15.951999+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a red jacket. The person is captured in four different frames, each showing the same scene with slight variations in lighting and shadows. The person is walking on a sidewalk next to a street, with a crosswalk visible in the foreground. The background includes trees, buildings, and a clear sky. The person's actions include hugging, taking off a jacket, and walking towards the camera. The direction of the person's movement is towards the camera. The image does not show any unusual behavior or notable changes between frames.",
+    "objects": [
+      "Person 1 (72%, box [1247, 210, 1279, 309])",
+      "Person 1 (73%, box [1247, 210, 1279, 309])",
+      "Person 1 (76%, box [1247, 210, 1279, 309])",
+      "Person 1 (77%, box [1247, 210, 1279, 309])",
+      "Person 1 (78%, box [1247, 210, 1278, 310])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (29%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 356,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:22.064043+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The frames are arranged in a 2x2 grid, with each frame showing a different angle of the same street intersection. \n\nIn the first frame, a person is walking across the street, heading towards the crosswalk. The individual is dressed in casual attire, and the scene is bathed in natural light, suggesting it is daytime. The crosswalk is clearly marked, and the person appears to be in mid-stride, indicating movement.\n\nIn the second frame, the same person is seen crossing the street, but this time they are heading towards the right side of the frame. The individual is still wearing casual clothing, and the scene is slightly different in lighting, indicating a possible change in time or weather conditions.\n\nIn the third frame, the person is walking away from the crosswalk, heading towards the left side of the frame. The individual is still dressed in casual attire, and the scene",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 356,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:32.844694+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The frames are arranged in a 2x2 grid, with each frame showing a different angle of the same street intersection. \n\nIn the first frame, a person is walking across the street, heading towards the crosswalk. The individual is dressed in casual attire, and the scene is bathed in natural light, suggesting it is daytime. The crosswalk is clearly marked, and the person appears to be in mid-stride, indicating movement.\n\nIn the second frame, the same person is seen crossing the street, but this time they are heading towards the right side of the frame. The individual is still wearing casual clothing, and the scene is slightly different in lighting, indicating a possible change in time or weather conditions.\n\nIn the third frame, the person is walking away from the crosswalk, heading towards the left side of the frame. The individual is still dressed in casual attire, and the scene",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 359,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:42.654741+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a jacket. The person is captured in four different frames, each showing the same scene with slight variations in lighting and shadows. The person is walking on a sidewalk next to a street, with a crosswalk visible in the foreground. The background includes trees, buildings, and a clear sky. The person's actions include hugging, taking off a jacket, and walking towards the camera. The direction of the person's movement is towards the camera. The image does not show any unusual behavior or notable changes between frames.",
+    "objects": [
+      "Person 1 (76%, box [1247, 211, 1278, 312])",
+      "Person 1 (77%, box [1247, 210, 1278, 311])",
+      "Person 1 (77%, box [1247, 211, 1278, 311])",
+      "Person 1 (78%, box [1247, 212, 1278, 311])",
+      "Person 1 (80%, box [1247, 211, 1278, 311])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "hugging (4%)",
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "walking towards (29%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 361,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:48.625261+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, heading towards the left side of the image. They are dressed in casual attire, with a backpack slung over their shoulder. The person appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time they are moving towards the right side of the image. They are still wearing their backpack, but their posture suggests a sense of purpose or determination.\n\nIn the third frame, the person is walking away from the camera, heading towards the right side of the image. They are still wearing their backpack, but their posture suggests a sense of purpose or determination.\n\nIn the fourth frame, the person is walking towards the camera, heading towards the left side",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 362,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:26:57.816285+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The frames are arranged in a 2x2 grid, with each frame showing a different angle of the same street intersection. \n\nIn the first frame, a person is walking across the street, heading towards the crosswalk. The individual is dressed in casual attire, and the scene is bathed in natural light, suggesting it is daytime. The crosswalk is clearly marked, and the person appears to be in mid-stride, indicating movement.\n\nIn the second frame, the same person is seen crossing the street, but this time they are heading in the opposite direction. The individual is still dressed in casual clothing, and the scene is similar to the first frame, with clear crosswalk markings and a well-lit environment.\n\nThe third frame shows the person walking across the street, but this time they are heading towards the right side of the frame. The individual is still wearing casual clothing, and the",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 365,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:06.911122+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a jacket. The person is located on a street with a crosswalk, and there are other pedestrians and vehicles visible in the background. The scene appears to be a continuation of a video clip, as indicated by the grid layout. The person is moving towards the camera, and there are no unusual behaviors or notable changes between frames. The direction of the person's movement is towards the camera, and there are no vehicles or signs visible in the image.",
+    "objects": [
+      "Person 1 (75%, box [1248, 212, 1278, 314])",
+      "Person 1 (76%, box [1247, 211, 1278, 313])",
+      "Person 1 (77%, box [1247, 211, 1278, 313])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 366,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:14.233611+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, dressed in casual attire, and heading towards the right side of the frame. The individual appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time, they are facing the opposite direction, towards the left side of the frame. The person's posture and stride indicate a sense of purposeful movement.\n\nThe third frame shows the person walking across the street, this time, they are facing the opposite direction, towards the right side of the frame. The person's posture and stride suggest a sense of purposeful movement.\n\nIn the fourth frame, the person is walking across the street, this time, they are facing the opposite direction, towards the",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 370,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:22.893024+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a jacket. The person is captured in four different frames, each showing the same scene with slight variations in lighting and shadows. The person is walking on a sidewalk next to a street, with a crosswalk visible in the foreground. The background includes trees, buildings, and a clear sky. The person's actions include walking and possibly taking off a jacket, as indicated by the box [1247, 213, 1279, 315] and box [1248, 213, 1279, 314]. The person is wearing a jacket, and the scene appears to be a typical urban street setting.",
+    "objects": [
+      "Person 1 (72%, box [1247, 213, 1279, 315])",
+      "Person 1 (72%, box [1248, 213, 1279, 314])",
+      "Person 1 (73%, box [1247, 213, 1279, 315])",
+      "Person 1 (74%, box [1248, 212, 1278, 314])",
+      "Person 1 (76%, box [1248, 211, 1279, 313])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 371,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:30.778185+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, heading towards the left side of the image. They are dressed in casual attire, with a backpack slung over their shoulder. The individual appears to be in motion, suggesting a sense of purpose or urgency.\n\nIn the second frame, the same person is seen crossing the street, but this time they are moving towards the right side of the image. They are still wearing their backpack, but their posture and stride suggest a sense of purpose or urgency.\n\nThe third frame captures the person walking across the street, this time heading towards the right side of the image. They are still wearing their backpack, but their posture and stride suggest a sense of purpose or urgency.\n\nIn the fourth frame, the person is walking across the street, heading towards",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 375,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:39.713809+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a jacket. The person is captured in a sequence of four frames, each showing the same individual walking towards the camera. The background remains consistent across all frames, with a street scene featuring a crosswalk, trees, and buildings. The person's actions are described as taking off a jacket, walking towards the camera, and wearing a jacket. The direction of the person's movement is towards the camera. No unusual behavior or notable changes between frames are observed.",
+    "objects": [
+      "Person 1 (71%, box [1247, 215, 1279, 318])",
+      "Person 1 (72%, box [1248, 214, 1278, 316])",
+      "Person 1 (73%, box [1247, 213, 1279, 318])",
+      "Person 1 (73%, box [1248, 215, 1279, 318])",
+      "Person 1 (74%, box [1247, 213, 1279, 316])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 376,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:45.782433+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames. In each frame, a person is walking across the street, wearing a dark-colored outfit. The person is moving towards the right side of the frame, indicating a leftward direction. The street is lined with trees and buildings, and there are pedestrians and vehicles visible in the background. The sun is shining, casting shadows on the ground. The person is carrying a bag, and there is a person sitting on the sidewalk. The overall scene suggests a typical day in a city with people going about their daily activities.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 380,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:27:53.940904+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a person walking towards the camera, wearing a jacket. The person is located on a street with a crosswalk, and there are other pedestrians and vehicles visible in the background. The scene appears to be a continuation of a video clip, as indicated by the grid layout. The person is moving towards the camera, and there are no unusual behaviors or notable changes between frames. The direction of the person's movement is towards the camera, and there are no vehicles or signs visible in the image.",
+    "objects": [
+      "Person 1 (69%, box [1247, 214, 1279, 319])",
+      "Person 1 (70%, box [1247, 216, 1279, 319])",
+      "Person 1 (71%, box [1247, 217, 1279, 319])",
+      "Person 1 (73%, box [1248, 215, 1278, 317])",
+      "Person 1 (74%, box [1247, 216, 1278, 319])"
+    ],
+    "person_count": 1,
+    "actions": [
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 381,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:00.172597+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, dressed in dark clothing, and heading towards the right side of the image. The individual appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time, they are wearing a bright red jacket, making them stand out against the urban backdrop. The person's posture and stride indicate a sense of purpose, as they navigate the busy street.\n\nThe third frame captures the same person, now wearing a blue jacket, crossing the street. The individual's attire and the direction of their movement suggest a sense of purpose, as they continue their journey across the city.\n\nIn the fourth frame, the person is seen walking away from the camera, wearing a black",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 389,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:09.004904+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a continuous video clip of a street scene with four frames. In each frame, there are two people walking on the sidewalk. The people are wearing jackets, and the scene appears to be a typical urban environment with buildings, trees, and a clear sky. The people are moving in different directions, with some walking towards the camera and others walking away. There are no unusual behaviors or notable changes between frames. The direction of the people's movement is generally towards the camera, with some individuals walking in the opposite direction. The image does not contain any vehicles or signs that are clearly visible.",
+    "objects": [
+      "Person 1 (77%, box [1069, 242, 1122, 364])",
+      "Person 1 (78%, box [1069, 241, 1123, 363])",
+      "Person 1 (79%, box [1070, 242, 1123, 363])",
+      "Person 1 (81%, box [1071, 242, 1124, 362])",
+      "Person 2 (60%, box [910, 205, 946, 294])",
+      "Person 2 (61%, box [910, 205, 946, 293])",
+      "Person 2 (68%, box [912, 207, 943, 291])",
+      "Person 2 (69%, box [910, 206, 941, 292])",
+      "Person 2 (69%, box [910, 206, 942, 291])"
+    ],
+    "person_count": 2,
+    "actions": [
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)"
+    ],
+    "object_counts": {
+      "car": 653,
+      "truck": 323,
+      "person": 391,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:15.911051+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, dressed in casual attire, and heading towards the left side of the frame. The individual appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time, they are facing the opposite direction, towards the right side of the frame. The person's posture and stride indicate a sense of purposeful movement.\n\nThe third frame shows the person walking across the street, but this time, they are facing the opposite direction, towards the left side of the frame. The person's posture and stride suggest a sense of purposeful movement.\n\nIn the fourth frame, the person is walking across the street, but this time, they are facing the opposite direction,",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 654,
+      "truck": 323,
+      "person": 399,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:24.413898+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a continuous video clip of a street scene with four frames. The frames show a group of people walking across a crosswalk. The people are wearing dark clothing, and the scene is set in an urban environment with buildings and trees in the background. The people are moving in various directions, with some walking towards the camera and others walking away. The street is wet, suggesting recent rain, and there are puddles visible on the road. The image captures the dynamic movement of the people and the urban setting.",
+    "objects": [
+      "Person 1 (76%, box [1065, 245, 1119, 367])",
+      "Person 1 (76%, box [1066, 243, 1121, 368])",
+      "Person 1 (76%, box [1067, 242, 1121, 369])",
+      "Person 1 (78%, box [1068, 241, 1122, 368])",
+      "Person 1 (80%, box [1064, 246, 1117, 365])",
+      "Person 2 (59%, box [922, 207, 954, 292])",
+      "Person 2 (61%, box [910, 207, 948, 291])",
+      "Person 2 (61%, box [911, 206, 952, 292])",
+      "Person 2 (62%, box [926, 207, 956, 292])",
+      "Person 2 (63%, box [916, 206, 953, 291])",
+      "car (53%)",
+      "car (62%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "take off jacket (6%)",
+      "walking towards (28%)",
+      "wear jacket (11%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 655,
+      "truck": 323,
+      "person": 401,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:30.629451+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, dressed in casual attire, and heading towards the right side of the frame. The individual appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time, they are wearing a bright orange vest, which stands out against the urban backdrop. The vest suggests that the person might be involved in some form of emergency response or safety activity.\n\nThe third frame shows the same person crossing the street, but this time, they are wearing a blue shirt. The contrast in clothing colors adds a visual element to the scene, drawing attention to the person's actions.\n\nIn the fourth frame, the person is seen walking away from the camera, heading towards the left",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 658,
+      "truck": 323,
+      "person": 405,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:39.098340+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a person, a car, and a truck. The person is walking on the sidewalk, while the car is driving on the road. The truck is also visible in the scene. The person is wearing a dark-colored jacket, and the car is moving towards the right side of the frame. The truck is moving towards the left side of the frame. The person and the car are both moving in the same direction, while the truck is moving in the opposite direction. The scene appears to be a typical urban street with buildings and trees in the background.",
+    "objects": [
+      "Person 1 (46%, box [1258, 181, 1279, 254])",
+      "Person 1 (48%, box [1256, 181, 1279, 255])",
+      "Person 1 (52%, box [1257, 181, 1279, 255])",
+      "Person 1 (80%, box [1063, 246, 1117, 369])",
+      "Person 2 (62%, box [929, 205, 959, 294])",
+      "car (46%)",
+      "car (48%)",
+      "car (67%)",
+      "truck (58%)"
+    ],
+    "person_count": 2,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 658,
+      "truck": 324,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:46.252481+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic urban scene with four distinct frames, each depicting a different moment in time. The unique detail is the absence of a grid layout, transforming the scene into a continuous video clip. \n\nIn the first frame, a person is walking across the street, dressed in casual attire, and heading towards the left side of the frame. The individual appears to be in motion, suggesting a sense of urgency or purpose.\n\nIn the second frame, the same person is seen crossing the street, but this time, they are facing the opposite direction, towards the right side of the frame. The person's posture and stride indicate a sense of purposeful movement.\n\nIn the third frame, the person is walking towards the left side of the frame, seemingly in a hurry. The individual's attire and posture suggest a sense of urgency or purpose.\n\nIn the fourth frame, the person is walking towards the right side of the frame, indicating a sense of purposeful movement.\n\nThroughout the frames, the person is",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 661,
+      "truck": 325,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:28:54.766404+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a car and a truck. The car is positioned on the left side of the frame, moving towards the right. The truck is also on the left side, moving in the same direction as the car. The scene includes a sidewalk, a crosswalk, and some greenery. The car and truck are the main objects in the image, and they are both moving in the same direction. The people in the image are not wearing jackets, and there are no unusual behaviors or notable changes between frames. The vehicles are stationary, and there are no signs or other notable objects in the scene. The direction of the people's movement is towards the right side of the frame.",
+    "objects": [
+      "car (45%)",
+      "car (48%)",
+      "car (62%)",
+      "truck (49%)",
+      "truck (53%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 661,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:02.484070+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a dynamic street scene with four distinct frames. In each frame, a person is walking across the street, wearing a red top and dark pants. The person is moving towards the right side of the frame. The street is lined with trees and buildings, and there are vehicles visible in the background. The sun is shining, casting shadows on the ground. The person is wearing a red top, dark pants, and a hat. The street is wet, indicating recent rain. The person is walking on the sidewalk, and there are no vehicles or signs visible in the frame. The person is moving towards the right side of the frame. The person is wearing a red top, dark pants, and a hat. The street is lined with trees and buildings, and there are vehicles visible in the background. The sun is shining, casting shadows on the ground. The person is wearing a red top, dark pants, and a hat. The street is wet, indicating recent rain. The person is",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 665,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:11.060032+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a car in each frame. The car is the only object in the scene, and it appears to be moving from left to right across the frame. The car is the only vehicle visible in the image. The street is lined with buildings and trees, and there are no other people or vehicles in the scene. The car is wearing a jacket, and the people in the scene are standing up. The direction of the car's movement is from left to right. There are no unusual behaviors or notable changes between frames. The image is a continuous video clip, and the car is the only object in the scene.",
+    "objects": [
+      "car (47%)",
+      "car (50%)",
+      "car (56%)",
+      "car (70%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 666,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:18.412913+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes of a street intersection, each with a person walking across the crosswalk. The person is wearing a dark-colored top and dark pants. The scene is set in a sunny day with clear skies, and the street is lined with trees and buildings. The crosswalk is clearly marked with white lines, and there are no vehicles or other people visible in the scene. The person is walking towards the right side of the image, and the sun is shining brightly, casting shadows on the ground. The person's shadow is visible on the ground, indicating the direction of the sun. The buildings in the background are made of brick, and there are no other people or vehicles visible in the scene. The overall atmosphere is calm and peaceful, with the person walking across the crosswalk appearing to be in a relaxed and unhurried pace.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 671,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:27.250630+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a car in each frame. The car is the only object in the scene, and it appears to be moving from left to right across the frame. The car is positioned on the road, and the scene includes a sidewalk, a curb, and some greenery. The lighting suggests it is daytime with sunlight casting shadows. The car is the only vehicle visible in the image. The people in the image are not wearing jackets, and there are no unusual behaviors or notable changes between frames. The direction of the people's movement is from left to right.",
+    "objects": [
+      "car (45%)",
+      "car (50%)",
+      "car (64%)",
+      "car (74%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 672,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:34.210228+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes of a street intersection, each with a person, a vehicle, and a pedestrian. The person is walking across the street, wearing a dark-colored top and dark pants. The vehicle is a white car, moving in the same direction as the person. The pedestrian is also walking across the street, wearing a dark-colored top and dark pants. The scene is set in a residential area with trees and buildings in the background. The sun is shining, casting shadows on the ground. There are no unusual behaviors or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 677,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:39.390675+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a sequence of four frames showing a street scene with a car in each frame. The car is the only object in the scene, and it appears to be moving from left to right across the frame. The car is positioned on the road, and the scene includes a sidewalk, a curb, and some greenery. The lighting suggests it is daytime with sunlight casting shadows. The car is the only vehicle visible in the image. The people in the image are not wearing jackets, and there are no unusual behaviors or notable changes between frames. The sequence of frames captures the car's movement from left to right, with the car's position and orientation changing slightly in each frame.",
+    "objects": [
+      "car (48%)",
+      "car (55%)",
+      "car (63%)",
+      "car (67%)",
+      "car (68%)",
+      "car (76%)",
+      "car (77%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "staggering (12%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 679,
+      "truck": 326,
+      "person": 406,
+      "bus": 21
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:46.337834+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes of a street intersection, each with a person walking across the crosswalk. The person is wearing a dark-colored top and dark pants. The scene is set in a sunny day with clear skies, and the street is lined with trees and buildings. The crosswalk is clearly marked with white lines, and there are no vehicles or pedestrians visible in the scene. The person is walking towards the camera, and the sun is shining brightly, casting shadows on the ground. The image does not show any unusual behavior or notable changes between frames.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 684,
+      "truck": 326,
+      "person": 406,
+      "bus": 22
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:51.619479+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with a bus, cars, and pedestrians. The bus is located on the left side of the image, moving towards the right. The cars are scattered throughout the scene, with some parked on the right side and others driving on the road. The pedestrians are walking on the sidewalks and crossing the street. The scene is set in a residential area with houses and trees in the background. The people in the image are wearing various types of clothing, including jackets and casual attire. The vehicles are moving in different directions, with some cars turning left and others driving straight. The pedestrians are walking in different directions, with some crossing the street and others walking on the sidewalk. The overall atmosphere of the scene is calm and everyday.",
+    "objects": [
+      "bus (50%)",
+      "car (49%)",
+      "car (53%)",
+      "car (55%)",
+      "car (56%)",
+      "car (58%)",
+      "car (67%)"
+    ],
+    "person_count": 0,
+    "actions": [
+      "playing with phone (5%)",
+      "staggering (12%)",
+      "standing up (13%)",
+      "standing up (8%)",
+      "wear jacket (6%)"
+    ],
+    "object_counts": {
+      "car": 685,
+      "truck": 326,
+      "person": 406,
+      "bus": 22
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:29:59.071670+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a sequence of four identical scenes of a street intersection, each with a person walking across the crosswalk. The person is wearing a dark-colored top and dark pants. The scene is set in a sunny day with clear skies, and the street is lined with trees and buildings. The crosswalk is clearly marked with white lines, and there are no vehicles or pedestrians visible in the scene. The person is walking towards the right side of the image, and the sun is shining brightly, casting shadows on the ground. The person's shadow is visible on the ground, indicating the direction of the sun. The buildings in the background are made of brick, and there are no signs or other notable objects visible in the scene. The person's clothing is casual, and they appear to be walking alone. There are no unusual behaviors or notable changes between frames, and the person's movement is consistent across all four scenes.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 687,
+      "truck": 326,
+      "person": 410,
+      "bus": 22
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:30:07.455071+00:00",
+    "frame_count": 5,
+    "caption": "The image depicts a street scene with four frames arranged in a 2x2 grid. Each frame captures a different moment in time, showing a person walking across the street. The person in the first frame is wearing a dark-colored top and light-colored pants. The second frame shows the person wearing a light-colored top and dark pants. The third frame captures the person wearing a dark-colored top and light-colored pants. The fourth frame shows the person wearing a light-colored top and dark pants. The person in the first frame is walking towards the camera, while the person in the second frame is walking away from the camera. The person in the third frame is walking towards the camera, and the person in the fourth frame is walking away from the camera. The person in the first frame is wearing a dark-colored top, while the person in the second frame is wearing a light-colored top. The person in the third frame is wearing a dark-colored top, and the person in the fourth frame is wearing a",
+    "objects": [
+      "Person 1 (82%, box [1124, 267, 1193, 418])",
+      "Person 1 (82%, box [1192, 268, 1252, 409])",
+      "Person 1 (84%, box [1124, 268, 1192, 418])",
+      "Person 2 (65%, box [1051, 220, 1100, 322])",
+      "Person 2 (65%, box [755, 212, 794, 289])",
+      "Person 2 (66%, box [755, 212, 793, 288])",
+      "Person 3 (59%, box [754, 212, 796, 292])",
+      "car (53%)",
+      "car (54%)"
+    ],
+    "person_count": 3,
+    "actions": [
+      "playing with phone (5%)",
+      "staggering (12%)",
+      "standing up (13%)"
+    ],
+    "object_counts": {
+      "car": 687,
+      "truck": 326,
+      "person": 413,
+      "bus": 22
+    }
+  },
+  {
+    "timestamp": "2026-04-08T07:30:17.062365+00:00",
+    "frame_count": 5,
+    "caption": "The image captures a street scene with four identical frames, each depicting a similar street corner with a pedestrian crossing. The unique detail is the absence of people in the frames, suggesting that the image is a still from a video. The only notable detail is the direction of the shadows, indicating that the sun is positioned to the left of the frame. The pedestrians are walking on the sidewalk, and there are no vehicles or signs visible in the image. The direction of the shadows suggests that the sun is shining from the left side of the frame. There are no unusual behaviors or notable changes between frames, as the scene appears to be static.",
+    "objects": [],
+    "person_count": 0,
+    "actions": [],
+    "object_counts": {
+      "car": 687,
+      "truck": 326,
+      "person": 424,
+      "bus": 22
+    }
+  }
+]
