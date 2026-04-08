@@ -908,5 +908,453 @@
     "time_s": 5.821,
     "tokens": 26,
     "tokens_per_s": 4.5
+  },
+  {
+    "timestamp": "2026-04-08T07:30:22.989441+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals walking. The frames are arranged in a 2x2 grid, capturing the same moment from different angles. The individuals are wearing casual clothing, and the scene includes a crosswalk, trees, and buildings in the background. The people are walking in different directions, with some facing the camera and others looking away. The street appears to be wet, possibly due to recent rain. The overall atmosphere suggests a typical urban setting with pedestrians going about their daily activities.",
+    "time_s": 5.555,
+    "tokens": -407,
+    "tokens_per_s": -73.3
+  },
+  {
+    "timestamp": "2026-04-08T07:30:29.714254+00:00",
+    "text": "The image captures a street scene with four identical frames, each depicting a similar street corner with a pedestrian crossing. The unique detail is the absence of people in the frames, suggesting that the image is a still from a video. The only notable detail is the direction of the shadows, indicating that the sun is positioned to the left of the frame. The pedestrians are walking across the crosswalk, and the vehicles are visible on the road. The pedestrians are wearing casual clothing, and the vehicles are moving in the same direction as the pedestrians. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 5.395,
+    "tokens": 17,
+    "tokens_per_s": 3.2
+  },
+  {
+    "timestamp": "2026-04-08T07:30:35.216799+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four distinct frames. Each frame captures a different moment in time, showing a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, pants, and shoes. The scene is set in an urban environment with buildings, trees, and a clear sky. The people are moving in different directions, with some walking towards the camera and others walking away. The street is lined with trees and there are no vehicles visible in the image. The overall atmosphere appears to be calm and orderly.",
+    "time_s": 5.557,
+    "tokens": -370,
+    "tokens_per_s": -66.6
+  },
+  {
+    "timestamp": "2026-04-08T07:30:41.977221+00:00",
+    "text": "The image captures a street scene with four identical frames, each depicting a similar street corner with a pedestrian crossing, a crosswalk, and a building in the background. The scene is bathed in sunlight, casting shadows on the ground. In each frame, a person is walking across the crosswalk, wearing a dark-colored top and dark pants. The person is moving towards the right side of the frame. There are no vehicles or other notable objects in the scene. The direction of the person's movement is towards the right. There are no unusual behaviors or notable changes between frames. The image format is a continuous video clip, and the only changes are the person's position and direction of movement.",
+    "time_s": 6.142,
+    "tokens": 38,
+    "tokens_per_s": 6.2
+  },
+  {
+    "timestamp": "2026-04-08T07:30:48.230201+00:00",
+    "text": "The image depicts a sequence of four frames showing a group of people walking across a street. The frames are arranged in a 2x2 grid, with each frame capturing a different moment in time. The people are wearing various types of clothing, including jackets, shirts, and pants. The street is lined with buildings and trees, and there are vehicles visible in the background. The people are walking in different directions, with some walking towards the camera and others walking away. The image does not show any unusual behavior or notable changes between frames.",
+    "time_s": 5.281,
+    "tokens": -406,
+    "tokens_per_s": -76.9
+  },
+  {
+    "timestamp": "2026-04-08T07:30:57.368118+00:00",
+    "text": "The image captures a street scene with four identical frames, each depicting a similar street corner with a pedestrian crossing, a crosswalk, and a building in the background. The scene is bathed in sunlight, casting shadows on the ground. In each frame, a person is walking across the crosswalk, wearing a dark-colored top and dark pants. The person is moving towards the right side of the frame. There are no vehicles or other notable objects in the scene. The direction of movement is towards the right. There are no unusual behaviors or notable changes between frames. The image format is a continuous video clip, and the only changes are the positioning of the person and the direction of movement.",
+    "time_s": 6.5,
+    "tokens": 37,
+    "tokens_per_s": 5.7
+  },
+  {
+    "timestamp": "2026-04-08T07:31:03.956264+00:00",
+    "text": "The image depicts a sequence of four frames showing a group of people walking across a street. The frames are arranged in a 2x2 grid, with each frame capturing a different moment in time. The people are wearing various types of clothing, including jackets, shirts, and pants. The street is lined with trees and buildings, and there are shadows cast by the people and objects. The people are walking in different directions, with some walking towards the camera and others walking away. The image does not show any vehicles or signs, but there are no vehicles or signs visible in the frames. The people are wearing jackets, shirts, and pants, and some are wearing hats. The image does not show any unusual behavior or notable changes between frames.",
+    "time_s": 6.608,
+    "tokens": -365,
+    "tokens_per_s": -55.2
+  },
+  {
+    "timestamp": "2026-04-08T07:31:11.769842+00:00",
+    "text": "The image captures a street scene with four identical frames, each depicting a similar street view with a pedestrian crossing. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking across the pedestrian crossing, with some wearing dark clothing and others in lighter attire. The direction of movement is from left to right, and the people are moving in the same direction. There are no unusual behaviors or notable changes between frames. The only notable detail is the presence of a vehicle in the background, which appears to be moving in the same direction as the pedestrians.",
+    "time_s": 5.303,
+    "tokens": 19,
+    "tokens_per_s": 3.6
+  },
+  {
+    "timestamp": "2026-04-08T07:31:17.187226+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four distinct frames. Each frame captures a different moment in time, showing a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene is set in an urban environment with buildings, trees, and a clear sky. The people are walking in different directions, with some facing towards the camera and others facing away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and orderly, with people going about their daily activities.",
+    "time_s": 5.869,
+    "tokens": -346,
+    "tokens_per_s": -59.0
+  },
+  {
+    "timestamp": "2026-04-08T07:31:24.234546+00:00",
+    "text": "The image captures a street scene with four identical frames, each depicting a similar street view with a pedestrian crossing. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking across the pedestrian crossing, with some wearing reflective clothing, possibly for safety. The direction of movement is from left to right, and the people are moving in the same direction. There are no unusual behaviors or notable changes between frames. The only notable detail is the presence of a vehicle in the background, which appears to be stationary.",
+    "time_s": 5.025,
+    "tokens": 11,
+    "tokens_per_s": 2.2
+  },
+  {
+    "timestamp": "2026-04-08T07:31:29.346291+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. The frames show a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene includes a building in the background, trees, and a clear sky. The people are walking in different directions, with some facing towards the camera and others facing away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and typical of a city street.",
+    "time_s": 5.089,
+    "tokens": -312,
+    "tokens_per_s": -61.3
+  },
+  {
+    "timestamp": "2026-04-08T07:31:35.485855+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car, pedestrians, and various objects. The scene is set in a sunny day with clear skies, and the sun casts shadows on the ground. The cars are moving in the same direction, and the pedestrians are walking on the sidewalks. The vehicles are positioned at the intersection, with the car in the foreground and the other cars in the background. The pedestrians are walking on the sidewalks, and some are crossing the street. The signs and objects are not visible in the image. The people in the image are wearing casual clothing, and there are no unusual behaviors or notable changes between frames. The direction of the people's movement is from left to right, and the vehicles are moving in the same direction.",
+    "time_s": 6.624,
+    "tokens": 56,
+    "tokens_per_s": 8.5
+  },
+  {
+    "timestamp": "2026-04-08T07:31:42.209046+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. The frames show a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene includes a building in the background, trees, and a clear sky. The people are walking in different directions, with some facing towards the camera and others facing away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and typical of a city street.",
+    "time_s": 5.011,
+    "tokens": -282,
+    "tokens_per_s": -56.3
+  },
+  {
+    "timestamp": "2026-04-08T07:31:48.353335+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car, pedestrians, and a traffic light. The scene is set in a sunny day with clear skies. The car in the first frame is turning left, the second is turning right, the third is turning left again, and the fourth is turning right. The pedestrians are walking on the sidewalks, and the traffic light is red. The vehicles are moving in the same direction, and the pedestrians are walking in the same direction as the vehicles. The scene is peaceful and ordinary, with no unusual behavior or notable changes between frames.",
+    "time_s": 5.246,
+    "tokens": 21,
+    "tokens_per_s": 4.0
+  },
+  {
+    "timestamp": "2026-04-08T07:31:53.687008+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. In each frame, a group of people is walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene is set in an urban environment with buildings, trees, and a clear sky. The people are moving in different directions, with some walking towards the camera and others walking away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and orderly.",
+    "time_s": 5.18,
+    "tokens": -312,
+    "tokens_per_s": -60.2
+  },
+  {
+    "timestamp": "2026-04-08T07:32:00.058202+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car and pedestrians. The scene is set in a sunny day with clear skies, and the sun is shining brightly, casting shadows on the ground. The cars are positioned at the intersection, with one car turning left and another car turning right. The pedestrians are standing on the sidewalk, waiting to cross the street. The vehicles are moving in the same direction, and the pedestrians are also moving in the same direction. The scene is devoid of any unusual behavior or notable changes between frames. The only notable detail is the consistent lighting and shadows, which create a sense of continuity and realism.",
+    "time_s": 5.744,
+    "tokens": 32,
+    "tokens_per_s": 5.6
+  },
+  {
+    "timestamp": "2026-04-08T07:32:05.899381+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. The frames show a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene includes a building in the background, trees, and a clear sky. The people are walking in different directions, with some facing towards the camera and others facing away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and typical of a city street.",
+    "time_s": 5.551,
+    "tokens": -307,
+    "tokens_per_s": -55.3
+  },
+  {
+    "timestamp": "2026-04-08T07:32:12.628632+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car, pedestrians, and a building in the background. The scene is set during the daytime with sunlight casting shadows on the ground. The car in the first frame is turning left, the second is turning right, the third is turning left again, and the fourth is turning right. The pedestrians are walking on the sidewalk, and the building is visible in the background. The vehicles are moving in the same direction, and the pedestrians are walking in the same direction as the vehicles. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 5.291,
+    "tokens": 22,
+    "tokens_per_s": 4.2
+  },
+  {
+    "timestamp": "2026-04-08T07:32:18.009580+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. The frames show a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene includes a building in the background, trees, and a clear sky. The people are walking in different directions, with some facing towards the camera and others facing away. The crosswalk is marked with white lines, and there are traffic lights visible in the background. The overall atmosphere appears to be calm and typical of a city street.",
+    "time_s": 5.011,
+    "tokens": -307,
+    "tokens_per_s": -61.3
+  },
+  {
+    "timestamp": "2026-04-08T07:32:24.213414+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car and pedestrians. The first scene shows a car approaching the intersection, while the second and third scenes show the car turning right. The fourth scene shows the car turning left. The pedestrians are walking on the sidewalks, and the vehicles are moving in the same direction. The scene is set in a residential area with trees and buildings in the background. The sun is shining, casting shadows on the ground. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.783,
+    "tokens": 7,
+    "tokens_per_s": 1.5
+  },
+  {
+    "timestamp": "2026-04-08T07:32:29.092206+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four frames. In each frame, there are two people walking. The people are wearing dark clothing, and their movements are consistent across the frames. The street is lined with buildings and trees, and there are no vehicles or other notable objects visible in the scene. The people are walking in different directions, with some facing towards the camera and others facing away. The overall scene appears to be a typical urban street with pedestrians going about their daily activities.",
+    "time_s": 4.816,
+    "tokens": -334,
+    "tokens_per_s": -69.4
+  },
+  {
+    "timestamp": "2026-04-08T07:32:35.099802+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are engaged in typical urban activities: walking, conversing, and waiting at the intersection. The pedestrians are dressed in casual attire, and the vehicles visible include a car and a motorcycle. The direction of movement is from left to right, with the car moving towards the intersection and the motorcycle moving away from it. There are no unusual behaviors or notable changes between frames, and the scene appears to be a standard urban street scene.",
+    "time_s": 5.711,
+    "tokens": 31,
+    "tokens_per_s": 5.4
+  },
+  {
+    "timestamp": "2026-04-08T07:32:40.900824+00:00",
+    "text": "The image depicts a continuous video clip of a street scene with four distinct frames. Each frame captures a different moment in time, showing a group of people walking across a crosswalk. The people are wearing various types of clothing, including jackets, shirts, and pants. The scene is set in an urban environment with buildings, trees, and street elements visible in the background. The people are moving in different directions, with some walking towards the camera and others walking away. The image captures the dynamic nature of the scene, with people engaged in various activities such as walking, standing, and interacting with each other. The overall atmosphere is lively and bustling, typical of a busy city street.",
+    "time_s": 6.376,
+    "tokens": -282,
+    "tokens_per_s": -44.2
+  },
+  {
+    "timestamp": "2026-04-08T07:32:48.585348+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking, and the car is stationary. The pedestrians are wearing casual clothing, and the car is dark-colored. The signs and objects are not visible in the image. The direction of people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.966,
+    "tokens": 13,
+    "tokens_per_s": 2.6
+  },
+  {
+    "timestamp": "2026-04-08T07:32:53.645486+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals walking. The individuals are wearing dark clothing and appear to be moving in the same direction. The background includes a building and some greenery. The frames are arranged in a 2x2 grid, with the top-left frame showing a person walking towards the camera, the top-right frame showing a person walking away from the camera, the bottom-left frame showing a person walking towards the building, and the bottom-right frame showing a person walking away from the building. The people are wearing dark clothing, and there are no vehicles or signs visible in the image. The direction of the people's movements is towards the building. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 6.597,
+    "tokens": -419,
+    "tokens_per_s": -63.5
+  },
+  {
+    "timestamp": "2026-04-08T07:33:01.360449+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking, and the vehicles are stationary. The pedestrians are wearing casual clothing, and the vehicles are parked or moving slowly. The direction of people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.698,
+    "tokens": 4,
+    "tokens_per_s": 0.9
+  },
+  {
+    "timestamp": "2026-04-08T07:33:06.144471+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals walking. The frames are arranged in a 2x2 grid, with each frame capturing a different moment in time. The individuals are wearing dark clothing, and their movements are consistent across the frames. The street is lined with buildings and trees, and there are vehicles visible in the background. The people are walking towards the right side of the frame, and their movements appear to be in a straight line. The direction of the people's movement is towards the right side of the frame. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 5.541,
+    "tokens": -415,
+    "tokens_per_s": -74.9
+  },
+  {
+    "timestamp": "2026-04-08T07:33:12.922585+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are wearing casual clothing, and the vehicles are moving in the same direction. The pedestrians are walking on the sidewalks, and there are no unusual behaviors or notable changes between frames. The direction of people and vehicles is consistent, moving from left to right across the frame.",
+    "time_s": 4.567,
+    "tokens": -1,
+    "tokens_per_s": -0.2
+  },
+  {
+    "timestamp": "2026-04-08T07:33:17.583766+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals. The individuals are walking on the sidewalk and crossing the street. The sequence captures the same scene at different times, with slight variations in the positioning and movement of the people. The people are wearing casual clothing, and the environment includes buildings, trees, and street elements such as traffic lights and road signs. The overall scene suggests a typical urban setting with pedestrians going about their daily activities.",
+    "time_s": 4.511,
+    "tokens": -476,
+    "tokens_per_s": -105.5
+  },
+  {
+    "timestamp": "2026-04-08T07:33:23.278242+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and vehicles. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are wearing casual clothing, and the vehicles are moving in the same direction. The pedestrians are walking across the street, and the vehicles are stationary. The scene is set in a residential area with trees and buildings in the background. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.636,
+    "tokens": 1,
+    "tokens_per_s": 0.2
+  },
+  {
+    "timestamp": "2026-04-08T07:33:28.243626+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals. The individuals are walking across the street. The first frame shows a person walking towards the camera, the second frame shows a person walking away from the camera, the third frame shows a person walking towards the camera again, and the fourth frame shows a person walking away from the camera. The individuals are wearing dark clothing. The street is lined with buildings and trees, and there are vehicles visible in the background. The people are wearing dark clothing, and there are no vehicles or other notable objects visible in the image. The direction of the people's movements is towards the camera, and there are no unusual behaviors or notable changes between frames.",
+    "time_s": 6.317,
+    "tokens": -423,
+    "tokens_per_s": -67.0
+  },
+  {
+    "timestamp": "2026-04-08T07:33:35.717749+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are wearing casual clothing, and the vehicles are moving in the same direction. The pedestrians are walking across the street, and the traffic lights are visible. The direction of people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.813,
+    "tokens": 9,
+    "tokens_per_s": 1.9
+  },
+  {
+    "timestamp": "2026-04-08T07:33:40.628275+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals. The individuals are walking across the street. The first frame shows a person walking towards the camera, the second frame shows a person walking away from the camera, the third frame shows a person walking towards the camera again, and the fourth frame shows a person walking away from the camera. The individuals are wearing dark clothing. The street is lined with trees and buildings, and there are vehicles visible in the background. The people are walking on the sidewalk, and there are no vehicles or other notable objects in the scene. The sequence of frames captures the movement of the individuals as they walk across the street.",
+    "time_s": 6.016,
+    "tokens": -384,
+    "tokens_per_s": -63.8
+  },
+  {
+    "timestamp": "2026-04-08T07:33:47.710571+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are wearing casual clothing, and the vehicles are moving in the same direction. The pedestrians are walking across the street, and the traffic lights are visible. The scene is set in an urban environment with buildings and trees in the background. There are no unusual behaviors or notable changes between frames, and the direction of people's movements is consistent across all four scenes.",
+    "time_s": 5.212,
+    "tokens": 17,
+    "tokens_per_s": 3.3
+  },
+  {
+    "timestamp": "2026-04-08T07:33:53.025253+00:00",
+    "text": "The image depicts a sequence of four frames showing a street scene with three individuals. The first frame shows a person walking towards the camera, the second frame shows the same person walking away from the camera, the third frame shows another person walking towards the camera, and the fourth frame shows the same person walking away from the camera. The individuals are wearing dark clothing. The street is lined with trees and buildings, and there are vehicles visible in the background. The people are walking on the sidewalk, and there are no vehicles or other notable objects in the scene. The sequence captures the movement of the individuals over time, with the person walking towards the camera in the first frame and the person walking away from the camera in the fourth frame.",
+    "time_s": 6.436,
+    "tokens": -390,
+    "tokens_per_s": -60.6
+  },
+  {
+    "timestamp": "2026-04-08T07:34:00.597870+00:00",
+    "text": "The image captures a dynamic urban scene with four distinct frames. In each frame, a person is walking across the street, wearing a red top and dark pants. The person is positioned on the right side of the frame, near the crosswalk. The street is lined with trees and buildings, and there are vehicles visible in the background. The vehicles include a black car and a white van. The scene is set during the daytime, with sunlight casting shadows on the ground. The person's movement is consistent across all frames, indicating a steady pace. The overall atmosphere is calm and orderly, with no unusual behavior or notable changes between frames.",
+    "time_s": 5.559,
+    "tokens": 26,
+    "tokens_per_s": 4.7
+  },
+  {
+    "timestamp": "2026-04-08T07:34:06.242437+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark-colored jacket and dark pants. In each frame, the person is captured at different stages of movement, with the first frame showing the person standing still, the second frame showing the person walking towards the camera, the third frame showing the person walking away from the camera, and the fourth frame showing the person walking towards the camera again. The background shows a street with buildings, trees, and other pedestrians. The person is the only individual visible in the image. The sequence captures the person's movement in a continuous flow, with slight variations in their posture and direction.",
+    "time_s": 6.051,
+    "tokens": -430,
+    "tokens_per_s": -71.1
+  },
+  {
+    "timestamp": "2026-04-08T07:34:13.338190+00:00",
+    "text": "The image captures a dynamic urban scene with four distinct frames. In each frame, a person is walking across the street, wearing a red top and dark pants. The person is positioned on the right side of the street, near the crosswalk. The street is lined with trees and buildings, and there are vehicles visible in the background. The vehicles include a black car and a white van. The scene is set during the daytime, with sunlight casting shadows on the ground. The person's movement is consistent across all frames, indicating a steady pace. The overall atmosphere is calm and orderly, with no unusual behavior or notable changes between frames.",
+    "time_s": 5.544,
+    "tokens": 26,
+    "tokens_per_s": 4.7
+  },
+  {
+    "timestamp": "2026-04-08T07:34:18.966664+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark-colored jacket and dark pants. In each frame, the person is captured at different stages of their stride, with the first frame showing the person in a walking stance, the second frame showing the person in mid-stride, the third frame showing the person in a more upright position, and the fourth frame showing the person in a walking stance again. The background shows a street with buildings, trees, and other pedestrians. The person is walking on a sidewalk, and there are no vehicles or other objects visible in the image. The sequence captures the person's movement from left to right across the frame.",
+    "time_s": 6.247,
+    "tokens": -421,
+    "tokens_per_s": -67.4
+  },
+  {
+    "timestamp": "2026-04-08T07:34:26.339089+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are wearing casual clothing, and the vehicles are moving in the same direction. The pedestrians are walking on the sidewalk, and there are no unusual behaviors or notable changes between frames. The direction of people and vehicles is consistent, moving from left to right across the frame.",
+    "time_s": 4.462,
+    "tokens": -1,
+    "tokens_per_s": -0.2
+  },
+  {
+    "timestamp": "2026-04-08T07:34:30.894721+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark-colored jacket and appears to be moving towards the right side of the frame. The background includes a building, trees, and other pedestrians. The person is captured in different positions, suggesting movement and progression through the scene. The sequence captures the person's actions and attire over time, providing a clear visual of their progression.",
+    "time_s": 4.164,
+    "tokens": -474,
+    "tokens_per_s": -113.8
+  },
+  {
+    "timestamp": "2026-04-08T07:34:36.147146+00:00",
+    "text": "The image captures a sequence of four identical scenes of a street intersection, each with a person, a car, and a pedestrian. The person is wearing a dark-colored jacket and dark pants, and is walking across the street. The car is black and is positioned at the intersection, waiting for the pedestrian to cross. The pedestrian is wearing a light-colored top and dark pants, and is also walking across the street. The vehicles, signs, and objects are consistent across all four frames, with the same car, pedestrian, and crosswalk visible. The direction of movement is consistent, with the person and car moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 6.02,
+    "tokens": 37,
+    "tokens_per_s": 6.1
+  },
+  {
+    "timestamp": "2026-04-08T07:34:42.918038+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking across a street. The person is wearing a dark-colored jacket and appears to be moving towards the right side of the frame. The background includes a building, trees, and other pedestrians. The person's actions include walking, taking off a jacket, and wearing a jacket. The direction of the person's movement is towards the right. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.911,
+    "tokens": -488,
+    "tokens_per_s": -99.4
+  },
+  {
+    "timestamp": "2026-04-08T07:34:48.313667+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, a pedestrian, and a traffic light. The scene is set in a city environment with buildings, trees, and a pedestrian crossing. The car is stationary, waiting at the intersection, while the pedestrian is crossing the street. The traffic light is red, indicating that vehicles should stop. The pedestrians are wearing casual clothing, and the traffic light is red. The scene is set during the daytime, with clear skies and bright sunlight. There are no unusual behaviors or notable changes between frames. The only notable detail is the repetition of the same scene, suggesting a deliberate attempt to capture the same moment over multiple frames.",
+    "time_s": 6.089,
+    "tokens": 39,
+    "tokens_per_s": 6.4
+  },
+  {
+    "timestamp": "2026-04-08T07:34:55.174256+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a street. The person is wearing a dark-colored jacket and appears to be moving forward. The street is lined with trees and buildings, and there are other people visible in the background, some walking and others standing. The person is positioned in the center of the frame, with the buildings and trees framing the scene on either side. The image captures the person in motion, with slight blur indicating movement. The direction of the person's movement is towards the right side of the frame.",
+    "time_s": 5.082,
+    "tokens": -452,
+    "tokens_per_s": -88.9
+  },
+  {
+    "timestamp": "2026-04-08T07:35:00.671713+00:00",
+    "text": "The image captures a sequence of a street scene with a person walking across the street. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings, and there are vehicles visible on the road. The person is walking towards the right side of the image. The vehicles are moving in the same direction as the person. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings, and there are vehicles visible on the road. The person is walking towards the right side of the image. The vehicles are moving in the same direction as the person. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings, and there are vehicles visible on the road. The person is walking towards the right side of the image. The vehicles are moving in the same direction as the person. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings,",
+    "time_s": 8.035,
+    "tokens": 98,
+    "tokens_per_s": 12.2
+  },
+  {
+    "timestamp": "2026-04-08T07:35:09.506169+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a street. The person is wearing a black jacket and appears to be moving from left to right. The street is lined with trees and buildings, and there are other people visible in the background. The person is the only individual in the frame, and they are the only one wearing a black jacket. The sequence captures the person walking in a straight line, with the background elements consistent throughout the frames.",
+    "time_s": 4.472,
+    "tokens": -468,
+    "tokens_per_s": -104.7
+  },
+  {
+    "timestamp": "2026-04-08T07:35:14.385654+00:00",
+    "text": "The image captures a sequence of a person walking across a crosswalk at an intersection. The person is wearing a dark-colored top and light-colored pants. The scene includes a car turning left at the intersection, a pedestrian crossing the street, and a person standing near the crosswalk. The traffic light is red, indicating that vehicles should stop. The person is wearing a dark-colored top and light-colored pants. The scene includes a car turning left at the intersection, a pedestrian crossing the street, and a person standing near the crosswalk. The traffic light is red, indicating that vehicles should stop. The person is wearing a dark-colored top and light-colored pants. The scene includes a car turning left at the intersection, a pedestrian crossing the street, and a person standing near the crosswalk. The traffic light is red, indicating that vehicles should stop. The person is wearing a dark-colored top and light-colored pants. The scene includes a car turning left at the intersection, a pedestrian crossing the street,",
+    "time_s": 8.278,
+    "tokens": 98,
+    "tokens_per_s": 11.8
+  },
+  {
+    "timestamp": "2026-04-08T07:35:23.658931+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a street. The person is wearing a dark-colored jacket and appears to be moving forward. The street is lined with trees and buildings, and there are other people visible in the background, some walking and others standing. The person is captured at different stages of their stride, with the first frame showing the person in a walking position, the second frame showing them in mid-stride, the third frame showing them in a more upright position, and the fourth frame showing them in a walking position again. The person is also wearing a dark-colored shirt. The direction of the person's movement is towards the right side of the image. There are no vehicles or other notable objects visible in the image. The person's actions, clothing, and the surrounding environment are consistent across all four frames.",
+    "time_s": 8.142,
+    "tokens": -448,
+    "tokens_per_s": -55.0
+  },
+  {
+    "timestamp": "2026-04-08T07:35:32.007490+00:00",
+    "text": "The image captures a sequence of a street scene with a person walking across the street. The person is wearing a dark-colored jacket and dark pants. The street is lined with trees and buildings, and there are vehicles visible on the road. The person is walking towards the camera, and the vehicles are moving in the same direction as the person. The scene appears to be a typical urban environment with pedestrians and vehicles.",
+    "time_s": 3.995,
+    "tokens": -19,
+    "tokens_per_s": -4.8
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.981984+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a street. The person is wearing a dark-colored jacket and appears to be moving forward. The street is lined with trees and buildings, and there are other people visible in the background, some walking and others standing. The person is captured at different stages of their stride, with the first frame showing the person in a walking stance, the second frame showing them in mid-stride, the third frame showing them in a more upright position, and the fourth frame showing them in a walking stance again. The person is wearing a dark-colored jacket, and the street is lined with trees and buildings. The direction of the people's movements is towards the right side of the image. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 6.919,
+    "tokens": -403,
+    "tokens_per_s": -58.2
+  },
+  {
+    "timestamp": "2026-04-08T07:35:47.427626+00:00",
+    "text": "The image captures a sequence of four scenes from a continuous video, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, focusing solely on the continuous flow of the scene. In each frame, a person is walking across the street, wearing casual clothing and carrying a bag. The vehicles, including cars and a truck, are stationary, with the truck's headlights on, indicating it might be early morning or late afternoon. The pedestrians are also walking, with one person crossing the street. The direction of movement is from left to right, and the people are moving in the same direction. There are no unusual behaviors or notable changes between frames, and the scene is characterized by a sense of everyday urban life.",
+    "time_s": 6.675,
+    "tokens": 54,
+    "tokens_per_s": 8.1
+  },
+  {
+    "timestamp": "2026-04-08T07:35:54.188140+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a street. The person is wearing a dark-colored jacket and appears to be moving from left to right. The street is lined with trees and buildings, and there are other people visible in the background, some walking and others standing. The person is the only individual in the frame, and there are no vehicles or signs visible in the image. The direction of the person's movement is from left to right, and they are walking on a paved path. The person's jacket appears to be dark in color, and they are wearing dark pants. The image captures a moment of everyday life, with the person walking on a sunny day.",
+    "time_s": 6.342,
+    "tokens": -278,
+    "tokens_per_s": -43.8
+  },
+  {
+    "timestamp": "2026-04-08T07:36:01.648702+00:00",
+    "text": "The image captures a sequence of four consecutive frames depicting a street scene. In each frame, a person is walking across the street, wearing a dark-colored jacket and dark pants. The person is positioned on the right side of the frame, crossing the street at a crosswalk. The street is lined with trees and buildings, and there are vehicles visible in the background, including a dark-colored car and a white van. The vehicles are positioned on the left side of the frame, moving in the same direction as the person. The scene is set during the daytime, with sunlight casting shadows on the ground. There are no unusual behaviors or notable changes between frames, and the people and vehicles appear to be moving in the same direction.",
+    "time_s": 6.608,
+    "tokens": 44,
+    "tokens_per_s": 6.7
+  },
+  {
+    "timestamp": "2026-04-08T07:36:08.351382+00:00",
+    "text": "The image depicts a sequence of four frames showing a person walking on a sidewalk. The person is wearing a dark-colored jacket and appears to be moving forward. The background includes a street with a few pedestrians and a building. The person is captured at different stages of their stride, with the first frame showing the person in a walking stance, the second frame showing the person in mid-stride, the third frame showing the person in a more upright position, and the fourth frame showing the person in a walking stance again. The person is also wearing a dark-colored shirt. The street is lined with trees and there are no vehicles or other notable objects visible in the image. The direction of the person's movement is towards the right side of the frame.",
+    "time_s": 6.883,
+    "tokens": -312,
+    "tokens_per_s": -45.3
+  },
+  {
+    "timestamp": "2026-04-08T07:36:16.337653+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking, and the vehicles are stationary. The pedestrians are wearing casual clothing, and the vehicles are moving in the same direction. The scene includes trees, buildings, and street signs, but no unusual behavior or notable changes between frames.",
+    "time_s": 4.369,
+    "tokens": -7,
+    "tokens_per_s": -1.6
+  },
+  {
+    "timestamp": "2026-04-08T07:36:20.795420+00:00",
+    "text": "The image depicts a street scene with multiple people and vehicles. The sequence captures a person walking across the street, while another person is seen crossing the street from behind. The person in the foreground is wearing a dark-colored jacket, and the person in the background is wearing a light-colored jacket. The vehicles on the road include a car in the foreground and a car in the background. The scene appears to be a typical urban environment with pedestrians and vehicles moving in different directions. The people are engaged in various activities, such as walking and crossing the street. The vehicles are stationary, indicating that they are either parked or stopped. The overall atmosphere suggests a busy street with people and vehicles moving about.",
+    "time_s": 6.521,
+    "tokens": -332,
+    "tokens_per_s": -50.9
+  },
+  {
+    "timestamp": "2026-04-08T07:36:29.631477+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a person walking across the street. The person is wearing a dark-colored jacket and pants, and they are walking towards the right side of the frame. The street is lined with trees and buildings, and there are vehicles visible in the background. The sun is shining, casting shadows on the ground. The person is walking on the sidewalk, and there are no other notable changes between frames. The direction of the person's movement is towards the right side of the frame.",
+    "time_s": 5.328,
+    "tokens": 8,
+    "tokens_per_s": 1.5
+  },
+  {
+    "timestamp": "2026-04-08T07:36:35.052976+00:00",
+    "text": "The image depicts a street scene with four frames arranged in a 2x2 grid. Each frame captures a different moment in time, showing a person walking on the sidewalk. The person is wearing a dark-colored jacket. In the background, there are several cars parked along the street, and the scene appears to be during the daytime with sunlight casting shadows. The person is walking towards the right side of the image, and there are other pedestrians visible in the background. The overall atmosphere suggests a typical urban setting with people going about their daily activities.",
+    "time_s": 5.188,
+    "tokens": -317,
+    "tokens_per_s": -61.1
+  },
+  {
+    "timestamp": "2026-04-08T07:36:41.333363+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a car, pedestrians, and various objects. The unique detail is the absence of a grid layout, suggesting a continuous video clip. The individuals in the scene are walking, and the vehicles are stationary. The pedestrians are wearing casual clothing, and the vehicles are parked or moving slowly. The direction of people's movement is from left to right, and the vehicles are moving in the same direction. There are no unusual behaviors or notable changes between frames.",
+    "time_s": 4.633,
+    "tokens": 4,
+    "tokens_per_s": 0.9
+  },
+  {
+    "timestamp": "2026-04-08T07:36:46.051555+00:00",
+    "text": "The image depicts a street scene with multiple people and vehicles. The people are wearing jackets, and some are walking while others are standing. The vehicles include cars, and some are moving while others are parked. The direction of people's movements is not explicitly clear, but they appear to be walking or standing in various locations. There are no unusual behaviors or notable changes between frames. The image is a continuous video clip, and the objects detected include people, cars, and signs.",
+    "time_s": 4.506,
+    "tokens": -281,
+    "tokens_per_s": -62.4
+  },
+  {
+    "timestamp": "2026-04-08T07:36:51.668418+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street intersection with a black car and a pedestrian. The pedestrian is walking on the sidewalk, wearing a dark-colored outfit. The car is stationary, waiting at the intersection. The scene is set in a sunny day with clear skies, and the shadows indicate the sun is high in the sky. No unusual behavior or interactions between people are observed. The vehicles and objects remain consistent across all frames, with the car and pedestrian moving in the same direction.",
+    "time_s": 4.841,
+    "tokens": 1,
+    "tokens_per_s": 0.2
+  },
+  {
+    "timestamp": "2026-04-08T07:36:56.837476+00:00",
+    "text": "The image depicts a street scene with multiple people and vehicles. The people are wearing jackets, and some are walking, while others are standing or sitting. The vehicles include cars, and some are moving, while others are parked or stationary. The direction of people's movements is not explicitly clear, but they appear to be walking or standing on the sidewalk. The scene is set in a sunny environment, with shadows indicating the direction of the sunlight. The image captures a moment in time, showing a typical urban street scene with people and vehicles.",
+    "time_s": 5.185,
+    "tokens": -230,
+    "tokens_per_s": -44.4
+  },
+  {
+    "timestamp": "2026-04-08T07:37:05.588034+00:00",
+    "text": "The image captures a sequence of four identical scenes, each depicting a street with a car driving on the road. The car is positioned in the center of the frame, moving from left to right. The scene is set in a residential area with trees and buildings in the background. The sun is shining, casting shadows on the road. The vehicles and objects in the scene are stationary, with no visible movement. The people in the scene are not wearing any distinctive clothing, and there are no unusual behaviors or notable changes between frames. The direction of the people's movement is from left to right, and there are no signs of interaction between people or vehicles. The image is a continuous video clip, and there are no notable changes or unusual behavior between frames.",
+    "time_s": 6.6,
+    "tokens": 49,
+    "tokens_per_s": 7.4
   }
 ]

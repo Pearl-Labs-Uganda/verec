@@ -1,4048 +1,5 @@
 [
   {
-    "timestamp": "2026-04-08T07:14:23.015682+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.908,
-        "box": [
-          0,
-          387,
-          370,
-          611
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.764,
-        "box": [
-          746,
-          218,
-          889,
-          308
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.718,
-        "box": [
-          1093,
-          140,
-          1142,
-          175
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 52.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:23.439316+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.915,
-        "box": [
-          0,
-          382,
-          383,
-          606
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.75,
-        "box": [
-          749,
-          216,
-          892,
-          300
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.702,
-        "box": [
-          1093,
-          140,
-          1141,
-          174
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 53.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:23.612921+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.898,
-        "box": [
-          0,
-          378,
-          392,
-          592
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.718,
-        "box": [
-          752,
-          217,
-          895,
-          299
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.689,
-        "box": [
-          1094,
-          141,
-          1142,
-          174
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 40.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:23.771113+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.907,
-        "box": [
-          0,
-          374,
-          405,
-          588
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.776,
-        "box": [
-          756,
-          216,
-          897,
-          299
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.693,
-        "box": [
-          1095,
-          141,
-          1142,
-          173
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 39.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:23.927670+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.913,
-        "box": [
-          0,
-          369,
-          417,
-          573
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.799,
-        "box": [
-          762,
-          217,
-          901,
-          298
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.687,
-        "box": [
-          1095,
-          140,
-          1142,
-          173
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 72.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:30.903537+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.901,
-        "box": [
-          0,
-          366,
-          429,
-          569
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.793,
-        "box": [
-          766,
-          216,
-          904,
-          297
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.693,
-        "box": [
-          1095,
-          140,
-          1142,
-          173
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 36.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:31.055207+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.893,
-        "box": [
-          1,
-          363,
-          441,
-          555
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.849,
-        "box": [
-          769,
-          214,
-          908,
-          295
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.668,
-        "box": [
-          1095,
-          141,
-          1143,
-          174
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 35.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:31.208290+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.9,
-        "box": [
-          14,
-          357,
-          449,
-          546
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.834,
-        "box": [
-          775,
-          215,
-          912,
-          294
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.667,
-        "box": [
-          1095,
-          140,
-          1145,
-          173
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 37.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:31.352440+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.905,
-        "box": [
-          35,
-          354,
-          460,
-          537
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.802,
-        "box": [
-          780,
-          214,
-          914,
-          294
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.657,
-        "box": [
-          1095,
-          141,
-          1146,
-          174
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 37.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:31.484212+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.898,
-        "box": [
-          54,
-          350,
-          474,
-          532
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.801,
-        "box": [
-          783,
-          213,
-          916,
-          291
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.635,
-        "box": [
-          1095,
-          141,
-          1146,
-          174
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 39.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:37.025368+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.916,
-        "box": [
-          71,
-          348,
-          481,
-          524
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.819,
-        "box": [
-          787,
-          211,
-          919,
-          289
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.615,
-        "box": [
-          1098,
-          141,
-          1147,
-          172
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 47.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:37.173755+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.902,
-        "box": [
-          93,
-          346,
-          491,
-          518
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.843,
-        "box": [
-          790,
-          210,
-          922,
-          289
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.622,
-        "box": [
-          1098,
-          141,
-          1147,
-          172
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 33.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:37.316948+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.901,
-        "box": [
-          110,
-          342,
-          502,
-          514
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.809,
-        "box": [
-          794,
-          209,
-          924,
-          288
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.611,
-        "box": [
-          951,
-          137,
-          1052,
-          243
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 36.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:37.457768+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.909,
-        "box": [
-          127,
-          339,
-          511,
-          506
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.844,
-        "box": [
-          799,
-          209,
-          927,
-          288
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.63,
-        "box": [
-          1099,
-          140,
-          1148,
-          173
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 32.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:37.600298+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.899,
-        "box": [
-          147,
-          337,
-          521,
-          503
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.792,
-        "box": [
-          803,
-          208,
-          927,
-          284
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.637,
-        "box": [
-          1099,
-          140,
-          1148,
-          172
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 37.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:43.122943+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.908,
-        "box": [
-          161,
-          334,
-          531,
-          495
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.752,
-        "box": [
-          806,
-          206,
-          930,
-          284
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.638,
-        "box": [
-          1102,
-          140,
-          1149,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 35.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:43.264960+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.909,
-        "box": [
-          177,
-          331,
-          540,
-          493
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.759,
-        "box": [
-          810,
-          204,
-          933,
-          282
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.64,
-        "box": [
-          1101,
-          140,
-          1148,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 34.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:43.407939+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.919,
-        "box": [
-          192,
-          328,
-          549,
-          486
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.79,
-        "box": [
-          813,
-          203,
-          937,
-          280
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.662,
-        "box": [
-          1102,
-          140,
-          1149,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 33.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:43.539951+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.919,
-        "box": [
-          208,
-          324,
-          557,
-          480
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.812,
-        "box": [
-          816,
-          200,
-          940,
-          285
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.667,
-        "box": [
-          1102,
-          140,
-          1149,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 38.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:43.682577+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.909,
-        "box": [
-          223,
-          321,
-          564,
-          479
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.82,
-        "box": [
-          821,
-          200,
-          943,
-          285
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.647,
-        "box": [
-          1102,
-          139,
-          1151,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 43.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:49.603095+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.904,
-        "box": [
-          240,
-          319,
-          574,
-          466
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.784,
-        "box": [
-          824,
-          198,
-          944,
-          284
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.635,
-        "box": [
-          1102,
-          139,
-          1152,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 39.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:49.746108+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.904,
-        "box": [
-          254,
-          317,
-          580,
-          461
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.756,
-        "box": [
-          828,
-          197,
-          946,
-          278
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.631,
-        "box": [
-          1105,
-          139,
-          1154,
-          169
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 40.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:49.889404+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.886,
-        "box": [
-          266,
-          313,
-          589,
-          463
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.762,
-        "box": [
-          831,
-          197,
-          949,
-          277
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.575,
-        "box": [
-          1106,
-          139,
-          1154,
-          169
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 40.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:50.038806+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.891,
-        "box": [
-          280,
-          311,
-          597,
-          452
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.769,
-        "box": [
-          833,
-          196,
-          950,
-          275
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.513,
-        "box": [
-          1106,
-          138,
-          1155,
-          170
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 34.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:50.176829+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.889,
-        "box": [
-          294,
-          309,
-          606,
-          445
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.61,
-        "box": [
-          836,
-          195,
-          951,
-          275
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.546,
-        "box": [
-          1106,
-          138,
-          1155,
-          169
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 40.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:55.989244+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "box": [
-          307,
-          306,
-          612,
-          445
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.699,
-        "box": [
-          839,
-          195,
-          954,
-          276
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.513,
-        "box": [
-          975,
-          134,
-          1070,
-          233
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 39.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:56.127092+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.87,
-        "box": [
-          318,
-          304,
-          622,
-          456
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.611,
-        "box": [
-          840,
-          195,
-          957,
-          277
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.462,
-        "box": [
-          976,
-          134,
-          1070,
-          232
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 37.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:56.273526+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          330,
-          302,
-          629,
-          451
-        ]
-      }
-    ],
-    "count": 1,
-    "time_ms": 40.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:56.420870+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.858,
-        "box": [
-          345,
-          299,
-          636,
-          431
-        ]
-      }
-    ],
-    "count": 1,
-    "time_ms": 43.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:14:56.573510+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.899,
-        "box": [
-          355,
-          295,
-          641,
-          447
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.529,
-        "box": [
-          851,
-          194,
-          964,
-          281
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:01.926583+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.844,
-        "box": [
-          371,
-          293,
-          648,
-          429
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.599,
-        "box": [
-          853,
-          194,
-          966,
-          281
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:02.076957+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.889,
-        "box": [
-          381,
-          293,
-          656,
-          433
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.642,
-        "box": [
-          858,
-          192,
-          967,
-          278
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 37.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:02.222297+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.851,
-        "box": [
-          391,
-          289,
-          662,
-          423
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.671,
-        "box": [
-          861,
-          191,
-          969,
-          272
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 40.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:02.361008+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.892,
-        "box": [
-          404,
-          287,
-          670,
-          424
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.632,
-        "box": [
-          863,
-          190,
-          971,
-          270
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:02.503677+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.879,
-        "box": [
-          415,
-          287,
-          676,
-          419
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.707,
-        "box": [
-          865,
-          190,
-          974,
-          271
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:08.638444+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.85,
-        "box": [
-          423,
-          286,
-          682,
-          418
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.657,
-        "box": [
-          867,
-          189,
-          975,
-          270
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:08.797587+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.818,
-        "box": [
-          436,
-          285,
-          689,
-          410
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.709,
-        "box": [
-          871,
-          190,
-          978,
-          270
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 40.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:08.953476+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.872,
-        "box": [
-          446,
-          283,
-          695,
-          401
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.764,
-        "box": [
-          873,
-          190,
-          980,
-          269
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:09.107369+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.854,
-        "box": [
-          455,
-          281,
-          702,
-          399
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.732,
-        "box": [
-          875,
-          190,
-          982,
-          265
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 48.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:09.296986+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.851,
-        "box": [
-          467,
-          280,
-          707,
-          398
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.717,
-        "box": [
-          878,
-          189,
-          983,
-          260
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:15.283869+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.847,
-        "box": [
-          476,
-          277,
-          713,
-          398
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.743,
-        "box": [
-          882,
-          189,
-          985,
-          258
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:15.439886+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.824,
-        "box": [
-          483,
-          275,
-          720,
-          397
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.695,
-        "box": [
-          884,
-          190,
-          987,
-          260
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:15.590000+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.827,
-        "box": [
-          494,
-          274,
-          726,
-          392
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.686,
-        "box": [
-          887,
-          190,
-          989,
-          263
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:15.737333+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.833,
-        "box": [
-          502,
-          273,
-          734,
-          386
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.696,
-        "box": [
-          889,
-          187,
-          992,
-          262
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:15.890472+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.85,
-        "box": [
-          512,
-          271,
-          738,
-          383
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.68,
-        "box": [
-          891,
-          186,
-          996,
-          263
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 37.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:22.733233+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.815,
-        "box": [
-          520,
-          269,
-          743,
-          379
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.656,
-        "box": [
-          894,
-          185,
-          997,
-          261
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:22.891550+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.851,
-        "box": [
-          529,
-          267,
-          750,
-          375
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.682,
-        "box": [
-          897,
-          184,
-          998,
-          259
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 40.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:23.041052+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.839,
-        "box": [
-          536,
-          265,
-          753,
-          371
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.678,
-        "box": [
-          899,
-          183,
-          1000,
-          258
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:23.182894+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.862,
-        "box": [
-          545,
-          262,
-          758,
-          370
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.717,
-        "box": [
-          900,
-          183,
-          1002,
-          256
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:23.342245+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.877,
-        "box": [
-          552,
-          261,
-          765,
-          372
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.745,
-        "box": [
-          903,
-          182,
-          1003,
-          255
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:30.398101+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.839,
-        "box": [
-          561,
-          260,
-          770,
-          362
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.789,
-        "box": [
-          905,
-          182,
-          1004,
-          255
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:30.541147+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.856,
-        "box": [
-          568,
-          259,
-          771,
-          358
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.72,
-        "box": [
-          908,
-          181,
-          1006,
-          257
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:30.701651+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.853,
-        "box": [
-          575,
-          257,
-          774,
-          356
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.743,
-        "box": [
-          910,
-          181,
-          1008,
-          256
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.497,
-        "box": [
-          1006,
-          129,
-          1088,
-          222
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 43.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:30.860978+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "box": [
-          583,
-          254,
-          784,
-          355
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.79,
-        "box": [
-          912,
-          180,
-          1009,
-          256
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.524,
-        "box": [
-          1007,
-          128,
-          1088,
-          220
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 41.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:31.009119+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.875,
-        "box": [
-          590,
-          254,
-          784,
-          353
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.783,
-        "box": [
-          914,
-          180,
-          1010,
-          254
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.556,
-        "box": [
-          1006,
-          128,
-          1089,
-          215
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 44.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:37.614291+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.863,
-        "box": [
-          598,
-          253,
-          792,
-          353
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.833,
-        "box": [
-          916,
-          181,
-          1011,
-          253
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.556,
-        "box": [
-          1007,
-          128,
-          1091,
-          217
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 39.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:37.771834+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.872,
-        "box": [
-          606,
-          252,
-          796,
-          349
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.861,
-        "box": [
-          917,
-          180,
-          1012,
-          253
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:37.923318+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          614,
-          250,
-          801,
-          347
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.836,
-        "box": [
-          920,
-          179,
-          1014,
-          252
-        ]
-      },
-      {
-        "class": "truck",
-        "confidence": 0.505,
-        "box": [
-          1009,
-          128,
-          1092,
-          214
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 43.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:38.070530+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.888,
-        "box": [
-          619,
-          249,
-          805,
-          343
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.771,
-        "box": [
-          922,
-          179,
-          1015,
-          251
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:38.222021+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          627,
-          247,
-          812,
-          338
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.753,
-        "box": [
-          924,
-          178,
-          1017,
-          251
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:44.874167+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.87,
-        "box": [
-          634,
-          246,
-          816,
-          337
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.721,
-        "box": [
-          926,
-          178,
-          1019,
-          250
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:45.032931+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          640,
-          245,
-          819,
-          333
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.717,
-        "box": [
-          928,
-          177,
-          1021,
-          250
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:45.192928+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.871,
-        "box": [
-          646,
-          243,
-          824,
-          330
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.698,
-        "box": [
-          930,
-          174,
-          1024,
-          248
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:45.335611+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.839,
-        "box": [
-          652,
-          241,
-          829,
-          333
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.708,
-        "box": [
-          932,
-          174,
-          1025,
-          246
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 43.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:45.496375+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.827,
-        "box": [
-          658,
-          240,
-          832,
-          334
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.644,
-        "box": [
-          933,
-          173,
-          1025,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:51.928613+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.832,
-        "box": [
-          664,
-          239,
-          837,
-          323
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.593,
-        "box": [
-          934,
-          172,
-          1026,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:52.082479+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.798,
-        "box": [
-          672,
-          239,
-          843,
-          322
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.597,
-        "box": [
-          939,
-          172,
-          1027,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:52.243373+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.817,
-        "box": [
-          677,
-          239,
-          846,
-          320
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.632,
-        "box": [
-          938,
-          172,
-          1028,
-          245
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:52.392566+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.858,
-        "box": [
-          683,
-          238,
-          849,
-          316
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.611,
-        "box": [
-          941,
-          173,
-          1029,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 40.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:52.527508+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.864,
-        "box": [
-          688,
-          237,
-          854,
-          313
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.608,
-        "box": [
-          945,
-          172,
-          1031,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:59.823458+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.849,
-        "box": [
-          692,
-          235,
-          859,
-          312
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.577,
-        "box": [
-          947,
-          172,
-          1031,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:15:59.976771+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.838,
-        "box": [
-          698,
-          234,
-          862,
-          310
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.602,
-        "box": [
-          948,
-          172,
-          1034,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:00.139585+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.848,
-        "box": [
-          702,
-          232,
-          864,
-          312
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.656,
-        "box": [
-          948,
-          171,
-          1037,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:00.282686+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.834,
-        "box": [
-          706,
-          232,
-          868,
-          312
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.666,
-        "box": [
-          950,
-          171,
-          1038,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:00.438726+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.833,
-        "box": [
-          710,
-          230,
-          873,
-          309
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.664,
-        "box": [
-          952,
-          171,
-          1039,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:07.792206+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "box": [
-          716,
-          229,
-          877,
-          305
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.66,
-        "box": [
-          952,
-          171,
-          1039,
-          244
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:07.941684+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.884,
-        "box": [
-          724,
-          228,
-          879,
-          306
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.641,
-        "box": [
-          954,
-          170,
-          1040,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:08.091677+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.883,
-        "box": [
-          730,
-          227,
-          881,
-          304
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.654,
-        "box": [
-          956,
-          170,
-          1041,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:08.226969+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "box": [
-          737,
-          225,
-          885,
-          306
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.779,
-        "box": [
-          956,
-          170,
-          1042,
-          241
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:08.376706+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.869,
-        "box": [
-          739,
-          223,
-          888,
-          309
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.81,
-        "box": [
-          958,
-          169,
-          1043,
-          242
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:15.634101+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.879,
-        "box": [
-          744,
-          222,
-          891,
-          302
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.805,
-        "box": [
-          960,
-          168,
-          1043,
-          242
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:15.790007+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.887,
-        "box": [
-          746,
-          222,
-          894,
-          299
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.769,
-        "box": [
-          961,
-          170,
-          1044,
-          245
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:15.942375+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.892,
-        "box": [
-          751,
-          222,
-          895,
-          300
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.731,
-        "box": [
-          963,
-          168,
-          1047,
-          245
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:16.098858+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.887,
-        "box": [
-          755,
-          221,
-          899,
-          298
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.719,
-        "box": [
-          964,
-          168,
-          1047,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 37.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:16.241502+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.883,
-        "box": [
-          759,
-          220,
-          904,
-          300
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.696,
-        "box": [
-          966,
-          167,
-          1049,
-          243
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 33.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:23.842325+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.883,
-        "box": [
-          762,
-          220,
-          907,
-          298
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.699,
-        "box": [
-          967,
-          167,
-          1050,
-          242
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 55.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:24.033220+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.883,
-        "box": [
-          767,
-          219,
-          911,
-          296
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.604,
-        "box": [
-          970,
-          166,
-          1053,
-          242
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 51.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:24.228313+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.892,
-        "box": [
-          773,
-          218,
-          913,
-          294
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.653,
-        "box": [
-          968,
-          166,
-          1055,
-          241
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 55.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:24.418036+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          777,
-          217,
-          915,
-          293
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.656,
-        "box": [
-          969,
-          166,
-          1056,
-          238
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:24.582297+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.895,
-        "box": [
-          783,
-          216,
-          917,
-          291
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.606,
-        "box": [
-          972,
-          165,
-          1057,
-          238
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:31.567011+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.897,
-        "box": [
-          786,
-          216,
-          919,
-          292
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.623,
-        "box": [
-          972,
-          165,
-          1058,
-          236
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 50.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:31.731362+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.886,
-        "box": [
-          790,
-          216,
-          923,
-          290
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.564,
-        "box": [
-          972,
-          165,
-          1058,
-          234
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 57.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:31.934403+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.876,
-        "box": [
-          793,
-          214,
-          925,
-          288
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.473,
-        "box": [
-          976,
-          164,
-          1057,
-          229
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 50.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:32.108703+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.875,
-        "box": [
-          798,
-          214,
-          927,
-          287
-        ]
-      }
-    ],
-    "count": 1,
-    "time_ms": 44.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:32.258886+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "box": [
-          802,
-          213,
-          929,
-          286
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.523,
-        "box": [
-          978,
-          163,
-          1058,
-          229
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 37.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:37.751255+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.833,
-        "box": [
-          804,
-          212,
-          932,
-          283
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.568,
-        "box": [
-          979,
-          162,
-          1058,
-          227
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 48.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:37.909122+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.843,
-        "box": [
-          808,
-          210,
-          935,
-          282
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.554,
-        "box": [
-          979,
-          164,
-          1059,
-          229
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 41.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:38.066370+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.849,
-        "box": [
-          811,
-          209,
-          938,
-          283
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.586,
-        "box": [
-          979,
-          164,
-          1061,
-          229
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:38.225874+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.835,
-        "box": [
-          814,
-          208,
-          940,
-          280
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.524,
-        "box": [
-          980,
-          164,
-          1062,
-          226
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:38.381735+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.851,
-        "box": [
-          818,
-          207,
-          943,
-          281
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.505,
-        "box": [
-          978,
-          164,
-          1063,
-          227
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 46.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:38.610814+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.851,
-        "box": [
-          822,
-          207,
-          946,
-          285
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.511,
-        "box": [
-          976,
-          164,
-          1064,
-          226
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 67.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:38.876325+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.874,
-        "box": [
-          826,
-          206,
-          948,
-          286
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.526,
-        "box": [
-          977,
-          163,
-          1066,
-          225
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 55.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:39.111339+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.883,
-        "box": [
-          830,
-          206,
-          950,
-          289
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.527,
-        "box": [
-          987,
-          164,
-          1067,
-          226
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 51.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:39.350028+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.875,
-        "box": [
-          833,
-          205,
-          952,
-          288
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.526,
-        "box": [
-          987,
-          164,
-          1067,
-          225
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 51.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:39.590600+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          835,
-          202,
-          954,
-          288
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.474,
-        "box": [
-          988,
-          164,
-          1068,
-          225
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 38.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:39.800449+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          837,
-          202,
-          957,
-          287
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.468,
-        "box": [
-          988,
-          164,
-          1068,
-          226
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 49.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:40.032267+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.869,
-        "box": [
-          841,
-          203,
-          958,
-          283
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.54,
-        "box": [
-          990,
-          163,
-          1068,
-          226
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 36.4,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:40.259047+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.854,
-        "box": [
-          844,
-          202,
-          959,
-          282
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.594,
-        "box": [
-          991,
-          162,
-          1070,
-          221
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 66.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:40.503174+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.865,
-        "box": [
-          846,
-          201,
-          962,
-          279
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.63,
-        "box": [
-          991,
-          162,
-          1071,
-          222
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.482,
-        "box": [
-          0,
-          466,
-          48,
-          580
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 48.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:40.749561+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.857,
-        "box": [
-          851,
-          200,
-          964,
-          280
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.688,
-        "box": [
-          0,
-          458,
-          67,
-          603
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.546,
-        "box": [
-          995,
-          161,
-          1072,
-          225
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 82.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:41.012893+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.871,
-        "box": [
-          853,
-          200,
-          965,
-          279
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.733,
-        "box": [
-          0,
-          448,
-          87,
-          599
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.534,
-        "box": [
-          995,
-          161,
-          1073,
-          224
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 52.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:41.243661+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.867,
-        "box": [
-          856,
-          199,
-          967,
-          279
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.8,
-        "box": [
-          0,
-          438,
-          104,
-          598
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.537,
-        "box": [
-          996,
-          161,
-          1072,
-          219
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 47.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:41.476856+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.868,
-        "box": [
-          859,
-          199,
-          969,
-          280
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.797,
-        "box": [
-          0,
-          432,
-          121,
-          597
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.566,
-        "box": [
-          998,
-          161,
-          1073,
-          222
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 47.9,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:41.705992+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          861,
-          198,
-          971,
-          277
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.795,
-        "box": [
-          0,
-          428,
-          139,
-          587
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.556,
-        "box": [
-          1001,
-          161,
-          1074,
-          222
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 47.6,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:41.947316+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.855,
-        "box": [
-          864,
-          197,
-          973,
-          267
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.813,
-        "box": [
-          0,
-          425,
-          156,
-          584
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.587,
-        "box": [
-          999,
-          160,
-          1075,
-          221
-        ]
-      }
-    ],
-    "count": 3,
-    "time_ms": 84.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:42.208264+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.865,
-        "box": [
-          868,
-          197,
-          974,
-          263
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.743,
-        "box": [
-          0,
-          419,
-          172,
-          570
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 42.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:42.423971+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          869,
-          197,
-          975,
-          262
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.831,
-        "box": [
-          0,
-          411,
-          188,
-          561
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.7,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:42.660939+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          0,
-          402,
-          203,
-          556
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.857,
-        "box": [
-          871,
-          197,
-          979,
-          258
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 50.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:42.897839+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.896,
-        "box": [
-          873,
-          196,
-          981,
-          258
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.894,
-        "box": [
-          0,
-          397,
-          218,
-          557
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 46.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:43.131379+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.879,
-        "box": [
-          878,
-          195,
-          983,
-          261
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          0,
-          390,
-          234,
-          557
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 45.0,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:43.361602+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.869,
-        "box": [
-          879,
-          194,
-          984,
-          259
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.863,
-        "box": [
-          0,
-          385,
-          248,
-          556
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 44.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:43.592275+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.877,
-        "box": [
-          0,
-          382,
-          261,
-          566
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.831,
-        "box": [
-          882,
-          194,
-          985,
-          260
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 48.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:43.826151+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.877,
-        "box": [
-          0,
-          377,
-          274,
-          596
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.801,
-        "box": [
-          885,
-          193,
-          987,
-          260
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.5,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:44.053770+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.884,
-        "box": [
-          0,
-          372,
-          288,
-          596
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.828,
-        "box": [
-          886,
-          192,
-          991,
-          261
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 39.1,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:44.276834+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.877,
-        "box": [
-          0,
-          369,
-          303,
-          597
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.827,
-        "box": [
-          888,
-          191,
-          993,
-          259
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.8,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:44.510958+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.881,
-        "box": [
-          0,
-          362,
-          314,
-          598
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.775,
-        "box": [
-          891,
-          191,
-          994,
-          257
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.2,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
-    "timestamp": "2026-04-08T07:16:44.739649+00:00",
-    "objects": [
-      {
-        "class": "car",
-        "confidence": 0.878,
-        "box": [
-          0,
-          360,
-          325,
-          588
-        ]
-      },
-      {
-        "class": "car",
-        "confidence": 0.775,
-        "box": [
-          894,
-          191,
-          995,
-          255
-        ]
-      }
-    ],
-    "count": 2,
-    "time_ms": 47.3,
-    "conf_threshold": 0.45,
-    "iou_threshold": 0.45
-  },
-  {
     "timestamp": "2026-04-08T07:16:44.977351+00:00",
     "objects": [
       {
@@ -18754,6 +14711,5758 @@
     ],
     "count": 2,
     "time_ms": 38.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:28.849087+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.81,
+        "box": [
+          1197,
+          265,
+          1255,
+          402
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.695,
+        "box": [
+          1037,
+          209,
+          1075,
+          318
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:29.084967+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.823,
+        "box": [
+          1195,
+          265,
+          1255,
+          404
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.753,
+        "box": [
+          1033,
+          210,
+          1074,
+          319
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.494,
+        "box": [
+          770,
+          211,
+          806,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:29.355998+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.821,
+        "box": [
+          1139,
+          262,
+          1196,
+          407
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.676,
+        "box": [
+          1031,
+          208,
+          1072,
+          319
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 53.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:29.590229+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1140,
+          260,
+          1197,
+          408
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.574,
+        "box": [
+          1028,
+          209,
+          1070,
+          319
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 39.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:35.216799+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.822,
+        "box": [
+          1140,
+          260,
+          1198,
+          408
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.773,
+        "box": [
+          1028,
+          210,
+          1069,
+          318
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.48,
+        "box": [
+          775,
+          211,
+          808,
+          288
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:41.100622+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "box": [
+          1201,
+          265,
+          1256,
+          399
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.774,
+        "box": [
+          1026,
+          210,
+          1067,
+          318
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 55.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:41.339365+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.827,
+        "box": [
+          1202,
+          265,
+          1256,
+          399
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.748,
+        "box": [
+          1024,
+          211,
+          1066,
+          316
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:41.574270+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.826,
+        "box": [
+          1202,
+          265,
+          1257,
+          395
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.735,
+        "box": [
+          1020,
+          212,
+          1063,
+          318
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.549,
+        "box": [
+          780,
+          214,
+          810,
+          288
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:41.815879+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1142,
+          262,
+          1205,
+          406
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.756,
+        "box": [
+          1017,
+          213,
+          1063,
+          317
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.506,
+        "box": [
+          781,
+          211,
+          813,
+          289
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.46,
+        "box": [
+          668,
+          174,
+          692,
+          243
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 52.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:48.230201+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.813,
+        "box": [
+          1202,
+          264,
+          1257,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.748,
+        "box": [
+          1016,
+          212,
+          1061,
+          317
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 37.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:53.807084+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "box": [
+          1203,
+          263,
+          1258,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.764,
+        "box": [
+          1014,
+          212,
+          1059,
+          317
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:54.046746+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.818,
+        "box": [
+          1203,
+          263,
+          1258,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.721,
+        "box": [
+          1012,
+          210,
+          1056,
+          317
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 55.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:54.301720+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1209,
+          263,
+          1260,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.735,
+        "box": [
+          1011,
+          209,
+          1053,
+          315
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.45,
+        "box": [
+          784,
+          213,
+          817,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 51.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:30:54.548572+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1210,
+          260,
+          1260,
+          394
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.753,
+        "box": [
+          1010,
+          207,
+          1049,
+          315
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.599,
+        "box": [
+          785,
+          209,
+          819,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 51.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:03.956264+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1209,
+          260,
+          1260,
+          394
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.711,
+        "box": [
+          1007,
+          207,
+          1046,
+          312
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.634,
+        "box": [
+          786,
+          211,
+          821,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:10.873244+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.814,
+        "box": [
+          1209,
+          261,
+          1261,
+          394
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.71,
+        "box": [
+          1005,
+          207,
+          1044,
+          312
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 39.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:11.091899+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1147,
+          257,
+          1208,
+          402
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.739,
+        "box": [
+          1001,
+          207,
+          1042,
+          311
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.598,
+        "box": [
+          789,
+          198,
+          831,
+          290
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 55.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:11.336019+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.805,
+        "box": [
+          1211,
+          260,
+          1262,
+          392
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.736,
+        "box": [
+          1000,
+          207,
+          1040,
+          311
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:11.558852+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.813,
+        "box": [
+          1149,
+          259,
+          1211,
+          400
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.701,
+        "box": [
+          999,
+          207,
+          1039,
+          311
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 47.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:17.187226+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.83,
+        "box": [
+          1149,
+          259,
+          1213,
+          400
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.667,
+        "box": [
+          997,
+          207,
+          1037,
+          310
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 46.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:23.386918+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.827,
+        "box": [
+          1150,
+          260,
+          1213,
+          399
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.685,
+        "box": [
+          993,
+          207,
+          1038,
+          311
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 59.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:23.625199+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.832,
+        "box": [
+          1151,
+          260,
+          1213,
+          398
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.68,
+        "box": [
+          988,
+          208,
+          1037,
+          311
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 55.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:23.862657+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.837,
+        "box": [
+          1152,
+          260,
+          1213,
+          397
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.66,
+        "box": [
+          987,
+          208,
+          1034,
+          311
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:24.101631+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.84,
+        "box": [
+          1152,
+          261,
+          1214,
+          397
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.71,
+        "box": [
+          983,
+          208,
+          1031,
+          310
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 53.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:29.346291+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.837,
+        "box": [
+          1153,
+          261,
+          1214,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.737,
+        "box": [
+          981,
+          209,
+          1033,
+          310
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 34.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:34.715021+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.841,
+        "box": [
+          1153,
+          260,
+          1214,
+          396
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          981,
+          208,
+          1030,
+          310
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 31.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:34.919317+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.843,
+        "box": [
+          1153,
+          260,
+          1214,
+          395
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.675,
+        "box": [
+          980,
+          208,
+          1028,
+          309
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:35.141835+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.836,
+        "box": [
+          1153,
+          260,
+          1214,
+          395
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.731,
+        "box": [
+          979,
+          207,
+          1022,
+          309
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 46.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:35.374470+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.838,
+        "box": [
+          1153,
+          260,
+          1214,
+          392
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.697,
+        "box": [
+          977,
+          207,
+          1018,
+          306
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:42.209046+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.84,
+        "box": [
+          1215,
+          254,
+          1267,
+          382
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.721,
+        "box": [
+          974,
+          207,
+          1013,
+          305
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 38.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:47.508688+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.839,
+        "box": [
+          1154,
+          257,
+          1214,
+          385
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.716,
+        "box": [
+          973,
+          207,
+          1010,
+          305
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 34.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:47.720283+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.847,
+        "box": [
+          1154,
+          256,
+          1214,
+          388
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.711,
+        "box": [
+          971,
+          205,
+          1009,
+          307
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 60.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:48.011007+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.849,
+        "box": [
+          1153,
+          255,
+          1214,
+          388
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.704,
+        "box": [
+          968,
+          206,
+          1005,
+          307
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 42.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:48.231340+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.85,
+        "box": [
+          1153,
+          254,
+          1214,
+          388
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          967,
+          206,
+          1004,
+          305
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 42.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:53.687008+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.838,
+        "box": [
+          1154,
+          254,
+          1214,
+          388
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.665,
+        "box": [
+          966,
+          206,
+          1002,
+          305
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 36.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:59.164916+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.835,
+        "box": [
+          1154,
+          254,
+          1214,
+          386
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.594,
+        "box": [
+          815,
+          212,
+          852,
+          298
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 33.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:59.387172+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.823,
+        "box": [
+          1155,
+          254,
+          1214,
+          384
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.52,
+        "box": [
+          814,
+          210,
+          853,
+          296
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:59.659189+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.828,
+        "box": [
+          1155,
+          254,
+          1214,
+          384
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.574,
+        "box": [
+          815,
+          211,
+          855,
+          297
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:31:59.896644+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.822,
+        "box": [
+          1156,
+          254,
+          1214,
+          383
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.729,
+        "box": [
+          955,
+          203,
+          995,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:05.899381+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.818,
+        "box": [
+          1157,
+          254,
+          1214,
+          384
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.719,
+        "box": [
+          953,
+          203,
+          993,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 38.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:11.746861+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.817,
+        "box": [
+          1158,
+          254,
+          1214,
+          384
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          952,
+          201,
+          992,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 40.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:11.959340+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.815,
+        "box": [
+          1159,
+          254,
+          1214,
+          383
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.703,
+        "box": [
+          951,
+          201,
+          990,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:12.220559+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.815,
+        "box": [
+          1160,
+          253,
+          1214,
+          385
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.711,
+        "box": [
+          949,
+          202,
+          988,
+          300
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:12.506580+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.816,
+        "box": [
+          1215,
+          251,
+          1268,
+          378
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.688,
+        "box": [
+          947,
+          201,
+          989,
+          300
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:18.009580+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.81,
+        "box": [
+          1215,
+          253,
+          1268,
+          378
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.682,
+        "box": [
+          946,
+          201,
+          985,
+          302
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 39.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:23.326063+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.808,
+        "box": [
+          1216,
+          250,
+          1268,
+          377
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.627,
+        "box": [
+          943,
+          201,
+          980,
+          300
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:23.559068+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.799,
+        "box": [
+          1216,
+          250,
+          1268,
+          376
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.62,
+        "box": [
+          830,
+          213,
+          865,
+          300
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:23.796734+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1216,
+          250,
+          1268,
+          376
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.661,
+        "box": [
+          935,
+          201,
+          977,
+          300
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 50.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:24.031742+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.832,
+        "box": [
+          1163,
+          252,
+          1219,
+          382
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.646,
+        "box": [
+          931,
+          201,
+          974,
+          303
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 46.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:29.092206+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.833,
+        "box": [
+          1219,
+          250,
+          1268,
+          374
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.651,
+        "box": [
+          928,
+          202,
+          972,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:34.207317+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.816,
+        "box": [
+          1163,
+          249,
+          1220,
+          380
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.624,
+        "box": [
+          929,
+          201,
+          970,
+          299
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:34.427695+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.816,
+        "box": [
+          1163,
+          248,
+          1220,
+          380
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.67,
+        "box": [
+          934,
+          202,
+          970,
+          299
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 49.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:34.711057+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.807,
+        "box": [
+          1163,
+          248,
+          1220,
+          377
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.641,
+        "box": [
+          936,
+          202,
+          968,
+          299
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 54.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:34.962243+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1164,
+          248,
+          1220,
+          376
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.607,
+        "box": [
+          933,
+          202,
+          968,
+          298
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 56.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:40.900824+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.807,
+        "box": [
+          1163,
+          249,
+          1221,
+          375
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.575,
+        "box": [
+          923,
+          202,
+          968,
+          296
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:47.632147+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          1164,
+          248,
+          1222,
+          374
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.678,
+        "box": [
+          1035,
+          313,
+          1088,
+          459
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.543,
+        "box": [
+          927,
+          202,
+          965,
+          297
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 32.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:47.850711+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.808,
+        "box": [
+          1164,
+          248,
+          1223,
+          374
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.679,
+        "box": [
+          1032,
+          318,
+          1087,
+          456
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.583,
+        "box": [
+          844,
+          222,
+          881,
+          301
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 59.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:48.159560+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          1164,
+          248,
+          1222,
+          370
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.724,
+        "box": [
+          1028,
+          319,
+          1085,
+          463
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.663,
+        "box": [
+          917,
+          205,
+          960,
+          295
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 52.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:48.406348+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.817,
+        "box": [
+          1164,
+          248,
+          1222,
+          370
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.737,
+        "box": [
+          1024,
+          316,
+          1085,
+          467
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.659,
+        "box": [
+          912,
+          205,
+          961,
+          295
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:32:53.645486+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1164,
+          248,
+          1222,
+          371
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.754,
+        "box": [
+          1020,
+          314,
+          1087,
+          470
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.72,
+        "box": [
+          910,
+          201,
+          962,
+          296
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:00.538005+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1164,
+          248,
+          1223,
+          371
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.749,
+        "box": [
+          1019,
+          314,
+          1084,
+          479
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.658,
+        "box": [
+          850,
+          222,
+          890,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 59.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:00.784110+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          1164,
+          248,
+          1221,
+          371
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.757,
+        "box": [
+          1019,
+          314,
+          1081,
+          479
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.684,
+        "box": [
+          852,
+          221,
+          892,
+          300
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:01.021138+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1164,
+          248,
+          1221,
+          371
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.758,
+        "box": [
+          1018,
+          316,
+          1078,
+          480
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.683,
+        "box": [
+          854,
+          221,
+          895,
+          302
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 34.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:01.258570+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.811,
+        "box": [
+          1017,
+          317,
+          1074,
+          488
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1164,
+          248,
+          1222,
+          369
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.656,
+        "box": [
+          856,
+          223,
+          896,
+          304
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 33.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:06.144471+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.815,
+        "box": [
+          1017,
+          324,
+          1071,
+          487
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.802,
+        "box": [
+          1221,
+          248,
+          1271,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.691,
+        "box": [
+          858,
+          223,
+          898,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:11.992067+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.825,
+        "box": [
+          1015,
+          327,
+          1070,
+          488
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.795,
+        "box": [
+          1164,
+          248,
+          1221,
+          370
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.661,
+        "box": [
+          859,
+          223,
+          900,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:12.218294+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.813,
+        "box": [
+          1012,
+          329,
+          1071,
+          489
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          1164,
+          247,
+          1221,
+          370
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.703,
+        "box": [
+          861,
+          224,
+          899,
+          304
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 79.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:12.527757+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.815,
+        "box": [
+          1164,
+          246,
+          1221,
+          370
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.799,
+        "box": [
+          1012,
+          331,
+          1070,
+          490
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.673,
+        "box": [
+          861,
+          225,
+          898,
+          304
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:12.748821+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1011,
+          332,
+          1068,
+          492
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.81,
+        "box": [
+          1164,
+          247,
+          1221,
+          369
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.647,
+        "box": [
+          862,
+          225,
+          896,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 46.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:17.583766+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.813,
+        "box": [
+          1223,
+          248,
+          1271,
+          365
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1008,
+          332,
+          1064,
+          496
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.557,
+        "box": [
+          905,
+          200,
+          935,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:22.382208+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.835,
+        "box": [
+          1223,
+          248,
+          1271,
+          364
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.79,
+        "box": [
+          1006,
+          331,
+          1062,
+          501
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 34.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:22.598350+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.842,
+        "box": [
+          1223,
+          248,
+          1270,
+          363
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.696,
+        "box": [
+          1006,
+          331,
+          1062,
+          502
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.54,
+        "box": [
+          864,
+          218,
+          904,
+          304
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 51.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:22.897003+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.836,
+        "box": [
+          1224,
+          247,
+          1270,
+          361
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.694,
+        "box": [
+          1001,
+          331,
+          1057,
+          503
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.553,
+        "box": [
+          866,
+          219,
+          903,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:23.158301+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.833,
+        "box": [
+          1222,
+          246,
+          1270,
+          363
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.79,
+        "box": [
+          993,
+          334,
+          1055,
+          512
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.616,
+        "box": [
+          868,
+          214,
+          905,
+          305
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 39.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:28.001075+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.829,
+        "box": [
+          1222,
+          245,
+          1270,
+          362
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.77,
+        "box": [
+          987,
+          339,
+          1055,
+          515
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.569,
+        "box": [
+          870,
+          210,
+          906,
+          305
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 46.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:28.243626+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.825,
+        "box": [
+          1165,
+          246,
+          1218,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.763,
+        "box": [
+          987,
+          344,
+          1054,
+          513
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.46,
+        "box": [
+          872,
+          209,
+          909,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:34.860813+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.823,
+        "box": [
+          1220,
+          244,
+          1270,
+          361
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          985,
+          347,
+          1054,
+          515
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.505,
+        "box": [
+          872,
+          210,
+          909,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 55.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:35.099117+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "box": [
+          1165,
+          246,
+          1219,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.825,
+        "box": [
+          984,
+          347,
+          1051,
+          520
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.452,
+        "box": [
+          870,
+          203,
+          914,
+          301
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:35.330619+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.827,
+        "box": [
+          1166,
+          246,
+          1218,
+          366
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.792,
+        "box": [
+          981,
+          347,
+          1048,
+          522
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.467,
+        "box": [
+          871,
+          205,
+          913,
+          303
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 39.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:35.596237+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.814,
+        "box": [
+          1166,
+          245,
+          1220,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.733,
+        "box": [
+          976,
+          346,
+          1046,
+          532
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 43.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:40.628275+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.818,
+        "box": [
+          1220,
+          243,
+          1269,
+          356
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.69,
+        "box": [
+          972,
+          345,
+          1043,
+          541
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 38.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:46.943982+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.808,
+        "box": [
+          1167,
+          244,
+          1221,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.633,
+        "box": [
+          970,
+          346,
+          1051,
+          539
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 33.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:47.154479+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.801,
+        "box": [
+          1169,
+          243,
+          1222,
+          366
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.553,
+        "box": [
+          964,
+          347,
+          1059,
+          543
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.487,
+        "box": [
+          864,
+          205,
+          886,
+          289
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:47.374047+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.811,
+        "box": [
+          1169,
+          242,
+          1223,
+          367
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.7,
+        "box": [
+          862,
+          206,
+          885,
+          288
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.585,
+        "box": [
+          966,
+          350,
+          1042,
+          550
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:47.594750+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.828,
+        "box": [
+          1170,
+          242,
+          1223,
+          365
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.718,
+        "box": [
+          861,
+          202,
+          887,
+          286
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.677,
+        "box": [
+          950,
+          356,
+          1041,
+          553
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:53.025253+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.819,
+        "box": [
+          1170,
+          241,
+          1223,
+          364
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.757,
+        "box": [
+          962,
+          361,
+          1035,
+          553
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.654,
+        "box": [
+          881,
+          224,
+          921,
+          310
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:59.754017+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1169,
+          241,
+          1224,
+          363
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.707,
+        "box": [
+          963,
+          368,
+          1030,
+          552
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.662,
+        "box": [
+          885,
+          224,
+          923,
+          309
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 34.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:33:59.976953+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.809,
+        "box": [
+          1170,
+          239,
+          1224,
+          363
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.743,
+        "box": [
+          953,
+          369,
+          1024,
+          550
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.696,
+        "box": [
+          884,
+          224,
+          922,
+          308
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 69.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:00.230739+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.791,
+        "box": [
+          1172,
+          239,
+          1224,
+          360
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.655,
+        "box": [
+          938,
+          367,
+          1021,
+          556
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.631,
+        "box": [
+          888,
+          225,
+          923,
+          309
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 57.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:00.476435+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.824,
+        "box": [
+          1224,
+          241,
+          1268,
+          350
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.699,
+        "box": [
+          938,
+          368,
+          1019,
+          562
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.666,
+        "box": [
+          889,
+          225,
+          925,
+          309
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:06.242437+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.827,
+        "box": [
+          1225,
+          240,
+          1268,
+          350
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.58,
+        "box": [
+          843,
+          205,
+          877,
+          288
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.558,
+        "box": [
+          937,
+          349,
+          1060,
+          570
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:12.591658+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.826,
+        "box": [
+          1225,
+          241,
+          1268,
+          351
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.619,
+        "box": [
+          841,
+          203,
+          875,
+          287
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.551,
+        "box": [
+          938,
+          368,
+          1008,
+          575
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 34.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:12.805619+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.828,
+        "box": [
+          1225,
+          239,
+          1268,
+          351
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.626,
+        "box": [
+          841,
+          204,
+          875,
+          288
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.587,
+        "box": [
+          941,
+          371,
+          1006,
+          577
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 32.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:13.011811+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.828,
+        "box": [
+          1225,
+          239,
+          1268,
+          349
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.669,
+        "box": [
+          940,
+          377,
+          1005,
+          584
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.663,
+        "box": [
+          843,
+          202,
+          874,
+          286
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:13.232492+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.841,
+        "box": [
+          1225,
+          239,
+          1268,
+          349
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.644,
+        "box": [
+          930,
+          381,
+          999,
+          584
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.614,
+        "box": [
+          895,
+          224,
+          939,
+          310
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 33.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:18.966664+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.845,
+        "box": [
+          1224,
+          239,
+          1268,
+          350
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.667,
+        "box": [
+          932,
+          387,
+          997,
+          585
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.653,
+        "box": [
+          897,
+          224,
+          941,
+          311
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 36.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:25.505436+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.84,
+        "box": [
+          929,
+          392,
+          996,
+          585
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.822,
+        "box": [
+          1225,
+          239,
+          1268,
+          349
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.664,
+        "box": [
+          899,
+          226,
+          942,
+          310
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 71.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:25.761576+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.841,
+        "box": [
+          926,
+          394,
+          996,
+          594
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.808,
+        "box": [
+          1224,
+          239,
+          1268,
+          349
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.606,
+        "box": [
+          901,
+          226,
+          942,
+          313
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 48.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:25.997525+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.82,
+        "box": [
+          921,
+          393,
+          995,
+          606
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.804,
+        "box": [
+          1224,
+          239,
+          1268,
+          348
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.598,
+        "box": [
+          902,
+          226,
+          945,
+          312
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:26.220648+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.835,
+        "box": [
+          920,
+          393,
+          992,
+          613
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.803,
+        "box": [
+          1223,
+          239,
+          1267,
+          348
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.613,
+        "box": [
+          903,
+          226,
+          947,
+          313
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:30.894721+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1223,
+          239,
+          1266,
+          347
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.687,
+        "box": [
+          914,
+          393,
+          992,
+          622
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.664,
+        "box": [
+          902,
+          228,
+          947,
+          313
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 39.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:35.341446+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.806,
+        "box": [
+          1223,
+          239,
+          1265,
+          346
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.722,
+        "box": [
+          903,
+          228,
+          947,
+          313
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.613,
+        "box": [
+          909,
+          396,
+          990,
+          622
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 53.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:35.578252+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.814,
+        "box": [
+          1223,
+          239,
+          1264,
+          346
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.77,
+        "box": [
+          905,
+          401,
+          990,
+          624
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.755,
+        "box": [
+          903,
+          228,
+          948,
+          313
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:35.800169+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.812,
+        "box": [
+          1221,
+          238,
+          1263,
+          347
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.789,
+        "box": [
+          906,
+          405,
+          988,
+          634
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.763,
+        "box": [
+          902,
+          228,
+          949,
+          312
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 51.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:36.026848+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.821,
+        "box": [
+          1221,
+          238,
+          1263,
+          348
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.779,
+        "box": [
+          906,
+          411,
+          988,
+          641
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          906,
+          228,
+          950,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:42.259875+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.838,
+        "box": [
+          905,
+          420,
+          984,
+          643
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.822,
+        "box": [
+          1221,
+          237,
+          1263,
+          347
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.736,
+        "box": [
+          908,
+          227,
+          949,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 38.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:42.473826+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.84,
+        "box": [
+          1221,
+          236,
+          1263,
+          347
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.818,
+        "box": [
+          905,
+          423,
+          980,
+          644
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.744,
+        "box": [
+          910,
+          227,
+          950,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:42.695854+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.837,
+        "box": [
+          1222,
+          236,
+          1263,
+          346
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.804,
+        "box": [
+          901,
+          426,
+          976,
+          638
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.716,
+        "box": [
+          912,
+          227,
+          950,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:42.918038+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.821,
+        "box": [
+          1222,
+          236,
+          1262,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.79,
+        "box": [
+          895,
+          426,
+          969,
+          649
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          913,
+          227,
+          952,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 39.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:48.157175+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.804,
+        "box": [
+          1222,
+          235,
+          1262,
+          344
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.769,
+        "box": [
+          892,
+          425,
+          964,
+          665
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.662,
+        "box": [
+          915,
+          228,
+          953,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 79.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:54.496497+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.799,
+        "box": [
+          1221,
+          235,
+          1262,
+          343
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.799,
+        "box": [
+          889,
+          424,
+          962,
+          669
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.689,
+        "box": [
+          916,
+          228,
+          954,
+          315
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 39.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:54.714749+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.798,
+        "box": [
+          1218,
+          234,
+          1261,
+          344
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.788,
+        "box": [
+          886,
+          426,
+          959,
+          672
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.681,
+        "box": [
+          917,
+          229,
+          956,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 37.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:54.931189+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.795,
+        "box": [
+          1219,
+          235,
+          1261,
+          343
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.771,
+        "box": [
+          882,
+          431,
+          957,
+          680
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.691,
+        "box": [
+          917,
+          229,
+          957,
+          317
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 60.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:34:55.174256+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.801,
+        "box": [
+          1219,
+          234,
+          1262,
+          342
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.717,
+        "box": [
+          919,
+          229,
+          958,
+          318
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.672,
+        "box": [
+          877,
+          434,
+          955,
+          692
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 51.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:00.561896+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.789,
+        "box": [
+          1220,
+          234,
+          1262,
+          344
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.756,
+        "box": [
+          855,
+          444,
+          954,
+          699
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.679,
+        "box": [
+          919,
+          229,
+          959,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 34.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:08.800378+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.835,
+        "box": [
+          854,
+          449,
+          951,
+          698
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.78,
+        "box": [
+          1220,
+          234,
+          1262,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.655,
+        "box": [
+          921,
+          230,
+          961,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 38.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:09.022732+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.882,
+        "box": [
+          851,
+          456,
+          947,
+          699
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.726,
+        "box": [
+          1221,
+          234,
+          1262,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.641,
+        "box": [
+          923,
+          230,
+          963,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 37.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:09.247861+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.88,
+        "box": [
+          849,
+          457,
+          943,
+          705
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.716,
+        "box": [
+          1221,
+          234,
+          1262,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.701,
+        "box": [
+          924,
+          230,
+          965,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 67.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:09.506169+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.882,
+        "box": [
+          847,
+          458,
+          939,
+          718
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.73,
+        "box": [
+          1222,
+          233,
+          1263,
+          344
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.724,
+        "box": [
+          926,
+          230,
+          966,
+          319
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 57.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:14.279406+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.889,
+        "box": [
+          842,
+          459,
+          937,
+          715
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.716,
+        "box": [
+          1222,
+          234,
+          1262,
+          343
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.673,
+        "box": [
+          927,
+          231,
+          967,
+          319
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 34.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:22.749270+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.856,
+        "box": [
+          835,
+          461,
+          933,
+          717
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.727,
+        "box": [
+          1178,
+          228,
+          1228,
+          346
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.645,
+        "box": [
+          828,
+          190,
+          859,
+          277
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:22.977940+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.854,
+        "box": [
+          831,
+          465,
+          931,
+          721
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.733,
+        "box": [
+          1178,
+          228,
+          1230,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.606,
+        "box": [
+          827,
+          190,
+          858,
+          278
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 53.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:23.211265+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.896,
+        "box": [
+          828,
+          471,
+          926,
+          721
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.727,
+        "box": [
+          1223,
+          233,
+          1261,
+          341
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.71,
+        "box": [
+          931,
+          232,
+          972,
+          318
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.536,
+        "box": [
+          790,
+          195,
+          826,
+          279
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 40.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:23.432909+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.921,
+        "box": [
+          824,
+          482,
+          925,
+          722
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.726,
+        "box": [
+          1223,
+          232,
+          1261,
+          341
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.656,
+        "box": [
+          931,
+          232,
+          973,
+          318
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:23.658931+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.915,
+        "box": [
+          823,
+          487,
+          923,
+          723
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.729,
+        "box": [
+          1223,
+          232,
+          1260,
+          342
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.687,
+        "box": [
+          933,
+          232,
+          975,
+          320
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.476,
+        "box": [
+          787,
+          192,
+          822,
+          278
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 50.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.085322+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.887,
+        "box": [
+          821,
+          493,
+          921,
+          723
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.774,
+        "box": [
+          1222,
+          232,
+          1258,
+          341
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.707,
+        "box": [
+          939,
+          232,
+          978,
+          321
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.476,
+        "box": [
+          786,
+          193,
+          819,
+          277
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 38.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.304291+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.889,
+        "box": [
+          820,
+          499,
+          913,
+          719
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.772,
+        "box": [
+          1181,
+          230,
+          1230,
+          346
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.467,
+        "box": [
+          821,
+          190,
+          848,
+          274
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 38.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.525446+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.873,
+        "box": [
+          815,
+          503,
+          906,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.778,
+        "box": [
+          1181,
+          229,
+          1230,
+          345
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.521,
+        "box": [
+          820,
+          191,
+          846,
+          273
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.752236+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.856,
+        "box": [
+          804,
+          500,
+          898,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.772,
+        "box": [
+          1180,
+          228,
+          1229,
+          344
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.467,
+        "box": [
+          819,
+          191,
+          844,
+          273
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 44.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:36.981984+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.885,
+        "box": [
+          802,
+          506,
+          894,
+          722
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.762,
+        "box": [
+          1180,
+          228,
+          1229,
+          344
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:46.602197+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.87,
+        "box": [
+          799,
+          509,
+          890,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.721,
+        "box": [
+          1180,
+          229,
+          1228,
+          344
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 54.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:46.839198+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.868,
+        "box": [
+          786,
+          518,
+          884,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.694,
+        "box": [
+          1180,
+          229,
+          1227,
+          344
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:47.066780+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.856,
+        "box": [
+          789,
+          522,
+          880,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.7,
+        "box": [
+          1181,
+          229,
+          1225,
+          343
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 61.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:47.310701+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.805,
+        "box": [
+          782,
+          536,
+          878,
+          719
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.707,
+        "box": [
+          951,
+          233,
+          992,
+          325
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 40.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:35:54.188140+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.864,
+        "box": [
+          755,
+          548,
+          875,
+          721
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.726,
+        "box": [
+          952,
+          235,
+          994,
+          326
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 40.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:00.827771+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.863,
+        "box": [
+          756,
+          554,
+          870,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.733,
+        "box": [
+          952,
+          235,
+          995,
+          327
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 58.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:01.060287+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.873,
+        "box": [
+          743,
+          559,
+          865,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.712,
+        "box": [
+          953,
+          236,
+          996,
+          327
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 33.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:01.264428+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.866,
+        "box": [
+          738,
+          565,
+          859,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.722,
+        "box": [
+          954,
+          236,
+          998,
+          329
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 46.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:01.485352+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.884,
+        "box": [
+          733,
+          566,
+          854,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.712,
+        "box": [
+          1175,
+          228,
+          1222,
+          338
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.496,
+        "box": [
+          806,
+          193,
+          837,
+          271
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:08.351382+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.885,
+        "box": [
+          725,
+          568,
+          848,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.709,
+        "box": [
+          1214,
+          225,
+          1247,
+          332
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 42.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:15.528277+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.899,
+        "box": [
+          717,
+          578,
+          842,
+          720
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.697,
+        "box": [
+          1173,
+          226,
+          1222,
+          340
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 42.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:15.752802+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.828,
+        "box": [
+          705,
+          585,
+          836,
+          719
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.719,
+        "box": [
+          1173,
+          227,
+          1223,
+          341
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.494,
+        "box": [
+          746,
+          195,
+          782,
+          273
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 44.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:15.983626+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.805,
+        "box": [
+          1007,
+          295,
+          1068,
+          464
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.702,
+        "box": [
+          1165,
+          235,
+          1204,
+          341
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.693,
+        "box": [
+          937,
+          167,
+          1026,
+          242
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:16.207128+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.791,
+        "box": [
+          1007,
+          295,
+          1068,
+          467
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.778,
+        "box": [
+          939,
+          167,
+          1035,
+          240
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.7,
+        "box": [
+          1165,
+          235,
+          1204,
+          342
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:20.795420+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.832,
+        "box": [
+          1007,
+          296,
+          1068,
+          470
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "box": [
+          942,
+          166,
+          1031,
+          238
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.708,
+        "box": [
+          1164,
+          234,
+          1205,
+          342
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:27.617304+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.853,
+        "box": [
+          1006,
+          297,
+          1068,
+          470
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.746,
+        "box": [
+          943,
+          166,
+          1035,
+          237
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.713,
+        "box": [
+          1165,
+          233,
+          1205,
+          342
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 55.8,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:27.851803+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.871,
+        "box": [
+          1005,
+          297,
+          1068,
+          471
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "box": [
+          944,
+          166,
+          1038,
+          238
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.695,
+        "box": [
+          1165,
+          233,
+          1204,
+          341
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:29.259469+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.875,
+        "box": [
+          1004,
+          297,
+          1068,
+          471
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.738,
+        "box": [
+          947,
+          165,
+          1033,
+          237
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.662,
+        "box": [
+          1165,
+          234,
+          1203,
+          337
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 48.7,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:29.492601+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.873,
+        "box": [
+          1004,
+          296,
+          1068,
+          471
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.724,
+        "box": [
+          949,
+          165,
+          1032,
+          234
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.633,
+        "box": [
+          1165,
+          233,
+          1202,
+          336
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 61.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:35.052976+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.861,
+        "box": [
+          1004,
+          297,
+          1068,
+          467
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.768,
+        "box": [
+          1006,
+          188,
+          1115,
+          291
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:40.538175+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.877,
+        "box": [
+          1004,
+          297,
+          1067,
+          474
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.703,
+        "box": [
+          950,
+          165,
+          1031,
+          230
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.595,
+        "box": [
+          1161,
+          233,
+          1202,
+          335
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.556,
+        "box": [
+          726,
+          220,
+          887,
+          319
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 52.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:40.773431+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.881,
+        "box": [
+          1003,
+          297,
+          1067,
+          478
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.718,
+        "box": [
+          1000,
+          189,
+          1115,
+          297
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "box": [
+          730,
+          220,
+          891,
+          320
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:40.999180+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.886,
+        "box": [
+          1003,
+          299,
+          1067,
+          477
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.627,
+        "box": [
+          1161,
+          232,
+          1202,
+          333
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.572,
+        "box": [
+          954,
+          165,
+          1032,
+          228
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.477,
+        "box": [
+          735,
+          220,
+          895,
+          317
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 40.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:41.218155+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.873,
+        "box": [
+          1000,
+          301,
+          1065,
+          474
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.724,
+        "box": [
+          997,
+          188,
+          1111,
+          299
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.478,
+        "box": [
+          742,
+          219,
+          898,
+          320
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:46.051555+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.864,
+        "box": [
+          1000,
+          302,
+          1065,
+          473
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.668,
+        "box": [
+          996,
+          190,
+          1110,
+          299
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.529,
+        "box": [
+          748,
+          219,
+          902,
+          308
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 40.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:50.847687+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.872,
+        "box": [
+          999,
+          304,
+          1065,
+          473
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.621,
+        "box": [
+          1160,
+          229,
+          1202,
+          336
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.565,
+        "box": [
+          956,
+          164,
+          1039,
+          227
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.3,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:51.076261+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.867,
+        "box": [
+          999,
+          306,
+          1063,
+          475
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.646,
+        "box": [
+          960,
+          163,
+          1039,
+          226
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.575,
+        "box": [
+          1159,
+          231,
+          1201,
+          337
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.9,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:51.312205+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.858,
+        "box": [
+          997,
+          305,
+          1062,
+          481
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.656,
+        "box": [
+          959,
+          164,
+          1040,
+          227
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.522,
+        "box": [
+          1162,
+          230,
+          1202,
+          337
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 50.2,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:51.548763+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.864,
+        "box": [
+          995,
+          307,
+          1061,
+          483
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.702,
+        "box": [
+          987,
+          194,
+          1105,
+          301
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 48.4,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:56.605038+00:00",
+    "objects": [
+      {
+        "class": "person",
+        "confidence": 0.875,
+        "box": [
+          995,
+          307,
+          1061,
+          481
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "box": [
+          984,
+          196,
+          1101,
+          299
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.454,
+        "box": [
+          0,
+          415,
+          371,
+          712
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.0,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:36:56.837476+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.471,
+        "box": [
+          962,
+          199,
+          1075,
+          280
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 41.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:37:02.318937+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.466,
+        "box": [
+          957,
+          197,
+          1077,
+          282
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 39.1,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:37:05.240775+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.542,
+        "box": [
+          955,
+          198,
+          1078,
+          286
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 49.6,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:37:05.478054+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 36.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:37:12.275414+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 40.5,
+    "conf_threshold": 0.45,
+    "iou_threshold": 0.45
+  },
+  {
+    "timestamp": "2026-04-08T07:37:12.499165+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.599,
+        "box": [
+          946,
+          205,
+          1061,
+          285
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 45.2,
     "conf_threshold": 0.45,
     "iou_threshold": 0.45
   }

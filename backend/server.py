@@ -54,12 +54,11 @@ _DEFAULT_MODEL_PATH = os.environ.get(
 
 @app.on_event("startup")
 def _auto_init():
-    """Initialise models when uvicorn imports the app (e.g. --reload mode).
+    """Initialise VLM when uvicorn imports the app (e.g. --reload mode).
 
-    When run via `python -m backend.server`, main() calls these first and
-    this is a harmless no-op because init functions are idempotent.
+    YOLO, pose, and action models are lazy-loaded on first use to keep
+    startup fast and memory low.
     """
-    init_yolo()
     if _models._vlm_config is None:
         configure_vlm(_DEFAULT_MODEL_PATH)
     schedule_vlm_warmup(delay=0)
@@ -728,15 +727,11 @@ def main():
     parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
 
-    print("Loading detector…")
-    init_yolo()
-    # VLM, camera, pose, and action models are all lazy-loaded on first
-    # use to keep startup fast and avoid memory spikes.
+    # Only VLM loads eagerly; YOLO, pose, and action are lazy-loaded
+    # on first use to keep startup fast and memory low.
     configure_vlm(args.model_path, args.model_base)
-    # Warm up VLM in a background thread after 10s so the first
-    # caption request doesn't stall.
     schedule_vlm_warmup(delay=0)  # load immediately
-    print("Ready (VLM loading in background; camera/pose/action load on first use). Starting API server…")
+    print("Ready (VLM loading; detection/pose/action load on first use). Starting API server…")
 
     uvicorn.run(app, host=args.host, port=args.port)
 
