@@ -1,0 +1,107 @@
+[
+  {
+    "timestamp": "2026-06-27T14:31:15.789785+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-27T14:32:15.906870+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-27T14:33:15.658978+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-27T14:34:15.496165+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-27T14:35:15.791484+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-27T14:36:15.762718+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-27T14:37:32.215896+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:38:15.495728+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:39:30.202422+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**  \nThe scene is a busy city street filled with cars, pedestrians, and varying traffic elements like yellow barriers and red subscribe buttons, indicating potential uncontrolled walking.\n\n---\n\n**Key Observations:**  \n- Multiple people (e.g., in purple shirts and red hats) are moving quickly without prior consideration of their activities.  \n- The system can see people interacting with obstacles, suggesting potential unauthorized markings or pedestrian neglect.\n\n---\n\n**Recommended Actions:**  \n1. Monitor the area for unauthorized seating or barriers since multiple walkers are visible.  \n2. Stay alert to any signals as there may be a lack of visibility and potential changes in street patterns.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:40:54.432565+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:41:28.284528+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary**: The live video feeds capture a busy city street with various vehicles (cars, buses, pedestrians), signs, traffic lights, and stationary objects (red subscribe button, road divider).\n\n**Key Observations**:  \n- Bright lighting on a sunny day.  \n- Cars parked: police car, yellow & green auto-rickshaws, vehicle sign, red subscribe button.  \n- Pedestrians present; walking in a mix of colors/signs.  \n- Traffic lights and signs throughout the scene.\n\n**Recommended Actions**:  \n1. Keep the camera steady (use white balance to suppress eye strain).  \n2. Use video filters for easy-paced content or adjust focus to avoid overexposure/crop issues.  \n3. Limit audio use to avoid \"smearing\" in the feed.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:42:29.325221+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Report**\n\n- **Summary**: The busy city streets from Saturday, June ",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:43:28.592720+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:44:53.910178+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T14:45:53.653389+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n- **Summary**: A busy urban intersection and surrounding traffic areas were monitored over 2",
+    "detection_count": 0,
+    "caption_count": 10
+  }
+]

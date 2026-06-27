@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-06-27T14:18:16.319639+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-27T14:18:16.336250+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-27T14:18:16.351558+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-27T14:18:16.352241+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-27T14:18:16.353798+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-27T14:18:16.354868+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 404 - {'error': {'message': \"model 'deepseek-r1:1.5b' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  }
+]

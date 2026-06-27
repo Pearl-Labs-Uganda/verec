@@ -8,29 +8,26 @@ import os
 import re
 import time
 import threading
-from typing import Any
+from typing import Any, TYPE_CHECKING
 
 import cv2
 import numpy as np
-import torch
 from PIL import Image
 
-from camera import OpenCVCamera
-from detectors import COCO_CLASSES, YOLODetector, YOLOPoseDetector
-from llava.utils import disable_torch_init
-from llava.conversation import conv_templates
-from llava.model.builder import load_pretrained_model
-from llava.mm_utils import tokenizer_image_token, process_images, get_model_name_from_path
-from llava.constants import (
-    IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN,
-    DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN,
-)
+# All heavy imports (camera, detectors, llava) are intentionally deferred
+# to their respective init functions so the server can start instantly.
+# When USE_QWEN_VL=true, none of these are needed at startup.
+
+if TYPE_CHECKING:
+    from camera import OpenCVCamera
+    from detectors import YOLODetector, YOLOPoseDetector
 
 _lock = threading.Lock()
 
 
 def _resolve_device() -> str:
     """Pick the best available torch device: cuda > mps > cpu."""
+    import torch
     if torch.cuda.is_available():
         return "cuda"
     if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
@@ -50,12 +47,20 @@ vlm_model: Any = None
 image_processor: Any = None
 _vlm_config: dict[str, Any] | None = None  # stored for lazy init
 
+# Qwen Vision singleton
+_qwen_analyzer = None  # QwenVisionAnalyzer | None
+
 
 def init_yolo() -> YOLODetector:
     global _yolo
     if _yolo is None:
+        print("[YOLO] Importing YOLODetector from detectors...")
+        from detectors import YOLODetector
+        print("[YOLO] Import done. Building path...")
         p = os.path.join(os.path.dirname(os.path.dirname(__file__)), "yolo11n.onnx")
+        print(f"[YOLO] Loading ONNX from {p}...")
         _yolo = YOLODetector(p)
+        print("[YOLO] YOLO initialized.")
     return _yolo
 
 
@@ -65,6 +70,7 @@ def init_yolo_pose() -> YOLOPoseDetector | None:
     """Initialise YOLO11n-pose. Returns None if ONNX file not found."""
     global _yolo_pose
     if _yolo_pose is None:
+        from detectors import YOLOPoseDetector  # Lazy import
         p = os.path.join(os.path.dirname(os.path.dirname(__file__)), "yolo11n-pose.onnx")
         if not os.path.exists(p):
             return None
@@ -88,8 +94,26 @@ def init_action(device: str = "cpu"):
 def init_camera() -> OpenCVCamera:
     global _camera
     if _camera is None:
+        from camera import OpenCVCamera  # Lazy import
         _camera = OpenCVCamera(device_id=0, width=640, height=480)
     return _camera
+
+
+def init_qwen(model_name: str = "qwen2.5-vl:3b"):
+    """Initialise Qwen2.5-VL analyzer via Ollama.
+    
+    Args:
+        model_name: Ollama model name (e.g., "qwen2.5-vl:3b", "qwen2.5-vl:7b")
+    
+    Returns:
+        QwenVisionAnalyzer instance
+    """
+    global _qwen_analyzer
+    if _qwen_analyzer is None:
+        from backend.qwen_vision import QwenVisionAnalyzer
+        _qwen_analyzer = QwenVisionAnalyzer(model=model_name)
+        print(f"Qwen Vision Analyzer initialized: {model_name}")
+    return _qwen_analyzer
 
 
 def configure_vlm(model_path: str, model_base: str | None = None):
@@ -122,12 +146,28 @@ def schedule_vlm_warmup(delay: float = 10.0):
 
 
 def init_vlm():
-    """Lazy-load VLM on first use. Returns True if model is ready."""
+    """Lazy-load local LLaVA VLM on first use. Returns True if model is ready.
+
+    All llava imports are deferred here so the server starts fine when
+    USE_QWEN_VL=true (Qwen/Ollama path) without llava installed.
+    """
     global tokenizer, vlm_model, image_processor
     if vlm_model is not None:
         return True
     if _vlm_config is None:
         return False
+
+    # Lazy llava imports — only needed for the local LLaVA path
+    try:
+        import torch
+        from llava.utils import disable_torch_init
+        from llava.conversation import conv_templates  # noqa: F401 (used in run_vlm)
+        from llava.model.builder import load_pretrained_model
+        from llava.mm_utils import get_model_name_from_path
+    except ImportError as exc:
+        print(f"[VLM] llava not installed, cannot load local model: {exc}")
+        return False
+
     model_path = os.path.expanduser(_vlm_config["model_path"])
     model_base = _vlm_config["model_base"]
     gen_cfg = os.path.join(model_path, "generation_config.json")
@@ -163,6 +203,7 @@ def get_camera_frame() -> np.ndarray | None:
 
 
 def run_detection(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> dict:
+    from detectors import COCO_CLASSES, YOLODetector  # Lazy import
     yolo = init_yolo()
     t0 = time.perf_counter()
     boxes, scores, class_ids = yolo.detect(frame, conf=conf, iou=iou)
@@ -189,6 +230,7 @@ def run_detection(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> d
 
 def run_pose(frame: np.ndarray, conf: float = 0.45, iou: float = 0.45) -> dict | None:
     """Run YOLO Pose detection. Returns None if model not available."""
+    from detectors import YOLOPoseDetector  # Lazy import
     pose = init_yolo_pose()
     if pose is None:
         return None
@@ -225,12 +267,70 @@ def run_action(keypoints: np.ndarray | None,
 
 
 def run_vlm(image: Image.Image | np.ndarray, prompt: str = "",
-            temperature: float = 0.0, max_tokens: int = 64) -> dict:
+            temperature: float = 0.0, max_tokens: int = 64,
+            use_qwen: bool | None = None) -> dict:
+    """Run vision-language model inference.
+    
+    Automatically switches between local LLaVA and Qwen via Ollama based on
+    the USE_QWEN_VL environment variable, or use the use_qwen parameter.
+    
+    Args:
+        image: Input image (PIL Image or numpy array)
+        prompt: Text prompt
+        temperature: Sampling temperature
+        max_tokens: Maximum tokens to generate
+        use_qwen: Force use of Qwen (True) or local (False), or None for auto-detect
+    
+    Returns:
+        Dict with 'text', timing, and token statistics
+    """
+    # Determine which backend to use
+    if use_qwen is None:
+        use_qwen = os.getenv("USE_QWEN_VL", "false").lower() == "true"
+    
+    if use_qwen:
+        # Use Qwen via Ollama
+        qwen = init_qwen()
+        if not prompt:
+            prompt = "Briefly describe what is happening."
+        
+        import time
+        t0 = time.perf_counter()
+        try:
+            text = qwen.analyze_image(image, prompt, temperature, max_tokens)
+            dt = time.perf_counter() - t0
+            return {
+                "text": text,
+                "time_s": round(dt, 3),
+                "tokens": len(text.split()),  # rough token estimate
+                "tokens_per_s": round(len(text.split()) / dt, 1) if dt > 0 else 0,
+                "backend": "qwen-ollama",
+            }
+        except Exception as e:
+            return {
+                "text": "",
+                "error": f"Qwen inference failed: {e}",
+                "backend": "qwen-ollama",
+            }
+    
+    # Use local LLaVA (original implementation)
     if vlm_model is None:
         if not init_vlm():
-            return {"text": "", "error": "VLM not configured"}
+            return {"text": "", "error": "VLM not configured (llava not installed or no model path)", "backend": "local-llava"}
     if not prompt:
         prompt = "Briefly describe what is happening."
+
+    # These imports are guaranteed to be available if init_vlm() returned True
+    try:
+        import torch
+        from llava.conversation import conv_templates
+        from llava.mm_utils import tokenizer_image_token, process_images
+        from llava.constants import (
+            IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN,
+            DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN,
+        )
+    except ImportError as exc:
+        return {"text": "", "error": f"llava not installed: {exc}", "backend": "local-llava"}
 
     if isinstance(image, np.ndarray):
         image = Image.fromarray(image)
@@ -275,6 +375,7 @@ def run_vlm(image: Image.Image | np.ndarray, prompt: str = "",
         "time_s": round(dt, 3),
         "tokens": n_tokens,
         "tokens_per_s": round(tps, 1),
+        "backend": "local-llava",
     }
 
 

@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-06-27T15:47:56.310219+00:00",
+    "text": "A busy city street with tall buildings and trees lining the road.",
+    "time_s": 7.833,
+    "tokens": 12,
+    "tokens_per_s": 1.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:48:11.312700+00:00",
+    "text": "A person is crossing the street at a crosswalk in an urban area with traffic lights and vehicles passing by.",
+    "time_s": 7.622,
+    "tokens": 20,
+    "tokens_per_s": 2.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:48:26.316426+00:00",
+    "text": "A busy street with cars and traffic lights.",
+    "time_s": 6.669,
+    "tokens": 8,
+    "tokens_per_s": 1.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:48:41.332512+00:00",
+    "text": "A busy city street with cars, pedestrians, and a green taxi driving down the road.",
+    "time_s": 7.758,
+    "tokens": 15,
+    "tokens_per_s": 1.9,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:48:56.379772+00:00",
+    "text": "A busy city street with cars, pedestrians, and a cyclist crossing the road.",
+    "time_s": 7.77,
+    "tokens": 13,
+    "tokens_per_s": 1.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:49:11.389337+00:00",
+    "text": "A busy city street with cars, pedestrians, and traffic lights.",
+    "time_s": 7.311,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:49:26.412802+00:00",
+    "text": "A car is driving down a city street with traffic lights and other vehicles in the background.",
+    "time_s": 7.726,
+    "tokens": 17,
+    "tokens_per_s": 2.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:49:41.420907+00:00",
+    "text": "A man is running down a busy street while cars and motorcycles pass by.",
+    "time_s": 7.567,
+    "tokens": 14,
+    "tokens_per_s": 1.9,
+    "backend": "qwen-ollama"
+  }
+]

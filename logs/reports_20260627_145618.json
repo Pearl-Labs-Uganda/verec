@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-06-27T14:58:53.686497+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**  \nAll detected scenes on [2026-06-27T14:57-...] were in a busy city street with tall buildings and trees lining the road. No specific activities such as vehicles or people were tracked during the observations.\n\n**Key Observations:**  \n- Pedestrians observed on the street, including both individuals and children.  \n- The area had a moderate presence of cars and pedestrians moving along the street.  \n- A car was spotted driving down the road with yellow and black stripes on its barrier side.\n\n**Recommended Actions:**  \n- Review pedestrian detection alerts in real-time for areas where vehicles are present during specific times of the day.  \n- Verify traffic signs and markings at intersections near the detected scenes to ensure safety.",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-27T14:59:55.071008+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-27T15:00:52.323786+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:** The scene on June 27th consists of a busy city street with tall buildings and trees lining it.\n\n**Key Observations:** \n- The time frame shows normal traffic in an urban setting (cars, pedestrians).\n- There\u2019s mixed traffic (yellow and black barrier on the road) for monitoring.\n- The area is typically crowded when people enter new spaces like shops or offices.\n- Pedestrians walk hand in hand with cars.\n\n**Recommended Actions:**\n1. Observe scene again next Friday 04/27/2026 at same time.\n2. Monitor all other scenes to spot unusual patterns.\n3. Close doors early when new animals (non humans) appear.",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-27T15:01:54.550301+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-27T15:02:53.939680+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nThe scene on the city street is predominantly busy with tall buildings, trees lining the road. Current visibility shows shadows from cars and bright lights from traffic lights.\n\n### Key Observations  \n-Busy crowded streets with tall structures lining the road.  \n-Pedestrians crossing or walking normally without any automated or sudden responses detected.  \n\n### Recommended Actions  \n1. **Check Pedestrian Visibility** - Verify pedestrian movement at lower lighting levels to account for potential slips in busy streets.  \n2. **Monitor Traffic Signals** - Ensure all traffic lights are clear and proper signals are on when needed.  \n3. **Review surroundings** - Examine areas with low visibility, such as pedestrian walkways, for any hidden activity.\n\nWithout additional detected actions, focusing on normalcy may suffice unless unexpected visual elements emerge that weren't captured by the system analysis.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:03:55.158736+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:** The video",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:05:53.935054+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:06:55.323633+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summarize**  \nWe observe an urban monsoon environment on June 27th, with a heavily traffic-ridden area featuring heavy vehicle movements, crossing signs with people holding bags or containers in",
+    "detection_count": 0,
+    "caption_count": 10
+  }
+]

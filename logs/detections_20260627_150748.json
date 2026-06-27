@@ -1,0 +1,2307 @@
+[
+  {
+    "timestamp": "2026-06-27T15:41:29.305843+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 52.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:29.801810+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 47.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:29.909952+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 50.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.013686+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 45.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.126309+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 42.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.226632+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 50.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.343477+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 40.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.429986+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 43.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.542425+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 42.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.643530+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 42.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.743605+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 43.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.843358+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 41.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:30.943252+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 41.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.043741+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 42.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.143687+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "box": [
+          94,
+          699,
+          226,
+          721
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 43.1
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.259362+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.58,
+        "box": [
+          81,
+          696,
+          221,
+          721
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 42.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.360178+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "box": [
+          73,
+          691,
+          218,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.465,
+        "box": [
+          0,
+          683,
+          68,
+          718
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 43.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.475999+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.569,
+        "box": [
+          37,
+          684,
+          221,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.559,
+        "box": [
+          0,
+          679,
+          63,
+          717
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 42.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.577087+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.562,
+        "box": [
+          15,
+          680,
+          217,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.469,
+        "box": [
+          0,
+          675,
+          63,
+          719
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 43.3
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.692923+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.632,
+        "box": [
+          7,
+          676,
+          208,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.503,
+        "box": [
+          0,
+          667,
+          56,
+          716
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 44.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.809473+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.737,
+        "box": [
+          3,
+          669,
+          212,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.592,
+        "box": [
+          199,
+          691,
+          352,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.499,
+        "box": [
+          0,
+          664,
+          50,
+          709
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 46.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:31.915036+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.692,
+        "box": [
+          0,
+          666,
+          205,
+          715
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.518,
+        "box": [
+          194,
+          685,
+          343,
+          717
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 48.3
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.037221+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.762,
+        "box": [
+          0,
+          662,
+          202,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "box": [
+          409,
+          687,
+          524,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "box": [
+          182,
+          680,
+          354,
+          717
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.146701+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.831,
+        "box": [
+          0,
+          658,
+          196,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.627,
+        "box": [
+          166,
+          675,
+          358,
+          718
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 52.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.275651+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.844,
+        "box": [
+          0,
+          654,
+          190,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.554,
+        "box": [
+          183,
+          671,
+          298,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "box": [
+          364,
+          678,
+          508,
+          719
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.376562+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.807,
+        "box": [
+          0,
+          648,
+          187,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.677,
+        "box": [
+          138,
+          664,
+          304,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.658,
+        "box": [
+          354,
+          671,
+          507,
+          721
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.480282+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.802,
+        "box": [
+          0,
+          645,
+          176,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.789,
+        "box": [
+          135,
+          661,
+          303,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.757,
+        "box": [
+          351,
+          667,
+          489,
+          720
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.581121+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.841,
+        "box": [
+          0,
+          642,
+          172,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.805,
+        "box": [
+          346,
+          664,
+          488,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.745,
+        "box": [
+          136,
+          657,
+          301,
+          718
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 49.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.681163+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.829,
+        "box": [
+          343,
+          661,
+          484,
+          719
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.804,
+        "box": [
+          0,
+          636,
+          170,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.742,
+        "box": [
+          155,
+          653,
+          302,
+          717
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.780765+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.808,
+        "box": [
+          0,
+          632,
+          163,
+          712
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.723,
+        "box": [
+          337,
+          656,
+          474,
+          715
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.682,
+        "box": [
+          119,
+          648,
+          288,
+          718
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:32.880400+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.792,
+        "box": [
+          334,
+          650,
+          483,
+          712
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.768,
+        "box": [
+          120,
+          644,
+          273,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.744,
+        "box": [
+          0,
+          627,
+          163,
+          711
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 55.3
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.009201+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.814,
+        "box": [
+          328,
+          646,
+          487,
+          708
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.727,
+        "box": [
+          0,
+          620,
+          158,
+          705
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.683,
+        "box": [
+          105,
+          636,
+          268,
+          710
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 47.1
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.114069+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.779,
+        "box": [
+          102,
+          631,
+          257,
+          705
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.729,
+        "box": [
+          0,
+          615,
+          148,
+          709
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.692,
+        "box": [
+          324,
+          641,
+          478,
+          701
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.554,
+        "box": [
+          975,
+          697,
+          1089,
+          719
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 53.1
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.226540+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.784,
+        "box": [
+          0,
+          609,
+          146,
+          703
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.779,
+        "box": [
+          320,
+          634,
+          478,
+          699
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.776,
+        "box": [
+          102,
+          625,
+          252,
+          700
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.638,
+        "box": [
+          677,
+          677,
+          852,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.568,
+        "box": [
+          964,
+          693,
+          1091,
+          719
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.494,
+        "box": [
+          466,
+          644,
+          574,
+          717
+        ]
+      }
+    ],
+    "count": 6,
+    "time_ms": 42.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.326695+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.768,
+        "box": [
+          314,
+          632,
+          474,
+          696
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.733,
+        "box": [
+          112,
+          622,
+          247,
+          696
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.728,
+        "box": [
+          665,
+          676,
+          840,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.714,
+        "box": [
+          0,
+          606,
+          139,
+          707
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.625,
+        "box": [
+          963,
+          688,
+          1087,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.457,
+        "box": [
+          465,
+          646,
+          565,
+          715
+        ]
+      }
+    ],
+    "count": 6,
+    "time_ms": 45.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.460137+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.709,
+        "box": [
+          311,
+          628,
+          477,
+          692
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.688,
+        "box": [
+          953,
+          686,
+          1086,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.683,
+        "box": [
+          658,
+          670,
+          821,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.657,
+        "box": [
+          108,
+          620,
+          242,
+          695
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.466,
+        "box": [
+          0,
+          602,
+          128,
+          698
+        ]
+      }
+    ],
+    "count": 5,
+    "time_ms": 43.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.563440+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.795,
+        "box": [
+          948,
+          684,
+          1083,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.694,
+        "box": [
+          308,
+          626,
+          469,
+          690
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.668,
+        "box": [
+          657,
+          668,
+          810,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.559,
+        "box": [
+          93,
+          619,
+          240,
+          694
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 51.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.692316+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.785,
+        "box": [
+          944,
+          683,
+          1080,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.752,
+        "box": [
+          651,
+          668,
+          809,
+          719
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.649,
+        "box": [
+          298,
+          627,
+          460,
+          686
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.494,
+        "box": [
+          94,
+          617,
+          234,
+          693
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 47.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.796645+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.775,
+        "box": [
+          945,
+          682,
+          1078,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.735,
+        "box": [
+          649,
+          667,
+          801,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.674,
+        "box": [
+          91,
+          617,
+          229,
+          692
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.557,
+        "box": [
+          297,
+          627,
+          442,
+          685
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 47.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:33.908447+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.832,
+        "box": [
+          942,
+          682,
+          1073,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.778,
+        "box": [
+          91,
+          618,
+          224,
+          692
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.724,
+        "box": [
+          638,
+          665,
+          808,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.694,
+        "box": [
+          297,
+          626,
+          448,
+          687
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.506,
+        "box": [
+          0,
+          598,
+          109,
+          704
+        ]
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.452,
+        "box": [
+          249,
+          556,
+          266,
+          581
+        ]
+      }
+    ],
+    "count": 6,
+    "time_ms": 45.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.013340+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.833,
+        "box": [
+          940,
+          679,
+          1070,
+          721
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.681,
+        "box": [
+          636,
+          664,
+          781,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.608,
+        "box": [
+          405,
+          639,
+          527,
+          692
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.501,
+        "box": [
+          69,
+          615,
+          220,
+          690
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 51.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.126523+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.821,
+        "box": [
+          936,
+          677,
+          1068,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.792,
+        "box": [
+          636,
+          660,
+          796,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.707,
+        "box": [
+          289,
+          622,
+          441,
+          679
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.582,
+        "box": [
+          60,
+          613,
+          212,
+          687
+        ]
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.469,
+        "box": [
+          250,
+          550,
+          267,
+          579
+        ]
+      }
+    ],
+    "count": 5,
+    "time_ms": 44.9
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.229971+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.809,
+        "box": [
+          638,
+          655,
+          772,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.775,
+        "box": [
+          933,
+          670,
+          1065,
+          719
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.718,
+        "box": [
+          286,
+          616,
+          429,
+          674
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.548,
+        "box": [
+          79,
+          607,
+          209,
+          682
+        ]
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.48,
+        "box": [
+          252,
+          546,
+          269,
+          579
+        ]
+      }
+    ],
+    "count": 5,
+    "time_ms": 46.9
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.343928+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.806,
+        "box": [
+          635,
+          651,
+          771,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.744,
+        "box": [
+          928,
+          666,
+          1059,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.649,
+        "box": [
+          283,
+          612,
+          425,
+          672
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.507,
+        "box": [
+          43,
+          601,
+          202,
+          677
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 45.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.447284+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.787,
+        "box": [
+          636,
+          646,
+          774,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.782,
+        "box": [
+          922,
+          664,
+          1058,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.62,
+        "box": [
+          279,
+          607,
+          423,
+          665
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.486,
+        "box": [
+          59,
+          598,
+          199,
+          672
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 47.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.558099+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.747,
+        "box": [
+          638,
+          641,
+          768,
+          713
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.721,
+        "box": [
+          919,
+          660,
+          1052,
+          711
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.652,
+        "box": [
+          276,
+          604,
+          421,
+          664
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.59,
+        "box": [
+          49,
+          594,
+          192,
+          670
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 45.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.664295+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.736,
+        "box": [
+          916,
+          656,
+          1049,
+          709
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.726,
+        "box": [
+          637,
+          639,
+          762,
+          708
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.671,
+        "box": [
+          275,
+          600,
+          419,
+          661
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.605,
+        "box": [
+          43,
+          590,
+          189,
+          666
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 58.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.794292+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.785,
+        "box": [
+          910,
+          655,
+          1046,
+          705
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.757,
+        "box": [
+          271,
+          598,
+          419,
+          658
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.752,
+        "box": [
+          638,
+          635,
+          754,
+          702
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.533,
+        "box": [
+          36,
+          590,
+          184,
+          661
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 53.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:34.910085+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.817,
+        "box": [
+          905,
+          653,
+          1039,
+          703
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.814,
+        "box": [
+          638,
+          632,
+          750,
+          698
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.746,
+        "box": [
+          266,
+          596,
+          403,
+          653
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.64,
+        "box": [
+          28,
+          587,
+          179,
+          659
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 43.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.013307+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.792,
+        "box": [
+          637,
+          630,
+          739,
+          696
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.791,
+        "box": [
+          1067,
+          663,
+          1240,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "box": [
+          259,
+          595,
+          382,
+          651
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.609,
+        "box": [
+          22,
+          583,
+          175,
+          658
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "box": [
+          374,
+          602,
+          479,
+          664
+        ]
+      }
+    ],
+    "count": 5,
+    "time_ms": 48.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.113969+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.767,
+        "box": [
+          1060,
+          660,
+          1241,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "box": [
+          638,
+          630,
+          732,
+          695
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "box": [
+          257,
+          593,
+          388,
+          646
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.596,
+        "box": [
+          8,
+          581,
+          166,
+          656
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 47.3
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.214645+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.787,
+        "box": [
+          254,
+          591,
+          393,
+          645
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.764,
+        "box": [
+          1052,
+          659,
+          1241,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.683,
+        "box": [
+          638,
+          626,
+          722,
+          691
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "box": [
+          2,
+          579,
+          160,
+          656
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 71.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.348036+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.802,
+        "box": [
+          248,
+          591,
+          391,
+          646
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.751,
+        "box": [
+          891,
+          644,
+          1021,
+          697
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.659,
+        "box": [
+          637,
+          625,
+          717,
+          688
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.539,
+        "box": [
+          2,
+          577,
+          155,
+          654
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 48.1
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.460044+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.751,
+        "box": [
+          890,
+          643,
+          1018,
+          695
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.651,
+        "box": [
+          639,
+          625,
+          707,
+          685
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.625,
+        "box": [
+          246,
+          590,
+          386,
+          647
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 43.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.563653+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "box": [
+          1028,
+          654,
+          1201,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.738,
+        "box": [
+          244,
+          588,
+          374,
+          642
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "box": [
+          638,
+          626,
+          702,
+          683
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.569,
+        "box": [
+          0,
+          576,
+          143,
+          653
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.468,
+        "box": [
+          441,
+          604,
+          483,
+          710
+        ]
+      }
+    ],
+    "count": 5,
+    "time_ms": 50.5
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.676617+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.802,
+        "box": [
+          240,
+          585,
+          370,
+          639
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.773,
+        "box": [
+          886,
+          638,
+          1010,
+          690
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 45.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.782809+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.774,
+        "box": [
+          884,
+          636,
+          1007,
+          690
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.764,
+        "box": [
+          237,
+          584,
+          372,
+          638
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.574,
+        "box": [
+          0,
+          572,
+          133,
+          650
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 75.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:35.914982+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.848,
+        "box": [
+          881,
+          634,
+          1000,
+          687
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.744,
+        "box": [
+          317,
+          592,
+          447,
+          647
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.662,
+        "box": [
+          0,
+          568,
+          127,
+          660
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 46.2
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.023344+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.793,
+        "box": [
+          879,
+          631,
+          999,
+          684
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.747,
+        "box": [
+          313,
+          588,
+          444,
+          645
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.604,
+        "box": [
+          0,
+          565,
+          121,
+          660
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 42.7
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.126367+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.807,
+        "box": [
+          991,
+          643,
+          1171,
+          710
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.719,
+        "box": [
+          311,
+          586,
+          438,
+          641
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.684,
+        "box": [
+          0,
+          562,
+          117,
+          658
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 45.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.229772+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.819,
+        "box": [
+          981,
+          645,
+          1166,
+          707
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.73,
+        "box": [
+          428,
+          589,
+          466,
+          694
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.715,
+        "box": [
+          211,
+          573,
+          336,
+          623
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.582,
+        "box": [
+          0,
+          558,
+          112,
+          656
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 49.0
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.342652+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.805,
+        "box": [
+          973,
+          642,
+          1161,
+          705
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.654,
+        "box": [
+          299,
+          581,
+          432,
+          638
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.621,
+        "box": [
+          0,
+          556,
+          107,
+          654
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 66.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.483235+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.824,
+        "box": [
+          969,
+          640,
+          1154,
+          702
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "box": [
+          214,
+          567,
+          341,
+          619
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.601,
+        "box": [
+          420,
+          579,
+          460,
+          692
+        ]
+      },
+      {
+        "class": "truck",
+        "confidence": 0.481,
+        "box": [
+          0,
+          556,
+          107,
+          652
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 47.4
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.592778+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.742,
+        "box": [
+          963,
+          636,
+          1151,
+          700
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.673,
+        "box": [
+          214,
+          566,
+          344,
+          617
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.584,
+        "box": [
+          419,
+          584,
+          457,
+          692
+        ]
+      },
+      {
+        "class": "truck",
+        "confidence": 0.486,
+        "box": [
+          0,
+          555,
+          107,
+          650
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 44.3
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.696739+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.774,
+        "box": [
+          955,
+          635,
+          1145,
+          698
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.741,
+        "box": [
+          288,
+          576,
+          424,
+          631
+        ]
+      },
+      {
+        "class": "truck",
+        "confidence": 0.465,
+        "box": [
+          0,
+          551,
+          101,
+          647
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 46.8
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.810365+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.797,
+        "box": [
+          944,
+          632,
+          1142,
+          695
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.724,
+        "box": [
+          212,
+          561,
+          337,
+          614
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.629,
+        "box": [
+          418,
+          579,
+          454,
+          685
+        ]
+      },
+      {
+        "class": "truck",
+        "confidence": 0.457,
+        "box": [
+          0,
+          549,
+          96,
+          644
+        ]
+      }
+    ],
+    "count": 4,
+    "time_ms": 49.6
+  },
+  {
+    "timestamp": "2026-06-27T15:41:36.928434+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.713,
+        "box": [
+          937,
+          628,
+          1120,
+          689
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.624,
+        "box": [
+          207,
+          559,
+          334,
+          611
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.454,
+        "box": [
+          0,
+          546,
+          85,
+          617
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 58.2
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "timestamp": "2026-06-27T15:10:25.110474+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report: June ",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-27T15:11:25.558994+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-27T15:12:23.129147+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**  \nThe scene is currently at the same time as no detections in progress on VEREC's detection log.\n\n---\n\n**Key Observations:**  \n- Busy city streets with tall towering buildings and trees lining the road (15:09:42)  \n-Busy city streets with cars, pedestrians. (15:09:43)  \n-Busy city street with cars and people walking on the sidewalk. (15:09:45).  \n- Busy city street with cars, pedestrians, traffic lights, sign (15:10:36).  \n- Busy city street with cars, motorcycle, and traffic lights in the background (15:10:28).  \n\n---\n\n**Recommended Actions:**  \n- Consider taking video footage since the scene is undetected.  \n- Maintain backup video if possible during light poor conditions.  \n- Provide better lighting to enhance visibility in bad weather scenarios.",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-27T15:13:24.891316+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**\nA continuous, busy intersection with heavy traffic on a bustling city street, prone to sudden stops that pose safety risks.\n\n---\n\n**Key Observations:**  \n- Heavy traffic flow from front to back without changes from one segment.\n- Heavy vehicles and pedestrians likely heading to nearby areas.\n- Potential increase in road rage due to sudden traffic stop signs or red lights after vehicle collisions.\n\n---\n\n**Recommended Actions:**  \n1. Increase pedestrian monitoring at the intersection by using lights, barriers, and cameras during potential stop zones for visibility during unexpected stops.\n2. Monitor vehicle speed and be cautious of unexpected changes in vehicle lanes before moving.\n3. Avoid active areas while heavy traffic is ongoing to mitigate road rage risks.",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-27T15:14:25.173561+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n- **Summary:** The scene depicts",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:15:26.118956+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:16:22.302165+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**  \nThe surveillance covers a dynamic city scene with varying activity levels in the streets. Dominant elements are traffic, pedestrians, barriers, signs, and vehicles like cars, bikes, buses.\n\n**Key Observations:**  \n- Several scenes describe busy city streets with interactions between people (people riding bikes), vehicles (cars, auto rickshaws, yellow/black barriers), barriers, and signs.\n\n**Recommended Actions:**  \n- Monitor areas where activity is low in the detection log to ensure comprehensive coverage.\n- Strengthen lighting systems for consistent visibility across all environments to pick up missed details.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:17:54.530106+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nThe surveillance captured a busy city street with mixed signs including yellow and black stripe barriers, subscribe buttons (indicated by \"subscribe\" signs), traffic lights, buses with sign posts, pedestrian-friendly areas, overlapping signs, and intersections requiring close handling.\n\n---\n\n### Key Observations  \n- **Yellow and Black Stripe Barriers**: Several scenes showed yellow and black stripes across the street. These could indicate safety features.  \n- **Subscribe Buttons**: D",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:18:53.526895+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Report: 2026-06-27**\n\n1. **Summary**: The surveillance feed shows a busy urban street in June 2026 with multiple traffic-related elements highlighted\u2014barriers, lights, and signs\u2014but no notable triggers detected.\n\n2. **Key Observations**:  \n   - Time intervals: 2026-06-27T15:14:00 (no detection) to T15:16:36 (+00:00).  \n   - Barriers and street segments",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:19:24.638961+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nOn [2026-06-27], the city lacked stability as it featured bustling streets (buses, cars), numerous pedestrian crossings, and traffic lights (yellow, red, green).  \n\n### Key Observations  \n1. **Vehicular activity**: Bus drivers drive down the streets with yellow and black signs.  \n2. **Pedestrian behavior**: Pedestrians walking down the street are accompanied by red hats.  \n3. **Traffic signals**: Multiple traffic lights (yellow, red, green) monitor pedestrian crossings.  \n\n### Recommended Actions  \n1. **Padded monitoring** \u2013 If future alerts indicate something unusual, confirm with operators: e.g., ensure buses are cleared of yellow signs or monitor pedestrian crossings carefully.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:20:53.757896+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:21:53.609871+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report: June 27th**\n\n---\n\n**Summary:**  \n- The surveillance capture detailed a typical urban traffic scene at a busy intersection throughout June 2026.  \n\n---\n\n**Key Observations:**  \n- **Busy City Intersections (15:20:35 and later):** Pedestrians, vehicles, signs, yellow and black barriers consistently displayed on streets during these times.  \n- **Pedestrian Safety Features:** Signals, markings, and pedestrian-friendly areas were maintained along streets with potential for",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:22:53.847611+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n---\n\n**Summary:**  \nOn June 27 at 3 PM, a busy urban scene was monitored across the city, with active areas including heavy traffic across",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:23:53.956664+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:24:54.123244+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "** surveillance report**\n  \n1. **Summary:** The scene captured various activities across different",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:25:53.226696+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Surveillance Report  \n\n**Summary**  \nThe live camera feed captures a quiet urban street with traffic lights, pedestrians, and various vehicles.  \n\n**Key Observations**  \n- A busy city street  \n- Traffic signals  \n- Pedestrians  \n-\u673a\u52a8\u8f66s (cars, buses)  \n- Vehicles with yellow or red markers (auto-rickshaw, white van, etc.)  \n- Lights on or near vehicles  \n- Slow-moving vehicles  \n- pedestrians and non-smooth surfaces  \n\n**Recommended Actions**  \n- Monitor for additional alerts from an alert pattern  \n- Check the live feed again to spot potential surveillance opportunities  \n- Ensure further monitoring or surveillance setups are in place if a detection is confirmed",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:26:53.520328+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary**: The detection log captures a busy urban scene with multiple vehicles engaged in movement on a concrete-colored road. Observation highlights several active vehicle activities: scooters crossing the street while holding a subscribe button, a bus and pedestrian interacting as the sun sets, and a motorcycle transitioning to an intersection crosswalk.\n\n**Key Observations**: - A man and woman are riding a scooter down a busy city street with",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:27:52.813440+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \n- No sounds were detected during the live feed.\n\n---\n\n### Key Observations  \n1. A busy city street with",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:28:53.185624+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary**: A busy city street with multiple activities - pedestrians walking, scooters crossing, red traffic lights, a crosswalk, and a person moving through an intersection.\n\n---\n\n**Key Observations**:  \n- Red and white cars on scooters crossing the street.  \n- Pedestrians walking quickly from pedestrian crosswalk to crossing signals.  \n- Traffic lights switching color at pedestrian signals.  \n- Red \"subscribe\" button appearing during detection times.  \n- Visibility of a person crossing through an intersection with a motorcycle in the distance.  \n\n---\n\n**Recommended Actions**:  \n1.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:29:52.857507+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "** surveillance report **  \n\n### Summary  \nThe scene depicted a diverse range of traffic conditions across urban streets in 2026-06-27T15:38:40. The scenes included various vehicles (cars, scooters, motorcycles), pedestrians",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:30:53.239937+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary**: On June 27th, three unique scenes were captured across different locations. In one location, there was a busy city street with traffic lights, pedestrians, and notable features like a red subscribe button. Another scene featured a fast-paced crosswalk with people crossing safely. A final section showcased vehicles passing by potted plants.\n\n**Key Observations**:  \n1. **Busy City Street with Traffic Lights**: Cars parked along the curb, pedestrians walking on sidewalks.  \n2. **Urban Area with Cars and Pedestrians Crossing**: Vehs were moving past traffic lights/",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:31:52.893566+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:32:53.224537+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n---\n\n### **Summary**\n- The video feed includes several scenes capturing daily traffic conditions:\n  - A busy city street with vehicles (red car, white van) and pedestrians.\n  - Varying levels of traffic with pedestrians walking on sidewalks and a crosswalk when the camera was triggered.\n\n---\n\n### **Key",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:33:52.718574+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:34:53.250822+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:35:53.066479+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Verification System (VEREC) Report\n\n---\n\n**Summary:**  \nThe live camera feed captured a diverse set of activity on a busy urban street at 2:06 AM on June 27. The scene included: \u2022 **Cars and motorcycles (cars, scooters, bike)** moving on both sides of the street, passing through intersections and crosswalk areas. \u2022 **Pedestrians**: Including those walking or crossing roads, with pedestrians interacting with potted plants, trash cans, and even a small subscription button appearing at an intersection corner. \u2022 A wide variety of vehicles,",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:36:52.994725+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nThis surveillance report captures a high-traffic urban area with multiple scenes highlighting everyday activities such as traffic lights, vehicles (cars, scooters), pedestrians (both on-road and off-road), and notable safety concerns like crossing signals and potential\u7535\u52a8 scooters.\n\n---\n\n### Key Observations  \n1. **Traffic Lights**: Significant presence throughout the scene, with light indicators in the corner and background buildings.  \n2. **Pedestrians and vehicles**: Multiple elements of public space, including red and white cars (first and last scenes",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:37:52.781733+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Surveillance Report  \n**Summary:**  \nThere are consistently busy city streets with traffic lights, pedestrians running around, and occasional scooters crossing the road at intersections.\n\n- **Key Observations:**  \n  - Traffic lights dominate much of the scene.  \n  - Squirrels often surround cars or RVs but not clearly visible in crossing scenes.  \n  - Men and women are frequently on scooters (likely kids or two adults) during crosswalks with traffic lights.\n\n**Recommended",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:38:53.092888+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:**  \nThe city street scene fluctuates with significant changes over time. From dawn, it features heavy traffic; mid-morning, buses begin movement; by early afternoon, pedestrians dominate both sides of the sidewalk; and evening traffic returns as vehicles cross intersections.\n\n**Key Observations:**  \n- Pedestrians dominate the main and minor pedestrian paths throughout the day.  \n- Traffic lights and vehicle movements increase from dawn to near noon.  \n- By 4:00 PM, the scene transitions to pedestrian dominance at intersections and higher volumes of vehicles.  \n- Crosswalk activity becomes prominent in the afternoon.\n\n**Recommended Actions:**  \n1. Monitor pedestrian crossings at all street intersections for potential traffic disruptions.  \n2. Enhance surveillance efforts on busy sidewalk areas during peak evening hours to prevent vehicle collisions.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:39:52.718938+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nA busy city street with mixed pedestrian activity, traffic lights, buses (green",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:40:53.355214+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:43:35.407222+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:44:31.071511+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:45:30.794713+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:46:30.577513+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Surveillance Report  \n\n#### Summary  \nA surveillance log captured various scene scenes from a live camera feed spanning July 26th to July 27th. The activity was occurring on",
+    "detection_count": 20,
+    "caption_count": 10
+  }
+]

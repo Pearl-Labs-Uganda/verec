@@ -74,6 +74,66 @@ the instructions in [`model_export`](model_export/).
 ### Inference on Apple Devices
 To run inference on Apple devices like iPhone, iPad or Mac, see [`app`](app/) subfolder for more details.
 
+## VEREC Backend Integration
+
+The VEREC backend provides a complete video analytics pipeline integrating FastVLM with:
+- **Real-time Object Detection** (YOLO11n)
+- **Pose Estimation** (YOLO11n-Pose)
+- **Action Recognition** (ST-GCN)
+- **Vision-Language Understanding** (FastVLM or Qwen2.5-VL)
+- **LLM-Based Reporting** (DeepSeek via Ollama)
+
+### Quick Start
+
+```bash
+# Backend
+python -m backend.server --model-path checkpoints/llava-fastvithd_0.5b_stage3
+
+# Frontend (in separate terminal)
+cd frontend
+npm install
+npm run dev
+```
+
+### Upgrade to Qwen2.5-VL (⚡ Recommended)
+
+For better vision understanding, you can upgrade from local FastVLM to **Qwen2.5-VL via Ollama**:
+
+**Automated Setup (Windows):**
+```powershell
+# Run the setup script
+.\setup_qwen.ps1
+```
+
+**Manual Setup:**
+```bash
+# 1. Install Ollama (if not already installed)
+# Download from: https://ollama.com
+
+# 2. Pull or rename model
+ollama cp wen2.5v1:3b qwen2.5-vl:3b  # If you have wen2.5v1:3b
+# OR
+ollama pull qwen2.5-vl:3b  # If starting fresh
+
+# 3. Enable Qwen backend
+export USE_QWEN_VL=true  # Linux/macOS
+# OR
+$env:USE_QWEN_VL="true"  # PowerShell
+
+# 4. Start backend
+python -m backend.server --model-path checkpoints/llava-fastvithd_0.5b_stage3
+```
+
+**Quick Reference:** See **[QUICK_START_QWEN.md](QUICK_START_QWEN.md)** for step-by-step instructions.
+
+**Benefits:**
+- 📊 State-of-the-art vision understanding
+- 💾 Lower GPU memory usage (runs in separate process)
+- 🔄 Drop-in replacement (no code changes needed)
+- 🚀 Scalable (can run on different machine)
+
+See **[QWEN_SETUP.md](QWEN_SETUP.md)** for detailed integration guide and **[DOCKER.md](DOCKER.md)** for containerized deployment.
+
 ## Citation
 If you found this code useful, please cite the following paper:
 ```

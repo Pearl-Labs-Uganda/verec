@@ -1,0 +1,434 @@
+[
+  {
+    "timestamp": "2026-06-27T15:09:09.428870+00:00",
+    "text": "A busy city street with tall buildings and trees lining the road.",
+    "time_s": 7.884,
+    "tokens": 12,
+    "tokens_per_s": 1.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:09:24.434939+00:00",
+    "text": "A busy city street with cars and pedestrians.",
+    "time_s": 6.734,
+    "tokens": 8,
+    "tokens_per_s": 1.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:09:39.466874+00:00",
+    "text": "A busy street with cars and people walking on the sidewalk.",
+    "time_s": 6.978,
+    "tokens": 11,
+    "tokens_per_s": 1.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:09:54.510766+00:00",
+    "text": "A busy city street with cars, pedestrians, and traffic lights.",
+    "time_s": 7.232,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:10:09.510768+00:00",
+    "text": "A busy city street with cars, pedestrians, and a motorcycle, with a traffic light and a sign in the background.",
+    "time_s": 8.434,
+    "tokens": 20,
+    "tokens_per_s": 2.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:10:24.542587+00:00",
+    "text": "A busy city street with cars and traffic lights.",
+    "time_s": 7.053,
+    "tokens": 9,
+    "tokens_per_s": 1.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:10:39.563574+00:00",
+    "text": "A person with a backpack is walking down a street with a van and cars in the background.",
+    "time_s": 161.305,
+    "tokens": 18,
+    "tokens_per_s": 0.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:13:20.901717+00:00",
+    "text": "A busy city street with cars and traffic lights.",
+    "time_s": 5.508,
+    "tokens": 9,
+    "tokens_per_s": 1.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:13:35.934296+00:00",
+    "text": "A busy city street with cars, pedestrians, and traffic lights.",
+    "time_s": 7.135,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:13:50.967378+00:00",
+    "text": "A busy city street with people riding bikes, cars, and auto rickshaws.",
+    "time_s": 7.751,
+    "tokens": 12,
+    "tokens_per_s": 1.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:14:05.982695+00:00",
+    "text": "A black car is driving down a city street, passing by other vehicles and pedestrians.",
+    "time_s": 7.755,
+    "tokens": 15,
+    "tokens_per_s": 1.9,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:14:20.998891+00:00",
+    "text": "A busy city street with cars driving down the road and a yellow and black striped barrier in the middle.",
+    "time_s": 8.074,
+    "tokens": 20,
+    "tokens_per_s": 2.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:14:36.025327+00:00",
+    "text": "A street with a yellow and black striped barrier, a red subscribe button, and a green traffic light.",
+    "time_s": 7.783,
+    "tokens": 18,
+    "tokens_per_s": 2.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:14:51.030814+00:00",
+    "text": "A green and yellow auto rickshaw is driving down a city street with a yellow and black striped barrier on the left side.",
+    "time_s": 8.085,
+    "tokens": 23,
+    "tokens_per_s": 2.8,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:15:06.044853+00:00",
+    "text": "A busy city street with cars and traffic lights.",
+    "time_s": 7.012,
+    "tokens": 9,
+    "tokens_per_s": 1.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:15:21.078052+00:00",
+    "text": "A busy city street with cars and pedestrians, a yellow traffic light, and a sign that says \"subscribe\".",
+    "time_s": 8.168,
+    "tokens": 18,
+    "tokens_per_s": 2.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:15:36.102757+00:00",
+    "text": "A blue bus is driving down a street with a red and white sign in the background.",
+    "time_s": 7.468,
+    "tokens": 17,
+    "tokens_per_s": 2.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:15:51.128633+00:00",
+    "text": "A man in a purple shirt is walking down a street with a red hat on.",
+    "time_s": 7.644,
+    "tokens": 16,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:16:06.160424+00:00",
+    "text": "A busy city intersection with pedestrians, vehicles, and traffic lights.",
+    "time_s": 7.351,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:16:21.164516+00:00",
+    "text": "A busy city street with cars and pedestrians, palm trees, and a building with a sign.",
+    "time_s": 7.99,
+    "tokens": 16,
+    "tokens_per_s": 2.0,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:16:36.221208+00:00",
+    "text": "A busy city street with pedestrians, vehicles, and various signs and advertisements.",
+    "time_s": 7.398,
+    "tokens": 12,
+    "tokens_per_s": 1.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:16:51.258677+00:00",
+    "text": "A woman is walking down a city street, passing by parked cars and traffic lights.",
+    "time_s": 157.931,
+    "tokens": 15,
+    "tokens_per_s": 0.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:19:29.269549+00:00",
+    "text": "A busy city street with cars and pedestrians, and a green tuk-tuk in the foreground.",
+    "time_s": 5.955,
+    "tokens": 15,
+    "tokens_per_s": 2.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:19:44.328677+00:00",
+    "text": "The scene shows a busy city intersection with traffic lights, vehicles, pedestrians, and various signs and advertisements.",
+    "time_s": 7.938,
+    "tokens": 17,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:19:59.370385+00:00",
+    "text": "A busy city intersection with cars and pedestrians crossing the street.",
+    "time_s": 6.855,
+    "tokens": 11,
+    "tokens_per_s": 1.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:20:14.404501+00:00",
+    "text": "A busy city street with cars and pedestrians, and a sign that says \"subscribe\".",
+    "time_s": 7.249,
+    "tokens": 14,
+    "tokens_per_s": 1.9,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:20:29.431652+00:00",
+    "text": "A woman is walking across a busy intersection in a city, surrounded by traffic and pedestrians.",
+    "time_s": 7.429,
+    "tokens": 16,
+    "tokens_per_s": 2.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:20:44.477613+00:00",
+    "text": "A busy city intersection with pedestrians, vehicles, and various signs and street furniture.",
+    "time_s": 7.629,
+    "tokens": 13,
+    "tokens_per_s": 1.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:20:59.491493+00:00",
+    "text": "A busy city street with cars driving down the road and a yellow and black striped barrier on the side.",
+    "time_s": 7.53,
+    "tokens": 20,
+    "tokens_per_s": 2.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:21:14.514288+00:00",
+    "text": "A busy city street with cars driving down the road and traffic lights.",
+    "time_s": 7.272,
+    "tokens": 13,
+    "tokens_per_s": 1.8,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:21:29.541801+00:00",
+    "text": "A cyclist rides down a city street, passing a bus and a traffic light.",
+    "time_s": 7.261,
+    "tokens": 14,
+    "tokens_per_s": 1.9,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:21:44.558789+00:00",
+    "text": "A busy city street with cars and pedestrians, traffic lights, and trees.",
+    "time_s": 7.83,
+    "tokens": 12,
+    "tokens_per_s": 1.5,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:21:59.567138+00:00",
+    "text": "A busy city street with cars, pedestrians, and traffic lights.",
+    "time_s": 6.961,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:22:14.572680+00:00",
+    "text": "A busy city street with cars and pedestrians, a red subscribe button in the bottom left corner.",
+    "time_s": 7.461,
+    "tokens": 17,
+    "tokens_per_s": 2.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:22:29.593792+00:00",
+    "text": "A busy city intersection with traffic lights, street signs, and parked cars.",
+    "time_s": 7.156,
+    "tokens": 12,
+    "tokens_per_s": 1.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:22:44.627468+00:00",
+    "text": "A busy city intersection with traffic lights, pedestrians, and vehicles, including a motorcycle and a car, with a red \"SUBSCRIBE\" button in the bottom left corner.",
+    "time_s": 9.249,
+    "tokens": 26,
+    "tokens_per_s": 2.8,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:22:59.675106+00:00",
+    "text": "A man is standing on the side of the road, looking at a traffic light.",
+    "time_s": 7.567,
+    "tokens": 15,
+    "tokens_per_s": 2.0,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:23:14.710253+00:00",
+    "text": "A busy city street with people crossing the street and cars driving by.",
+    "time_s": 7.62,
+    "tokens": 13,
+    "tokens_per_s": 1.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:23:29.771513+00:00",
+    "text": "A busy city street with traffic lights, pedestrians, and vehicles, including a yellow auto-rickshaw, a white van, and a black and yellow striped barrier.",
+    "time_s": 9.06,
+    "tokens": 24,
+    "tokens_per_s": 2.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:23:44.775550+00:00",
+    "text": "A green and yellow bus is driving through a roundabout with traffic lights and other vehicles around it.",
+    "time_s": 8.44,
+    "tokens": 18,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:23:59.806398+00:00",
+    "text": "A busy city street with cars and pedestrians, a traffic light, and a red subscribe button.",
+    "time_s": 7.724,
+    "tokens": 16,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:24:14.856782+00:00",
+    "text": "A busy city street with traffic lights, pedestrians, and vehicles, including a red car and a white van, with a red subscribe button in the bottom left corner.",
+    "time_s": 8.897,
+    "tokens": 28,
+    "tokens_per_s": 3.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:24:29.904969+00:00",
+    "text": "A green bus is driving down a city street with traffic lights and buildings in the background.",
+    "time_s": 7.959,
+    "tokens": 17,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:24:44.970968+00:00",
+    "text": "A man and a woman are riding a scooter down a busy street.",
+    "time_s": 7.812,
+    "tokens": 13,
+    "tokens_per_s": 1.7,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:24:59.989141+00:00",
+    "text": "A white car is driving down a city street, passing by a traffic light and a potted plant.",
+    "time_s": 7.925,
+    "tokens": 18,
+    "tokens_per_s": 2.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:25:15.005494+00:00",
+    "text": "A busy city street with cars parked along the curb and pedestrians walking on the sidewalk.",
+    "time_s": 7.559,
+    "tokens": 16,
+    "tokens_per_s": 2.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:25:30.036871+00:00",
+    "text": "A busy city street with cars, pedestrians, and traffic lights.",
+    "time_s": 7.394,
+    "tokens": 10,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:25:45.037098+00:00",
+    "text": "A busy city street with cars and pedestrians crossing the road.",
+    "time_s": 7.868,
+    "tokens": 11,
+    "tokens_per_s": 1.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:26:00.084913+00:00",
+    "text": "A busy city street with cars and pedestrians, and a red subscribe button in the corner.",
+    "time_s": 7.283,
+    "tokens": 16,
+    "tokens_per_s": 2.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:26:15.116648+00:00",
+    "text": "A person is crossing the street at a crosswalk while traffic lights are visible in the background.",
+    "time_s": 7.238,
+    "tokens": 17,
+    "tokens_per_s": 2.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:26:30.149271+00:00",
+    "text": "A person is riding a motorcycle through a busy city intersection.",
+    "time_s": 6.707,
+    "tokens": 11,
+    "tokens_per_s": 1.6,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:43:08.090452+00:00",
+    "text": "A person is crossing the street while a green car drives by.",
+    "time_s": 174.657,
+    "tokens": 12,
+    "tokens_per_s": 0.1,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:46:02.832252+00:00",
+    "text": "A busy city street with traffic lights, pedestrians, and vehicles.",
+    "time_s": 5.7,
+    "tokens": 10,
+    "tokens_per_s": 1.8,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-27T15:46:17.847217+00:00",
+    "text": "A busy city street with cars, pedestrians, and a green auto-rickshaw driving down the road.",
+    "time_s": 8.314,
+    "tokens": 15,
+    "tokens_per_s": 1.8,
+    "backend": "qwen-ollama"
+  }
+]
