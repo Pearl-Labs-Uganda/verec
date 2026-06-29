@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-06-29T07:53:35.094093+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.\\nCUDA error', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T07:54:08.623456+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T07:54:38.240476+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T07:56:16.505403+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T07:57:41.543758+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T08:00:55.918913+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T08:04:41.574318+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  }
+]

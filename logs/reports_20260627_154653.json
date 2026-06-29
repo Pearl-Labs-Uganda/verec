@@ -5,5 +5,82 @@
     "report": "**Summary:** The camera feed captures a diverse urban scene with fast-moving vehicles, parked cars, tall buildings, and traffic lights at 2026-06-27T15:47:56.310219Z.\n\n**Key Observations:**  \n- **Busy city streets**  \n- **Tall buildings lining the road**  \n- **Trees along the road**  \n- **Traffic lights**  \n- **Vehicles passing by**\n\n**Recommended Actions:** No specific actions are recommended based on the current detection log, as no active detections were recorded.",
     "detection_count": 0,
     "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-27T15:50:12.709161+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "** Surveillance Report: Urban City Street**\n\n---\n\n### **Summary**\nThe surveillance report focuses on an urban city street scene with multiple events occurring at the same time. The system detected no vehicle (no detections) during the observation period, while significant activity of non-occupant vehicles and people was noted by accident or traffic management.\n\n---\n\n### **Key Observations**  \n1. The area is very busy (high volume of vehicles on the street).  \n2. Multiple events occur simultaneously: pedestrian crossing at crossed roads/taxi/automobile crossings, traffic lights, urban environment, car-following behavior, and motorized vehicles (taxi, pedestrians moving), cyclist, man",
+    "detection_count": 0,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-27T15:51:13.029014+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:52:13.586951+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:53:13.090531+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:** The detection log highlights a busy urban street with multiple elements: significant numbers of cars, motorcycles, pedestrians, and various vehicles (cars, trucks) in motion, as well as traffic lights throughout different times during the day.\n\n**Key Observations:** This scene features a wide array of vehicles. notable elements include cars (both standalone and grouped), motorcycles, bicycles, trucks, and even a truncated camera showing a \"SUBSCRIBE\" sign. The traffic lights are prominent throughout, playing a central role in keeping traffic\u6709\u5e8f.\n\n**Recommended Actions:** Given the busy",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:54:13.124441+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n1. **Summary**: A busy city street with traffic lights, pedestrians, and multiple vehicle movements, including motorcycles, cycles, cars, and buses.\n\n2. **Key Observations**:\n   - Busy city street throughout each video clip.\n   - Pedestrians moving on buses without a clear road sign (unidentified).\n   - Significant number of vehicle movements: cars, motorcycles.\n   - Lack of vehicles with unidentified numbers in the log are visible in all scene captions.\n\n3. **Recommended Actions**:\n   - Block public areas at night to prevent unreported traffic.\n   - Set time zone markers and use lights for visibility on nights when visibility is reduced.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:55:12.334239+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Surveillance Report**\n\n**Summary:**  \nThe detected live video captures a bustling urban area featuring a busy city street dominated by cars, pedestrians, and various vehicles on cycle paths. Traffic lights and signs are present throughout the scene.\n\n**Key Observations:**  \n- Busy traffic during periods of light or heavy weather conditions shows frequent overlaps with and disruption in cycles.  \n- Green and yellow signals may indicate morning traffic with afternoon shoulder",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:56:12.659847+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summarize**: On [2026-06-27], the city featured extensive public transportation activity as vehicles traverse a busy urban street. Key observations included cycles, bicycles with barriers, heavy traffic lanes, and pedestrian markings. Observation highlights varied: **cars with yellow-black barriers**, **auto-rickshaws in yellow/hyperyellow hues**, and **",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:57:12.408732+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "### Summary  \nA busy city street with cars, riders,",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:58:09.693876+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary**: A mix of motorcycle riders and vehicles on a busy city street with people walking.\n\n---\n\n**Key Observations**:  \n- People riding motorcycles with yellow and black strip barriers on the side.  \n-Busy urban street mixed with cars and pedestrians.  \n- Traffic light changes from red to green, likely due to sudden lighting variation.  \n- Road markings indicate possible\u884c\u4eba or vehicles stopping.\n\n---\n\n**Recommended Actions**:  \n- ** slowed down**, especially following people riding motorcycles.  \n- **flashy yellow signals on the side of the road** during traffic light changes (red\u2192green).",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T15:59:12.434885+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-27T16:00:12.014787+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "**Summary:** The detected scene comprises a busy city street filled with cars, buses, and trucks, alongside prominent features such as traffic lights and pedestrian crossings.\n\n---\n\n**Key Observations:**\n\n1. **Cars",
+    "detection_count": 0,
+    "caption_count": 10
   }
 ]

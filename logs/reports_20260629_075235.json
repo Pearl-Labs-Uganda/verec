@@ -1,0 +1,100 @@
+[
+  {
+    "timestamp": "2026-06-29T07:56:25.900134+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T07:57:31.614592+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-29T07:58:30.553045+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T08:00:46.415529+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T08:01:06.241996+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T08:02:11.748541+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T08:04:19.625659+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T08:05:31.410728+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T08:06:42.849987+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T08:06:54.269232+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T08:07:46.203444+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T08:08:35.832361+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T08:11:44.349392+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error\\nCUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T08:13:16.327745+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 7
+  }
+]

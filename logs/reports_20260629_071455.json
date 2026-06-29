@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-06-29T07:33:41.120944+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: the provided PTX was compiled with an unsupported toolchain.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  }
+]
