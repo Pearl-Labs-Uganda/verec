@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-06-29T09:56:21.803335+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: The scene at **09:55 on June 29, 2026** was observed but no specific detections were recorded. The situation may exhibit complexity requiring further investigation if detected later.\n\n**Key Observations**:  \n[No specific observations recorded]\n\n**Recommended Actions**:  \nAs data becomes available, more monitoring and potential alerting should be prioritized with an eye on any future suspicious activity identified from the live feeds.",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T09:57:18.233591+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 1
+  }
+]

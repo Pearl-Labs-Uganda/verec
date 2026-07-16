@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-07-01T07:01:19.496010+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n**Summary:**  \nDuring the live video feed analyzed from July 1, 2026, multiple vegetation elements were detected across most of the day, characterized by truck, car, and umbrella-like structures which is indicative of a dryland environment. A notable outlier included highly fragmented vegetation with only 9 total elements: plants and vehicles.\n\n---\n\n**Key Observations:**  \n- **Plant Analysis:**  \n   In several instances, especially toward the later parts of the day, significant vegetation was noted. Notably:\n     - One occurrence showed a heavy forested area with **9 total vegetation elements**, which is higher than the general trend observed throughout the period.\n\n---\n\n**Recommended Actions:**  \nBased on the findings, it is recommended to evaluate and manage areas affected by extreme vegetation first before proceeding further. This should include removing vegetation-rich zones as quickly as possible.",
+    "detection_count": 20,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-07-01T07:01:56.681463+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-07-01T07:02:56.806236+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \n[2026-07-01T07:02:32.246584+00:00]  \nThe scene captured a busy intersection with cars and people moving about, mostly within 0.75 meters to just under a meter away from the camera.\n\n**Key Observations:**  \n1. **Car Detection Log:**  \n   Multiple car movements were detected, including 6 at around 0.883 meters of travel",
+    "detection_count": 20,
+    "caption_count": 2
+  }
+]

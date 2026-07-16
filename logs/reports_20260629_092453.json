@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2026-06-29T09:28:25.637168+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report:**\n\n1. **Summary:** The live video feed captured a static scene without any detected information or events.\n\n2. **Key Observations:** There were no detections in the detected region. No specific content was present for analysis, including real-time data like traffic signs or weather conditions.\n\n3. **Recommended Actions:** No actions were recommended based on the lack of detected events. However, ongoing monitoring should be considered for potential future issues, though no immediate steps were triggered due to this static video feed.",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-06-29T09:29:38.352576+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report: Verification Electronic Scene - June 29th, 2026**\n\n---\n\n**Summary:**  \nThere were **no known live video feeds** for the scene on [2026-06-29T09:27:06.584777+00:00].",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T09:30:27.793214+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** The video was taken from two locations on June 29th in January, mid-January or early February. There were no detections during that period.\n\n**Key Observations:** No detection occurred between the times listed (June 29T09:27 and June 29T09:28). Currently, all activity was operational without any alerts raised.\n\n**Recommended Actions:**  \n1. **Update temperature sensors:** Check in on the weather conditions to ensure appropriate temperature ranges are maintained throughout the camera feed.  \n2. **Maintain camera coverage with lights on or off according to the scene caption:** If applicable, update camera coverage settings around 9 PM for night operations.  \n3. **Ensure lights shine:** Activate lighting when necessary if the weather suggests better visibility during detection times.",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-29T09:31:37.018705+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: It appears that the video feed detected a birthday celebration on June 29th at approximately 10:00 PM local time. No alarms or visual triggers were identified as part of this event due to a lack of relevant detection points.\n\n**Key Observations**:  \n- The dates from 2026-06-29T09:27:06 to 2026-06-29T09:35:09 in UTC were detected.  \n- There was no sound or visual trigger indicating this was a birthday event.\n\n**Recommended Actions**: Since the video feed did not contain any sounds or visuals related to a birthday, it",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T09:32:26.960130+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: During the weekend (June 29, 2026), there were multiple unrecorded live video frames captured between 2:30 PM and mid-day Tuesday. These unrecorded scenes represent unobserved environments or activities from each timestamp.\n\n**Key Observations**:  \n- Saturday, June 29 & Sunday, July 1: Unrecorded video frames capturing various scenarios at different points during the day (2026-06-29T09:27:06.584 to 7:39 PM on Tuesday).\n\n**Recommended Actions**:  \nSince no specific actions or instructions were recorded from these scenes, it appears that all subsequent live video feed will monitor unrecorded areas or activities during the weekend. The system will prioritize coverage for these unrecorded scenes and ensure accurate reporting of any additional detected events.",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T09:33:36.651540+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T09:34:26.725313+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nHere\u2019s a structured surveillance report based on your query:\n\n---\n\n**Summary:**  \nThe scene was being monitored throughout the morning interval, specifically noted during the week of June 29th. The detection log shows a continuous monitoring period from 09:27 to the evening, covering approximately an eight-hour span without any detected events.\n\n---\n\n**Key Observations:**  \n[2026-06-29T09:27:06.584777+00:00], [2026-06-29T09:28:16.344841+00:00],  \n[2026-06-29T09:29:28.138973+00:00],  \n[2026-06-29T09:30:47.39140",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T09:35:23.227137+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report:**  \n**Summary:**  \nThere are no live detection activities on the scene feed at the time of reporting.  \n\n**Key Observations:**  \n- No real-time video data is captured for 3 consecutive days (2026-06-29T09:27:06 to current).  \n\n**Recommended Actions:**  \n1. Continue monitoring the system until activity resumes or there are no more updates available on VR-EC.  \n2. Do not alter or update this report as further information is not available at this time.",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T09:36:31.912441+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-06-29T09:37:42.872781+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-29T09:38:54.290116+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** The scene contained multiple blank detection log entries for the date 2026-06-29T09:27:06.584777+00:00, indicating no detected activities in this time period.  \n\n**Key Observations:** Despite repeated blank log entries, all events occurred at the same time range of 09:27 to 09:43 on 2026-06-29.  \n\n**Recommended Actions:** A static background was captured without any reported or actionable activity. No specific reporting needs to be conducted from these shots.",
+    "detection_count": 0,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-29T09:39:26.009807+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 9
+  }
+]

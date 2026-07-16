@@ -1,0 +1,356 @@
+[
+  {
+    "timestamp": "2026-06-29T09:39:33.864876+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 37.9
+  },
+  {
+    "timestamp": "2026-06-29T09:39:34.218439+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 39.4
+  },
+  {
+    "timestamp": "2026-06-29T09:39:34.384560+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 35.1
+  },
+  {
+    "timestamp": "2026-06-29T09:39:34.550152+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 35.0
+  },
+  {
+    "timestamp": "2026-06-29T09:39:34.717899+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 34.5
+  },
+  {
+    "timestamp": "2026-06-29T09:39:34.884299+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 34.7
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.035152+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 34.9
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.185053+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 40.1
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.341368+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 34.2
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.541197+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 35.9
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.701365+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 45.2
+  },
+  {
+    "timestamp": "2026-06-29T09:39:35.884943+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 38.3
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.050485+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 34.5
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.217631+00:00",
+    "objects": [],
+    "count": 0,
+    "time_ms": 38.0
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.384498+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "box": [
+          94,
+          699,
+          226,
+          721
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 40.0
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.550665+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.58,
+        "box": [
+          81,
+          696,
+          221,
+          721
+        ]
+      }
+    ],
+    "count": 1,
+    "time_ms": 34.6
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.717870+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "box": [
+          73,
+          691,
+          218,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.465,
+        "box": [
+          0,
+          683,
+          68,
+          718
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 43.1
+  },
+  {
+    "timestamp": "2026-06-29T09:39:36.885559+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.569,
+        "box": [
+          37,
+          684,
+          221,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.559,
+        "box": [
+          0,
+          679,
+          63,
+          717
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 38.1
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.049003+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.562,
+        "box": [
+          15,
+          680,
+          217,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.469,
+        "box": [
+          0,
+          675,
+          63,
+          719
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 34.4
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.202074+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.632,
+        "box": [
+          7,
+          676,
+          208,
+          717
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.503,
+        "box": [
+          0,
+          667,
+          56,
+          716
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 41.9
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.368030+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.737,
+        "box": [
+          3,
+          669,
+          212,
+          716
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.592,
+        "box": [
+          199,
+          691,
+          352,
+          718
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.499,
+        "box": [
+          0,
+          664,
+          50,
+          709
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 41.5
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.522588+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.692,
+        "box": [
+          0,
+          666,
+          205,
+          715
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.518,
+        "box": [
+          194,
+          685,
+          343,
+          717
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 36.2
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.682026+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.762,
+        "box": [
+          0,
+          662,
+          202,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "box": [
+          409,
+          687,
+          524,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "box": [
+          182,
+          680,
+          354,
+          717
+        ]
+      }
+    ],
+    "count": 3,
+    "time_ms": 35.3
+  },
+  {
+    "timestamp": "2026-06-29T09:39:37.850156+00:00",
+    "objects": [
+      {
+        "class": "car",
+        "confidence": 0.831,
+        "box": [
+          0,
+          658,
+          196,
+          720
+        ]
+      },
+      {
+        "class": "car",
+        "confidence": 0.627,
+        "box": [
+          166,
+          675,
+          358,
+          718
+        ]
+      }
+    ],
+    "count": 2,
+    "time_ms": 46.9
+  }
+]

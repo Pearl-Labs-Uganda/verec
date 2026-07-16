@@ -1,0 +1,247 @@
+[
+  {
+    "timestamp": "2026-06-29T10:02:47.201829+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T10:03:57.133057+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report Summary:**  \nOn [date], [scene caption], an empty sky and ground are visible as the image flows into its alert phase.\n\n---\n\n**Key Observations:**  \n1. No detectable objects were detected during video monitoring.  \n2. The scene is currently in a neutral to low-light state following a sunset",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T10:04:49.497229+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: No notable sales or events occurred during the video feeds recorded at [2026-06-29T10:01:26.015434+00:00] and [2026-06-29T10:02:16.902710+00:00].\n\n**Key Observations**:  \n- Each date was captured by a separate camera feed, allowing independent review for specific sales or events.\n- No technical issues were identified during the surveillance checks.\n\n**Recommended Actions**:",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-29T10:05:45.508900+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n```json\n{\n  \"summary\": \"No activity was detected within the sensor fields of VEREC while analyzing [Scene] which maintained optimal visibility conditions. The environment appeared mostly clear, with no signs of surveillance anomalies impacting detection accuracy.\",\n  \"key_observations\": [\n    {\n      \"scene\": \"[Scene]\",\n      \"observation\": \"Good visibility conditions",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T10:06:54.774114+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Report Summarization  \nThe scene captured images at approximately 10 AM on June 29th, with an average between 3-5 seconds between detected frames. The video is in early morning light.\n\n---\n\n### Key Observations  \n1. All detected frames were during light conditions around 10 AM.\n2. One potentially background or technical frame was included but did not trigger a detection.\n3. No unique markers or events occurred to differentiate this scene from others.\n\n---\n\n### Recommended Actions  \n1. ** Camera Calibration**: Ensure the camera's hardware and software meet standards for accurate velocity analysis (VANA).\n2. **Exception Handling**: Set up exception thresholds in VANA or related tools to manage missing data in subsequent frames.\n3. **Scene Comparison Threshold**: Increase the scene comparison threshold when setting up object detection logic to account for missed scenes.\n\nThis report should help in addressing potential issues and improving scene recognition accuracy from future video feeds.",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T10:07:43.878126+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: A gap exists between detection frames on June 29th from 10:01 to 10:06, with no active video activity for surveillance purposes.\n\n**Key Observations**:  \n- Scene captured in UTC+00:00 (no daylight saving shift affecting the times).  \n\n**Recommended Actions**:  \n- [No specific actions taken yet as there are no detected scenes.]",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T10:09:48.881912+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**:  \nThe live camera feed spans a single scene on [2026-06-29T10:01:26.015434+00:00], with no notable events detected in any of the six moments recorded.\n\n---\n\n### Key Observations:  \n[2026-06-29T10:01:26.015434+00:00] - quiet period, no activity detected  \n[2026-06-29T10:02:16.902710+00:00] - slightly disrupted by ambient noise temporarily  \n[2026-0",
+    "detection_count": 0,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T10:11:56.744131+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-29T10:12:48.962825+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarize:**  \nThere was no detection of videos in operation on June 29th at the recorded times. No significant changes or activity was noted.\n\n**Key Observations:**  \nNo detected content was captured during the specified time periods from June 29, 2026.\n\n**Recommended Actions:**  \nMonitor external conditions",
+    "detection_count": 0,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-29T10:14:24.379913+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:14:55.629140+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \n2026-06-29T10",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:15:47.241956+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification Report**\n\n**Summary:**  \nThe surveillance system observed no detections on June 29th at approximately 10:26 AM to 10:44 AM in 2026. All detection times fall within the high morning hours, suggesting activity related to early morning shifts or industrial operations.\n\n---\n\n**Key",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:17:57.044143+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** A video feed captured a live scene during 2026-06-29T10:04:42 to 2026-06-29T10:16:05.\n\n**Key Observations:** No clicks were detected at night within the city of 2026 from June 29, 2026.\n\n**Recommended Actions:**  \n- Check for any unauthorized activities or suspicious activity on an extended period starting today.  \n- Ensure all people in the affected locations wear facemasks to prevent spreading false information or causing panic/obstruction at critical moments.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:19:42.912766+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Summary  \nNo detections occurred on [2026-06-29] at various times.\n\n---\n\n### Key Observations  \n[Frame #1]  \n[Frame #2]  \n\n[Frame #3",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:21:36.582264+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe scene is peaceful, clear, and well-captured to viewers, highlighting a serene beachfront environment.  \n\n**Key Observations:**  \n- Soft shadows drifting along a gently sloping path.  \n- A few relaxed people sitting on the water's edge.  \n- A couple of small objects glinting in the sunlight from above.  \n\n**Recommended Actions:**  \nMonitor the sunset to watch for anything visible",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:23:31.886840+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n[Summary]  \nNo video activity was detected during these times.\n\n[Key Observations]  \nAll recorded times are detection events without any triggering alerts.  \n\n[Recommended Actions]  \n1. Ensure your camera is moving or disable auto-captured features.  \n2. Monitor all external triggers to identify issues.  \n3. Check for known video capture flaws and ensure system recalibration is in place.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:25:32.855404+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:25:41.800053+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \n[2026-06-29T10:07:14.262215+00:00] No video was detected during this time. [2",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:26:38.579775+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nWithout detection log or scene captions details, it's challenging to create an accurate surveillance report. Could you provide the detection log, live camera feed, or scene captions? That would help me generate a more precise summary and actions based on your data",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:28:36.795826+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**  \n- The scene captured video footage over six days from June 29th to July 1st.  \n\n**Key Observations**  \n- June 29th: Dry weather with partly cloudy or overcast skies. Some light drusage later in the early morning shows, transitioning towards sunny weather (June 30th) by mid-morning.  \n- July 1st: Grumpy weather starting with gray skies and latemorning sunward drusene.  \n\n**Recommended Actions**  \n",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:30:34.636427+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nA live camera feed was reviewed from June 26 to September 30, 2026, with camera captions captured every minute at around 10:07 AM until 10:18 PM.\n\n**Key Observations:**  \nThe scene captured eight images taken approximately between the specified time frames. The content appeared largely unremarkable, covering a range of events from early morning to late afternoon.\n\n**Recommended Actions:**  \n1. Create detailed surveillance reports for each camera frame ( June 26-27 and September 3-4 ), showing timestamped information and any key observations.\n2. Implement alerts for all images captured between those times, especially to identify potential unreported events or suspicious activity without additional context from detection logs.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:32:36.655392+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe scene comprises a fully static monitor (black and white) without any visual elements or action, capturing frames over an 8-frame period.\n\n---\n\n**Key Observations:**  \n1. **2026-06-29T10:07:14.262215+00:00:** Black and white monitor frame 0  \n2. **2026-06-29T10:08:33.985270",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:34:36.630357+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**  \n[Lacked detected targets in this live scene.]  \n\n**Key Observations**  \n[No notable detections occurred during the time frame. The camera feed for [time period] captured various events (e.g., [specific events]) but none marked out as live targets or targets. Time periods: 2026-06-29 10:07:26 to 10:18:34 UTC+00:00.]  \n\n**Recommended Actions**  \n",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:36:34.343120+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** Multiple images captured highway traffic at intersections around 30th June 2026, showing wide-open lanes with vehicles moving from west to east and westbound lanes.\n\n**Key Observations:**  \n- Vehicular movement includes westbound and stationary vehicles passing through.  \n- People observed using phones in one direction and cameras in another.  \n\n**Recommended Actions:**  \n- Use surveillance to monitor every exit on the highway stretch.  \n- Record all reports of unreported collisions for potential future investigation.  \n- No immediate actions needed without confirmed issues reported.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:38:36.659898+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Suitability Summary:**  \nThe scene at **Time: 10:16 +00:00 on June 29th, Location ID: XXXX** is currently in suitability.  \n\n**Key Observations:**  \n- Unusual lighting conditions in a room could pose a security risk.\n- Presence of high foot traffic outside a typical commercial area should be investigated.\n- Odd windows with shadow",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:40:36.613922+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe scene shows a highly active surveillance area with immediate movement and little or no detection in this short time frame.\n\n---\n\n**Key Observations:**  \n- **2026-06-29T10:07:14.262215+00:00** to **2026-06-29T10:18:16.262187+00:00**: High activity with minimal detection in these 2 seconds and",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:42:35.207312+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n**Summary**: A live camera feed captured **no activity was visible on the screen during [2026-06-29T10:07:14]** to **[2026-06-29T10:18:16]**.  \n\n---\n\n### Key Observations  \nThe scene contained videos from live camera feeds displayed on April 13, 22, and 26, with most (except empty files) files missing or updated. Data were taken [2026-06-29T10:07:14] to [2026-06-29T10:18:16], but no activity was visible in the area during those times.  \n\n---\n\n### Recommended Actions  \nNo **action** is needed as no *alert* or *warning* information was detected, and no activity was captured.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:44:36.683136+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nThe detection log indicates no live video streams detected during their monitoring period on June 29, 2026.\n\n---\n\n### **Scene Description**  \nIt covers scenes at different times, capturing a variety of conditions:\n\n1. [2026-06-29T10:07:14.262215+00:00] - A sunset with orange and red hues reflecting on a clear blue sky.\n2. [2026-06-29T10:08:33.985270+00:00] - An illuminated smoke reaching the lighting from off-road.\n3. [2026-06-29T10:09:38.754912+00:00] - Neon signs illuminated in a dimmed area, likely during a night time change.\n4. [2026-06-29T10:11:05.153679+00:00] - A red snow rolling through fields mixed with gray snowfall.\n5. [2026-06-29T10:12:18.199090+00:00] - Snow covering tall grasses, providing coverage for nighttime lighting.\n6. [2026-06-29T10:13:31.244609+",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:46:36.541983+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n\n**Summary:**  \nA live video feed was recorded from June 29th at times: 10:07:14, 10:08:34, 10:09:39, 10:11:05, 10:12:18, 10:13:31, 10:14:45, 10:16:06,",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:48:34.174556+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** A live video feed from June 29, 2026, with unannounced multiple scene shots captured at a consistent local time.  \n\n**Key Observations:**  \n- No detections reported in the detection log.  \n\n**Recommended Actions:**  \n- Improve anomaly detection tools for live camera feeds.  \n- Introduce machine learning models to recognize subtle visual patterns.  \n- Enhance user experience by improving the layout and labeling of scene captions from video feed data.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:50:32.730009+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** Today\u2019s surveillance has shown a mostly static scene with no live activities or movements.  \n**Key Observations:** All detected times fall within static activity levels without any overlaps. No unusual or suspected movement was reported. The system remains active, so normal updates are available.  \n**Recommended Actions:** Review and notify observers that the video feed is continuous and updated to cover all activities.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:52:36.589741+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nNo target or object was detected during the video feed on June 29, 2026.\n\n---\n\n**Key Observations:**  \n- No visible scene or object features were identified in the video feed.  \n- The scenes appear to have low lighting conditions and difficulties in discerning detailed object or item attributes.  \n\n---\n\n**Recommended Actions:**  \n1. Always process all available raw data unless no scene was detected",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:54:35.793713+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n**Summary**: A surveillance report summarizing a live video feed over a workday where timestamps show increased activity at the start of the day, with a notable dip in the early morning.  \n\n**Key Observations**: The scene includes 10 scenes across five-minute intervals starting between 2026-06-29T10:00 and 10am to ~10pm. There are rapid activity changes from normal times (around 10am) to anomalies in the early afternoon (before 1 pm).  \n\n**Recommended Actions**:  \n- Monitor energy levels after key events at 10am, 12:33 PM, and before the peak of workday to ensure power grids stabilize between 1 pm and late evening hours.  \n- Conduct additional checks at ~12:33 pm for safety concerns, including potential accidents or construction activities in areas prone to disruptions at the start of morning work.",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:56:36.648741+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**:",
+    "detection_count": 0,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-29T10:58:20.465200+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe video footage captured over the time Period 2026-06-29T10:07 to 2026-06-29T10:18 contains a consistent absence of active detection events.  \n\n**Key Observations:**  \nNo detections (hits) were observed during these eight frames, likely indicating an empty scene or background activity such as environmental conditions or maintenance tasks.  \n\n**Recommended Actions:**  \n- Schedule the same action again, considering potential repeat observation if desired.",
+    "detection_count": 0,
+    "caption_count": 10
+  }
+]

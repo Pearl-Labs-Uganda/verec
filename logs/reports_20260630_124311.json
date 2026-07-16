@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-06-30T12:46:31.500724+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \nAt [2026-06-30 12:45:03.103591+00:00], a steady period of detection with predominant objects observed were: 3 moving vehicles (cars/animals), 2-4 people in various activities, and 1 traffic light indicating a restricted or free flow state.\n\n**Key Observations:**  \n1. **Cars**: Most detections showed a total of >2 cars.  \n2. **People**: A combination of male and female accents were present.  \n3. **Traffic Lights (TL):** TL states varied each detection, including green, red, and yellow phases.\n\n**Recommended Actions:**  \n1. Introduce stricter penalties for vehicle use at road intersections and in vehicles.  \n2. Increase public awareness campaigns on traffic light safety.  \n3. Enhance video surveillance for immediate vehicle detection post-vehicles to reduce incidents.",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-30T12:47:16.908844+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n---\n\n**VerEC Surveillance Report**\n\n---\n\n### **Summary**\nAt [2026-06-30T12:",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-30T12:48:20.937244+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-30T12:49:22.498609+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification of Situation:**\n\n- **June 30th:** Cars and traffic lights are active in a complex scene.\n- **Key Observations (12:45-12:53):** Multiple cars near each other. Two separate video feeds show the same scene with differing activities.\n- **Key Observations (12:57-12:58):** Traffic lights and multiple vehicles in a busy intersection.\n---\n\n**Recommended Actions:**\n\n1. Use a traffic light camera during off-light hours",
+    "detection_count": 20,
+    "caption_count": 3
+  }
+]

@@ -159,3 +159,6 @@ dmypy.json
 
 # FastVLM models
 app/FastVLM/model
+
+# Large test videos
+test_videos/traffic.mp4

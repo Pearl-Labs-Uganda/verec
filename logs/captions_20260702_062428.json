@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-07-02T06:27:21.924487+00:00",
+    "text": "The image is completely black, with no visible content or objects present.",
+    "time_s": 64.37,
+    "tokens": 12,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:28:28.825687+00:00",
+    "text": "A rainy day scene shows several people with umbrellas walking along a wet sidewalk, while cars and trucks are parked or moving on the street.",
+    "time_s": 80.547,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  }
+]

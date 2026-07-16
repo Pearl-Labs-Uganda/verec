@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-06-29T09:55:00.196491+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'an error was encountered while running the model: read tcp 127.0.0.1:62808->127.0.0.1:62752: wsarecv: An existing connection was forcibly closed by the remote host.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-06-29T09:55:52.275846+00:00",
+    "text": "",
+    "error": "Qwen inference failed: Error code: 500 - {'error': {'message': 'an error was encountered while running the model: read tcp 127.0.0.1:51605->127.0.0.1:61470: wsarecv: An existing connection was forcibly closed by the remote host.', 'type': 'api_error', 'param': None, 'code': None}}",
+    "backend": "qwen-ollama"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-07-02T06:30:19.408007+00:00",
+    "model": "llama3.2:3b",
+    "report": "**Summary**\n\nThis report summarizes the surveillance footage from a live camera feed captured on July 2, 2026, at approximately 06:28-20:22 UTC. The scene depicts a busy street with various vehicles, pedestrians, and umbrellas.\n\n**Key Observations**\n\n\u2022 Multiple individuals (average of 8 people every 10 seconds) were detected walking along the street.\n\u2022 Cars, buses, trucks, and taxis are frequently visible on the road, with moderate to heavy traffic observed throughout the footage.\n\u2022 Umbrella usage appeared to be common among pedestrians during this time, likely due to rain or changing weather conditions.\n\n**Recommended Actions**\n\n1. Further analysis of individual pedestrian behavior, such as movement patterns and speed, may provide valuable insights into potential safety concerns or areas for improvement in pedestrian safety measures.\n2. A thorough examination of the road infrastructure and vehicle traffic flow is warranted to identify any bottlenecks or hazards that could pose risks to motorists and pedestrians.\n3. Reviewing nearby weather forecasts will enable authorities to plan and prepare accordingly, making adjustments as necessary to ensure public safety during adverse conditions.\n\nRecommendations based on detection patterns may be adjusted or complemented with data from other sources such as sensor information in the environment.\n\nRecommendation subject to review and update:",
+    "detection_count": 20,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-07-02T06:31:30.884622+00:00",
+    "model": "llama3.2:3b",
+    "report": "**Summary**\n\nThe scene captured on July 2nd, 2026 at 06:27-06:30 shows a partially lit street with few people and some vehicles passing by. A large portion of the frame remains empty with no apparent obstructions.\n\n**Key Observations**\n\n\u2022 There is an individual walking east with their umbrella, visible during approximately all three time stamps (2026-07-02T06:28:51/, 2026-07-02T06:29:04/, and 2026). \n\u2022 A car can be seen twice; for instance at the times of 2026-07-02T06:25:, 2026-07-02T06:29:01. And a single truck seen moving around this time frame.\n\u2022 The scene remains vacant in most instances.\n\u2022 At the beginning, the scene is empty (black), indicating there aren't recognizable features visible at this moment.\n\n**Recommended Actions**\n\n1. Conduct additional footage collection to observe movement or potential activity from around the individual and vehicle within that 6-minute window.\n2. Inspect any additional nearby camera feeds for possible suspects in motion during this instance.\n\n\n\nBased on surveillance data, if further investigation is required, follow local law enforcement guidelines for conducting a thorough search of the area around the described scene to potentially gather more evidence.",
+    "detection_count": 20,
+    "caption_count": 1
+  }
+]

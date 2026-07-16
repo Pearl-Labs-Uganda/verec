@@ -1,0 +1,210 @@
+[
+  {
+    "timestamp": "2026-07-10T12:38:58.141795+00:00",
+    "text": "A bird is flying high above a city street lined with tall buildings and trees, under a clear blue sky.",
+    "time_s": 65.483,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:40:06.450835+00:00",
+    "text": "A city street with cars, including a green auto-rickshaw, moving along it, while a pedestrian walks on the sidewalk.",
+    "time_s": 79.512,
+    "tokens": 19,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:41:26.290607+00:00",
+    "text": "A city street with traffic lights, road barriers, and a few cars and pedestrians visible, but no vehicles are moving.",
+    "time_s": 73.83,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:42:40.459397+00:00",
+    "text": "A busy urban street with multiple cars, including a taxi, moving along the road, while traffic lights control the flow of vehicles.",
+    "time_s": 72.611,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:43:53.608813+00:00",
+    "text": "A busy city street with multiple vehicles, including a green auto-rickshaw, moving along the road, while a traffic light is visible on the right side.",
+    "time_s": 74.916,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:45:09.033645+00:00",
+    "text": "A busy urban street with multiple vehicles, including cars and an auto-rickshaw, driving along the road lined by trees and a yellow-black striped barrier.",
+    "time_s": 74.494,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:46:24.083645+00:00",
+    "text": "A busy urban street with multiple cars parked along the side, including a black SUV and a yellow auto-rickshaw, under a canopy of trees.",
+    "time_s": 74.573,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:47:39.144279+00:00",
+    "text": "A robot is driving on the road, passing by trees and buildings with colorful lights.",
+    "time_s": 68.776,
+    "tokens": 15,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:48:48.493422+00:00",
+    "text": "A busy urban street with multiple cars, including a white SUV and a white van, navigating through an intersection marked by traffic lights and road barriers.",
+    "time_s": 74.572,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:50:03.389437+00:00",
+    "text": "A busy urban street with a motorcycle, auto-rickshaw, and several cars and pedestrians visible, including two traffic lights and a truck.",
+    "time_s": 78.784,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:51:22.993355+00:00",
+    "text": "A motorcyclist is crossing a road at an intersection with a green traffic light, while other vehicles including cars and auto-rickshaws are present.",
+    "time_s": 74.491,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:52:38.108475+00:00",
+    "text": "A busy urban street with multiple vehicles, including a green auto-rickshaw, moving along the road while pedestrians walk on the sidewalk.",
+    "time_s": 75.182,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:53:53.842969+00:00",
+    "text": "A bustling city street with multiple cars, including a prominent white sedan, moving along the road, while pedestrians are seen walking on the sidewalk.",
+    "time_s": 76.945,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:55:11.340079+00:00",
+    "text": "A busy city street with multiple cars, including a white SUV and a motorcycle, moving along the road while a police officer stands near the sidewalk.",
+    "time_s": 78.444,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:56:30.316067+00:00",
+    "text": "A busy urban street with a motorcyclist, several cars, and a traffic officer directing traffic near a large pothole.",
+    "time_s": 72.146,
+    "tokens": 19,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:57:42.908221+00:00",
+    "text": "A traffic officer stands on the side of an empty road, with cars and a few potted plants visible in the background.",
+    "time_s": 76.205,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T12:58:59.592301+00:00",
+    "text": "A man on a scooter is passing by a pedestrian walking along the sidewalk, with several cars and motorcycles visible in the background.",
+    "time_s": 72.15,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:00:12.357529+00:00",
+    "text": "A busy city street with multiple cars, including a white SUV, navigating through an intersection while traffic lights control the flow of vehicles.",
+    "time_s": 74.277,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:01:27.053532+00:00",
+    "text": "A busy urban street with multiple cars, including a tuk-tuk, navigating through an intersection marked by traffic lights and roadwork barriers.",
+    "time_s": 78.083,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:02:45.729865+00:00",
+    "text": "A busy urban street with a green auto-rickshaw driving on the left side, surrounded by various vehicles including cars, trucks, and traffic lights, under an overcast sky.",
+    "time_s": 72.811,
+    "tokens": 27,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:03:59.017450+00:00",
+    "text": "A busy urban street with multiple cars, trucks, and motorcycles moving along a road lined with trees and traffic lights.",
+    "time_s": 76.752,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:05:16.686035+00:00",
+    "text": "A person with a backpack is standing on the side of an empty road, looking at a traffic light.",
+    "time_s": 76.644,
+    "tokens": 19,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:06:33.773511+00:00",
+    "text": "A person stands on a sidewalk next to a busy street filled with cars, including a white SUV and several other vehicles. The traffic lights are visible, indicating an intersection.",
+    "time_s": 78.97,
+    "tokens": 30,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:07:53.345789+00:00",
+    "text": "A busy urban street with multiple cars, a motorcyclist, and pedestrians navigating through traffic.",
+    "time_s": 76.151,
+    "tokens": 14,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:09:09.994456+00:00",
+    "text": "A busy urban street with multiple cars, a motorcyclist, and pedestrians navigating through traffic lights.",
+    "time_s": 72.286,
+    "tokens": 15,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-10T13:10:22.692368+00:00",
+    "text": "A busy urban street with multiple cars, a traffic light, and pedestrians, including a police officer directing traffic.",
+    "time_s": 74.48,
+    "tokens": 18,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  }
+]

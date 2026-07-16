@@ -1,0 +1,695 @@
+[
+  {
+    "timestamp": "2026-06-30T07:40:28.611615+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n***\n\n### Summary  \nThe scene captures diverse vehicle occupancy during the day. Key observations include:  \n\n- Multiple people in cars (mostly small to medium-sized).  \n- Unique individuals occasionally present due to unique appearances.  \n- Several umbrellas detected on the road, likely by surveillance cameras.  \n- A few vulnerable groups, such as elderly or younger adults under 40, are noticed.  \n\n***\n\n### Key Observations  \nThe detection log highlights the following notable instances:  \n1. Multiple people in different sized vehicles over a wide time frame.  \n2. Several unique individuals who stand out despite their clothing suits and brief uniforms.  \n3. Frequent encounters with one or two umbrellas on public roads.  \n4. A small number of vulnerable adults, as noted in the first and seventh detection logs.  \n\n***\n\n### Recommended Actions  \nBased on these observations, here are some actionable recommendations:  \n1. **Address traffic congestion in urban areas:** Monitor vehicle occupancy and suggest better road usage by promoting car sharing or parking at specific areas.  \n2. **Prevent car sharing incidents:** Create",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-30T07:41:28.007447+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe scene depicts primarily highway traffic. Key observations include cars on the road, a variety of people (with umbrellas), and occasional instances of others missing.\n\n---\n\n### **Key Observations**\n1. [2026-06-30T07:41:05.142964+00:00]: Cars dominating on the road, \n2. [2026-06-30T07:41:05.316716+00:00]: Cars and people with umbrellas.,\n3. [2026-06-30T07:41:06.011033+00:00] to [2026-06-30T07:41:07.109785+00:00]: Varying numbers of cars and people, occasionally with",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-30T07:42:24.196475+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report: LIVEVideo Detection Log (06/30/21)**  \n\n---\n\n### **Summary of Scene Captions and Detectures**  \nThe surveillance log captures a diverse mix of detected objects over multiple video frames, with instances of heavy vehicle traffic, persons, cyclists, and potential errors. Key observations:\n\n",
+    "detection_count": 20,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-30T07:43:30.777441+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report\n\n**Summary:**  \nAt approximately 7:40-7:55 AM on June 30th, live video capture was made of a scene depicting people in various configurations. People were seen with varying body types (standing vs. sitting) and multiple poses, with umbrellas being present in the crowd as well. The total participants varied slightly each minute, suggesting high surveillance activity without sufficient time for observation or analysis.\n\n---\n\n**Key Observations:**  \n1. **People Presence:** Most entries started with people (scores ranging from 0.",
+    "detection_count": 20,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-30T07:44:26.849189+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nDuring the live camera feed operation on June 30, key actions were observed including the movement of cars with sizes ranging from 0.5 to 1.0 meters in various locations. Notable activities included persons walking or performing tasks like carrying objects and interacting with others",
+    "detection_count": 20,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-30T07:45:23.290351+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nHere\u2019s your surveillance report based on the detection log:\n\n---\n\n**Summary:** The scene contains a mix of static files that do not contain recorded video segments for analysis.\n\n**Key Observations:**\n- **2026-06-30T07:39:07.",
+    "detection_count": 20,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-30T07:46:20.396215+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\nThe live video feed captured various dates at distinct timestamps (2026-06-30T07:44:47 to 2026-05-11T20:28:49), but all readings resulted in **no detect",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:47:19.028526+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:48:19.431997+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:49:18.979178+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:50:19.337308+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:51:19.004415+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n\n#### **Summary**  \n- During 2026-",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:52:18.607735+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n---\n\n**Surveillance Report**\n\n**Summary:**  \nThe surveillance report captures high activity on the video feed. The scene is moving vehicles (cars) in a city during late afternoon hours.\n\n**Key Observations:**  \nAll detected objects occurred within the 2026-06-30T07:44:47 period, indicating significant pedestrian activity that should be addressed immediately.\n\n**Recommended Actions:**  \n1. Perform a full camera review to ensure all vehicles are caught on video for observation and removal of noise.  \n2. Inquire with local authorities about vehicle traffic congestion.  \n3. Implement additional surveillance and monitoring to prevent early detection incidents like accidents involving moving cars.",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:53:18.862544+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:54:19.329257+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe surveillance log captures nighttime activity around 7:45 AM where stationary and stationary-moving objects are detected, with a focus on one or two key areas that likely have missing descriptions.  \n\n---\n\n**Key Observations:**  \n1. **Stationary Objects**: A few seconds of motion followed by brief static periods are noted throughout the detection range.\n   - **2026-06-30T07:44:48.441207+00:00**: Two seconds of movement with minimal static.\n   - **2026-06-30T07:44:49.613010+00:00**: Minimal static followed by one second of movement.\n\n2. **Static Objects**: A few seconds without noticeable motion are captured, further highlighting a stationary or static surveillance setup that lacks context clues.  \n\n---\n\n**Recommended Actions:**  \n- **Install Movement Sensors in Key Areas**: To ensure active security monitoring and optimize responses for any potential incidents.\n- **Utilize Context Clues for Identification**: Use the scene descriptions to better identify",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:55:19.240462+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n\n#### Summary  \nThe attack period from **2026-06-30** featured a significant increase in surveillance data due to disruptions caused by large crowds blocking the video feed, particularly during **[2026-06-30T07:44:38.5...]**. The scene highlights a focused attention on specific scenes with notable movement toward door screens.\n\n#### Key Observations  \n- Large\u4eba\u7fa4 moved through multiple scenes (scene captions [2026-06-30T07:39:07.37]) while the camera feed was blocked, resulting in missing or incomplete observations.  \n- Obstacles caused reduced visibility and movement blur (highlighting scenes with screens moving toward doors).  \n\n#### Recommended Actions  \n1.  **Improve video quality settings to enhance resolution.** This will help bring",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:56:35.227590+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-30T07:57:30.776368+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \nThe surveillance log captures a busy road scene with mixed traffic during several time periods, featuring people and vehicles on the scene.\n\n---\n\n**Key Observations:**  \n1. **Per-Pixel Coordinates:** Multiple detectors share per-pixel coordinates at lights and traffic signs, indicating a busy perimeter area.  \n2. **Park Area:** Central car parks where somedetectors focus on turning vehicles into parking lots.  \n\n---\n\n**Recommended Actions:**  \n1. **Avoid Turning Lights in Park Areas:** In the parked",
+    "detection_count": 20,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-30T07:58:36.189620+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Scene Summary**\nThe surveillance logs were captured during a specific time frame, showcasing scenes from 7:58am to 13:57 (1:57pm) on June 30th. The video was recorded in a live camera feed capturing human activity, primarily at a shopping store and an airport parking area. A vehicle loaded with people showed various activities including interactions within the vehicle and outside on different days. Observations included significant activity leading to possible distractions for others.\n\n---\n\n### **Key Observations**\n- **2 vehicles**: The video captured two vehicles, possibly a main vehicle and another load-bearing vehicle.\n- **People behavior**:\n  - Approximately two people made 3 trips each from inside to outside across the detected timestamps.\n  - Two people made ",
+    "detection_count": 20,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-06-30T07:59:32.014693+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-30T08:00:35.239949+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**VerEC Surveillance Report**\n\n---\n\n### Summary  \nDuring the live camera feed capture on [2026-06-30T08:00:XX.XX], a scene was detected with people (often in households), cars, and umbrellas moving. Observations indicate typical domestic usage patterns, where household items are used for various purposes such as personal grooming, cleaning, or entertainment.\n\n---\n\n### Key Observations  \n1. **Umbrella Movement**:  \n   - Two instances showing a person without an umbrella dropping it (times: [2026-06-30T08:0",
+    "detection_count": 20,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-30T08:01:31.718660+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nThe detection log captures a very tight visual sequence around 2026-06-30T08:01, showing multiple sequential video feeds capturing fast-moving objects or dynamic activity in the scene.\n\n---\n\n### Key Observations  \nThe timestamped data consists of multiple consecutive entries with minimal gaps, indicating active surveillance at an elevated level. The scenes display a rapidly changing environment with likely fast-moving vehicles or disrupted traffic.\n\n---\n\n### Recommended Actions  \n1. **Within Alert Windows**: Focus monitoring by retaining videos until approximately 08:30 to prevent further disturbances.\n2. **Alert Systems (If Necessary)**: Before allowing the cameras in, implement alert systems during the observed active periods to mitigate potential issues.",
+    "detection_count": 20,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-30T08:02:45.444639+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report Summary:** The scene consists of clear targets at 7:43 AM and later identified at approximately 8:09, with mostly empty or unidentifiable objects.\n\n**Key Observations:**  \n1. Two distinct targets detected at 7:43:01 AM, annotated as **Target**: A20E and a40D.  \n2. Later in the evening near 8:09 AM, another target identified elsewhere but not easily categorized as **Target**: B.\n\n**Actions Recommended:**  \n- Check surveillance cameras at the locations of **Target**: A and **Target**: D for any additional or unidentified targets.  \n- Monitor surveillance areas for other potential targets by approximately the same time.  \n- Prompt individuals in immediate vicinity to alert authorities to any nearby objects.",
+    "detection_count": 20,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-30T08:03:47.862153+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-06-30T08:04:42.690739+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report Summary:**  \nThe live camera feed captures a series of sequential timestamps from June 30, with all entries recording at approximately 08:01:xx local time. The video likely tracks activity around a designated area.\n\n**Key Observations:**  \n- **Timestamps:** All detected events occur between 2026-06-30T07:45:00 and 2026-06-30T08:00:59 in the local timezone.  \n- **Scene Captions:** Scene captions depict a focus on a specific area, likely monitoring movement patterns or incidents.\n\n**Recommended Actions:**  \n- A police vehicle should be deployed to perform security inspections or enhance surveillance coverage at the focal region observed in the live feed.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:05:45.428284+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**SURVEYING REPORT**\n\n---\n\n### ** Summary**  \nA live video feed from June 30th captured multiple static items at approximately 08:01 am. The detection log revealed stationary objects in various locations, but no movement or activity was detected.\n\n---\n\n### **Key Observations**  \n- 6 entries started around 08:01 am.  \n- 3 entries began at 08:01:30 and continued until 08:02:37.  \n\nThe highest activity peaks were observed in these timestamps, suggesting an undercurrent of motion or disturbance in those specific areas.  \n\n---\n\n### **Recommended Actions**  \nEncouraged by the intense detections (6 entries starting at 08:01), ensure no interference occurs to any areas that saw activity around 08:01 am and continued through 08:02. Immediate steps include checking power,",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:07:08.978292+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:09:04.549381+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\n- Multiple video feeds were captured between [2026-06-30T08:01:30.] and [2026-06-30T08:05:54.], indicating recent activity.\n- Object detection was triggered within this period, suggesting potential triggering of system alerts.\n\n---\n\n### **Key Observations**\nThe detection log contains 24 entries from [2026-06-30T08:01:30.] to [2026-06-30T08:05:54.]. Among these, several triggers were observed in the scene captions:\n\n**Triggered Windows/Surfaces (ID ",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:10:01.562375+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:11:01.880600+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \nThe live video feed captures synchronized detections across various parts of the city at night. No active video content detected requiring additional monitoring beyond basic security alerts.\n\n**Key Observations:**  \n- Two individual notifications were identified near each other, separated by approximately 24 hours.  \n- The scene contained multiple activations on 5x5 grid activity areas from overlapping pixel regions, with each detection occurring 37-86 seconds after the hour mark.\n\n**Recommended Actions:**  \n1",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:12:00.860543+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:13:01.207887+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:14:00.816420+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nA live video surveillance log between June 30th, 2026, 8:01 am and 9:29 pm detected continuous activity across a range of locations from 7:43 to 20:29. All timestamped scenes indicate no detection (0 total), indicating an alert or potential fraud.\n\n---\n\n### Key Observations  \n- June 30th, 8:01 am  \n- June",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:15:00.989313+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Sales Report: June 30, 2026**\n\n**Summary:**  \nA brief period during the live camera feed from June 30, 2026, showed an increasing number of alarms at a highway location. Within approximately half an hour, from mid-July to early-August, the scene was subject to multiple vehicle encounters on highways.\n\n---\n\n**Key Observations:**\nThe following timestamps were flagged by the system:\n- **7:43:",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:16:00.129484+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**  \nThe detection log shows a sequence of individual traffic detections on an urban street from 08:01:30 to approximately midnight, with no other objects detected in the surrounding area.\n\n**Key Observations:**  \n- Multiple consecutive frames capture vehicles moving along a heavily crowded street.  \n- One frame showed \"total,\" indicating no additional elements beyond those detected.  \n- No anomalies were detected on the very first two hours.  \n\n**Recommended Actions:**  \n1. Focus on the stationary car without distractions or errors.  \n2. Close the camera if it will leave data at risk during the early hours.  \n3. Report any movements outside of detected traffic in the first 5 minutes to prevent potential accuracy issues based on unexpected objects.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:17:45.287557+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:18:26.331881+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n---\n\n#### **Summary**  \nThe surveillance log captured consecutive 0 total events starting at [2026-06-30T08:01:30...] up to [2026-06-30T08:09:24...]. The frame of reference was local time, and the footage highlights a single night",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:20:06.241107+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe surveillance log captures a mixed activity scene with objects moving across the camera feed, including people and cars. **People (indicated by labels like person and umbrella) were detected consistently between hours 7:43-08:16, with varying counts for each hour within that period.** Car detection was less common in this time range.\n\n---\n\n### **Key Observations**\nAt approximately 2 a.m., 5\u20138 people were spotted moving past the camera. By 8:02 a.m., there were consistently around 3 or 4 persons detected at similar times across different frames. Some instances had just 1 person (highlighted as an orange dot), suggesting active interaction between two individuals.\n\n---\n\n### **Recommendations**\nTo monitor safe usage of vehicles, focus on restricting visibility while vehicles are not occupied or moving away from the camera. **During",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:21:08.846497+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report\nHere\u2019s your surveillance report based on the detection log and scene captions:\n\n---\n\n#### Summary\nThe surveillance highlights a dynamic scene with primarily two vehicles (one car, one person) or more vehicles moving through the area, including overlapped movements of other vehicles and some occasional persons crossing without clear identification.\n\n---\n\n#### **Key Observations**\n- The scene shows *likely* 1 vehicle (e.g.,",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:22:07.209955+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \n- **Scene Overview:** The live camera feed captures a dynamic traffic scene on June 30th with cars (mostly) passing by each time, but not extreme parking or vehicle disruptions. People frequently moving inside vehicles are noted.\n\n---\n\n### Key Observations  \n1. ** detected in the Scene:** 5 cars and 25 people who appeared to be mostly grouped.\n   \n   | Timestamp                | Car Count | Person Count  |\n   |",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:23:06.020017+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe detection log has recorded a significant number of moving vehicles (cars), some with multiple people nearby. The vehicles typically consist of medium-sized cars surrounded by other vehicles or people.\n\n---\n\n### **Key Observations**\n- Most of the detected objects are medium-sized cars, often accompanied by additional people.\n- There are instances where an umbrella is also detected nearby.\n- The camera feeds are recorded starting from 2026-06-30, highlighting recent traffic around a certain area.\n\n---\n\n### **Recommended Actions**\n1. **Alert when Significant Vehicle Counts are Referred to Vehicles Outside Your Area of Operation:**  \n   - Keep your phone or monitor for any vehicles detected that might not be in the environment you're operating for.\n   - Monitor for signs like people, umbrellas, or other vehicles outside your usual camera feed area.\n\n2. **Alert When an Umbrella Is Near a Group of People Who You Don\u2019t Recognize:**  \n   - If more vehicles are reported around specific people than can be attributed to them individually,",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:24:11.931731+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\n- **Date & Location**: The video feed was recorded between June 30th at 7:56 am and 8:24 am in a mixed environment with multiple car, person, and non-car objects.  \n- **Environment**: The scene included people only.  \n- **Attentiveness of Environment**: Bright ambient light with some reflection and reflections due to nearby surfaces.  \n- **Visibility**: Good overall visibility, though some areas may be foggy or unclear in specific windows.  \n- **Activity Duration**: 1 hour-long capture with a peak activity at 8:24 am.  \n\n---\n\n### **Key Observations**  \nDuring the video feed, several notable detections were captured:\n1. **Carpooling and Traffic Movement**: Two cars were detected moving towards",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:25:02.732960+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**:  \n- A live scene was observed during June 2026 (June 30, 2026), with detected activity at the entrance of a minefield.  \n- A detailed scene caption identified an intense attack targeting specific buildings on July 7th at approximately 10:54 AM PT.  \n- Similar, but more focused attacks occurred later, targeting another building on July 9th at around noon and on July 10th at about ",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:26:47.674929+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n**Summary:** No vehicle or surveillance activity was detected during [2026-06-30T8:24:55.536673+00:00] through the specified intervals. Key observations include activities starting at 8:24 AM with multiple individuals on the ground, followed by another event at approximately 8:25 AM. This unusual pattern indicates potential active surveillance or monitoring.  \n\n**Key Observations:**  \n- **8:24:54.74**\u2014People are active outdoors.  \n- **8:25:19.3",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:27:44.831689+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:28:45.211796+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe surveillance log highlights events occurring mainly at a parking lot area near an intersection, during specific times around 8:25 AM to 8:49 AM. The scene captions indicate incidents such as people getting stuck in cars or police officers interfering.\n\n---\n\n### **Key Observations**\n- All detected incidents occurred between 8:25 AM and approximately 8:49 AM.\n- Multiple incidents were reported within this period, covering a range from minor issues to more urgent concerns involving emergency procedures.\n- The predominant scene involves unattended traffic-related situations with vehicles stuck behind people.\n\n---\n\n### **Recommended Actions**\n1. **Monitor the Parking Lot Area:** Continue vigilant to ensure safe driving conditions and prevent congestion near an intersection.\n2. **Encourage Patrols and Better",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:29:44.770098+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:30:45.172305+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:31:44.824452+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:32:45.204021+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe detection log revealed no entities (except for possible human movement) within a 20-second window from June 30th, 2026. The scene included varying activities such as people walking, a car passing by, and other entities moving.\n\n---\n\n### **Key Observations**\n- **7:06 AM**: **Car**  \n  - Total of 5 people were detected during this time.\n- **7:14 AM**: **Bike rider**  \n  - 27 people observed in the area.\n- **8:08 AM**: **Tall building**  \n  - Several people noticed as a tall structure passed by.\n- **9:25 PM**: People at home (6 rooms)  \n  - People moved between locations and several were present.\n\n---\n\n",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:33:44.848535+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:34:45.214295+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nNo live feeds were recorded from the video feed shown in these timestamps. All sections initially missed activity during their respective detection periods (second 7-32), but by specific time points (15, 16:09:24 and around 18:2",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:35:44.867096+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nUpon reviewing the detection log:\n\n1. **Summary**: No detected items or events were recorded during the specified time range (2026-06-30T08:24:54.431023+00:00 to 2026-06-30T20:27:21+00:00",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:36:45.089132+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:37:44.880175+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:38:08.370954+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:39:23.050387+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**  \n[ June 30, 2026 ] The scene captured simultaneous human activities (persons) from multiple frames during June 2026, with diverse objects such as cars and umbrellas observed. Notable changes were a gradual increase in detection over time, starting from a low population of objects",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:40:19.129949+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:41:19.576240+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarization**:  \nA surveillance report was developed from a video feed showing traffic scenes detected on June 30th at various time zones. Notably, the scene observed includes mixed pedestrian and vehicle movements in one-way traffic flowing through an area near the company's business district.\n\n---\n\n**Key Observations (Bullet Points",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:42:27.266008+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n\n**Summary:**  \nThe surveillance log highlights multiple interactions involving people holding umbrellas and other items on the road, with inconsistent numbers of people per vehicle. Vehicles that are carrying significant loads (e.g., umbrella-heavy vehicles) are notable.  \n\n**Key Observations:**\n1. **People Carrying Large Items:** Events show a widespread presence of people, particularly women (25% men), holding umbrellas or carrying multiple items like two umbrellas or an umbrella and others.  \n   - Example: Person (0.894), persons (0.703, 0.671, 0.639) \u2014 carrying large loads with umbrellas or heavy objects.  \n2. **Vehicle Load Issues:** Several events involve vehicles loaded with persons walking onto them in a single vehicle without active passengers or in multiple vehicles on one road segment.  \n   - Example: Cars (body height 0.807/0.569) with varying numbers of people per vehicle indicate significant load issues",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:43:17.106378+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:44:16.459085+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nNo significant camera detections were recorded between [2026-06-30T08:43:00] and midnight",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:45:45.289870+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**CURRUCUM REVEAUS: 2026-06-30T08:43:28.958212+00:00**  \n\n*[VEREC]^  \n- **Summarization:** The scene monitored",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:46:45.025613+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:47:45.150876+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report: June 30, 2026**\n\n---\n\n### **Summary**\nDuring the live camera feed on June 30, 2026, all detected events occurred before official notifications were disabled. No targets were spotted in these intervals, but the scenes captured each minute from 8:",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:48:43.928250+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe detection log shows consistent video frames from July 17, 2026 (T08:43), with no anomalies that indicate an actual event or action having been detected.  \n\n**Key Observations:**  \n- All analyzed frames ([2026-06-30T08:43...]) yielded a \" \u2014 0 total\" result, consistent across each frame without exceptions.  \n\n**Recommended Actions:**  \nNo specific actionable items were identified based on the data provided.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:49:45.183473+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**  \nA silent monitoring period occurred during [2026-06-30T17:54:98+00:00] to [2026-06-30T17:54:98+00:",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:50:44.805240+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:51:45.328296+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:52:44.898018+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:53:45.169937+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:54:44.802989+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:55:45.178308+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:56:44.803656+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**  \nThe surveillance log captures continuous detection of scene activity from June 9th, 2026, through",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:57:44.891033+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n*Summary:* The scene depicts activities occurring during nighttime on June 30th, with events likely occurring between 2:19 PM and 7:35 PM. Key observations include a series of alerts starting at approximately [timestamp] with counts of zero.\n\n*Key Observations:* Multiple notifications (two or more) occur in immediate succession, suggesting an emerging scene involving activity, such as room occupants leaving the building or a significant event taking place nearby.\n\n*Recommended Actions:*  \n1. **Document Each Alert:** Log all events with timestamps and details about each occurrence to ensure comprehensive reporting of any ongoing activities.\n2. **Implement Automatic Record-Keeping:** Use automated systems or software to automatically track and report subsequent detected notifications, reducing the need for human observation.\n3. **Set Monitoring Parameters:** Establish specific monitoring intervals (e.g., every 10 seconds) to ensure complete capture of events within your field of view and to facilitate real-time situational awareness.\n\nThis report emphasizes the emerging activity and provides actionable steps to support immediate response or further planning.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:58:44.825699+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T08:59:45.048677+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n- **Scene Summary:** The live camera feed captured 24/7 monitoring of an intersection starting at [2026-06-30T08:09:24.051434+00:00] and ending at [2026-06-30T08:39:43.794148+00:00], showing synchronized traffic throughout the day without any notable anomalies.\n  \n- **Key Observations:** The detection log",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:00:44.988592+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:01:45.184139+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:02:44.862095+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:03:45.156328+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:04:44.849652+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:05:45.204469+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:06:44.178927+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report:**  \n\n- **Summary:** The detection logs indicate an activity from approximately 20:00 onwards, marked by multiple scene captioned events. No alarms were detected during these time periods.  \n- **Key Observations:** Scene caps indicated a variety of activities on different timeslots, including gaming, home workouts, and occasional interactions in a mixed setting. Specific scenes such as gaming during late afternoon hours and limited home interaction at the later hour highlight distinct patterns.  \n- **Recommended Actions:** Monitor scene indicators near 20:00 onwards closely, especially focusing on scenes like gaming and active home spaces. Isolate or minimize distractions when potential interactions occur to reduce safety concerns.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:07:45.156923+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:08:44.844089+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\n- The detection log consists of ten time-procreasing images taken from a live camera over a period of approximately 23 seconds. \n- All detected events occurred between October 10, 2026 (2026-06-30) and September 9, 2026, with no vehicles involved.\n- The scene primarily depicts a vehicle moving from left to right on the road, part of a clear progression",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:09:45.179926+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:10:44.835067+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe scene captured data across multiple overlapping frames between 2026-06-30T08:09:24 and June",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:11:45.179287+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:12:44.856660+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:13:45.196520+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:14:44.856436+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:15:45.174249+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:16:44.903309+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Sales Report Summary**\n\n1. **Scene Overview**: Multiple events occurred in a live video feed between 2026-06-30T08:43:27 (5:00 am local time) and 2026-06-30T08:43:30 (about 1:42 am central time the next day). The scenes were primarily in a city area, with some variations at sunrise but focused on areas affected by varying lighting and background noise.\n\n**Key Observations**\n\n- **Detectability**: Most events were detected nearsunrise times around midday. Scene captions emphasize several distinct scenes:\n  - [2026-06-30T",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:17:45.192174+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Recommendation:**\n\nWithout scene descriptions from images (captions), it's challenging to identify specific objects or scenarios. However, based on event timestamps, there were 17 counts ranging from 2026-06-3",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:18:44.871094+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:19:45.082214+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:20:44.447566+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n---\n\n**Surveillance Report**\n\n**Summary:**  \nThe detected area during June 30th at mid-sunlight shows largely static conditions with a minimal background activity except for brief instances of rain clouds around 5 seconds after sunrise.  \n\n**Key Observations:**  \n- Multiple captures have 0 hits, indicating quiet or dark environments.  \n- Brief rain spells occurred around these times, likely from brief storms or cloud movement adjustments.  \n\n**Recommended Actions:**  \n- Enhance visibility in the observed areas with robust imaging equipment, especially during high-sightseeing times like sunrises.  \n- Establish a rain watch to monitor cloud movements and potential precipitation risks due to cloud shifts.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-06-30T09:21:45.172607+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  }
+]

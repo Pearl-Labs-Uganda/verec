@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": "2026-07-08T06:55:16.282378+00:00",
+    "text": "A bird is flying high above a city street lined with tall buildings and trees, under a clear blue sky.",
+    "time_s": 65.089,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T06:56:24.201464+00:00",
+    "text": "A busy city street with multiple cars, including a green auto-rickshaw, moving along the road while pedestrians walk on the sidewalk.",
+    "time_s": 74.336,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T06:57:39.139055+00:00",
+    "text": "A city street with a few cars, including a white sedan, moving along it, while pedestrians are waiting at a crosswalk.",
+    "time_s": 80.008,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T06:58:59.812043+00:00",
+    "text": "The image shows an urban street with multiple cars, including auto-rickshaws, and a traffic light, indicating active traffic control.",
+    "time_s": 75.873,
+    "tokens": 19,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:00:16.521637+00:00",
+    "text": "A busy urban street with multiple vehicles, including an auto-rickshaw, and a traffic light visible on the right side of the road.",
+    "time_s": 74.886,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:01:31.810751+00:00",
+    "text": "The image shows an urban street with vehicles, trees, and a yellow and black striped barrier along the road.",
+    "time_s": 76.807,
+    "tokens": 19,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:02:49.307616+00:00",
+    "text": "A busy urban street with multiple cars parked along the side, including a black SUV and a yellow auto-rickshaw, surrounded by greenery and traffic barriers.",
+    "time_s": 73.107,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:04:03.057002+00:00",
+    "text": "A green and blue robot-like vehicle drives down a city street, passing by trees and buildings with illuminated signs.",
+    "time_s": 76.523,
+    "tokens": 19,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:12:26.179972+00:00",
+    "text": "A bird is flying high above a city street lined with tall buildings and trees, under a clear blue sky.",
+    "time_s": 82.121,
+    "tokens": 20,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:13:48.652124+00:00",
+    "text": "A busy city street with multiple cars, including a white sedan and an auto-rickshaw, moving along the road, while pedestrians are crossing at designated crosswalks.",
+    "time_s": 80.099,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:15:09.271775+00:00",
+    "text": "A busy city street with multiple cars, including a green auto-rickshaw, and pedestrians crossing at an intersection.",
+    "time_s": 70.035,
+    "tokens": 17,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:16:19.767670+00:00",
+    "text": "A bustling city street with multiple cars, including a green auto-rickshaw, moving along the road while pedestrians walk on the sidewalk.",
+    "time_s": 77.2,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-08T07:17:37.463146+00:00",
+    "text": "A busy city street with multiple cars, pedestrians, and a traffic light visible, indicating an intersection.",
+    "time_s": 73.109,
+    "tokens": 16,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  }
+]

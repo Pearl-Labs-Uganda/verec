@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2026-07-02T06:39:34.876983+00:00",
+    "text": "The image is completely black, with no visible content or objects present.",
+    "time_s": 64.741,
+    "tokens": 12,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:40:41.372272+00:00",
+    "text": "A rainy day scene with several people holding umbrellas, a truck, cars, and trucks on the road, and pedestrians walking along a wet sidewalk.",
+    "time_s": 78.823,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:42:00.640237+00:00",
+    "text": "A rainy day scene shows several people walking along a wet sidewalk, some holding umbrellas, with vehicles including cars and trucks parked or moving nearby.",
+    "time_s": 73.232,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:43:14.573324+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some carrying umbrellas or wearing raincoats, and cars parked along the street.",
+    "time_s": 79.281,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:44:34.644061+00:00",
+    "text": "On a rainy day, several people are walking on a wet sidewalk near parked cars and a yellow taxi.",
+    "time_s": 77.298,
+    "tokens": 19,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:45:52.510994+00:00",
+    "text": "A rainy day scene with a silver car parked on the wet street, people walking or standing around, and various objects like umbrellas, traffic cones, and clothes hanging outside.",
+    "time_s": 76.578,
+    "tokens": 29,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:47:09.778760+00:00",
+    "text": "A rainy day scene shows a man with a cane walking on a wet sidewalk, while cars and pedestrians are visible in the background.",
+    "time_s": 78.709,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:48:29.039359+00:00",
+    "text": "A rainy day scene shows a yellow taxi, two cars, and a bus parked along a wet street with pedestrians using umbrellas.",
+    "time_s": 72.312,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:49:41.971569+00:00",
+    "text": "A rainy day scene shows a person walking with an umbrella on a wet sidewalk, while cars and pedestrians are visible in the background.",
+    "time_s": 80.863,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:52:30.623214+00:00",
+    "text": "A bird is flying high above a city street lined with tall buildings and trees, under a clear blue sky.",
+    "time_s": 76.179,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:53:47.408194+00:00",
+    "text": "A busy city street with multiple cars, including a white taxi, and several pedestrians crossing at an intersection.",
+    "time_s": 75.366,
+    "tokens": 18,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:55:03.323815+00:00",
+    "text": "A busy city street with multiple cars, pedestrians crossing at a crosswalk, and trees lining the road.",
+    "time_s": 77.565,
+    "tokens": 17,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:56:21.329561+00:00",
+    "text": "A busy city street with multiple cars, including a white SUV and a blue sedan, navigating through an intersection marked by traffic lights and road barriers.",
+    "time_s": 82.059,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:57:44.158232+00:00",
+    "text": "A pedestrian is crossing a street while cars are stopped at a red light, with multiple traffic lights visible along the road.",
+    "time_s": 73.269,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-02T06:58:58.171326+00:00",
+    "text": "A city street with multiple cars, including a white SUV and a green sedan, driving down it. There are also several traffic lights visible along the road.",
+    "time_s": 78.34,
+    "tokens": 27,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-07-01T07:43:17.033795+00:00",
+    "model": "llama3.2:3b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-07-01T07:44:40.455091+00:00",
+    "model": "llama3.2:3b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-07-01T07:45:39.901827+00:00",
+    "model": "llama3.2:3b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 0,
+    "caption_count": 0
+  }
+]

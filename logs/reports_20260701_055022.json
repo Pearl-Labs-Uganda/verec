@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "2026-07-01T05:52:29.576178+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**SurViet Ec Report**\n\n---\n\n### **Summary**\nThe scene observed involved vehicles (cars) moving across a highway with frequent lane changes, accompanied by slow or moderate person detection speeds. Notable instances include sudden high speed on multiple detects, which require immediate attention to prevent potential accidents.\n\n---\n\n### **Key Observations**\n- The initial detections included cars transitioning lanes near the time frame",
+    "detection_count": 20,
+    "caption_count": 0
+  },
+  {
+    "timestamp": "2026-07-01T05:53:33.282709+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification of Scene**\nThe scene depicts a busy urban environment with multiple vehicles on the road at 5:51 AM.\n\n---\n\n### Summary  \nOn [2026-07-01T05:53:11",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-07-01T05:54:33.335279+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n** surveillance report **\n\n---\n\n### **Scene Captions**:  \n- [2026-07-01T05:51:12.364940+00:00] - No data available.  \n- [2026-07-01T05:52:12.860983+00:00] - 27 total entries detected, mostly focusing on people and vehicles.\n\n---\n\n### **Key Observations**  \n1. Most scenes show approximately **10 or 8 individuals**, with less attention given to specific times (e.g., few remaining people or objects) when people were at the scene.  \n2. Several spots observed a sudden decrease in **people/large items**: cars and people appeared briefly",
+    "detection_count": 20,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-07-01T05:55:32.362136+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-07-01T05:56:25.088614+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**:  \nThe detection log highlights a continuous time period from 2026-07-01T05:56:09.659 to around 2026-07-01T05:56:13.008, showing consistent monitoring of video feeds for nearly an entire minute.\n\n**Key Observations**:  \nEach subsequent detection is slightly timed after the previous one (a ~4-second increment). No captioned scene explanation is included as all captions are blank or lack context.\n\n**Recommended Actions**:  \nNo specific actions required based on the detected activity. The scene lacks descriptive information, indicating potential unexplained content in those periods.",
+    "detection_count": 20,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-07-01T05:57:28.732989+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-07-01T05:58:53.744123+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T05:59:53.288288+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:00:53.588428+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Reporting Summary:\n- **Scene Description**: The scene depicted a busy intersection with multiple vehicles on the road heading towards the area.\n\n---\n\n### Key Observations:\n- Multiple traffic lights were detected near each other in the last four paragraphs of the",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:01:53.406312+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:02:53.623595+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:03:53.452239+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:04:53.750680+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: Live video",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:05:53.421614+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:06:53.801902+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\n\nThe detected activity shows minimal increases across multiple frames, with a slight fluctuation towards higher values and some negative or small positive counts. These readings are primarily dominated by background noise or normal operation fluctuations.\n\n---\n\n### **Key Observations**\n\n1. The detections include minor variations in count, which likely result from subtle changes in the environment or sensor activity.\n2. Negative or very low values may indicate background noise or sensor artifacts.\n3. A series of increasing counts (0(total)) across different timestamps suggest potential movement or activity now being detected.\n\n---\n\n### **Recommended Actions**\n\n1. **Optimize Data Processing",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:07:53.437808+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Summary  \nOn [2026-07-01T15:38:00+00:00], the detection log highlights multiple video segments from July 1st. These segments depict consistent background clutter detected at approximately 5:56 AM to around 7:27 AM, indicating active or unresponsive scenes likely due to ambient light.\n\n### Key Observations  \nThe detection starts at approximately [2026-07-01T15:38:00+00:00] and continues to around [2026-07-01T19:38:45+00:00]. All entries are tagged as \" \u2014 0",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:08:29.507273+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T06:09:23.912687+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nOn July 1 at 5:56 am, activity was observed but without any detected incidents. All detections until 11:53 were \" \u2014 0\", indicating no traffic or warnings were recorded for that time frame.\n\n---\n\n### **Key Observations**\n- Most of the detection log (from [2026-07-01T05:56:35.656030+00:00] to [2026-07-01T05:56:37",
+    "detection_count": 20,
+    "caption_count": 5
+  }
+]

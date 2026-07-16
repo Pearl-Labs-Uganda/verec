@@ -1,0 +1,538 @@
+[
+  {
+    "timestamp": "2026-07-01T08:03:58.843585+00:00",
+    "text": "The image is completely black, with no visible content or objects present.",
+    "time_s": 60.827,
+    "tokens": 12,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:06:20.676093+00:00",
+    "text": "The image shows the logo and contact information for \"THE CCTV PEOPLE,\" including their website (www.thecctvpeople.com) and phone number (01204 216810).",
+    "time_s": 76.082,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:07:37.139722+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some holding umbrellas, and vehicles including cars and trucks passing by.",
+    "time_s": 76.407,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:08:53.907388+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, cars parked along the street, and a yellow taxi visible.",
+    "time_s": 77.717,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:10:11.906155+00:00",
+    "text": "A rainy day scene shows a silver car driving past a yellow taxi, with several people walking on the sidewalk, including a man in a beanie standing near a clothing rack.",
+    "time_s": 80.907,
+    "tokens": 31,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:11:33.292005+00:00",
+    "text": "A rainy day scene shows a man with a cane walking on a wet sidewalk, while cars are parked along the street.",
+    "time_s": 77.765,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:12:51.494137+00:00",
+    "text": "A person holding an umbrella is walking on a wet sidewalk, while cars are parked along the street.",
+    "time_s": 71.965,
+    "tokens": 18,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:14:03.731218+00:00",
+    "text": "A rainy day scene with a car driving on the wet road, people walking along the sidewalk, and various umbrellas visible.",
+    "time_s": 74.872,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:15:18.963149+00:00",
+    "text": "A rainy day scene shows pedestrians, vehicles, and a yellow taxi on a wet street with umbrellas and a few people walking.",
+    "time_s": 76.77,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:16:36.177378+00:00",
+    "text": "A rainy day scene with several people walking, some carrying umbrellas, a yellow taxi, and cars parked along the street.",
+    "time_s": 80.532,
+    "tokens": 20,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:17:57.110184+00:00",
+    "text": "A rainy day scene with multiple cars, including a yellow taxi, parked along a wet street lined with shops and pedestrians using umbrellas.",
+    "time_s": 75.268,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:19:12.795066+00:00",
+    "text": "A rainy day scene shows several people holding umbrellas, with a yellow taxi parked on the side of the road.",
+    "time_s": 79.744,
+    "tokens": 20,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:20:33.008362+00:00",
+    "text": "A rainy day scene with several people holding umbrellas walking along a wet sidewalk, cars parked on the side of the road, and various shops lining the street.",
+    "time_s": 82.072,
+    "tokens": 28,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:21:55.344640+00:00",
+    "text": "A rainy day scene with several cars, people walking under umbrellas, and a yellow taxi on the road.",
+    "time_s": 75.621,
+    "tokens": 18,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:23:11.325458+00:00",
+    "text": "A rainy day scene shows a person holding a red umbrella walking down a wet sidewalk, with several cars parked along the street and pedestrians nearby.",
+    "time_s": 76.324,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T08:24:28.128292+00:00",
+    "text": "The image shows the contact information for \"THE CCTV PEOPLE\" including their website and phone number.",
+    "time_s": 75.414,
+    "tokens": 16,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:22:45.067335+00:00",
+    "text": "The image appears to be completely black, with no visible content or objects present.",
+    "time_s": 80.75,
+    "tokens": 14,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:24:06.078604+00:00",
+    "text": "A rainy day scene with a silver car parked on the wet sidewalk, people walking around, and various objects like umbrellas and clothing racks visible.",
+    "time_s": 80.549,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:25:27.052162+00:00",
+    "text": "A rainy day scene shows a man with a cane walking on a wet sidewalk, while cars are parked along the street.",
+    "time_s": 78.178,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:26:45.413935+00:00",
+    "text": "A rainy day scene shows a man walking on a wet sidewalk with an umbrella, while cars are parked along the street.",
+    "time_s": 73.985,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:27:59.853976+00:00",
+    "text": "A rainy day scene with several people walking, some holding umbrellas, a car parked on the side of the road, and a yellow taxi driving down the street.",
+    "time_s": 78.315,
+    "tokens": 28,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:29:18.515920+00:00",
+    "text": "A rainy day scene with several people walking, a few cars parked or moving on the wet street, and a yellow taxi driving by.",
+    "time_s": 77.376,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:30:36.071859+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some holding umbrellas, and cars parked along the street.",
+    "time_s": 73.392,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:31:49.845224+00:00",
+    "text": "A rainy day scene with several cars, people using umbrellas, and a yellow taxi parked on the side of the road.",
+    "time_s": 75.099,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:33:05.409598+00:00",
+    "text": "A rainy day scene shows several people walking on a wet sidewalk, some holding umbrellas to shield themselves from the rain.",
+    "time_s": 75.912,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:34:21.560667+00:00",
+    "text": "A rainy day scene with people holding umbrellas, a red bus, a yellow taxi, and various pedestrians walking along a wet sidewalk.",
+    "time_s": 77.908,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:35:39.743932+00:00",
+    "text": "A rainy day scene shows a busy street with several cars, people holding umbrellas, and a few pedestrians walking along the sidewalk.",
+    "time_s": 80.287,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:37:00.445787+00:00",
+    "text": "A rainy day scene shows several people walking on a wet sidewalk, with some holding umbrellas to shield themselves from the rain.",
+    "time_s": 77.241,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:39:31.790460+00:00",
+    "text": "The image shows the logo and contact information for \"THE CCTV PEOPLE,\" including their website (www.thecctvpeople.com) and phone number (01204 216810).",
+    "time_s": 84.77,
+    "tokens": 21,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:40:56.909618+00:00",
+    "text": "A rainy day scene shows a woman holding an umbrella standing on a wet sidewalk, while several people with umbrellas are gathered nearby.",
+    "time_s": 79.522,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:42:16.680323+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some holding umbrellas, and vehicles including cars and trucks passing by.",
+    "time_s": 85.137,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:43:42.555585+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some holding umbrellas, and cars parked along the street.",
+    "time_s": 79.733,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:45:02.808185+00:00",
+    "text": "A rainy day scene shows a yellow taxi parked on the side of the road, with several people walking by, some carrying umbrellas.",
+    "time_s": 77.736,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:46:20.893651+00:00",
+    "text": "A rainy day scene with a silver car parked on the side of the road, people walking along the sidewalk, and various objects like traffic cones and umbrellas visible.",
+    "time_s": 78.08,
+    "tokens": 29,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:47:39.441507+00:00",
+    "text": "A rainy day scene shows a person holding an umbrella, walking on a wet sidewalk near parked cars and a yellow taxi.",
+    "time_s": 74.287,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:48:53.957424+00:00",
+    "text": "A rainy day scene shows a small car parked on the wet street, with several people walking or standing nearby, some holding umbrellas.",
+    "time_s": 72.483,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:50:06.725038+00:00",
+    "text": "A rainy day scene shows a man walking on a wet sidewalk, with several people carrying umbrellas and a yellow taxi nearby.",
+    "time_s": 73.229,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:51:20.132069+00:00",
+    "text": "A rainy day scene with several cars, including a yellow taxi, parked along a wet street lined with pedestrians holding umbrellas.",
+    "time_s": 72.236,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:52:32.829726+00:00",
+    "text": "A rainy day scene with several people using umbrellas, cars parked along a wet street, and a yellow taxi driving by.",
+    "time_s": 73.457,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:53:46.430177+00:00",
+    "text": "A rainy day scene shows several people with umbrellas walking along a wet sidewalk, while cars are parked or moving on the street.",
+    "time_s": 77.702,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:55:04.552119+00:00",
+    "text": "A rainy day scene shows a man walking on a wet sidewalk, holding an umbrella while people with umbrellas walk by, cars parked along the street, and various pedestrians going about their business.",
+    "time_s": 79.229,
+    "tokens": 33,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:56:24.010273+00:00",
+    "text": "A rainy day scene shows a car with an umbrella, several people walking on the sidewalk, and various vehicles including taxis and cars.",
+    "time_s": 77.015,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:57:41.231917+00:00",
+    "text": "The image shows the text \"THE CCTV PEOPLE\" and a website URL, www.thecctvpeople.com, against a black background.",
+    "time_s": 77.678,
+    "tokens": 17,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T09:58:59.274265+00:00",
+    "text": "The image shows the contact information for \"THE CCTV PEOPLE\" including their website and phone number.",
+    "time_s": 74.226,
+    "tokens": 16,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:00:13.721257+00:00",
+    "text": "A person is standing on a stage, holding a microphone and speaking to an audience that is not visible in the image.",
+    "time_s": 72.798,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:01:26.934202+00:00",
+    "text": "A rainy day scene shows a man walking with an umbrella, while others are seen near a bus stop, with vehicles including cars and buses visible on the wet road.",
+    "time_s": 80.255,
+    "tokens": 30,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:02:47.369516+00:00",
+    "text": "A rainy day scene shows several people with umbrellas walking along a wet sidewalk, while vehicles including cars, trucks, and buses are visible on the road.",
+    "time_s": 78.58,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:04:06.452431+00:00",
+    "text": "A rainy day scene shows pedestrians with umbrellas walking along a wet sidewalk, while cars are parked or moving on the street.",
+    "time_s": 72.329,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:05:18.944164+00:00",
+    "text": "A rainy day scene shows several people walking on a wet sidewalk, with cars parked along the street and pedestrians carrying umbrellas.",
+    "time_s": 77.691,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:06:36.831136+00:00",
+    "text": "A rainy day scene with a car, taxi, and several pedestrians walking on a wet sidewalk near shops.",
+    "time_s": 72.871,
+    "tokens": 18,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:07:50.015773+00:00",
+    "text": "A rainy day scene shows a silver car parked on the side of the road, with pedestrians walking along the sidewalk, including a man wearing a hat and carrying a cane.",
+    "time_s": 75.359,
+    "tokens": 31,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:09:05.713147+00:00",
+    "text": "A rainy day scene with several cars, including a yellow taxi, parked along a wet street, while pedestrians walk or stand under umbrellas.",
+    "time_s": 77.376,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:10:23.353923+00:00",
+    "text": "A rainy day scene with several cars, people walking under umbrellas, and a yellow taxi parked on the side of the road.",
+    "time_s": 78.773,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:11:42.341260+00:00",
+    "text": "A rainy day scene shows a car driving on a wet road, with several pedestrians walking along the sidewalk, some carrying umbrellas.",
+    "time_s": 73.101,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:12:55.713868+00:00",
+    "text": "A rainy day scene with several people walking, a few cars parked or moving on the wet road, and some pedestrians using umbrellas.",
+    "time_s": 71.622,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:14:07.670344+00:00",
+    "text": "A rainy day scene with several people walking on a wet sidewalk, some holding umbrellas, near parked cars and a yellow taxi.",
+    "time_s": 72.193,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:15:20.102270+00:00",
+    "text": "A rainy day scene with several cars, including a yellow taxi, parked along a wet street lined with shops and people holding umbrellas.",
+    "time_s": 76.104,
+    "tokens": 23,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:16:36.574272+00:00",
+    "text": "A rainy day scene shows several people walking with umbrellas, including two men in suits holding blue umbrellas, while cars and a yellow taxi are parked or moving on the wet street.",
+    "time_s": 79.928,
+    "tokens": 32,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:17:56.795173+00:00",
+    "text": "A rainy day scene shows people with umbrellas walking along a wet sidewalk, while cars are parked or moving on the street.",
+    "time_s": 76.993,
+    "tokens": 22,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:19:14.151203+00:00",
+    "text": "A rainy day scene shows pedestrians with umbrellas, a man in a suit walking down the street, and various vehicles including cars and a red bus.",
+    "time_s": 79.816,
+    "tokens": 26,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:20:34.276182+00:00",
+    "text": "A rainy day scene shows a person holding a red umbrella, several cars parked along the street, pedestrians walking on the sidewalk, and various shops with colorful awnings.",
+    "time_s": 76.733,
+    "tokens": 28,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:21:51.289584+00:00",
+    "text": "The image shows the logo and contact information for \"THE CCTV PEOPLE,\" including their website (www.thecctvpeople.com) and phone number (01204 216810).",
+    "time_s": 76.616,
+    "tokens": 21,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:23:08.020223+00:00",
+    "text": "The image shows the contact information for \"THE CCTV PEOPLE\" including their website and phone number.",
+    "time_s": 75.294,
+    "tokens": 16,
+    "tokens_per_s": 0.2,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:24:23.744605+00:00",
+    "text": "A rainy day scene shows a car parked on the side of the road, with several people walking along the sidewalk, some holding umbrellas.",
+    "time_s": 71.591,
+    "tokens": 24,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:25:35.687077+00:00",
+    "text": "A rainy day scene with several people using umbrellas, a truck parked on the side of the road, and various vehicles including cars and trucks.",
+    "time_s": 79.07,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:26:55.111517+00:00",
+    "text": "A rainy day scene shows several people walking on a wet sidewalk, some holding umbrellas, with cars parked along the street and a bus in the background.",
+    "time_s": 76.412,
+    "tokens": 27,
+    "tokens_per_s": 0.4,
+    "backend": "qwen-ollama"
+  },
+  {
+    "timestamp": "2026-07-01T10:28:11.867671+00:00",
+    "text": "A rainy day scene with several cars parked along a wet street, people walking on the sidewalk, and traffic cones indicating construction or maintenance work.",
+    "time_s": 77.406,
+    "tokens": 25,
+    "tokens_per_s": 0.3,
+    "backend": "qwen-ollama"
+  }
+]

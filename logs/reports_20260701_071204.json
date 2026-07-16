@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-07-01T07:16:32.965287+00:00",
+    "model": "llama3.2:3b",
+    "report": "Report generation failed: Error code: 500 - {'error': {'message': 'llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363', 'type': 'api_error', 'param': None, 'code': None}}",
+    "detection_count": 20,
+    "caption_count": 0
+  }
+]

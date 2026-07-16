@@ -19,11 +19,13 @@ import cv2
 import numpy as np
 from dotenv import load_dotenv
 from PIL import Image
+from fastapi import Request
 
 load_dotenv()
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from starlette.websockets import WebSocketState
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 
@@ -35,6 +37,9 @@ from backend.models import (
     resolve_stream_url, IP_CAMERA_PRESETS,
 )
 import backend.models as _models
+from backend.memory_indexer import build_memory_node, search_memory
+from backend.query_engine import answer_query
+from backend.auto_memory import start_auto_memory_thread
 
 app = FastAPI(title="VEREC API", version="1.0.0")
 
@@ -62,13 +67,17 @@ def _auto_init():
             models = [m["name"] for m in resp.json().get("models", [])]
             print(f"[Startup] ✅ Ollama reachable. Models: {models}")
             if "qwen2.5-vl:3b" in models:
-                print("[Startup] ⏳ Pre-warming qwen2.5-vl:3b (this may take 1-2 minutes)...")
+                print("[Startup] ⏳ Pre-warming qwen2.5-vl:3b vision path (this may take 1-2 minutes)...")
                 try:
+                    _dummy_buf = io.BytesIO()
+                    Image.new("RGB", (224, 224), color=(0, 0, 0)).save(_dummy_buf, format="JPEG")
+                    _dummy_b64 = base64.b64encode(_dummy_buf.getvalue()).decode("utf-8")
                     warmup_resp = requests.post(
                         "http://localhost:11434/api/generate",
                         json={
                             "model": "qwen2.5-vl:3b",
                             "prompt": "Hello",
+                            "images": [_dummy_b64],
                             "stream": False,
                             "options": {"num_predict": 1}
                         },
@@ -97,6 +106,12 @@ def _auto_init():
         print("[Startup] Scheduling VLM warmup...")
         schedule_vlm_warmup(delay=0)
         print("[Startup] Warmup scheduled.")
+    print("[Startup] Starting automatic memory compressor thread...")
+    start_auto_memory_thread(
+        _LOG_DIR / f"detections_{_session_id}.json",
+        _LOG_DIR / f"captions_{_session_id}.json",
+        camera_id="default",
+    )
     print("[Startup] _auto_init() complete.")
 
 # ── CORS ────────────────────────────────────────────────────────────────────
@@ -248,14 +263,19 @@ def vlm_caption(prompt: str = "Describe what is happening in one sentence.",
     return entry
 
 @app.post("/api/chat")
-def chat(prompt: str = "What do you see?",
-         temperature: float = 0.0, max_tokens: int = 100,
-         source: str = "", url: str = ""):
-    """
-    Chat endpoint – uses the current video source from the WebSocket if not provided.
-    Returns both 'text' and 'answer' for compatibility with various frontends.
-    """
+async def chat(request: Request,
+               prompt: str = "",
+               temperature: float = 0.0,
+               max_tokens: int = 100,
+               source: str = "",
+               url: str = ""):
     global _current_source, _current_url
+    if not prompt:
+        try:
+            body = await request.json()
+            prompt = body.get("prompt") or body.get("message") or body.get("question") or ""
+        except Exception:
+            pass
     if not source:
         source = _current_source
     if not url and _current_url:
@@ -266,10 +286,11 @@ def chat(prompt: str = "What do you see?",
     if frame is None:
         return JSONResponse({"error": "No frame available"}, status_code=503)
     result = run_vlm(frame, prompt=prompt, temperature=temperature, max_tokens=max_tokens)
-    # Return both fields so frontend can use whichever it expects
     return {
         "text": result.get("text", ""),
         "answer": result.get("text", ""),
+        "reply": result.get("text", ""),
+        "response": result.get("text", ""),
         "time_s": result.get("time_s", 0),
         "tokens": result.get("tokens", 0),
         "tokens_per_s": result.get("tokens_per_s", 0),
@@ -278,7 +299,7 @@ def chat(prompt: str = "What do you see?",
 
 @app.post("/api/report")
 def generate_report(
-    model: str = "deepseek-r1:1.5b",
+    model: str = "llama3.2:3b",  # Changed from deepseek-r1:1.5b
     ollama_url: str = os.environ.get("OLLAMA_URL", "http://localhost:11434"),
 ):
     from openai import OpenAI
@@ -348,51 +369,27 @@ def export_all():
             "reports": list(_reports),
         }
 
-# ── VLM background task ──────────────────────────────────────────────────
-async def process_vlm(websocket: WebSocket, frame: np.ndarray, prompt: str, ts: str):
-    global _vlm_running
-    if _vlm_running:
-        print("[WS] VLM already running, skipping this interval.")
-        return
-    _vlm_running = True
-    try:
-        h, w = frame.shape[:2]
-        if h > 224 or w > 224:
-            frame = cv2.resize(frame, (224, 224), interpolation=cv2.INTER_LINEAR)
-            print("[WS] Frame resized to 224x224 for VLM")
+@app.post("/api/memory/build")
+def memory_build(camera_id: str = "default", model: str = "llama3.2:3b"):
+    """Compress the current session's detection/caption log into a memory node (VR-3)."""
+    with _export_lock:
+        detections = list(_detection_log)
+        captions = list(_vlm_log)
+    if not detections and not captions:
+        return JSONResponse({"error": "No detections or captions to index"}, status_code=400)
+    node = build_memory_node(detections, captions, camera_id=camera_id, model=model)
+    return node
 
-        print("[WS] Calling run_vlm (timeout=300s)...")
-        vlm_result = await asyncio.wait_for(
-            asyncio.to_thread(run_vlm, frame, prompt=prompt, max_tokens=80),
-            timeout=300.0
-        )
-        print("[WS] run_vlm completed")
-        last_caption = vlm_result.get("text", "")
-        await websocket.send_json({
-            "timestamp": ts,
-            "vlm": vlm_result,
-            "caption": last_caption,
-            "status": "vlm_done"
-        })
-        _append_vlm({"timestamp": ts, **vlm_result})
-    except asyncio.TimeoutError:
-        print("[WS] VLM timed out after 300 seconds")
-        await websocket.send_json({
-            "timestamp": ts,
-            "vlm": {"text": "⚠️ VLM timed out after 5 minutes. Please check Ollama.", "backend": "qwen-ollama"},
-            "caption": "⚠️ VLM timed out. Check Ollama.",
-            "status": "vlm_error"
-        })
-    except Exception as e:
-        print(f"[WS] VLM error: {e}")
-        await websocket.send_json({
-            "timestamp": ts,
-            "vlm": {"text": f"⚠️ VLM error: {str(e)}", "backend": "qwen-ollama"},
-            "caption": f"⚠️ VLM error: {str(e)}",
-            "status": "vlm_error"
-        })
-    finally:
-        _vlm_running = False
+@app.get("/api/memory/search")
+def memory_search(q: str, camera_id: str = "", limit: int = 10):
+    """Search stored memory nodes by keyword, without re-processing frames."""
+    results = search_memory(q, camera_id=camera_id or None, limit=limit)
+    return {"query": q, "count": len(results), "results": results}
+
+@app.get("/api/memory/query")
+def memory_query(q: str, camera_id: str = "", model: str = "llama3.2:3b", limit: int = 5):
+    """Answer a natural-language question, grounded strictly in stored memory nodes (VR-4)."""
+    return answer_query(q, camera_id=camera_id or None, model=model, limit=limit)
 
 # ── WebSocket ──────────────────────────────────────────────────────────────
 
@@ -408,7 +405,7 @@ async def ws_feed(
     enable_vlm: bool = True,
     enable_pose: bool = False,
 ):
-    global _current_source, _current_url
+    global _current_source, _current_url, _vlm_running
     _current_source = source
     _current_url = url
 
@@ -433,6 +430,77 @@ async def ws_feed(
     last_vlm_time = 0.0
     last_caption = ""
     last_action: dict | None = None
+    last_vlm_signature: tuple = ()
+    MIN_VLM_GAP = 2.0  # seconds; debounce so detection flicker can't spam VLM calls
+    consecutive_read_failures = 0
+
+    # ── Inner VLM processor (captures last_caption) ──
+    async def process_vlm_inner(frame: np.ndarray, prompt: str, ts: str):
+        nonlocal last_caption
+        global _vlm_running
+        if _vlm_running:
+            print("[WS] VLM already running, skipping.")
+            return
+        _vlm_running = True
+        try:
+            h, w = frame.shape[:2]
+            if h > 336 or w > 336:
+                frame = cv2.resize(frame, (336, 336), interpolation=cv2.INTER_LINEAR)
+                print("[WS] Frame resized to 336x336 for VLM")
+
+            print("[WS] Calling run_vlm (timeout=300s)...")
+            vlm_result = await asyncio.wait_for(
+                asyncio.to_thread(run_vlm, frame, prompt=prompt, max_tokens=80),
+                timeout=300.0
+            )
+            print("[WS] run_vlm completed")
+            new_caption = vlm_result.get("text", "")
+            if not new_caption and not vlm_result.get("error"):
+                # Empty-but-not-erroring response — often a cold-start hiccup on the
+                # first vision call. Retry once before giving up.
+                print("[WS] ⚠️ VLM returned empty text, retrying once...")
+                vlm_result = await asyncio.wait_for(
+                    asyncio.to_thread(run_vlm, frame, prompt=prompt, max_tokens=80),
+                    timeout=300.0
+                )
+                new_caption = vlm_result.get("text", "")
+            if new_caption:
+                last_caption = new_caption
+                await websocket.send_json({
+                    "timestamp": ts,
+                    "vlm": vlm_result,
+                    "caption": new_caption,
+                    "status": "vlm_done"
+                })
+                _append_vlm({"timestamp": ts, **vlm_result})
+            else:
+                err = vlm_result.get("error", "no error reported")
+                print(f"[WS] ⚠️ VLM returned empty text after retry: {err}")
+                await websocket.send_json({
+                    "timestamp": ts,
+                    "vlm": vlm_result,
+                    "caption": "",
+                    "status": "vlm_error",
+                    "message": f"VLM returned no text: {err}",
+                })
+        except asyncio.TimeoutError:
+            print("[WS] VLM timed out after 300 seconds")
+            await websocket.send_json({
+                "timestamp": ts,
+                "vlm": {"text": "⚠️ VLM timed out. Check Ollama.", "backend": "qwen-ollama"},
+                "caption": "⚠️ VLM timed out. Check Ollama.",
+                "status": "vlm_error"
+            })
+        except Exception as e:
+            print(f"[WS] VLM error: {e}")
+            await websocket.send_json({
+                "timestamp": ts,
+                "vlm": {"text": f"⚠️ VLM error: {str(e)}", "backend": "qwen-ollama"},
+                "caption": f"⚠️ VLM error: {str(e)}",
+                "status": "vlm_error"
+            })
+        finally:
+            _vlm_running = False
 
     try:
         while True:
@@ -447,18 +515,36 @@ async def ws_feed(
                 conf = ctrl.get("conf", conf)
                 iou = ctrl.get("iou", iou)
                 vlm_interval = ctrl.get("vlm_interval", vlm_interval)
-            except (asyncio.TimeoutError, Exception):
+            except asyncio.TimeoutError:
+                pass
+            except WebSocketDisconnect:
+                raise
+            except Exception:
                 pass
 
             try:
                 if use_local:
                     frame = get_camera_frame()
                 else:
+                    assert cap is not None
                     ok, bgr = cap.read()
                     if not ok:
-                        print("[WS] Frame read failed – skipping")
+                        frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+                        if frame_count and frame_count > 0:
+                            # Finite file source hit EOF — loop back to the start.
+                            cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+                            consecutive_read_failures = 0
+                            await asyncio.sleep(0.05)
+                            continue
+                        consecutive_read_failures += 1
+                        if consecutive_read_failures == 1 or consecutive_read_failures % 100 == 0:
+                            print(f"[WS] Frame read failed ({consecutive_read_failures}x) – retrying")
+                        if consecutive_read_failures > 300:
+                            print("[WS] Stream appears dead after repeated read failures, closing")
+                            break
                         await asyncio.sleep(0.05)
                         continue
+                    consecutive_read_failures = 0
                     frame = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB) if bgr is not None else None
 
                 if frame is None:
@@ -528,10 +614,30 @@ async def ws_feed(
                 payload["ai_frame"] = ai_b64
                 payload["frame_bytes"] = len(raw_b64) + len(ai_b64)
 
+                # Include latest caption in every frame
+                if last_caption:
+                    payload["caption"] = last_caption
+
                 await websocket.send_json(payload)
 
-                if enable_vlm and now - last_vlm_time >= vlm_interval and not _vlm_running:
+                # Trigger VLM when the detected environment changes (new/gone objects,
+                # count shifts), falling back to the plain interval for static scenes.
+                class_counts: dict[str, int] = {}
+                for o in det_objects:
+                    class_counts[o["class"]] = class_counts.get(o["class"], 0) + 1
+                current_signature = tuple(sorted(class_counts.items()))
+                env_changed = enable_det and current_signature != last_vlm_signature
+
+                trigger_vlm = (
+                    enable_vlm
+                    and not _vlm_running
+                    and now - last_vlm_time >= MIN_VLM_GAP
+                    and (env_changed or now - last_vlm_time >= vlm_interval)
+                )
+
+                if trigger_vlm:
                     last_vlm_time = now
+                    last_vlm_signature = current_signature
                     await websocket.send_json({"status": "vlm_loading", "message": "Generating caption..."})
                     if det_objects:
                         obj_detail = "; ".join(
@@ -545,13 +651,16 @@ async def ws_feed(
                     else:
                         vlm_prompt = "Describe what is happening in this scene in one sentence."
                     await websocket.send_json({"status": "vlm_started", "message": "VLM processing started (may take a few minutes)"})
-                    asyncio.create_task(process_vlm(websocket, frame, vlm_prompt, ts))
-
-                if last_caption:
-                    payload["caption"] = last_caption
+                    asyncio.create_task(process_vlm_inner(frame, vlm_prompt, ts))
 
             except Exception as frame_exc:
                 import logging
+                if (
+                    websocket.client_state != WebSocketState.CONNECTED
+                    or websocket.application_state != WebSocketState.CONNECTED
+                ):
+                    logging.warning("Socket no longer connected, stopping feed loop: %s", frame_exc)
+                    break
                 logging.warning("Frame processing error: %s", frame_exc)
                 await asyncio.sleep(0.1)
                 continue

@@ -1,0 +1,429 @@
+[
+  {
+    "timestamp": "2026-07-01T04:49:42.595771+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verec Surveillance Report**\n\n---\n\n### **Summary**\n- The cameras detected various vehicles (cars) at approximately 5:00 AM on 7/1, with fluctuating light conditions indicating movement and possible changes in traffic flow.\n\n---\n\n### **Key Observations**\n- Multiple traffic lights were detected each time, showing varying intensities but without erratic fluctuations.\n- There were several cars recorded simultaneously, highlighting concurrent activity.\n- Varying numbers of vehicles (3 to 4) were present in the scene throughout different times.\n\n",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-07-01T04:50:26.107172+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**  \nAs of 2026-07-01T04:50:09.393158+00:00, a live camera feed captured several vehicles and interacting individuals (scene description reference).  \n\n#### Key Observations  \n| Timestamp           | Key Observations                                         |\n|----------------------|-----------------------------------------------------|\n| [2026-07-01T04:50:08.369451+00:00]",
+    "detection_count": 20,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-07-01T04:51:26.091552+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-07-01T04:52:29.318569+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-07-01T04:53:27.305811+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nOn July 1, between 4:53 AM and 6:18 AM, multiple vehicles entered an intersection near two conflicting traffic lights. **Key observations**, including heavy traffic movements with a total of **7 total cars** detected across the scene, highlight concurrent entry into the",
+    "detection_count": 20,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-07-01T04:54:25.992500+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n---\n\n**Summary**: The surveillance log shows continuous monitoring during late July 2026, capturing multiple car entries at varying times",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T04:55:29.982273+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n**Summary:**\n- A surveillance log captures various activities on a busy highway from July 202",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-07-01T04:56:30.272699+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-07-01T04:57:26.545904+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification Report**\n\n**Summary:**  \n- The night driving scene on July 9 shows multiple vehicles in the downtown area, with varying numbers (3-5 cars) highlighting activity across different locations.\n\n**Key Observations:**  \n- The detection log indicates 10 scenes over specific dates: August 6th to day 12 and beyond.\n- **3 Total:** Varying numbers of cars and traffic lights with positions in the city center, off-kilter areas, and",
+    "detection_count": 20,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-07-01T04:58:29.401084+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nDuring our analysis of scene detection logs, we observed a significant traffic stop at 04:58:08. The primary object detected was a car with an overlying truck, and additional heavy machinery was reported crossing the road (2026-07-01T04:58:41.359334+00:00). This pattern occurred repeatedly throughout our log window.\n\n---\n\n### Key Observations  \n1. **Multiple Vehicles Crossing the Road**: Notably, 6 to 8 vehicles",
+    "detection_count": 20,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-07-01T04:59:30.132728+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-07-01T05:00:25.574532+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n### Summary  \nThe detected vehicles included **two cars**, one car (with a person), and one car again on multiple timestamps. The scenes depict various movements of these vehicles overlapping and sharing common areas around 10:35 PM EDT. Key actions are recommended to promptly observe these path movements.\n\n---\n\n### Key Observations  \n- Several *cars* moved from different directions or in closely adjacent positions (e.g., one car moving north, another south relative to the first).  \n- Multiple *cars* (2 total) or single *car-and-person* (1) passed through overlapping areas near 6:5 seconds.  \n\n---\n\n### Recommended Actions  \n1. Implement real-time AI-based vehicle",
+    "detection_count": 20,
+    "caption_count": 9
+  },
+  {
+    "timestamp": "2026-07-01T05:01:28.779360+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:02:58.516676+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Vision Surveillance Report for July 1st**\n\n- **Summary**: The scene primarily consisted of vehicles\u2014including mostly cars with a few potted plants\u2014and a hydrant detected in several frames, but not prioritized for specific attention.\n\n**Key Observations**:\n1. The detection log showed consistent observation of vehicles\u2014primarily cars\u2014but some plant items (pots) were also detected.\n2. Most vehicles had average sizes: cars were about 0.85 meters or less and potted plants at slightly larger distances (around 0.5-0.6 meters).\n3. Fire hydrants were present but only in sporadic frames, so they were noted but not prioritized.\n\n**Recommended Actions**:\n1. Close off surrounding areas from vehicles to prevent distractions in the detection system.\n2. Monitor for fire hydrant activity separately if necessary, as it might require special handling or reporting.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:03:25.791087+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary:**\nThe surveillance focuses on observations of **potato plants (excluding potato crops)** (potted plants) and cars in a shared area. These vehicles include vintage-style cars. Several instances are noted with speeds ranging from 0.47 to 0.91 km/h.\n\n---\n\n### **Key Observations:**\n- Multiple potted plants were detected between 2026-07-01T05:03:08 to 2026-07-01T05:10:01.\n- Consistent car detection with speeds from 0.45 km/h to 0.91 km/h, indicating possibly human interaction or stationary objects.\n\n---\n\n### **Recommended Actions:**\n1. **Check and Secure Objects:** Ensure access and safety for potted plants and potential driving vehicles by installing barriers or securing areas.\n2. **Immediate Response:** Verify if any potted plants are caught on fire to initiate investigation and immediate action for containment.\n3. **Community Awareness:** Prompt residents in the area",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:04:27.056729+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarize:**  \nOn [2026-07-01], traffic appeared intense with mostly potted plants, occasional truck and car activity (up to 4 objects or more frequently seen). Fire hydrant instances were common, but less frequent than others.\n\n---\n\n**Key Observations:**  \n- People detected at varying numbers: single or multiple.\n- Heavy vehicle traffic detected: trucks and cars.\n- Potted plant detections observed frequently (0.86 range).\n- Fire hydrant incidents noted at certain intervals.\n-occasional truck and car",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:05:27.362593+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:06:31.259152+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report\n\n---\n\n**Summary**: During the live video feed on [2026-07-01], several individuals were detected around a garden area, followed by common plants like potted plants, and vehicles such as cars and motorcycles. The majority of detected items were either people or potted plants, making them easier targets for camera monitoring.\n\n---\n\n**Key Observations**:  \n1. **People**: Most detections involved one or two individuals each frame. Their confidence scores (avg \u2248 0.93) indicate they are easily identifiable.  \n2. **Potted Plants**: Frequent and consistent presence of multiple plants, with varying degrees of confidence (0.75\u20130.81), making a robust surveillance target.  \n3. **Cars/Motorcycles**: Occasionally detected vehicles",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:07:28.904571+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n- **Summary**: Over 4 hours on July 1, no vehicles or wildlife were spotted in the area. Two instances of a group holding their own potted plant were recorded, with each party present all times.\n  \n- **Key Observations**: No vehicle detection occurred between 4:52 AM and 3 PM. Notably, two instances were both parties holding their own plants (person - potted plant), each time totaling two detected members per type.\n\n- **Recommended Actions**:\n  1. Monitor for missing individuals if the plants are found safely.\n  2. Provide immediate assistance to anyone injured or in a situation of concern.\n  3. Stay vigilant at night and on weekdays, especially during summer months when wildlife may be active.\n  \n- **Scene Descriptions**: The area primarily contains grass and dead trees, with occasional dirt pitted from handling plants. Birds",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:09:02.112253+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:10:00.789458+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:10:54.260563+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:11:27.005572+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:13:01.384799+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:13:59.058906+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary\n- The VEC system recorded several frames from July 2026, specifically capturing different actions around 05:13 AM. \n- The videos captured various plants with potted plants (0+) detectable alongside cars (0+) and people.\n\n---\n\n### Key Observations  \n| Observation       | Date Range & Scene Credits                     |\n|--------------------|--------------------------------------------|\n| Early July      | [2026-07-01T05:13:00...]               | <potted plant (0.915), potted plant (0.782) ...</p>\n| Later July      | [2026-07-",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:15:01.398860+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\n\n- The live camera feed captured various potted plant sizes (small, medium, large) with people following behind them in different heights over a 24-hour period.\n- Most instances observed were with a low-medium-sized potted plant. Some cars accompanied the scenes, mostly small except for one observation with a larger car later on.  \n- People's height levels ranged from lower to higher as the day progressed.\n\n---\n\n### **Key Observations**\n\n1. **Potted Plant Sizes:**\n   - The smallest potted plants detected.\n   - Medium-sized potted plant was first observed followed by smaller ones for a while before switching over to medium size with people following it increasing in height towards the end of the day.  \n   - Maximum people present were at medium sizes.\n\n2. **Person Heights:**\n   - Many lower-sized potted plants were behind low-height people.\n   - Higher-powered people emerged from the scene as the day progressed, indicating varied heights of individuals detected.\n\n3. **Car Types:**\n   - The most common car type was small (about 1.5 feet).\n   - One",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:16:02.309923+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification of Event Log and Scene Captions**\n\n- **Detection Timestamps**: All events occur between 05:15:39 and 05:15:41, within the evening session on July 1st.\n  \n- **Potted Plants and Cars**: Multiple potted plants and cars are detected at varying heights (e.g., 0.756m to 0.855cm), with some being damaged as noted in early alerts.\n\n- **Individual Individuals or Adults**: A person is detected around 5:13:47, raising concerns about security coordination with nearby areas.\n\n---\n\n# Summary\n\nDuring the live video feed on July",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:16:59.174668+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n**Summary:**  \nDuring [2026-07-01T05:16:39.79 PM] to [2026-07-01T05:16:40.83 PM], a live video feed recorded [numbered",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:17:58.771499+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n\n#### Summary  \nThe surveillance log captures scenes at approximately 2:01 am TN, showing heavy traffic on an overbridge with cars and potted plants moving through locations noted as A to N between 6 AM and midnight.  \n\n#### Key Observations (Notable Detections)  \n- **Car (35 km/h)**: Moving east on the road, near location F at approximately 03:14 am.  \n- **Caution**: Car is approaching an overbridge from west and may be stopping near the overpass as it proceeds east toward A.  \n\n#### Recommended Actions  \n1. **Early Warning System**: Immediately stop at the over\u5927\u6865 in TN, JBS (Just Before Sustaining), after 03:47 am to ensure vehicles slow down.\n2. **Safety Protocol**: Establish or update a traffic light protocol for all vehicles approaching or stopping at location F.  \n\nThis report is crucial as heavy traffic near the overbridge demands immediate attention for safety.",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:19:03.316533+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Scene Captions**\nThe live camera feed observed various activities around July 1st, emphasizing plants being planted between different neighborhoods (potted plants) and vehicles moving within vehicle areas.  \n\nKey Scene Comments:\n- **High Power Levels**: Events were concentrated at the latter half of July when plant activity peaked.\n- **Area Challenges**: Car yards with potted plants often reached low power levels, indicating reduced active plants or sensor noise.\n- **Plant Activity Trend**: Generally, plant counts decreased as the day progressed after noon.\n\n---\n\n### **Summary**\nThe scene featured significant plant planting activities from 8am to midday. However, car plas occasionally had reduced power output due to increased activity in bottling stations and nearby vehicle areas.\n\n---\n\n### **Key Observations**\n\n#### Over-Crowded Car Plas:\n- Car",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:19:58.403460+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**:  \nA detailed surveillance log was compiled from potted plants and vehicles detected at [2026-07-01T05:05:59.470167+00:00]. The main observations include the presence of multiple potted plants around 0.8-0.9 meters away, with no instances of cars near the scene except for one instance where a car was detected at approximately 0.6 meters.\n\n---\n\n### **Key Observations**:  \n1. Multiple potted plants were consistently detected at distances above ground level (\u22650.7m), with a focus on heights",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:21:03.897239+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:22:02.725018+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:23:02.498496+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report: July 1st Live Camera Data**\n\n---\n\n**Scene Captions:**  \nAs of July 1st (",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:23:56.899173+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report: 2026-07-01 Live Camera Feed\n\n---\n\n#### **Summary**  \nDuring this live video feed, multiple potted plants (with heights ranging from 0.587 to 0.917 meters) and cars were detected at various times between approximately 05:23 AM and 13:49. Some instances also included motorcycles in the late afternoon hours.\n\n---\n\n#### **Key Observations**  \n- Multiple potted plants with heights of ~0.8 to ~0.9 meters.  \n- A decreasing number of cars as brightness dims at night, and a noticeable increase during the day when light is stronger due to morning sun.  \n- Some motorcycles were detected in the late afternoon.\n\n---\n\n#### **Recommended Actions**  \n1. **Potted Plant Attention:** Limit car hours around 06:00 AM to ensure potted plants are exposed during non-light periods, which can reduce cat behavior and affect plant observations.  \n",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:24:53.773793+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:25:53.460594+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe surveillance log highlights a dynamic scene centered at **05:21:30.138373+00:00**, with 26 vehicles detected (cars, motorcycles, and others). Potted plants (size: 0.4 or lower) were noted throughout the day.  \n**Scene Focus:** Road junction, diverse potted plant sizes, vehicles.  \n\n---\n\n### **Key Observations**\n- **Potted Plants:** Record numbers of potted plants ranging from a **smallest size of 0.727 to largest of 0.896**, totaling 26 vehicles (cars and motorcycles).  \n- **Cars/Motorcycles:** Varies within sizes suggested for pedestrian safety, with totals recorded at different times.  \n\n**Notable Detections:** Distinctly focused on variety in potted plant sizes.  \n\n---\n\n### **Recommended Actions**\n1. **Regular Monitoring:** Continue patrolling specific road junction areas to ensure consistent detection of diverse plant sizes and vehicle traffic.  \n2. **Safety Prot",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:26:32.266309+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary (2-3 sentences)**  \nThe live camera feed shows a static background with mostly potted plants on July 1st, with occasional cars nearby during specific moments.\n\n---\n\n### **Key Observations (bullet points)**  \n- Potted plants: The brightest potted plant was detected at approximately `0.869253` on date 2026-07-01T05:22:46.347343+00:00`.  \n- Most instances were car-heavy with varying intensities: `0.727` (1), `0.702` (1), and up to a peak of `0.918`.\n- Additional vehicles appeared in later rows, primarily **motorcycles** but also the presence of",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:27:22.534320+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report  \n**2026-07-01**\n\n---\n\n#### **Summary**:  \n- Five potted plant events were detected from around Polder Point at approximately 5:22:48.47, with additional instances showing car visibility on Main Street ranging from around 16:49 to 20:47.\n\n#### **Key Observations and Landmarks**  \nOverlapping detections of potted plants and car counts across different locations highlight specific scene points for attention:  \n- Potted plant detection at Polder Point and car count around 16:49\u201317:04.58 reveal a traffic-rich area during that window, warranting immediate inspection.  \n- Two instances of a single potted plant by 2026-07-01T16:26:37.812 and near the intersection of Main Street at 2026-07-01T16:59:49.19 were noted, indicating a potential conflict or significant activity that requires monitoring.\n\n---\n\n#### **Recommended Actions**  \n1. **Immediate Attention and Activity Tracking:**  \n   - Review scenes around",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:28:53.878714+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:29:53.496555+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Surveillance Report\n\n#### **Summary**\n- The surveillance log shows consistent detection of vehicles (cars/motorcycles) on roads, particularly during peak daylight hours.\n- Occasional plant species visible within 10 meters varied in height (e.g., oak, maple, cherry, etc.).\n- Plant activity is mostly indoors, outside temperatures around 5\u00b0C, with daytime traffic decreasing as the day progresses.\n\n#### **Key Observations**\n1. **Plant Species**  \n   - Vary in height: oak, maple, cherry, spruce, poplar, birch.\n2. **Vehicle Sizes**  \n   - Cars: SUVs, minivans, station wagons; motorcycles with both passenger and cargo lanes visible.\n3. **Daylight vs. Nighttime**  \n   - Activity primarily indoors with plant coverage at night.\n4. **Peak Time**  \n   - Most activity consistent during 1:15 AM to mid-morning hours around July 28th.\n\n#### **Recommendations**\n- **Increased patrols on highway sections and major roads**",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:30:53.843232+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Verification Report**\n\n**Scene Description:**\nThe live video feed from July 26 shows a mix of objects moving in an urban area. Notably, there are potted plants growing and cars passing by near a specific location.\n\n---\n\n### **Summary**\n- The scene depicts potted plant growth at distinct intervals with varying camera timestamps.\n- Potted plants grow relatively steadily despite occasional brief fluctuations in distance.\n- Cars appear to move in three primary directions: north-south, west-northwest, and south.\n\n---\n\n### **Key Observations**\n- Most detections are un",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:31:53.457887+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nA live video feed captures images of potted plants detected at various times during July 1 in a suburban setting. Notably, several instances show multiple potted plants at different heights and locations.\n\n### **Key Observations**\n- **[2026-07-01T05:22:46.347343+00:00]**: 5 total (three potted plants)\n- **[2026-07-01T05:22:46.458042+00:00]**: 4 total (two potted plants)\n- **[2026-07-01T05:22:46.569926+00:00]**: 5 total (four potted plants)\n- **[2026-07-01T05:22:46.71311",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:32:53.833962+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Survey surveillance report**\n\n---\n\n### **Summary**\n- **Scene Overview**: The detection log shows consistent observation of potted plants with notable heights (0.92 upwards) detected from July 1 at 5:22:46 UTC to July 7 at 5:31:18 UTC.\n- **Key Observations**:\n  - **Potted Plant Heights**: Two potted plants were observed peaking just before each detection image (e.g., 0.92, 0.89 units).\n  -",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:33:53.499803+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarize:**  \n- The detection log captured a variety of vehicles across different body sizes:  \n  - **Potted plants (0.8\u20131.5 m)** appearing around **0.7\u20132.0 m tall** in various colors, often adjacent to vehicles.  \n  - A vehicle with a width of approximately **0.5\u20131.5 m**, likely for law enforcement or maintenance, appears in two instances. There were also **two cars moving at slightly different angles**, potentially causing disruptions.  \n\n---\n\n**Key Observations:**  \n- Potted plants detected on multiple occasions from July 1 starting around 2 p.m., with each potted plant reaching up to a height of ~1.5 meters.  \n- The scene contained vehicles ranging in size, including car bodies varying widely (0.4\u20131.5 m width), which could be concerning for safety or aesthetic reasons.  \n\n---\n\n**Recommended Actions:**  \n",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:34:53.813575+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:35:53.486312+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:36:53.829881+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:37:53.509263+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:38:53.851152+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### Summary  \nThe detection log highlights moderate activity at a live camera feed on July 1st. The scene comprises potted plants and cars detected from midnight to just after 6 PM, including some exceptions during specific hours (e.g., higher lags for scooters and motorcycles). Only about one-third of the vehicles were counted during peak times due to noise interference.\n\n---\n\n### Key Observations  \n- Both cars and scooters/motorcycles with slight delays on lower-lag windows.  \n- Multiple potted plants detected between times three hours apart, suggesting over-crowding at some intervals.\n\n---\n\n### Recommended Actions (0 minutes):",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:39:53.526431+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n---\n\n### **Summary**\nThe detected activity captures a scene dominated by vehicles at various times during the observation period. The primary vehicle types include potted plants (varies from 0.5 to 0.9 meters), bicycles, cars, and motorcycles. The scene shows dynamic transitions between different vehicle setups throughout the day.\n\n---\n\n### **Key Observations**\n- **Potted Plants**: Notably, multiple formations of potted plants are detected at consistent times during the observation period.\n- **Bicycles**: Occurrences of vehicles (bicyclic or similar formations) are noted around 16:42 and 20:09, suggesting some cycling behavior.\n- **Cars/CMotorcycles**: Significant numbers of cars/monkeys are observed in groups later in the evening.\n\n---\n\n### **Recommended Actions**\n1. Continue surveillance on 2 cameras positioned strategically to capture potted plants and dynamic groups.\n2. Use video analysis tools (such as VideoCut or Gekko) for a detailed vehicle tracking assessment.\n",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:40:53.671499+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:41:53.541912+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:42:53.769583+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarize**:  \nOn [2026-07-01T05:09:54], cameras captured multiple potted plants across north directions on streets like Street 22 and 76. Cars appeared at various positions, possibly indicating potential activity or events in the city during that busy period.\n\n**Key Observations**:  \n- **Potted Plants**: Several objects with diverse sizes (e.g., 0.5m, 0.7m, 1m diameter). Many near north directions on streets such as Street 22 and 76.\n- **Cars**: Some cars appeared in positions suggesting",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:43:53.502358+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**SUMMARY:**  \nOn [2026-07-01T05:22:46.347] to [2026-07-01T05:22:47.902], a scene captured **multiple vehicles**, primarily small or medium in size (e.g., potted plants, motorcycles), with **more individual items** like larger pots on some days.\n\n**KEY OBSERVATIONS:**  \n- Vehicular activity is high across different camera times. On days between [2026-07-01T05:22:46] and [2026-07-01T05:22:48], there are multiple observed vehicles (cars, motorcycles).\n- A wide range of pot sizes and types are present, including larger pots with different characteristics.\n- The number of vehicles and plants",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:44:48.738770+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:45:22.664450+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:46:22.704787+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:47:22.333471+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:48:22.690380+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 10
+  },
+  {
+    "timestamp": "2026-07-01T05:49:22.417540+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report**\n\n- **Summary**: A wide range of detection frequencies was noted within approximately 3 hours at a site where multiple people held potted plants (>0.7m tall) and cars (with distances",
+    "detection_count": 20,
+    "caption_count": 10
+  }
+]

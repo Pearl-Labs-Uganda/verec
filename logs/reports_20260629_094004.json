@@ -1,0 +1,79 @@
+[
+  {
+    "timestamp": "2026-06-29T09:42:05.293875+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T09:43:03.581301+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T09:44:03.367731+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Report\n\n- **Summary**:  \n  The scene detected video from [2026-06-29T09:41:35.349061+00:00], and no detections were found between that time and [2026-06-29T09:40:45.373756+00:00]. A key observation is that the scene monitored on June 2",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-29T09:45:02.304371+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Summary  \n[No scenes recorded as activity during 2026-06-29.]  \n\n### Key Observations  \n[During [09:40, 09:41, 09:43] on [2026-06-29], no video was detected.]  \n\n### Recommended Actions  \nWe recommend evaluating the system's real-time detection capability to ensure it can handle the number of videos in operation. Additionally, updating or maintaining any necessary system adjustments may be required based on these events.",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T09:46:11.666312+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** The surveillance detected activity starting June 29th, 9:40 AM with two separate video scenes on that date.\n\n**Key Observations:** Two video entries captured at approximately 2026-06-29T09:40:45 and 2026-06-29T09:41:35, representing time points when events began likely observing behavior or activities.\n\n**Recommended Actions:** Capture",
+    "detection_count": 0,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T09:47:02.964951+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary**: It was a quiet period on June 29th without any detected vehicle activities, though a car was encountered during operation.  \n\n**Key Observations**: Traffic activity occurred between 09:36am and 18:07pm, but no injuries were reported.  \n\n**Recommended Actions**: A review of the scenes found nothing that could inform safer operations or surveillance. All efforts remain focused on mitigating risks during and after operation.",
+    "detection_count": 0,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T09:48:09.731276+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T09:49:05.071866+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 0,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T09:50:30.969662+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** A surveillance log was collected from June 29, 2026, capturing two video recordings that lasted from 09:40 to 09:48. No detections were recorded during this period.\n\n**Key Observations:**  \n- 15-minute intervals with no data points indicating any activity or triggers.  \n- Scene captured on June 29, 2026, at 9 AM.  \n\n**Recommended Actions:**  \n- Implement additional camera coverage in the observed areas to enhance surveillance.  \n- Adjust lighting if possible to better monitor these specific spots.  \n- Regularly check for potential issues with existing equipment and consider adding redundant sensors.",
+    "detection_count": 0,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-06-29T09:51:03.578223+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report:**\n\n- **Summary:**  \n  A surveillance video was recorded on",
+    "detection_count": 0,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-06-29T09:52:56.469866+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:**\n- The live camera feed captured a series of images starting around 9:40 AM on June 29th, with subsequent frames at each specified timestamp.\n\n**Key Observations:**\n- **Timestamp:** [2026-06-29T09:40:45.373756+00:00]  \n- **Timestamp:** [2026-06-29T09:41:35.349061+00:00]  \n- **Timestamp:** [2026-0",
+    "detection_count": 0,
+    "caption_count": 8
+  }
+]

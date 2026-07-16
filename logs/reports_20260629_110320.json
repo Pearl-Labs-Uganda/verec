@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2026-06-29T11:08:42.816632+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveillance Report:**\n\n- **Summary:** No specific detection or object was observed at [2026-06-29T11:07:20.889478+00:00], with the scene consisting solely of a timestamp and no descriptive captions provided for further observation.\n\n- **Key Observations:** No notable detections or",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T11:09:36.413667+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Report:**\n\n- **Summary:** An activity occurring within June 2026, involving potentially high-precision measurement techniques.  \n- **Key Observations:** Regular measurement of air quality data could be in progression.  \n- **Recommended Actions:** Install additional air quality detectors and consider performing lateral torsional oscillation (LTO) tests for seismic stability assessment if applicable.",
+    "detection_count": 0,
+    "caption_count": 1
+  },
+  {
+    "timestamp": "2026-06-29T11:10:36.822829+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** No new content was captured in 2026-06-29T11:07 to 2026-06-29T11:08.  \n\n**Key Observations:** All detected scenes are from July 1, 2026, on the same day, focusing solely on text content.  \n\n**Recommended Actions:** VEREC should begin new tasks and review data starting from June 30 to align with the previous week's scenes.",
+    "detection_count": 0,
+    "caption_count": 2
+  },
+  {
+    "timestamp": "2026-06-29T11:13:57.047170+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summary:** The video feed on [2026-06-29T11:07:20] through [2026-06-29T11:31:45] captured activity where multiple vehicles are detected, particularly with cars and a truck, with varying positions. All scenes were empty except for various vehicle types.\n\n**Key Observations:** Multiple vehicles (cars) were observed in moving configurations with varying stops and starts; especially notable at times [2026-06-29T1",
+    "detection_count": 20,
+    "caption_count": 3
+  },
+  {
+    "timestamp": "2026-06-29T11:14:54.508961+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n### Summary  \n- **Scene Description**: The detected area consists of stationary vehicles primarily traveling freely within a busy intersection linked by a low-throughput traffic light.  \n- **Key Observations**: Three cars are present, each with distinct mileages ranging from 0.756 to 0.893. A traffic light is detected with only one signal output at 0.549. The scene highlights conflicting activities amidst free flow in the intersection.\n\n###Recommended Actions  \n1. **Improve Traffic Light Scheduling**: Monitor the traffic light's state continuously to ensure optimal timing and reduce throughput issues.\n2. **Signal Warning Systems**: deploy real-time monitoring and alert systems for the detected vehicles at their precise positions, especially where they might impede movement or queue.\n3. **Traffic Management Strategies**: investigate possible bottlenecks caused by the low-throughput light signal to optimize traffic flow and prevent congestion.\n4. **Reporting Deterrents**: review any reported drivers affected by potential congestion on identified high-mileage vehicles.\n5. **Vehicle Coordination:** analyze how the stationary cars can coordinate their movement with other vehicles to maintain a smooth intersectional flow.",
+    "detection_count": 20,
+    "caption_count": 4
+  },
+  {
+    "timestamp": "2026-06-29T11:15:53.823165+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T11:16:54.478453+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\nHere\u2019s a concise surveillance report based on the",
+    "detection_count": 20,
+    "caption_count": 5
+  },
+  {
+    "timestamp": "2026-06-29T11:17:55.366938+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "",
+    "detection_count": 20,
+    "caption_count": 6
+  },
+  {
+    "timestamp": "2026-06-29T11:18:54.986394+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Violence Surveillance Report**\n\n---\n\n### **Scene Description**  \nThe surveillance log captures actions throughout a busy June 29th live camera feed at [2026-06-29T11: ] in New York City. The scene includes various vehicles, with primarily cars observed, though one pass occurred simultaneously over a traffic light and road.\n\n---\n\n### **Key Observations**  \n- **Observation 1:** Multiple vehicles passed through the sensor (3-5 cars per timestamp).  \n- **Observation 2:** Two prominent traffic lights were detected:  \n  - First **6.97 meters** away, causing several false alerts (traffic light and car movement near it).  \n  - **0.5 (or slightly closer)** meters, with another false alert due to a vehicle passing over it.  \n\n---\n\n### **Recommended Actions**  \n1. **Continue Monitoring Traffic Lights",
+    "detection_count": 20,
+    "caption_count": 7
+  },
+  {
+    "timestamp": "2026-06-29T11:20:48.587113+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveyeur Reaction: Vertex V8**\n\n---\n\n**Scene Captions:**  \nThe clips were likely meant to monitor traffic around ",
+    "detection_count": 20,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-29T11:21:02.358019+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Surveyability Surveillance Report**\n\n---\n\n### Summary  \n[2026-06-29T11:20:00+00:00]  \n**Scene**: None detected.  \n\n[2026-06-29T11:20:37+00:00] 4 total people detected with confidence \u22650.8.  \n\n[2026-06-29T11:20:38+00:00] 5 total people detected with confidence \u22650.8.  \n\n[2026-06-29T11:20:40+00:00] 5 total people detected with confidence \u22650.8.  \n\n[2026-06-29T11:20:42+00:00] 4 total people",
+    "detection_count": 20,
+    "caption_count": 8
+  },
+  {
+    "timestamp": "2026-06-29T11:22:00.135447+00:00",
+    "model": "deepseek-r1:1.5b",
+    "report": "\n\n**Summarize**\nThere were instances of multiple cars and a variable number of visible persons in the scene across different time points, with no significant number of objects exceeding two.  \n\n**Key Observations (Cars)**  \n- Total: 8  \n  - [2026-06-29T11",
+    "detection_count": 20,
+    "caption_count": 9
+  }
+]

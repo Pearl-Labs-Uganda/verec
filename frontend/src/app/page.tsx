@@ -8,11 +8,16 @@ import {
   fetchReport,
   fetchExportAll,
   fetchSystemInfo,
+  sendChatMessage,
+  buildMemory,
+  searchMemory,
+  queryMemory,
   downloadJson,
   type FeedFrame,
   type DetectionObject,
   type ReportResult,
   type SystemInfo,
+  type MemoryNode,
 } from "@/lib/api";
 
 /* ── helpers ─────────────────────────────────────────────────────────── */
@@ -223,6 +228,33 @@ export default function Home() {
   const [tab, setTab] = useState<"feed" | "export">("feed");
   const [exportData, setExportData] = useState<object | null>(null);
 
+  /* Mode: chat (clean conversation) vs debug (full panels) */
+  const [mode, setMode] = useState<"chat" | "debug">("debug");
+
+  /* Chat — Live (current frame, via VLM) or Memory (stored history, grounded + cited) */
+  const [chatQueryMode, setChatQueryMode] = useState<"live" | "memory">("live");
+  const [chatMessages, setChatMessages] = useState<
+    {
+      role: "user" | "assistant" | "system";
+      text: string;
+      timestamp: string;
+      queryMode?: "live" | "memory";
+      confidence?: string;
+      evidence?: string;
+    }[]
+  >([]);
+  const [chatInput, setChatInput] = useState("");
+  const [chatLoading, setChatLoading] = useState(false);
+  const chatEndRef = useRef<HTMLDivElement | null>(null);
+
+  /* Search Memory — surfaced inside Chat's Memory mode, not a separate panel */
+  const [memoryBuilding, setMemoryBuilding] = useState(false);
+  const [memoryBuildMsg, setMemoryBuildMsg] = useState<string | null>(null);
+  const [memorySearchLoading, setMemorySearchLoading] = useState(false);
+  const [memoryResults, setMemoryResults] = useState<MemoryNode[]>([]);
+  const [memorySearchError, setMemorySearchError] = useState<string | null>(null);
+  const [memorySearched, setMemorySearched] = useState(false);
+
   /* ── Init ──────────────────────────────────────────────────────── */
   useEffect(() => {
     fetchPresets()
@@ -406,6 +438,86 @@ export default function Home() {
     }
   };
 
+  /* ── Auto-scroll chat ──────────────────────────────────────────── */
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [chatMessages]);
+
+  /* ── Send chat message (Live = current frame, Memory = stored history) ── */
+  const handleChatSend = useCallback(async () => {
+    const msg = chatInput.trim();
+    if (!msg || chatLoading) return;
+    setChatInput("");
+    const ts = new Date().toISOString();
+    setChatMessages((prev) => [...prev, { role: "user", text: msg, timestamp: ts, queryMode: chatQueryMode }]);
+    setChatLoading(true);
+    try {
+      if (chatQueryMode === "memory") {
+        const res = await queryMemory(msg);
+        setChatMessages((prev) => [
+          ...prev,
+          {
+            role: "assistant",
+            text: res.answer,
+            timestamp: new Date().toISOString(),
+            queryMode: "memory",
+            confidence: res.confidence,
+            evidence: res.evidence,
+          },
+        ]);
+      } else {
+        const reply = await sendChatMessage(msg, source, streamUrl);
+        setChatMessages((prev) => [
+          ...prev,
+          { role: "assistant", text: reply.reply, timestamp: new Date().toISOString(), queryMode: "live" },
+        ]);
+      }
+    } catch (e) {
+      setChatMessages((prev) => [
+        ...prev,
+        { role: "system", text: `Error: ${e}`, timestamp: new Date().toISOString() },
+      ]);
+    } finally {
+      setChatLoading(false);
+    }
+  }, [chatInput, chatLoading, chatQueryMode, source, streamUrl]);
+
+  const handleClearChat = useCallback(() => {
+    setChatMessages([]);
+  }, []);
+
+  /* ── Search Memory ──────────────────────────────────────────────── */
+  const handleBuildMemory = async () => {
+    setMemoryBuilding(true);
+    setMemoryBuildMsg(null);
+    try {
+      const node = await buildMemory();
+      setMemoryBuildMsg(`Indexed memory node "${node.id}" (${node.source_frame_count} det / ${node.source_caption_count} cap).`);
+    } catch (e) {
+      setMemoryBuildMsg(String(e));
+    } finally {
+      setMemoryBuilding(false);
+    }
+  };
+
+  const handleMemorySearch = async () => {
+    const q = chatInput.trim();
+    if (!q) return;
+    setMemorySearchLoading(true);
+    setMemorySearchError(null);
+    try {
+      const res = await searchMemory(q);
+      setMemoryResults(res.results);
+    } catch (e) {
+      setMemoryResults([]);
+      setMemorySearchError(String(e));
+    } finally {
+      setMemorySearchLoading(false);
+      setMemorySearched(true);
+    }
+  };
+
+
   /* ── bandwidth color ───────────────────────────────────────────── */
   const bwColor =
     bandwidth === 0
@@ -443,6 +555,17 @@ export default function Home() {
                 {t === "feed" ? "Live Feed" : "Export"}
               </button>
             ))}
+            <div className="ml-2 flex items-center bg-gray-800/80 rounded-full border border-gray-700/50 p-0.5">
+              {(["chat", "debug"] as const).map((m) => (
+                <button
+                  key={m}
+                  onClick={() => setMode(m)}
+                  className={`px-2.5 py-1 rounded-full text-[10px] font-semibold transition-colors ${mode === m ? (m === "chat" ? "bg-orange-600 text-white" : "bg-purple-600 text-white") : "text-gray-500 hover:text-gray-300"}`}
+                >
+                  {m === "chat" ? "Chat" : "Debug"}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
         <div className="flex items-center gap-1.5 shrink-0 text-xs">
@@ -989,8 +1112,10 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Right sidebar: raw feed + captions */}
+              {/* Right sidebar: raw feed + captions (debug) or Chat (chat mode) */}
               <div className="hidden lg:flex lg:w-72 xl:w-80 shrink-0 flex-col bg-gray-900/60 border-l border-gray-800/40">
+                {mode === "debug" && (
+                  <>
                 <div className="aspect-video bg-black flex items-center justify-center overflow-hidden shrink-0 rounded-2xl m-1">
                   {rawFrame ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -1058,10 +1183,170 @@ export default function Home() {
                     </div>
                   )}
                 </div>
+                  </>
+                )}
+                {mode === "chat" && (
+                  <div className="flex flex-col h-full">
+                    <div className="shrink-0 px-3 py-2 border-b border-gray-800/40 flex items-center justify-between gap-2">
+                      <h4 className="text-[10px] font-semibold uppercase tracking-wider text-orange-400">
+                        Chat
+                      </h4>
+                      <div className="flex items-center gap-2">
+                        <div className="flex gap-0.5 bg-gray-800/60 rounded-full p-0.5">
+                          {(["live", "memory"] as const).map((qm) => (
+                            <button
+                              key={qm}
+                              onClick={() => setChatQueryMode(qm)}
+                              className={`px-2 py-0.5 rounded-full text-[9px] font-semibold transition-colors ${
+                                chatQueryMode === qm
+                                  ? qm === "live" ? "bg-orange-600 text-white" : "bg-purple-600 text-white"
+                                  : "text-gray-500 hover:text-gray-300"
+                              }`}
+                            >
+                              {qm === "live" ? "Live" : "Memory"}
+                            </button>
+                          ))}
+                        </div>
+                        <button
+                          onClick={handleClearChat}
+                          className="text-[9px] text-gray-500 hover:text-gray-300 transition-colors"
+                        >
+                          Clear
+                        </button>
+                      </div>
+                    </div>
+                    {chatQueryMode === "memory" && (
+                      <div className="shrink-0 px-3 py-2 border-b border-gray-800/40 bg-gray-900/30 flex items-center justify-between gap-2">
+                        <button
+                          onClick={handleBuildMemory}
+                          disabled={memoryBuilding}
+                          className="text-[10px] bg-purple-600 hover:bg-purple-500 disabled:opacity-50 text-white font-semibold px-2.5 py-1 rounded-full transition-colors shrink-0"
+                        >
+                          {memoryBuilding ? "Indexing…" : "Build Memory Node"}
+                        </button>
+                        {memoryBuildMsg && (
+                          <span className="text-[9px] text-gray-500 truncate">{memoryBuildMsg}</span>
+                        )}
+                      </div>
+                    )}
+                    <div className="flex-1 overflow-y-auto px-3 py-2 space-y-2">
+                      {chatMessages.length === 0 && (
+                        <p className="text-[11px] text-gray-600 italic text-center mt-8">
+                          {chatQueryMode === "memory"
+                            ? "Ask about what happened earlier — answers are grounded in stored memory nodes."
+                            : connected ? "Ask about what the camera is seeing…" : "Start a feed, then ask a question."}
+                        </p>
+                      )}
+                      {chatMessages.map((m, i) => (
+                        <div
+                          key={`chat-${i}`}
+                          className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}
+                        >
+                          <div
+                            className={`max-w-[85%] px-3 py-1.5 rounded-2xl text-[12px] leading-relaxed ${
+                              m.role === "user"
+                                ? "bg-orange-600 text-white rounded-br-sm"
+                                : m.role === "system"
+                                  ? "bg-red-900/50 text-red-300 rounded-bl-sm"
+                                  : "bg-gray-800/80 text-gray-200 rounded-bl-sm"
+                            }`}
+                          >
+                            {m.text}
+                            {m.queryMode === "memory" && m.role === "assistant" && (m.evidence || m.confidence) && (
+                              <div className="mt-1 pt-1 border-t border-gray-700/40 space-y-0.5">
+                                {m.evidence && (
+                                  <div className="text-[9px] text-gray-400 whitespace-pre-wrap">{m.evidence}</div>
+                                )}
+                                {m.confidence && (
+                                  <div className="text-[9px] text-purple-400 font-mono uppercase">
+                                    Confidence: {m.confidence}
+                                  </div>
+                                )}
+                              </div>
+                            )}
+                            <div className={`text-[8px] mt-0.5 ${m.role === "user" ? "text-orange-200/60" : "text-gray-500"}`}>
+                              {new Date(m.timestamp).toLocaleTimeString()}
+                              {m.role === "assistant" && m.queryMode && ` · ${m.queryMode === "memory" ? "Memory" : "Live"}`}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                      {chatLoading && (
+                        <div className="flex justify-start">
+                          <div className="bg-gray-800/80 text-gray-400 px-3 py-1.5 rounded-2xl rounded-bl-sm text-[12px] flex items-center gap-1.5">
+                            <Spinner className="w-3 h-3" /> Thinking…
+                          </div>
+                        </div>
+                      )}
+                      <div ref={chatEndRef} />
+                    </div>
+                    {chatQueryMode === "memory" && (memorySearchError || memorySearched || memoryResults.length > 0) && (
+                      <div className="shrink-0 px-3 py-2 border-t border-gray-800/40 max-h-[30vh] overflow-y-auto space-y-1.5">
+                        {memorySearchError && (
+                          <p className="text-[10px] text-red-400">{memorySearchError}</p>
+                        )}
+                        {!memorySearchLoading && !memorySearchError && memorySearched && memoryResults.length === 0 && (
+                          <p className="text-[10px] text-gray-500">
+                            No matches found for &ldquo;{chatInput || "…"}&rdquo;. Try a different keyword, or build a memory node first.
+                          </p>
+                        )}
+                        {memoryResults.map((n) => (
+                          <ExpandableCard
+                            key={n.id}
+                            timestamp={n.indexed_at}
+                            preview={`${n.camera_id} · ${n.start} – ${n.end}`}
+                            meta={<span>{n.tags.join(", ") || "(no tags)"}</span>}
+                          >
+                            <p className="text-[11px] text-gray-300 whitespace-pre-wrap leading-relaxed">
+                              {n.text}
+                            </p>
+                          </ExpandableCard>
+                        ))}
+                      </div>
+                    )}
+                    <div className="shrink-0 px-3 py-2 border-t border-gray-800/40">
+                      <div className="flex gap-1.5">
+                        <input
+                          type="text"
+                          value={chatInput}
+                          onChange={(e) => setChatInput(e.target.value)}
+                          onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleChatSend(); } }}
+                          placeholder={chatQueryMode === "memory" ? "Ask, or browse by keyword…" : "Ask about the scene…"}
+                          className="flex-1 bg-gray-800 text-gray-200 text-xs rounded-xl px-3 py-2 border border-gray-700/50 focus:outline-none focus:ring-1 focus:ring-orange-500/50"
+                        />
+                        {chatQueryMode === "memory" && (
+                          <button
+                            onClick={handleMemorySearch}
+                            disabled={memorySearchLoading || !chatInput.trim()}
+                            title="Browse matching memory nodes (instant, no AI)"
+                            className="bg-gray-700 hover:bg-gray-600 disabled:opacity-40 text-gray-200 px-3 py-2 rounded-xl transition-colors"
+                          >
+                            {memorySearchLoading ? <Spinner className="w-4 h-4" /> : (
+                              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                              </svg>
+                            )}
+                          </button>
+                        )}
+                        <button
+                          onClick={handleChatSend}
+                          disabled={chatLoading || !chatInput.trim()}
+                          title={chatQueryMode === "memory" ? "Ask (grounded answer via AI)" : "Send"}
+                          className="bg-orange-600 hover:bg-orange-500 disabled:opacity-40 text-white px-3 py-2 rounded-xl transition-colors"
+                        >
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
-            {/* ── Bottom panel — independent scroll columns ──── */}
+            {/* ── Bottom panel — independent scroll columns (debug only) ──── */}
+            {mode === "debug" && (
             <div
               className="shrink-0 border-t border-gray-800/40 flex flex-col md:flex-row"
               style={{ height: "40vh" }}
@@ -1363,6 +1648,151 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            )}
+
+            {/* ── Mobile chat panel (chat mode) ──── */}
+            {mode === "chat" && (
+              <div className="lg:hidden shrink-0 border-t border-gray-800/40 flex flex-col" style={{ height: "40vh" }}>
+                <div className="px-3 py-2 border-b border-gray-800/40 flex items-center justify-between gap-2 shrink-0 bg-gray-900/40">
+                  <h4 className="text-xs font-semibold text-orange-400">Chat</h4>
+                  <div className="flex items-center gap-2">
+                    <div className="flex gap-0.5 bg-gray-800/60 rounded-full p-0.5">
+                      {(["live", "memory"] as const).map((qm) => (
+                        <button
+                          key={qm}
+                          onClick={() => setChatQueryMode(qm)}
+                          className={`px-2 py-0.5 rounded-full text-[9px] font-semibold transition-colors ${
+                            chatQueryMode === qm
+                              ? qm === "live" ? "bg-orange-600 text-white" : "bg-purple-600 text-white"
+                              : "text-gray-500 hover:text-gray-300"
+                          }`}
+                        >
+                          {qm === "live" ? "Live" : "Memory"}
+                        </button>
+                      ))}
+                    </div>
+                    <button onClick={handleClearChat} className="text-[9px] text-gray-500 hover:text-gray-300">Clear</button>
+                  </div>
+                </div>
+                {chatQueryMode === "memory" && (
+                  <div className="shrink-0 px-3 py-2 border-b border-gray-800/40 bg-gray-900/30 flex items-center justify-between gap-2">
+                    <button
+                      onClick={handleBuildMemory}
+                      disabled={memoryBuilding}
+                      className="text-[10px] bg-purple-600 hover:bg-purple-500 disabled:opacity-50 text-white font-semibold px-2.5 py-1 rounded-full transition-colors shrink-0"
+                    >
+                      {memoryBuilding ? "Indexing…" : "Build Memory Node"}
+                    </button>
+                    {memoryBuildMsg && (
+                      <span className="text-[9px] text-gray-500 truncate">{memoryBuildMsg}</span>
+                    )}
+                  </div>
+                )}
+                <div className="flex-1 overflow-y-auto px-3 py-2 space-y-2">
+                  {chatMessages.length === 0 && (
+                    <p className="text-[11px] text-gray-600 italic text-center mt-4">
+                      {chatQueryMode === "memory"
+                        ? "Ask about what happened earlier — answers are grounded in stored memory nodes."
+                        : connected ? "Ask about what the camera is seeing…" : "Start a feed, then ask a question."}
+                    </p>
+                  )}
+                  {chatMessages.map((m, i) => (
+                    <div key={`mob-chat-${i}`} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+                      <div className={`max-w-[85%] px-3 py-1.5 rounded-2xl text-[12px] leading-relaxed ${
+                        m.role === "user" ? "bg-orange-600 text-white rounded-br-sm"
+                          : m.role === "system" ? "bg-red-900/50 text-red-300 rounded-bl-sm"
+                          : "bg-gray-800/80 text-gray-200 rounded-bl-sm"
+                      }`}>
+                        {m.text}
+                        {m.queryMode === "memory" && m.role === "assistant" && (m.evidence || m.confidence) && (
+                          <div className="mt-1 pt-1 border-t border-gray-700/40 space-y-0.5">
+                            {m.evidence && (
+                              <div className="text-[9px] text-gray-400 whitespace-pre-wrap">{m.evidence}</div>
+                            )}
+                            {m.confidence && (
+                              <div className="text-[9px] text-purple-400 font-mono uppercase">
+                                Confidence: {m.confidence}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                        <div className={`text-[8px] mt-0.5 ${m.role === "user" ? "text-orange-200/60" : "text-gray-500"}`}>
+                          {new Date(m.timestamp).toLocaleTimeString()}
+                          {m.role === "assistant" && m.queryMode && ` · ${m.queryMode === "memory" ? "Memory" : "Live"}`}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  {chatLoading && (
+                    <div className="flex justify-start">
+                      <div className="bg-gray-800/80 text-gray-400 px-3 py-1.5 rounded-2xl rounded-bl-sm text-[12px] flex items-center gap-1.5">
+                        <Spinner className="w-3 h-3" /> Thinking…
+                      </div>
+                    </div>
+                  )}
+                </div>
+                {chatQueryMode === "memory" && (memorySearchError || memorySearched || memoryResults.length > 0) && (
+                  <div className="shrink-0 px-3 py-2 border-t border-gray-800/40 max-h-[24vh] overflow-y-auto space-y-1.5">
+                    {memorySearchError && (
+                      <p className="text-[10px] text-red-400">{memorySearchError}</p>
+                    )}
+                    {!memorySearchLoading && !memorySearchError && memorySearched && memoryResults.length === 0 && (
+                      <p className="text-[10px] text-gray-500">
+                        No matches found for &ldquo;{chatInput || "…"}&rdquo;. Try a different keyword, or build a memory node first.
+                      </p>
+                    )}
+                    {memoryResults.map((n) => (
+                      <ExpandableCard
+                        key={n.id}
+                        timestamp={n.indexed_at}
+                        preview={`${n.camera_id} · ${n.start} – ${n.end}`}
+                        meta={<span>{n.tags.join(", ") || "(no tags)"}</span>}
+                      >
+                        <p className="text-[11px] text-gray-300 whitespace-pre-wrap leading-relaxed">
+                          {n.text}
+                        </p>
+                      </ExpandableCard>
+                    ))}
+                  </div>
+                )}
+                <div className="shrink-0 px-3 py-2 border-t border-gray-800/40">
+                  <div className="flex gap-1.5">
+                    <input
+                      type="text"
+                      value={chatInput}
+                      onChange={(e) => setChatInput(e.target.value)}
+                      onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleChatSend(); } }}
+                      placeholder={chatQueryMode === "memory" ? "Ask, or browse by keyword…" : "Ask about the scene…"}
+                      className="flex-1 bg-gray-800 text-gray-200 text-xs rounded-xl px-3 py-2 border border-gray-700/50 focus:outline-none focus:ring-1 focus:ring-orange-500/50"
+                    />
+                    {chatQueryMode === "memory" && (
+                      <button
+                        onClick={handleMemorySearch}
+                        disabled={memorySearchLoading || !chatInput.trim()}
+                        title="Browse matching memory nodes (instant, no AI)"
+                        className="bg-gray-700 hover:bg-gray-600 disabled:opacity-40 text-gray-200 px-3 py-2 rounded-xl transition-colors"
+                      >
+                        {memorySearchLoading ? <Spinner className="w-4 h-4" /> : (
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                        )}
+                      </button>
+                    )}
+                    <button
+                      onClick={handleChatSend}
+                      disabled={chatLoading || !chatInput.trim()}
+                      title={chatQueryMode === "memory" ? "Ask (grounded answer via AI)" : "Send"}
+                      className="bg-orange-600 hover:bg-orange-500 disabled:opacity-40 text-white px-3 py-2 rounded-xl transition-colors"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
