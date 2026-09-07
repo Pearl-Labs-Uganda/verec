@@ -1,82 +1,170 @@
-# FastVLM: Efficient Vision Encoding for Vision Language Models
+# VEREC — a CCTV camera that describes what it sees
 
-This is the official repository of
-**[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**
+**VEREC turns a normal camera feed into plain-English commentary.**
 
-[//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_qwen-2.png&#41;)
-<p align="center">
-<img src="docs/acc_vs_latency_qwen-2.png" alt="Accuracy vs latency figure." width="400"/>
-</p>
+A security camera can record for twelve hours and still tell you nothing. Someone has to sit and watch it. VEREC watches instead, and writes down what happened — in sentences a person can read, not just boxes on a screen.
 
-### Highlights
-* We introduce FastViTHD, a novel hybrid vision encoder designed to output fewer tokens and significantly reduce encoding time for high-resolution images.  
-* Our smallest variant outperforms LLaVA-OneVision-0.5B with 85x faster Time-to-First-Token (TTFT) and 3.4x smaller vision encoder.
-* Our larger variants using Qwen2-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT.
-* Demo iOS app to demonstrate the performance of our model on a mobile device.
+Point it at a webcam, a video file, or an IP/RTSP camera. It tells you things like:
 
-<table>
-<tr>
-    <td><img src="docs/fastvlm-counting.gif" alt="FastVLM - Counting"></td>
-    <td><img src="docs/fastvlm-handwriting.gif" alt="FastVLM - Handwriting"></td>
-    <td><img src="docs/fastvlm-emoji.gif" alt="FastVLM - Emoji"></td>
-</tr>
-</table>
+> *"Three people are standing near the entrance. One of them just set a bag down and walked away."*
 
-## Getting Started
-We use LLaVA codebase to train FastVLM variants. In order to train or finetune your own variants, 
-please follow instructions provided in [LLaVA](https://github.com/haotian-liu/LLaVA) codebase. 
-We provide instructions for running inference with our models.   
+Think of it as a **commentator for CCTV** — the way a sports commentator narrates a match, VEREC narrates a camera feed.
 
-### Setup
+---
+
+## Why this is hard (and what makes VEREC different)
+
+Ordinary object detection gives you labels and boxes: `person 0.91`, `backpack 0.78`. That tells you *what is in frame*, but not *what is going on*.
+
+Knowing "what is going on" needs several different kinds of seeing, layered together:
+
+| Layer | Question it answers | What we use |
+|---|---|---|
+| **Object detection** | *What things are here?* | YOLO11n — finds and boxes objects |
+| **Pose detection** | *How are people's bodies positioned?* | YOLO11n-pose — 17 skeleton keypoints per person |
+| **Action recognition** | *What are they physically doing?* | ST-GCN — reads skeletons over time (sitting down, falling, throwing…) |
+| **Vision-language model** | *What does this scene mean?* | FastVLM — looks at the frame and writes a sentence |
+| **Reasoning model** | *So what should we do about it?* | An LLM turns the log into a report |
+
+Each layer alone is limited. A detector sees a `person` and a `bag`. Pose sees the person bending. The VLM sees *"a person leaving a bag unattended near a doorway."* **Stacking them is the whole idea.**
+
+---
+
+## How it works
+
+```
+   camera / video / RTSP stream
+              │
+              ▼
+        ┌───────────┐
+        │   frame   │
+        └─────┬─────┘
+              │  (every frame)
+      ┌───────┼────────┬──────────────┐
+      ▼       ▼        ▼              │
+  objects   poses   skeletons         │ (every N seconds)
+  (YOLO)   (YOLO)   over time         ▼
+      │       │        │         ┌─────────┐
+      │       │        ▼         │ FastVLM │
+      │       │    ST-GCN        │ caption │
+      │       │    action        └────┬────┘
+      └───────┴────────┴──────────────┘
+                       │
+                       ▼
+              running event log
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  LLM report     │
+              │  summary +      │
+              │  observations + │
+              │  what to do     │
+              └─────────────────┘
+```
+
+Detection and pose run on **every frame** because they're fast. The vision-language model is slower and richer, so it runs **on an interval** (every 5 seconds by default) and writes a caption. Everything lands in a timestamped log, and at any point you can ask for a report.
+
+### The report
+
+The final step feeds the whole log to a reasoning model, which returns:
+
+1. **Summary** — 2–3 sentences on what happened
+2. **Key Observations** — the notable moments as bullets
+3. **Recommended Actions** — e.g. *"Monitor crowd density at entrance"*, *"Investigate unattended object"*
+
+Everything is exportable as JSON — detections, captions, and reports.
+
+---
+
+## Quick start
+
+**Requirements:** Python 3.10 recommended (3.8+ supported), Node.js (for the web UI), and a camera or video file. Apple Silicon (MPS), CUDA, and CPU are all supported.
+
 ```bash
-conda create -n fastvlm python=3.10
-conda activate fastvlm
+# 1. Install
+conda create -n verec python=3.10 && conda activate verec
 pip install -e .
+
+# 2. Get the models
+bash get_models.sh          # FastVLM vision-language checkpoints
+bash get_action_models.sh   # ST-GCN action recognition
+
+# 3. Set your keys (never commit this file — it is gitignored)
+cp .env.example .env
+
+# 4. Run backend + web UI together
+./dev.sh
 ```
 
-### Model Zoo
-For detailed information on various evaluations, please refer to our [paper](https://www.arxiv.org/abs/2412.13303).
+Then open **http://localhost:3000**. The API runs on port 8000.
 
-| Model        | Stage |                                            Pytorch Checkpoint (url)                                             |
-|:-------------|:-----:|:---------------------------------------------------------------------------------------------------------------:|
-| FastVLM-0.5B |   2   | [fastvlm_0.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage2.zip) |
-|              |   3   | [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3.zip) |
-| FastVLM-1.5B |   2   | [fastvlm_1.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage2.zip) |
-|              |   3   | [fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3.zip)  |
-| FastVLM-7B   |   2   | [fastvlm_7b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage2.zip)  |
-|              |   3   | [fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3.zip)  |
-
-To download all the pretrained checkpoints run the command below (note that this might take some time depending on your connection so might be good to grab ☕️ while you wait).
+### Just want to poke at it?
 
 ```bash
-bash get_models.sh   # Files will be downloaded to `checkpoints` directory.
+python demo.py
 ```
 
-### Usage Example
-To run inference of PyTorch checkpoint, follow the instruction below
-```bash
-python predict.py --model-path /path/to/checkpoint-dir \
-                  --image-file /path/to/image.png \
-                  --prompt "Describe the image."
+A Gradio app with tabs for Live Feed, Camera, Upload, IP Camera, Object Detection, AI Chat, and offline Reasoning.
+
+---
+
+## The API
+
+The backend is FastAPI. The important parts:
+
+| Endpoint | What it does |
+|---|---|
+| `WS /ws/feed` | **The main one.** Live stream — frames in, detections + poses + captions out |
+| `POST /api/detect` | Run object detection on one frame |
+| `POST /api/vlm` | Caption one frame with a custom prompt |
+| `POST /api/report` | Generate the written report from everything logged so far |
+| `GET /api/export/all` | Download detections, captions, and reports as JSON |
+| `GET /api/system` | Device info — which GPU/accelerator is in use |
+
+The websocket takes `enable_det`, `enable_pose`, `enable_vlm`, and `vlm_interval` so you can trade speed against detail.
+
+---
+
+## Repo map
+
+```
+backend/      FastAPI server + model loading/warmup
+detectors/    YOLO object detection, pose detection, segmentation
+action/       ST-GCN skeleton-based action recognition (NTU-60 classes)
+llava/        FastVLM / LLaVA vision-language model code
+frontend/     Next.js web interface
+model_export/ Export models for Apple Silicon
+app/          iOS / macOS demo app
+demo.py       All-in-one Gradio demo
+dev.sh        Runs backend + frontend together
 ```
 
-### Inference on Apple Silicon
-To run inference on Apple Silicon, pytorch checkpoints have to be exported to format 
-suitable for running on Apple Silicon, detailed instructions and code can be found [`model_export`](model_export/) subfolder.
-Please see the README there for more details.
+---
 
-For convenience, we provide 3 models that are in Apple Silicon compatible format: [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3_llm.fp16.zip), 
-[fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3_llm.int8.zip), 
-[fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3_llm.int4.zip). 
-We encourage developers to export the model of their choice with the appropriate quantization levels following 
-the instructions in [`model_export`](model_export/).
+## Project status
 
-### Inference on Apple Devices
-To run inference on Apple devices like iPhone, iPad or Mac, see [`app`](app/) subfolder for more details.
+This is **active research work**, not a finished product. Honest picture of where things stand:
 
-## Citation
-If you found this code useful, please cite the following paper:
-```
+**Working now**
+- Live object detection, pose detection, and action recognition
+- FastVLM scene captioning on an interval
+- LLM report generation, JSON export
+- Web UI and Gradio demo, with Apple Silicon / CUDA / CPU support
+
+**Not there yet**
+- **Open-vocabulary detection.** Right now detection is *closed-set* — YOLO11n over the 80 standard COCO classes. It cannot find "a red delivery van" or "a person holding a crowbar" unless that's already a COCO class. Moving to open-vocabulary detection (so you can describe any object in words and have it found) is the main thing on the roadmap.
+- Multi-camera support, and person re-identification across cameras
+- Long-horizon memory, so the system can say *"this is the third time today"*
+
+---
+
+## Built on FastVLM
+
+VEREC is built on top of Apple's **[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303)** (CVPR 2025). FastVLM is what makes live captioning practical — its FastViTHD encoder produces far fewer tokens than comparable encoders, so time-to-first-token is low enough to caption a moving video feed rather than a still photo.
+
+For FastVLM's own documentation, model zoo, and inference instructions, see **[docs/FASTVLM.md](docs/FASTVLM.md)**.
+
+```bibtex
 @InProceedings{fastvlm2025,
   author = {Pavan Kumar Anasosalu Vasu, Fartash Faghri, Chun-Liang Li, Cem Koc, Nate True, Albert Antony, Gokul Santhanam, James Gabriel, Peter Grasch, Oncel Tuzel, Hadi Pouransari},
   title = {FastVLM: Efficient Vision Encoding for Vision Language Models},
@@ -87,8 +175,9 @@ If you found this code useful, please cite the following paper:
 ```
 
 ## Acknowledgements
-Our codebase is built using multiple opensource contributions, please see [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS) for more details. 
+
+Built on multiple open-source projects — see [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS). Also uses [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) for detection and pose, and ST-GCN for action recognition.
 
 ## License
-Please check out the repository [LICENSE](LICENSE) before using the provided code and
-[LICENSE_MODEL](LICENSE_MODEL) for the released models.
+
+The FastVLM code and models in this repository are Apple's and remain under Apple's terms — see [LICENSE](LICENSE) and [LICENSE_MODEL](LICENSE_MODEL) before using them.
